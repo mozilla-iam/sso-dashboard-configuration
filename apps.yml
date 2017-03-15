@@ -17,46 +17,6 @@ apps:
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
   - application:
-      name: "Admin - Admin AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa12fhsjbetM5f8V1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_admin_admin']
-      display: true
-  - application:
-      name: "Admin - Production AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11x78wszU1JaLL1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_prod_admin']
-      display: true
-  - application:
-      name: "Admin - Sandbox AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11x72njgYWbYyN1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_sandbox_admin']
-      display: true
-  - application:
-      name: "Admin - Stage AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa12pin51cvdD7701d8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_stage_admin']
-      display: true
-  - application:
-      name: "Admin AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa12fiqfkv4z60tA1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_admin']
-      display: true
-  - application:
       name: "Adobe EchoSign"
       op: okta
       url: "https://mozilla.okta.com/home/echosign/0oays9hz96EHZHFUEADW/70"
@@ -151,14 +111,6 @@ apps:
       logo: "beckon.png"
       authorized_users: []
       authorized_groups: ['service_beckon']
-      display: true
-  - application:
-      name: "Billing Admin - Consolidated Billing AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11wokzerlNfCtV1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_consolidatedbilling_billing_administrators']
       display: true
   - application:
       name: "Biztera"
@@ -562,14 +514,6 @@ apps:
       authorized_groups: ['everyone']
       display: false
   - application:
-      name: "Production AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11x7gprf6CGQNb1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_prod']
-      display: true
-  - application:
       name: "ProductPlan"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_productplan_1/0oa19l5toyrxDX7ed1d8/aln19l6bq0xlCwFKo1d8"
@@ -617,14 +561,6 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
-  - application:
-      name: "Sandbox AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11x74sszBEkGtQ1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_sandbox']
-      display: true
   - application:
       name: "ScaleFT EIS (Dev)"
       op: okta
@@ -713,14 +649,6 @@ apps:
       authorized_users: ['jdow@mozilla.com']
       authorized_groups: []
       display: false
-  - application:
-      name: "Stage AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa12pina5a1zNfAL1d8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_stage']
-      display: true
   - application:
       name: "StatusPage"
       op: okta
