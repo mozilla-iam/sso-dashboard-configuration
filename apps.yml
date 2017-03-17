@@ -432,7 +432,6 @@ apps:
       authorized_users: []
       authorized_groups: ['service_yammer_mofo']
       display: true
-      display: true
   - application:
       name: "OpSec IPQuery"
       op: okta
@@ -591,7 +590,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX"
       logo: "servicenow.png"
       authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
       display: true
   - application:
       name: "ServiceNow - Stage"
@@ -599,7 +598,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9"
       logo: "servicenow.png"
       authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
       display: true
   - application:
       name: "ServiceNow - Test"
