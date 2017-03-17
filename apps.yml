@@ -590,7 +590,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX"
       logo: "servicenow.png"
-      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com']
+      authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
       authorized_groups: []
       display: true
   - application:
@@ -598,25 +598,25 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9"
       logo: "servicenow.png"
-      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com']
+      authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
       authorized_groups: []
       display: true
   - application:
       name: "ServiceNow - Test"
-      op: okta
-      url: "https://mozilla.okta.com/home/servicenow_app2/0oa12049rumENUNMZ1e8/14155"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh"
       logo: "servicenow.png"
       authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
+      authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      display: true
   - application:
       name: "ServiceNow - Upgrade"
-      op: okta
-      url: "https://mozilla.okta.com/home/servicenow_app2/0oa182xh1d6SGE1Ss1d8/14155"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ"
       logo: "servicenow.png"
       authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
+      authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      display: true
   - application:
       name: "Smartsheet"
       op: okta
