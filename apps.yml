@@ -25,22 +25,6 @@ apps:
       authorized_groups: []
       display: false
   - application:
-      name: "Aha!"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oa11kr5adkp5pixy1e8/3079"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_moco']
-      display: false
-  - application:
-      name: "Aha! (staging)"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oa11ih4hjzNAye6s1e8/3079"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_moco']
-      display: false
-  - application:
       name: "Anaplan"
       op: okta
       url: "https://mozilla.okta.com/home/anaplan/0oa1860cwaq9bVN2F1d8/2487"
@@ -752,14 +736,6 @@ apps:
       authorized_users: ['jdow@mozilla.com', 'rtucker@mozilla.com']
       authorized_groups: []
       display: false
-  - application:
-      name: "Trello"
-      op: okta
-      url: "https://mozilla.okta.com/home/trello_saml/0oa1alhks71ng1y4R1d8/59729"
-      logo: "trello.png"
-      authorized_users: ['jdow@mozilla.com']
-      authorized_groups: []
-      display: true
   - application:
       name: "Wake"
       op: okta
