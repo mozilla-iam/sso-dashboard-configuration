@@ -101,8 +101,8 @@ apps:
       op: auth0
       url: "https://biztera.com/mozilla"
       logo: "biztera.png"
-      authorized_users: ['team_moco', 'team_mofo']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
   - application:
       name: "Careers Admin"
@@ -573,32 +573,32 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX"
       logo: "servicenow.png"
-      authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
-      authorized_users: []
+      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_groups: []
       display: true
   - application:
       name: "ServiceNow - Stage"
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9"
       logo: "servicenow.png"
-      authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
-      authorized_users: []
+      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_groups: []
       display: true
   - application:
       name: "ServiceNow - Test"
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh"
       logo: "servicenow.png"
-      authorized_users: []
-      authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_groups: []
       display: true
   - application:
       name: "ServiceNow - Upgrade"
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ"
       logo: "servicenow.png"
-      authorized_users: []
-      authorized_groups: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_groups: []
       display: true
   - application:
       name: "Smartsheet"
