@@ -113,11 +113,11 @@ apps:
       authorized_groups: ['service_beckon']
       display: true
   - application:
-      name: "Biztera"
-      op: okta
-      url: "https://mozilla.okta.com/home/biztera/0oa1ajagkt6GPAJtf1d8/65643"
+      name: "Casa"
+      op: auth0
+      url: "https://biztera.com/mozilla"
       logo: "biztera.png"
-      authorized_users: []
+      authorized_users: ['team_moco', 'team_mofo']
       authorized_groups: []
       display: true
   - application:
