@@ -716,16 +716,16 @@ apps:
       name: "Thinksmart"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_thinksmart_1/0oa1a6a4k2rQBLx4n1d8/aln1a6agdfc3apG8n1d8"
-      logo: "auth0.png"
-      authorized_users: ['ecompton@mozilla.com']
-      authorized_groups: []
+      logo: "thinksmart.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
   - application:
       name: "Thinksmart (staging)"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_thinksmartstaging_1/0oa1a6a4k0lcKGsvx1d8/aln1a6afdxdYfIvRo1d8"
-      logo: "auth0.png"
-      authorized_users: ['ecompton@mozilla.com']
+      logo: "thinksmart.png"
+      authorized_users: ['jdow@mozilla.com', 'ecompton@mozilla.com']
       authorized_groups: []
       display: true
   - application:
