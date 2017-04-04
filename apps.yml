@@ -389,7 +389,7 @@ apps:
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_nucleus_1/0oa19n94riaTd3mxk1d8/aln19n9mzj9vIa85k1d8"
       logo: "nucleus.png"
-      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com', 'jcristau@mozilla.com', 'ehenry@mozilla.com', 'gchang@mozilla.com', 'lmandel@mozilla.com', 'marcia@mozilla.com', 'pkewisch@mozilla.com', 'kent@caspia.com', 'mozilla@jorgk.com', 'mbanner@mozilla.com', 'sledru@mozilla.com']
+      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com', 'jcristau@mozilla.com', 'ehenry@mozilla.com', 'gchang@mozilla.com', 'lmandel@mozilla.com', 'marcia@mozilla.com', 'pkewisch@mozilla.com', 'kent@caspia.com', 'mozilla@jorgk.com', 'mbanner@mozilla.com', 'sledru@mozilla.com', 'pchevrel@mozilla.com']
       authorized_groups: []
       display: true
   - application:
