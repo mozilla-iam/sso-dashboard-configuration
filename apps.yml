@@ -8,6 +8,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/adaptive']
   - application:
       name: "Adaptive Insights - Stage"
       op: okta
@@ -24,6 +25,7 @@ apps:
       authorized_users: ['team_moco', 'team_mofo']
       authorized_groups: []
       display: false
+      vanity_url: ['/echosign']
   - application:
       name: "Anaplan"
       op: okta
@@ -32,6 +34,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco']
       display: false
+      vanity_url: ['/anaplan']
   - application:
       name: "api-pub-build.allizom.org"
       op: okta
@@ -96,6 +99,7 @@ apps:
       authorized_users: []
       authorized_groups: ['service_beckon']
       display: true
+      vanity_url: ['/beckon']
   - application:
       name: "Casa"
       op: auth0
@@ -104,6 +108,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/casa']
   - application:
       name: "Careers Admin"
       op: okta
@@ -120,6 +125,7 @@ apps:
       authorized_users: []
       authorized_groups: ['cloudhealth-power', 'cloudhealth-standard', 'cloudhealth-administrator', 'cloudhealth-enhanced-power-user', 'cloudhealth-enhanced-standard-user']
       display: true
+      vanity_url: ['/cloudhealth']
   - application:
       name: "Consolidated Billing AWS"
       op: okta
@@ -136,6 +142,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco']
       display: false
+      vanity_url: ['/dam']
   - application:
       name: "DataDog (CloudServices)"
       op: okta
@@ -152,6 +159,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/domo']
   - application:
       name: "DXR"
       op: okta
@@ -192,6 +200,7 @@ apps:
       authorized_users: []
       authorized_groups: ['egencia']
       display: true
+      vanity_url: ['/egencia']
   - application:
       name: "Egencia (sandbox)"
       op: okta
@@ -208,6 +217,7 @@ apps:
       authorized_users: []
       authorized_groups: ['egencia']
       display: false
+      vanity_url: ['/egenciauk']
   - application:
       name: "EventBoard"
       op: okta
@@ -216,6 +226,7 @@ apps:
       authorized_users: []
       authorized_groups: ['eventboard']
       display: false
+      vanity_url: ['/eventboard']
   - application:
       name: "ExactTarget"
       op: okta
@@ -224,6 +235,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/exacttarget']
   - application:
       name: "GoogleApps (allizom) - Mail"
       op: okta
@@ -256,6 +268,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/gmail']
   - application:
       name: "GoogleApps (mozilla.com) - Calendar"
       op: okta
@@ -264,6 +277,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/gcalendar']
   - application:
       name: "GoogleApps (mozilla.com) - Drive"
       op: okta
@@ -272,6 +286,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/gdrive']
   - application:
       name: "Greenhouse"
       op: okta
@@ -280,6 +295,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/greenhouse']
   - application:
       name: "input.mozilla.org:admin"
       op: okta
@@ -320,6 +336,7 @@ apps:
       authorized_users: []
       authorized_groups: ['irccloud']
       display: true
+      vanity_url: ['/irccloud']
   - application:
       name: "LucidChart"
       op: okta
@@ -328,6 +345,7 @@ apps:
       authorized_users: []
       authorized_groups: ['service_lucidchart']
       display: true
+      vanity_url: ['/lucidchart']
   - application:
       name: "Mana"
       op: okta
@@ -336,6 +354,7 @@ apps:
       authorized_users: []
       authorized_groups: ['IntranetWiki', 'GuestWiki']
       display: true
+      vanity_url: ['/mana']
   - application:
       name: "Mana Stage"
       op: okta
@@ -352,6 +371,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
+      vanity_url: ['/mdc']
   - application:
       name: "Mozilla Snippets"
       op: okta
@@ -408,6 +428,7 @@ apps:
       authorized_users: []
       authorized_groups: ['service_yammer']
       display: true
+      vanity_url: '/yammer'
   - application:
       name: "O365."
       op: okta
@@ -432,6 +453,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/optimizely']
   - application:
       name: "PagerDuty"
       op: okta
@@ -440,6 +462,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/pagerduty']
   - application:
       name: "Phonebook"
       op: okta
@@ -448,6 +471,7 @@ apps:
       authorized_users: []
       authorized_groups: ['phonebook_access']
       display: true
+      vanity_url: ['/phonebook']
   - application:
       name: "Phonebook Dev"
       op: okta
@@ -480,6 +504,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/plansource']
   - application:
       name: "Plugins Prod"
       op: okta
@@ -512,6 +537,7 @@ apps:
       authorized_users: []
       authorized_groups: ['service_productplan']
       display: true
+      vanity_url: ['/productplan']
   - application:
       name: "RiskHeatMap"
       op: okta
@@ -520,6 +546,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/riskheatmap']
   - application:
       name: "RiskHeatMap (Dev)"
       op: okta
@@ -536,6 +563,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/salescloud']
   - application:
       name: "Salesforce.com Dev Sandbox"
       op: okta
@@ -608,6 +636,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/smartsheet']
   - application:
       name: "Splunk"
       op: okta
@@ -616,6 +645,7 @@ apps:
       authorized_users: []
       authorized_groups: ['netops', 'team_moc', 'team_opsec', 'team_infra', 'relops', 'desktop']
       display: true
+      vanity_url: ['/splunk']
   - application:
       name: "Sprinklr"
       op: okta
@@ -624,6 +654,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/sprinklr']
   - application:
       name: "Sprinklr - Stage"
       op: okta
@@ -640,6 +671,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/statuspage']
   - application:
       name: "support.allizom.org:admin"
       op: okta
@@ -664,6 +696,7 @@ apps:
       authorized_users: []
       authorized_groups: ['tableau_users']
       display: true
+      vanity_url: ['/tableau']
   - application:
       name: "Tableau-staging"
       op: okta
@@ -680,6 +713,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/taskcluster']
   - application:
       name: "Temp Admin - Consolidated Billing AWS"
       op: okta
@@ -712,6 +746,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/thehub', '/servicenow']
   - application:
       name: "Thinksmart"
       op: auth0
@@ -720,6 +755,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/thinksmart']
   - application:
       name: "Thinksmart (staging)"
       op: okta
@@ -752,6 +788,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/wake']
   - application:
       name: "WordPress"
       op: okta
@@ -768,6 +805,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/workday']
   - application:
       name: "Workday(2)"
       op: okta
@@ -784,6 +822,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/slack']
   - application:
       name: "Convercent"
       op: auth0
