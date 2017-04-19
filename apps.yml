@@ -428,7 +428,7 @@ apps:
       authorized_users: []
       authorized_groups: ['service_yammer']
       display: true
-      vanity_url: '/yammer'
+      vanity_url: ['/yammer']
   - application:
       name: "O365."
       op: okta
