@@ -440,7 +440,7 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "O365"
+      name: "Yammer"
       op: okta
       url: "https://mozilla.okta.com/home/office365/0oa194t8a91pVL13H1d8/aln19lchevtvi5JD10g8"
       logo: "yammer.png"
