@@ -21,7 +21,7 @@ apps:
       name: "Adobe EchoSign"
       op: okta
       url: "https://mozilla.okta.com/home/echosign/0oays9hz96EHZHFUEADW/70"
-      logo: "echosign.png"
+      logo: "adobe-sign.png"
       authorized_users: ['team_moco', 'team_mofo']
       authorized_groups: []
       display: false
