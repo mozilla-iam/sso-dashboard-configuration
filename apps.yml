@@ -246,7 +246,7 @@ apps:
       display: false
       vanity_url: ['/exacttarget']
   - application:
-      name: "G-Mail (allizom)"
+      name: "Gmail (allizom)"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/50"
       logo: "gmail.png"
@@ -254,7 +254,7 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "G-Calendar (allizom)"
+      name: "Google Calendar (allizom)"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/54"
       logo: "gcal.png"
@@ -262,7 +262,7 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "G-Drive (allizom)"
+      name: "Google Drive (allizom)"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/52"
       logo: "gdrive.png"
@@ -270,7 +270,7 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "G-Mail"
+      name: "Gmail"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oaylbso6xSJRLRXOBTW/50"
       logo: "gmail.png"
@@ -279,7 +279,7 @@ apps:
       display: true
       vanity_url: ['/gmail']
   - application:
-      name: "G-Calendar"
+      name: "Google Calendar"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oaylbso6xSJRLRXOBTW/54"
       logo: "gcal.png"
@@ -288,7 +288,7 @@ apps:
       display: true
       vanity_url: ['/gcalendar']
   - application:
-      name: "G-Drive"
+      name: "Google Drive"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oaylbso6xSJRLRXOBTW/52"
       logo: "gdrive.png"
@@ -449,7 +449,7 @@ apps:
       display: true
       vanity_url: ['/yammer']
   - application:
-      name: "O365."
+      name: "Yammer (MoFo)"
       op: okta
       url: "https://mozilla.okta.com/home/office365/0oa19jyrk57tnxS3O1d8/aln19lchevtvi5JD10g8"
       logo: "yammer.png"
