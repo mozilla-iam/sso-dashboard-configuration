@@ -188,13 +188,13 @@ apps:
   - application:
       name: "Egencia"
       op: okta
-      url: "https://mozilla.okta.com/home/egencia/0oa11kch2c3R3tSdK1e8/122"
-      logo: "auth0.png"
+      url: "https://mozilla.okta.com/home/bookmark/0oa17u51mteBilaCb1d8/2557"
+      logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
   - application:
-      name: "Egencia"
+      name: "Egencia Test"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_egenciasandbox_1/0oa17u4zpwzpGSHdy1d8/aln17u5awc5XJE0ej1d8"
       logo: "egencia.png"
