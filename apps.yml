@@ -182,7 +182,7 @@ apps:
       url: "https://mozilla.okta.com/home/egencia/0oa11kch2c3R3tSdK1e8/122"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: []
+      authorized_groups: ['everyone']
       display: true
   - application:
       name: "Egencia"
