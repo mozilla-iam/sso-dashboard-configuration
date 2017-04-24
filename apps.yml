@@ -8,8 +8,9 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/adaptive']
   - application:
-      name: "Adaptive Insights - Stage"
+      name: "Adaptive Insights (Stage)"
       op: okta
       url: "https://mozilla.okta.com/home/adaptiveinsights/0oa12j5655zpev8T81d8/35937"
       logo: "adaptive_insights.png"
@@ -17,69 +18,14 @@ apps:
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
   - application:
-      name: "Admin - Admin AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa12fhsjbetM5f8V1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_admin_admin']
-      display: true
-  - application:
-      name: "Admin - Production AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11x78wszU1JaLL1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_prod_admin']
-      display: true
-  - application:
-      name: "Admin - Sandbox AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11x72njgYWbYyN1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_sandbox_admin']
-      display: true
-  - application:
-      name: "Admin - Stage AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa12pin51cvdD7701d8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_stage_admin']
-      display: true
-  - application:
-      name: "Admin AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa12fiqfkv4z60tA1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_admin']
-      display: true
-  - application:
       name: "Adobe EchoSign"
       op: okta
       url: "https://mozilla.okta.com/home/echosign/0oays9hz96EHZHFUEADW/70"
-      logo: "echosign.png"
+      logo: "adobe-sign.png"
       authorized_users: ['team_moco', 'team_mofo']
       authorized_groups: []
       display: false
-  - application:
-      name: "Aha!"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oa11kr5adkp5pixy1e8/3079"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_moco']
-      display: false
-  - application:
-      name: "Aha! (staging)"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oa11ih4hjzNAye6s1e8/3079"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_moco']
-      display: false
+      vanity_url: ['/echosign']
   - application:
       name: "Anaplan"
       op: okta
@@ -88,6 +34,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco']
       display: false
+      vanity_url: ['/anaplan']
   - application:
       name: "api-pub-build.allizom.org"
       op: okta
@@ -125,7 +72,7 @@ apps:
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_basket_1/0oa17crf8iggjVHSv1d8/aln17crt0j0HLFSZ01d8"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'jdavis@mozilla.com', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'stephaniev@mozillafoundation.org', 'bhaack@mozilla.com']
+      authorized_users: ['jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'jdavis@mozilla.com', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'stephaniev@mozillafoundation.org', 'bhaack@mozilla.com', 'awade@mozilla.com']
       authorized_groups: []
       display: true
   - application:
@@ -133,7 +80,7 @@ apps:
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_basketdev_1/0oa17iu6jc89Jbtm71d8/aln17ivaxxetAOQj11d8"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com']
+      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com']
       authorized_groups: []
       display: true
   - application:
@@ -141,7 +88,7 @@ apps:
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_basketstaging_1/0oa17iuzjwoz0h0Sv1d8/aln17ividouN4nstF1d8"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com']
+      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com']
       authorized_groups: []
       display: true
   - application:
@@ -152,22 +99,16 @@ apps:
       authorized_users: []
       authorized_groups: ['service_beckon']
       display: true
+      vanity_url: ['/beckon']
   - application:
-      name: "Billing Admin - Consolidated Billing AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11wokzerlNfCtV1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_consolidatedbilling_billing_administrators']
-      display: true
-  - application:
-      name: "Biztera"
-      op: okta
-      url: "https://mozilla.okta.com/home/biztera/0oa1ajagkt6GPAJtf1d8/65643"
+      name: "Casa"
+      op: auth0
+      url: "https://biztera.com/mozilla"
       logo: "biztera.png"
       authorized_users: []
-      authorized_groups: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/casa']
   - application:
       name: "Careers Admin"
       op: okta
@@ -184,6 +125,7 @@ apps:
       authorized_users: []
       authorized_groups: ['cloudhealth-power', 'cloudhealth-standard', 'cloudhealth-administrator', 'cloudhealth-enhanced-power-user', 'cloudhealth-enhanced-standard-user']
       display: true
+      vanity_url: ['/cloudhealth']
   - application:
       name: "Consolidated Billing AWS"
       op: okta
@@ -200,6 +142,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco']
       display: false
+      vanity_url: ['/dam']
   - application:
       name: "DataDog (CloudServices)"
       op: okta
@@ -209,6 +152,15 @@ apps:
       authorized_groups: ['svcops']
       display: true
   - application:
+      name: "Discourse"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/rehgg9cqVmHJbHw3jPYUzoU5BYYBH6XL"
+      logo: "discourse.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/discourse']
+  - application:
       name: "Domo"
       op: okta
       url: "https://mozilla.okta.com/home/domo/0oa13jchi8gUzht7B1d8/3419"
@@ -216,6 +168,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/domo']
   - application:
       name: "DXR"
       op: okta
@@ -238,7 +191,7 @@ apps:
       url: "https://mozilla.okta.com/home/egencia/0oa11kch2c3R3tSdK1e8/122"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: []
+      authorized_groups: ['everyone']
       display: true
   - application:
       name: "Egencia"
@@ -256,6 +209,7 @@ apps:
       authorized_users: []
       authorized_groups: ['egencia']
       display: true
+      vanity_url: ['/egencia']
   - application:
       name: "Egencia (sandbox)"
       op: okta
@@ -272,6 +226,7 @@ apps:
       authorized_users: []
       authorized_groups: ['egencia']
       display: false
+      vanity_url: ['/egenciauk']
   - application:
       name: "EventBoard"
       op: okta
@@ -280,6 +235,7 @@ apps:
       authorized_users: []
       authorized_groups: ['eventboard']
       display: false
+      vanity_url: ['/eventboard']
   - application:
       name: "ExactTarget"
       op: okta
@@ -288,8 +244,9 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/exacttarget']
   - application:
-      name: "GoogleApps (allizom) - Mail"
+      name: "Gmail (allizom)"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/50"
       logo: "gmail.png"
@@ -297,7 +254,7 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "GoogleApps (allizom) - Calendar"
+      name: "Google Calendar (allizom)"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/54"
       logo: "gcal.png"
@@ -305,7 +262,7 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "GoogleApps (allizom) - Drive"
+      name: "Google Drive (allizom)"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/52"
       logo: "gdrive.png"
@@ -313,29 +270,32 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "GoogleApps (mozilla.com) - Mail"
+      name: "Gmail"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oaylbso6xSJRLRXOBTW/50"
       logo: "gmail.png"
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/gmail']
   - application:
-      name: "GoogleApps (mozilla.com) - Calendar"
+      name: "Google Calendar"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oaylbso6xSJRLRXOBTW/54"
       logo: "gcal.png"
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/gcalendar']
   - application:
-      name: "GoogleApps (mozilla.com) - Drive"
+      name: "Google Drive"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oaylbso6xSJRLRXOBTW/52"
       logo: "gdrive.png"
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/gdrive']
   - application:
       name: "Greenhouse"
       op: okta
@@ -344,6 +304,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/greenhouse']
   - application:
       name: "input.mozilla.org:admin"
       op: okta
@@ -384,6 +345,7 @@ apps:
       authorized_users: []
       authorized_groups: ['irccloud']
       display: true
+      vanity_url: ['/irccloud']
   - application:
       name: "LucidChart"
       op: okta
@@ -392,6 +354,7 @@ apps:
       authorized_users: []
       authorized_groups: ['service_lucidchart']
       display: true
+      vanity_url: ['/lucidchart']
   - application:
       name: "Mana"
       op: okta
@@ -400,6 +363,7 @@ apps:
       authorized_users: []
       authorized_groups: ['IntranetWiki', 'GuestWiki']
       display: true
+      vanity_url: ['/mana']
   - application:
       name: "Mana Stage"
       op: okta
@@ -409,21 +373,32 @@ apps:
       authorized_groups: []
       display: false
   - application:
-      name: "Mozilla Data Collective"
+      name: "Data Collective"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_metricinsights_1/0oa18lq2328o8qyDI1d8/aln18lqjnzn0mD7w31d8"
-      logo: "auth0.png"
+      logo: "mdc.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
+      vanity_url: ['/mdc']
   - application:
-      name: "Mozilla Snippets"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_mozillasnippets_1/0oa16vcpr1sWOWWt01d8/aln16vdza09oc9BfA1d8"
-      logo: "snippets.png"
-      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com', 'mthayer@mozilla.com', 'cprice@mozilla.com', 'jcollings@mozilla.com', 'wbowden@mozilla.com', 'pchevrel@mozilla.com', 'wwinton@mozilla.com', 'dvincent@mozilla.com']
-      authorized_groups: []
+      name: "Moderator"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/nPr8QRo0dLxM3RRHwIXRSvhmOSPDvNr4"
+      logo: "moderator.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/moderator']
+  - application:
+      name: "Mozillians"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/ipkevH3AcuZVYxBHIfXHogWR4D2xxwwg"
+      logo: "mozillians.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/mozillians']
   - application:
       name: "NationBuilder"
       op: okta
@@ -453,7 +428,7 @@ apps:
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_nucleus_1/0oa19n94riaTd3mxk1d8/aln19n9mzj9vIa85k1d8"
       logo: "nucleus.png"
-      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com', 'jcristau@mozilla.com', 'ehenry@mozilla.com', 'gchang@mozilla.com', 'lmandel@mozilla.com', 'marcia@mozilla.com', 'pkewisch@mozilla.com', 'kent@caspia.com', 'mozilla@jorgk.com', 'mbanner@mozilla.com', 'sledru@mozilla.com']
+      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com', 'jcristau@mozilla.com', 'ehenry@mozilla.com', 'gchang@mozilla.com', 'lmandel@mozilla.com', 'marcia@mozilla.com', 'pkewisch@mozilla.com', 'kent@caspia.com', 'mozilla@jorgk.com', 'mbanner@mozilla.com', 'sledru@mozilla.com', 'pchevrel@mozilla.com']
       authorized_groups: []
       display: true
   - application:
@@ -465,21 +440,21 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "O365"
+      name: "Yammer"
       op: okta
       url: "https://mozilla.okta.com/home/office365/0oa194t8a91pVL13H1d8/aln19lchevtvi5JD10g8"
       logo: "yammer.png"
       authorized_users: []
       authorized_groups: ['service_yammer']
       display: true
+      vanity_url: ['/yammer']
   - application:
-      name: "O365."
+      name: "Yammer (MoFo)"
       op: okta
       url: "https://mozilla.okta.com/home/office365/0oa19jyrk57tnxS3O1d8/aln19lchevtvi5JD10g8"
       logo: "yammer.png"
       authorized_users: []
       authorized_groups: ['service_yammer_mofo']
-      display: true
       display: true
   - application:
       name: "OpSec IPQuery"
@@ -497,6 +472,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/optimizely']
   - application:
       name: "PagerDuty"
       op: okta
@@ -505,6 +481,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/pagerduty']
   - application:
       name: "Phonebook"
       op: okta
@@ -513,6 +490,7 @@ apps:
       authorized_users: []
       authorized_groups: ['phonebook_access']
       display: true
+      vanity_url: ['/phonebook']
   - application:
       name: "Phonebook Dev"
       op: okta
@@ -545,6 +523,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/plansource']
   - application:
       name: "Plugins Prod"
       op: okta
@@ -562,14 +541,6 @@ apps:
       authorized_groups: ['everyone']
       display: false
   - application:
-      name: "Production AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11x7gprf6CGQNb1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_prod']
-      display: true
-  - application:
       name: "ProductPlan"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_productplan_1/0oa19l5toyrxDX7ed1d8/aln19l6bq0xlCwFKo1d8"
@@ -585,6 +556,16 @@ apps:
       authorized_users: []
       authorized_groups: ['service_productplan']
       display: true
+      vanity_url: ['/productplan']
+  - application:
+      name: "Reps"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/zwpij4T2QTt7QdbmdpkAG5FQgoeSRbyB"
+      logo: "reps.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/reps']
   - application:
       name: "RiskHeatMap"
       op: okta
@@ -593,6 +574,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/riskheatmap']
   - application:
       name: "RiskHeatMap (Dev)"
       op: okta
@@ -609,6 +591,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/salescloud']
   - application:
       name: "Salesforce.com Dev Sandbox"
       op: okta
@@ -617,14 +600,6 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
-  - application:
-      name: "Sandbox AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11x74sszBEkGtQ1e8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_sandbox']
-      display: true
   - application:
       name: "ScaleFT EIS (Dev)"
       op: okta
@@ -651,28 +626,36 @@ apps:
       display: false
   - application:
       name: "ServiceNow - Dev"
-      op: okta
-      url: "https://mozilla.okta.com/home/servicenow_app2/0oayzragaeFAVFPAANOO/14155"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX"
       logo: "servicenow.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
+      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_groups: []
+      display: true
+  - application:
+      name: "ServiceNow - Stage"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9"
+      logo: "servicenow.png"
+      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_groups: []
+      display: true
   - application:
       name: "ServiceNow - Test"
-      op: okta
-      url: "https://mozilla.okta.com/home/servicenow_app2/0oa12049rumENUNMZ1e8/14155"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh"
       logo: "servicenow.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
+      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_groups: []
+      display: true
   - application:
       name: "ServiceNow - Upgrade"
-      op: okta
-      url: "https://mozilla.okta.com/home/servicenow_app2/0oa182xh1d6SGE1Ss1d8/14155"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ"
       logo: "servicenow.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
+      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
+      authorized_groups: []
+      display: true
   - application:
       name: "Smartsheet"
       op: okta
@@ -680,6 +663,15 @@ apps:
       logo: "smartsheet.png"
       authorized_users: []
       authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/smartsheet']
+  - application:
+      name: "Snippets"
+      op: okta
+      url: "https://mozilla.okta.com/home/mozillacorp_mozillasnippets_1/0oa16vcpr1sWOWWt01d8/aln16vdza09oc9BfA1d8"
+      logo: "snippets.png"
+      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com', 'mthayer@mozilla.com', 'cprice@mozilla.com', 'jcollings@mozilla.com', 'wbowden@mozilla.com', 'pchevrel@mozilla.com', 'wwinton@mozilla.com', 'dvincent@mozilla.com']
+      authorized_groups: []
       display: true
   - application:
       name: "Splunk"
@@ -689,6 +681,7 @@ apps:
       authorized_users: []
       authorized_groups: ['netops', 'team_moc', 'team_opsec', 'team_infra', 'relops', 'desktop']
       display: true
+      vanity_url: ['/splunk']
   - application:
       name: "Sprinklr"
       op: okta
@@ -697,6 +690,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/sprinklr']
   - application:
       name: "Sprinklr - Stage"
       op: okta
@@ -706,14 +700,6 @@ apps:
       authorized_groups: []
       display: false
   - application:
-      name: "Stage AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa12pina5a1zNfAL1d8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_stage']
-      display: true
-  - application:
       name: "StatusPage"
       op: okta
       url: "https://mozilla.okta.com/home/statuspage_saml/0oa19n9b7ddabHoGO1d8/60619"
@@ -721,6 +707,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/statuspage']
   - application:
       name: "support.allizom.org:admin"
       op: okta
@@ -745,6 +732,7 @@ apps:
       authorized_users: []
       authorized_groups: ['tableau_users']
       display: true
+      vanity_url: ['/tableau']
   - application:
       name: "Tableau-staging"
       op: okta
@@ -761,6 +749,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/taskcluster']
   - application:
       name: "Temp Admin - Consolidated Billing AWS"
       op: okta
@@ -793,20 +782,22 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/thehub', '/servicenow']
   - application:
       name: "Thinksmart"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_thinksmart_1/0oa1a6a4k2rQBLx4n1d8/aln1a6agdfc3apG8n1d8"
-      logo: "auth0.png"
-      authorized_users: ['ecompton@mozilla.com']
-      authorized_groups: []
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/R4djNlyXSl3i8N2KXWkfylghDa9kFQ84"
+      logo: "thinksmart.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/thinksmart']
   - application:
       name: "Thinksmart (staging)"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_thinksmartstaging_1/0oa1a6a4k0lcKGsvx1d8/aln1a6afdxdYfIvRo1d8"
-      logo: "auth0.png"
-      authorized_users: ['ecompton@mozilla.com']
+      logo: "thinksmart.png"
+      authorized_users: ['jdow@mozilla.com', 'ecompton@mozilla.com']
       authorized_groups: []
       display: true
   - application:
@@ -817,14 +808,6 @@ apps:
       authorized_users: ['jdow@mozilla.com', 'rtucker@mozilla.com']
       authorized_groups: []
       display: false
-  - application:
-      name: "Trello"
-      op: okta
-      url: "https://mozilla.okta.com/home/trello_saml/0oa1alhks71ng1y4R1d8/59729"
-      logo: "trello.png"
-      authorized_users: ['jdow@mozilla.com']
-      authorized_groups: []
-      display: true
   - application:
       name: "Wake"
       op: okta
@@ -841,6 +824,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
+      vanity_url: ['/wake']
   - application:
       name: "WordPress"
       op: okta
@@ -857,6 +841,7 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/workday']
   - application:
       name: "Workday(2)"
       op: okta
@@ -864,4 +849,21 @@ apps:
       logo: "workday.png"
       authorized_users: []
       authorized_groups: ['everyone']
+      display: false
+  - application:
+      name: "Slack"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/WXVdgVoCca11OtpGlK8Ir3pR9CBAlSA5"
+      logo: "slack.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
+      display: true
+      vanity_url: ['/slack']
+  - application:
+      name: "Convercent"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/meBoR5vlD0kK0qeUXshNjOB1PbGKjsro?RelayState=https://app.convercent.com/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: []
       display: false

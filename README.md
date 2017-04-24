@@ -1,5 +1,4 @@
 # sso-dashboard-configuration
-Configuration files for the Mozilla SSO-Dashboard.
 
 # How it works...
 
@@ -21,3 +20,6 @@ In order to publish a change you must:
     pipeline.  
 
 # CI Pipeline
+
+Configuration files for the Mozilla SSO-Dashboard. 
+
