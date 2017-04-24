@@ -152,6 +152,15 @@ apps:
       authorized_groups: ['svcops']
       display: true
   - application:
+      name: "Discourse"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/rehgg9cqVmHJbHw3jPYUzoU5BYYBH6XL"
+      logo: "discourse.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/discourse']
+  - application:
       name: "Domo"
       op: okta
       url: "https://mozilla.okta.com/home/domo/0oa13jchi8gUzht7B1d8/3419"
@@ -373,13 +382,23 @@ apps:
       display: true
       vanity_url: ['/mdc']
   - application:
-      name: "Snippets"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_mozillasnippets_1/0oa16vcpr1sWOWWt01d8/aln16vdza09oc9BfA1d8"
-      logo: "snippets.png"
-      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com', 'mthayer@mozilla.com', 'cprice@mozilla.com', 'jcollings@mozilla.com', 'wbowden@mozilla.com', 'pchevrel@mozilla.com', 'wwinton@mozilla.com', 'dvincent@mozilla.com']
-      authorized_groups: []
+      name: "Moderator"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/nPr8QRo0dLxM3RRHwIXRSvhmOSPDvNr4"
+      logo: "moderator.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
       display: true
+      vanity_url: ['/moderator']
+  - application:
+      name: "Mozillians"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/ipkevH3AcuZVYxBHIfXHogWR4D2xxwwg"
+      logo: "mozillians.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/mozillians']
   - application:
       name: "NationBuilder"
       op: okta
@@ -539,6 +558,15 @@ apps:
       display: true
       vanity_url: ['/productplan']
   - application:
+      name: "Reps"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/zwpij4T2QTt7QdbmdpkAG5FQgoeSRbyB"
+      logo: "reps.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/reps']
+  - application:
       name: "RiskHeatMap"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_riskheatmap_2/0oa17etf6tf5AD5Fk1d8/aln17etvigvq6WHX41d8"
@@ -637,6 +665,14 @@ apps:
       authorized_groups: ['everyone']
       display: true
       vanity_url: ['/smartsheet']
+  - application:
+      name: "Snippets"
+      op: okta
+      url: "https://mozilla.okta.com/home/mozillacorp_mozillasnippets_1/0oa16vcpr1sWOWWt01d8/aln16vdza09oc9BfA1d8"
+      logo: "snippets.png"
+      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com', 'mthayer@mozilla.com', 'cprice@mozilla.com', 'jcollings@mozilla.com', 'wbowden@mozilla.com', 'pchevrel@mozilla.com', 'wwinton@mozilla.com', 'dvincent@mozilla.com']
+      authorized_groups: []
+      display: true
   - application:
       name: "Splunk"
       op: okta
