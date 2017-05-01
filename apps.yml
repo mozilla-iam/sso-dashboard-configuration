@@ -154,7 +154,7 @@ apps:
   - application:
       name: "Discourse"
       op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/rehgg9cqVmHJbHw3jPYUzoU5BYYBH6XL"
+      url: "https://discourse.mozilla-community.org/auth/auth0"
       logo: "discourse.png"
       authorized_users: []
       authorized_groups: ['everyone']
@@ -188,7 +188,7 @@ apps:
   - application:
       name: "Egencia"
       op: okta
-      url: "https://mozilla.okta.com/home/bookmark/0oa17u51mteBilaCb1d8/2557"
+      url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['everyone']
@@ -384,7 +384,7 @@ apps:
   - application:
       name: "Moderator"
       op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/nPr8QRo0dLxM3RRHwIXRSvhmOSPDvNr4"
+      url: "https://moderator.mozilla.org/oidc/authenticate/"
       logo: "moderator.png"
       authorized_users: []
       authorized_groups: ['everyone']
@@ -393,7 +393,7 @@ apps:
   - application:
       name: "Mozillians"
       op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/ipkevH3AcuZVYxBHIfXHogWR4D2xxwwg"
+      url: "https://mozillians.org/oidc/authenticate/"
       logo: "mozillians.png"
       authorized_users: []
       authorized_groups: ['everyone']
@@ -560,7 +560,7 @@ apps:
   - application:
       name: "Reps"
       op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/zwpij4T2QTt7QdbmdpkAG5FQgoeSRbyB"
+      url: "https://reps.mozilla.org/oidc/authenticate/"
       logo: "reps.png"
       authorized_users: []
       authorized_groups: ['everyone']
