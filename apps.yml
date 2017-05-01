@@ -188,7 +188,7 @@ apps:
   - application:
       name: "Egencia"
       op: okta
-      url: "https://mozilla.okta.com/home/bookmark/0oa17u51mteBilaCb1d8/2557"
+      url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['everyone']
