@@ -573,7 +573,7 @@ apps:
       logo: "riskheatmap.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
-      display: false
+      display: true
       vanity_url: ['/riskheatmap']
   - application:
       name: "RiskHeatMap (Dev)"
