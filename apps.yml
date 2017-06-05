@@ -416,23 +416,6 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "Yammer"
-      op: okta
-      url: "https://mozilla.okta.com/home/office365/0oa194t8a91pVL13H1d8/aln19lchevtvi5JD10g8"
-      logo: "yammer.png"
-      authorized_users: []
-      authorized_groups: ['service_yammer']
-      display: true
-      vanity_url: ['/yammer']
-  - application:
-      name: "Yammer (MoFo)"
-      op: okta
-      url: "https://mozilla.okta.com/home/office365/0oa19jyrk57tnxS3O1d8/aln19lchevtvi5JD10g8"
-      logo: "yammer.png"
-      authorized_users: []
-      authorized_groups: ['service_yammer_mofo']
-      display: true
-  - application:
       name: "OpSec IPQuery"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_opsecipquery_1/0oa12lt67zs58Keym1d8/56109"
