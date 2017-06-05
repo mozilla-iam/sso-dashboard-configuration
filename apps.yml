@@ -246,30 +246,6 @@ apps:
       display: false
       vanity_url: ['/exacttarget']
   - application:
-      name: "Gmail (allizom)"
-      op: okta
-      url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/50"
-      logo: "gmail.png"
-      authorized_users: []
-      authorized_groups: []
-      display: true
-  - application:
-      name: "Google Calendar (allizom)"
-      op: okta
-      url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/54"
-      logo: "gcal.png"
-      authorized_users: []
-      authorized_groups: []
-      display: true
-  - application:
-      name: "Google Drive (allizom)"
-      op: okta
-      url: "https://mozilla.okta.com/home/google/0oawyrwal2PSEKAGNRRI/52"
-      logo: "gdrive.png"
-      authorized_users: []
-      authorized_groups: []
-      display: true
-  - application:
       name: "Gmail"
       op: okta
       url: "https://mozilla.okta.com/home/google/0oaylbso6xSJRLRXOBTW/50"
@@ -440,23 +416,6 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "Yammer"
-      op: okta
-      url: "https://mozilla.okta.com/home/office365/0oa194t8a91pVL13H1d8/aln19lchevtvi5JD10g8"
-      logo: "yammer.png"
-      authorized_users: []
-      authorized_groups: ['service_yammer']
-      display: true
-      vanity_url: ['/yammer']
-  - application:
-      name: "Yammer (MoFo)"
-      op: okta
-      url: "https://mozilla.okta.com/home/office365/0oa19jyrk57tnxS3O1d8/aln19lchevtvi5JD10g8"
-      logo: "yammer.png"
-      authorized_users: []
-      authorized_groups: ['service_yammer_mofo']
-      display: true
-  - application:
       name: "OpSec IPQuery"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_opsecipquery_1/0oa12lt67zs58Keym1d8/56109"
@@ -501,8 +460,8 @@ apps:
       display: false
   - application:
       name: "Phonebook Stage"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_phonebookstage_1/0oa17eqq8n0nrcVQU1d8/aln17er5bj1gabt6U1d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/00fgOKsjo530sIxfhsved8jyTjAD0av2"
       logo: "phonebook.png"
       authorized_users: []
       authorized_groups: ['phonebook_access']
