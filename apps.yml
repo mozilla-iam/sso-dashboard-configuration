@@ -469,7 +469,7 @@ apps:
   - application:
       name: "PHPLDAPAdmin"
       op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/0w4E1e2qbcA44oQKfYiUF167pc2l1Lud"
+      url: "https://auth.mozilla.auth0.com/samlp/0w4E1e2qbcA44oQKfYiUF167pc2l1Lud?RelayState=https://ldapadmin1.private.scl3.mozilla.com/phpldapadmin/"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['ldapAdmins']
