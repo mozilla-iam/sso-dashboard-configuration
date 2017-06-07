@@ -468,8 +468,8 @@ apps:
       display: false
   - application:
       name: "PHPLDAPAdmin"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_phpldapadmin_1/0oa17j636i444HN7b1d8/aln17j6y3ch4gyWA61d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/0w4E1e2qbcA44oQKfYiUF167pc2l1Lud"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['ldapAdmins']
