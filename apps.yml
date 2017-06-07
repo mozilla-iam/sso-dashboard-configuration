@@ -473,7 +473,7 @@ apps:
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['ldapAdmins']
-      display: false
+      display: true
   - application:
       name: "PlanSource Benefits"
       op: okta
