@@ -778,7 +778,7 @@ apps:
   - application:
       name: "Wake"
       op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_wake_2/0oa1839px4zH2Llz91d8/aln183a8541VUK02h1d8"
+      url: "https://www.google.com"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['everyone']
