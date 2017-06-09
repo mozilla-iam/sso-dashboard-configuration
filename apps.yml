@@ -443,8 +443,8 @@ apps:
       vanity_url: ['/pagerduty']
   - application:
       name: "Phonebook"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_phonebook_1/0oa17eqkpjav6LTLA1d8/aln17er66ed51pq0P1d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/K7vKewjQHKe45mmOo5cRae6yyOvnmg74"
       logo: "phonebook.png"
       authorized_users: []
       authorized_groups: ['phonebook_access']
