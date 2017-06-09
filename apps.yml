@@ -461,7 +461,7 @@ apps:
   - application:
       name: "Phonebook Stage"
       op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/00fgOKsjo530sIxfhsved8jyTjAD0av2/test"
+      url: "https://auth.mozilla.auth0.com/samlp/00fgOKsjo530sIxfhsved8jyTjAD0av2"
       logo: "phonebook.png"
       authorized_users: []
       authorized_groups: ['phonebook_access']
