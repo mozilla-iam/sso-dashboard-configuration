@@ -465,6 +465,7 @@ apps:
       logo: "phonebook.png"
       authorized_users: []
       authorized_groups: ['phonebook_access']
+      vanity_url: ['/phonebook-stage']
       display: false
   - application:
       name: "PHPLDAPAdmin"
@@ -745,7 +746,7 @@ apps:
   - application:
       name: "Thinksmart"
       op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/R4djNlyXSl3i8N2KXWkfylghDa9kFQ84"
+      url: "https://auth.mozilla.auth0.com/samlp/R4djNlyXSl3i8N2KXWkfylghDa9kFQ84?RelayState=https://mozilla.tap.thinksmart.com/prod/Portal/WorkflowDashboard"
       logo: "thinksmart.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
