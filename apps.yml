@@ -545,8 +545,8 @@ apps:
       display: true
   - application:
       name: "SalesCloud"
-      op: okta
-      url: "https://mozilla.okta.com/home/salesforce/0oa11dyasklT9vk7x0i8/46"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/ByW5ChOPpsQaQFLcAuZBbtjFrh67uBgt"
       logo: "salescloud.png"
       authorized_users: []
       authorized_groups: ['everyone']
@@ -554,8 +554,8 @@ apps:
       vanity_url: ['/salescloud']
   - application:
       name: "Salesforce.com Dev Sandbox"
-      op: okta
-      url: "https://mozilla.okta.com/home/salesforce/0oa10y2qeu7nWwpo50i8/46"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/54KBW3ESzKFfQws77PCXziJnPt0dYHE0"
       logo: "salescloud.png"
       authorized_users: []
       authorized_groups: ['everyone']
