@@ -29,7 +29,7 @@ apps:
   - application:
       name: "Air Mozilla"
       op: okta
-      url: "https://air.mozilla.com"
+      url: "https://air.mozilla.org"
       logo: "airmo.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
