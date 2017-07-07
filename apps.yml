@@ -704,8 +704,8 @@ apps:
       vanity_url: ['/tableau']
   - application:
       name: "Tableau-staging"
-      op: okta
-      url: "https://mozilla.okta.com/home/tableau/0oazxb7zptXQYWCMWZOE/2649"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/SbobH1O2aplALsPffstqETIIbS831yHi"
       logo: "tableau.png"
       authorized_users: []
       authorized_groups: ['tableau_users']
