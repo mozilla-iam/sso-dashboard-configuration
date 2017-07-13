@@ -28,7 +28,7 @@ apps:
       vanity_url: ['/echosign']
   - application:
       name: "Air Mozilla"
-      op: okta
+      op: auth0
       url: "https://air.mozilla.org"
       logo: "airmo.png"
       authorized_users: []
@@ -205,7 +205,7 @@ apps:
       vanity_url: ['/egencia']
   - application:
       name: "Egencia (UK)"
-      op: okta
+      op: auth0
       url: "http://mozilla.egencia.co.uk"
       logo: "egencia.png"
       authorized_users: []
