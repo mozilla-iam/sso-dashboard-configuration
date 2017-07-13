@@ -401,14 +401,6 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "OpSec IPQuery"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_opsecipquery_1/0oa12lt67zs58Keym1d8/56109"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_opsec']
-      display: true
-  - application:
       name: "Optimizely"
       op: okta
       url: "https://mozilla.okta.com/home/template_saml_2_0/0oa15fakt3kp7VF6w1d8/3079"
