@@ -32,7 +32,7 @@ apps:
       url: "https://air.mozilla.org"
       logo: "airmo.png"
       authorized_users: []
-      authorized_groups: ['team_moco', 'team_mofo']
+      authorized_groups: ['everyone']
       display: true
       vanity_url: ['/airmo']
   - application:
@@ -599,7 +599,7 @@ apps:
       url: "https://mozilla.okta.com/home/smartsheet/0oaxbbylrrPFZYCAWLOS/194"
       logo: "smartsheet.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/smartsheet']
   - application:
@@ -642,7 +642,7 @@ apps:
       url: "https://mozilla.okta.com/home/statuspage_saml/0oa19n9b7ddabHoGO1d8/60619"
       logo: "statuspage.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/statuspage']
   - application:
