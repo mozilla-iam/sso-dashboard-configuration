@@ -717,7 +717,7 @@ apps:
       url: "https://mozilla.okta.com/home/servicenow_app2/0oaz2sz0bgBTFRNDELVD/14155"
       logo: "thehub.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_users: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/thehub', '/servicenow']
   - application:
