@@ -28,11 +28,11 @@ apps:
       vanity_url: ['/echosign']
   - application:
       name: "Air Mozilla"
-      op: okta
+      op: auth0
       url: "https://air.mozilla.org"
       logo: "airmo.png"
       authorized_users: []
-      authorized_groups: ['team_moco', 'team_mofo']
+      authorized_groups: ['everyone']
       display: true
       vanity_url: ['/airmo']
   - application:
@@ -196,44 +196,20 @@ apps:
       display: false
   - application:
       name: "Egencia"
-      op: okta
+      op: auth0
       url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['everyone']
-      display: true
-  - application:
-      name: "Egencia Test"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_egenciasandbox_1/0oa17u4zpwzpGSHdy1d8/aln17u5awc5XJE0ej1d8"
-      logo: "egencia.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
-  - application:
-      name: "Egencia"
-      op: okta
-      url: "https://mozilla.okta.com/home/bookmark/0oa17u51mteBilaCb1d8/2557"
-      logo: "egencia.png"
-      authorized_users: []
-      authorized_groups: ['egencia']
+      authorized_groups: ['egencia_us']
       display: true
       vanity_url: ['/egencia']
   - application:
-      name: "Egencia (sandbox)"
-      op: okta
-      url: "https://mozilla.okta.com/home/egencia/0oaxobli6gZTVZMQXFZT/122"
-      logo: "egencia.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
-  - application:
       name: "Egencia (UK)"
-      op: okta
-      url: "https://mozilla.okta.com/home/bookmark/0oa1anh0o163qeWUL1d8/2557"
+      op: auth0
+      url: "http://mozilla.egencia.co.uk"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['egencia']
+      authorized_groups: ['egencia_uk']
       display: false
       vanity_url: ['/egenciauk']
   - application:
@@ -423,14 +399,6 @@ apps:
       logo: "nucleus.png"
       authorized_users: ['jmize@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com']
       authorized_groups: []
-      display: true
-  - application:
-      name: "OpSec IPQuery"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_opsecipquery_1/0oa12lt67zs58Keym1d8/56109"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_opsec']
       display: true
   - application:
       name: "Optimizely"
@@ -631,7 +599,7 @@ apps:
       url: "https://mozilla.okta.com/home/smartsheet/0oaxbbylrrPFZYCAWLOS/194"
       logo: "smartsheet.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/smartsheet']
   - application:
@@ -674,7 +642,7 @@ apps:
       url: "https://mozilla.okta.com/home/statuspage_saml/0oa19n9b7ddabHoGO1d8/60619"
       logo: "statuspage.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/statuspage']
   - application:
@@ -704,8 +672,8 @@ apps:
       vanity_url: ['/tableau']
   - application:
       name: "Tableau-staging"
-      op: okta
-      url: "https://mozilla.okta.com/home/tableau/0oazxb7zptXQYWCMWZOE/2649"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/SbobH1O2aplALsPffstqETIIbS831yHi"
       logo: "tableau.png"
       authorized_users: []
       authorized_groups: ['tableau_users']
@@ -749,7 +717,7 @@ apps:
       url: "https://mozilla.okta.com/home/servicenow_app2/0oaz2sz0bgBTFRNDELVD/14155"
       logo: "thehub.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_users: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/thehub', '/servicenow']
   - application:
