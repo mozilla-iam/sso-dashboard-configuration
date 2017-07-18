@@ -69,14 +69,6 @@ apps:
       authorized_groups: []
       display: true
   - application:
-      name: "auth.people-mozilla.org"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_peoplemozillaorg_1/0oa17hjx2v592RYbX1d8/aln17hkk7apdFCZ611d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_moco', 'team_mofo']
-      display: false
-  - application:
       name: "Basket"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_basket_1/0oa17crf8iggjVHSv1d8/aln17crt0j0HLFSZ01d8"
@@ -717,26 +709,9 @@ apps:
       url: "https://mozilla.okta.com/home/servicenow_app2/0oaz2sz0bgBTFRNDELVD/14155"
       logo: "thehub.png"
       authorized_users: []
-      authorized_users: ['team_moco', 'team_mofo']
-      display: true
-      vanity_url: ['/thehub', '/servicenow']
-  - application:
-      name: "Thinksmart"
-      op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/R4djNlyXSl3i8N2KXWkfylghDa9kFQ84?RelayState=https://mozilla.tap.thinksmart.com/prod/Portal/WorkflowDashboard"
-      logo: "thinksmart.png"
-      authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
-      vanity_url: ['/thinksmart']
-  - application:
-      name: "Thinksmart (staging)"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_thinksmartstaging_1/0oa1a6a4k0lcKGsvx1d8/aln1a6afdxdYfIvRo1d8"
-      logo: "thinksmart.png"
-      authorized_users: ['jdow@mozilla.com', 'ecompton@mozilla.com']
-      authorized_groups: []
-      display: true
+      vanity_url: ['/thehub', '/servicenow']
   - application:
       name: "toolsdev-test"
       op: okta
