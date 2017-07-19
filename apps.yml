@@ -779,3 +779,11 @@ apps:
       authorized_users: []
       authorized_groups: []
       display: false
+  - application:
+      name: "Test"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/meBoR5vlD0kK0qeUXshNjOB1PbGKjsro?RelayState=https://app.convercent.com/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: []
+      display: false
