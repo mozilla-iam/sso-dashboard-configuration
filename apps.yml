@@ -327,8 +327,8 @@ apps:
       display: false
   - application:
       name: "Data Collective"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_metricinsights_1/0oa18lq2328o8qyDI1d8/aln18lqjnzn0mD7w31d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh"
       logo: "mdc.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
@@ -655,8 +655,8 @@ apps:
       display: false
   - application:
       name: "Tableau (dataviz.mozilla.org)"
-      op: okta
-      url: "https://mozilla.okta.com/home/tableau/0oa10yyk8kelFMpP80i8/2649"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/DJjScCAlzVuVwEgmcqOOit4NfGNPcODA"
       logo: "tableau.png"
       authorized_users: []
       authorized_groups: ['tableau_users']
