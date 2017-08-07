@@ -403,8 +403,8 @@ apps:
       vanity_url: ['/optimizely']
   - application:
       name: "PagerDuty"
-      op: okta
-      url: "https://mozilla.okta.com/home/pagerduty/0oazybmyp1UMWDBJBXZZ/3107"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/Gav1XmmrpBxts0zeDPOSfGesVrTt044k"
       logo: "pagerduty.png"
       authorized_users: []
       authorized_groups: ['everyone']
