@@ -155,7 +155,7 @@ apps:
   - application:
       name: "Discourse"
       op: auth0
-      url: "https://discourse.mozilla-community.org/auth/auth0"
+      url: "https://discourse.mozilla.org/auth/auth0"
       logo: "discourse.png"
       authorized_users: []
       authorized_groups: ['everyone']
