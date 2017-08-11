@@ -155,7 +155,7 @@ apps:
   - application:
       name: "Discourse"
       op: auth0
-      url: "https://discourse.mozilla-community.org/auth/auth0"
+      url: "https://discourse.mozilla.org/auth/auth0"
       logo: "discourse.png"
       authorized_users: []
       authorized_groups: ['everyone']
@@ -196,14 +196,59 @@ apps:
       display: true
       vanity_url: ['/egencia']
   - application:
-      name: "Egencia (UK)"
+      name: "Egencia (GB)"
       op: auth0
       url: "http://mozilla.egencia.co.uk"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['egencia_uk']
+      authorized_groups: ['egencia_gb']
       display: false
-      vanity_url: ['/egenciauk']
+      vanity_url: ['/egenciagb']
+  - application:
+      name: "Egencia (CA)"
+      op: auth0
+      url: "http://www.egencia.ca/pub/agent.dll?qscr=vain&amp;vain=mozilla"
+      logo: "egencia.png"
+      authorized_users: []
+      authorized_groups: ['egencia_ca']
+      display: false
+      vanity_url: ['/egenciaca']
+  - application:
+      name: "Egencia (SG)"
+      op: auth0
+      url: "http://www.egencia.com.sg/pub/agent.dll?qscr=vain&amp;vain=mozilla"
+      logo: "egencia.png"
+      authorized_users: []
+      authorized_groups: ['egencia_sg']
+      display: false
+      vanity_url: ['/egenciasg']
+  - application:
+      name: "Egencia (DE)"
+      op: auth0
+      url: "http://www.egencia.de/pub/agent.dll?qscr=vain&amp;vain=mozilla"
+      logo: "egencia.png"
+      authorized_users: []
+      authorized_groups: ['egencia_de']
+      display: false
+      vanity_url: ['/egenciade']
+  - application:
+      name: "Egencia (FR)"
+      op: auth0
+      url: "http://www.egencia.fr/pub/agent.dll?qscr=vain&amp;vain=mozilla"
+      logo: "egencia.png"
+      authorized_users: []
+      authorized_groups: ['egencia_fr']
+      display: false
+      vanity_url: ['/egenciafr']
+  - application:
+      name: "Egencia (NZ)"
+      op: auth0
+      url: "http://www.egencia.co.nz/pub/agent.dll?qscr=vain&amp;vain=mozilla"
+      logo: "egencia.png"
+      authorized_users: []
+      authorized_groups: ['egencia_nz']
+      display: false
+      vanity_url: ['/egencianz']
   - application:
       name: "EventBoard"
       op: okta
