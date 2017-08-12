@@ -337,8 +337,8 @@ apps:
       display: false
   - application:
       name: "IRCCloud"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_irccloud_1/0oa18h9zzb7CViupd1d8/aln18haby6rPyZ9fd1d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/D4hqwOVDV2UUJBW2FwD1RxnguPm14Mv3"
       logo: "irccloud.png"
       authorized_users: []
       authorized_groups: ['irccloud']
