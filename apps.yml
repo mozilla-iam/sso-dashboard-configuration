@@ -380,6 +380,15 @@ apps:
       display: true
       vanity_url: ['/mdc']
   - application:
+      name: "MDN Web Docs"
+      op: auth0
+      url: "https://developer.mozilla.org/
+      logo: "mdn.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/mdn']
+   - application:
       name: "Moderator"
       op: auth0
       url: "https://moderator.mozilla.org/oidc/authenticate/"
