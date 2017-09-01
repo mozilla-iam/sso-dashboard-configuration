@@ -1,0 +1,54 @@
+service: sso-dashboard-dynamo-loader # NOTE: update this with your service name
+provider:
+  name: aws
+  runtime: python3.6
+
+  stage: prod
+  region: us-west-2
+
+iamRoleStatements:
+    -  Effect: "Allow"
+       Action:
+         - "s3:ListBucket"
+         - "s3:s3:GetObject"
+       Resource:
+         - "arn:aws:s3:::sso-dashboard.configuration*"
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:us-west-2:*:sso-dashboard-apps"
+    - Effect: Allow
+      Action:
+        - cloudfront:CreateInvalidation
+      Resource: "*"
+
+
+functions:
+  update_apps:
+    handler: handler.update_apps
+
+
+resources:
+  Resources:
+    appsTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: sso-dashboard-apps
+        AttributeDefinitions:
+          - AttributeName: name
+            AttributeType: S
+        KeySchema:
+          - AttributeName: name
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+
+plugins:
+  - serverless-python-requirements
