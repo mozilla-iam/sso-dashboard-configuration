@@ -833,3 +833,11 @@ apps:
       authorized_users: []
       authorized_groups: []
       display: false
+  - application:
+      name: "OneTrust"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/i55sTCbmgUTkvHPW3SDueKlKbtPj5iRF"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: []
+      display: false
