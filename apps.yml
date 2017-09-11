@@ -525,7 +525,7 @@ apps:
       display: false
   - application:
       name: "ProductPlan"
-      op: okta
+      op: auth0
       url: "https://desktop.pingone.com/mozilla/url?source=application&url=https%3A%2F%2Fsso.connect.pingidentity.com%2Fsso%2Fsp%2Finitsso%3Fsaasid%3D72a035e2-0939-4685-aa8a-8c731729298b%26idpid%3Dmozilla.com&title=IDP%20Connection&applicationtype=APPLICATION_DEFAULT&saasid=72a035e2-0939-4685-aa8a-8c731729298b&newDock=true"
       logo: "productplan.png"
       authorized_users: []
