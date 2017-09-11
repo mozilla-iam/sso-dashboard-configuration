@@ -36,6 +36,15 @@ apps:
       display: true
       vanity_url: ['/airmo']
   - application:
+      name: "Amplitude"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/ql6V6DHXglhTCq9qe6DPdV3eAW2da44F"
+      logo: "amplitude.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: false
+      vanity_url: ['/amplitude']
+  - application:
       name: "Anaplan"
       op: okta
       url: "https://mozilla.okta.com/home/anaplan/0oa1860cwaq9bVN2F1d8/2487"
@@ -516,16 +525,8 @@ apps:
       display: false
   - application:
       name: "ProductPlan"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_productplan_1/0oa19l5toyrxDX7ed1d8/aln19l6bq0xlCwFKo1d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['service_productplan']
-      display: false
-  - application:
-      name: "ProductPlan"
-      op: okta
-      url: "https://mozilla.okta.com/home/bookmark/0oa19l6c8oa67J16o1d8/2557"
+      op: auth0
+      url: "https://desktop.pingone.com/mozilla/url?source=application&url=https%3A%2F%2Fsso.connect.pingidentity.com%2Fsso%2Fsp%2Finitsso%3Fsaasid%3D72a035e2-0939-4685-aa8a-8c731729298b%26idpid%3Dmozilla.com&title=IDP%20Connection&applicationtype=APPLICATION_DEFAULT&saasid=72a035e2-0939-4685-aa8a-8c731729298b&newDock=true"
       logo: "productplan.png"
       authorized_users: []
       authorized_groups: ['service_productplan']
@@ -820,6 +821,14 @@ apps:
       name: "Convercent"
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/meBoR5vlD0kK0qeUXshNjOB1PbGKjsro?RelayState=https://app.convercent.com/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: []
+      display: false
+  - application:
+      name: "OneTrust"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/i55sTCbmgUTkvHPW3SDueKlKbtPj5iRF"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: []
