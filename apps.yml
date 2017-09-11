@@ -526,15 +526,7 @@ apps:
   - application:
       name: "ProductPlan"
       op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_productplan_1/0oa19l5toyrxDX7ed1d8/aln19l6bq0xlCwFKo1d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['service_productplan']
-      display: false
-  - application:
-      name: "ProductPlan"
-      op: okta
-      url: "https://mozilla.okta.com/home/bookmark/0oa19l6c8oa67J16o1d8/2557"
+      url: "https://desktop.pingone.com/mozilla/url?source=application&url=https%3A%2F%2Fsso.connect.pingidentity.com%2Fsso%2Fsp%2Finitsso%3Fsaasid%3D72a035e2-0939-4685-aa8a-8c731729298b%26idpid%3Dmozilla.com&title=IDP%20Connection&applicationtype=APPLICATION_DEFAULT&saasid=72a035e2-0939-4685-aa8a-8c731729298b&newDock=true"
       logo: "productplan.png"
       authorized_users: []
       authorized_groups: ['service_productplan']
