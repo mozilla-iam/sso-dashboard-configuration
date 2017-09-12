@@ -54,14 +54,6 @@ apps:
       display: false
       vanity_url: ['/anaplan']
   - application:
-      name: "api-pub-build.allizom.org"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_apipubbuildallizomorg_1/0oa183l3ytncdO0Bd1d8/aln183lftccoGP6zZ1d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
-  - application:
       name: "ASAP (AWS Security Auditing Platform)"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_asapawssecurityauditingplatform_1/0oa15z8ov14B0YqEX1d8/66219"
@@ -153,14 +145,6 @@ apps:
       authorized_groups: ['team_moco']
       display: false
       vanity_url: ['/dam']
-  - application:
-      name: "DataDog (CloudServices)"
-      op: okta
-      url: "https://mozilla.okta.com/home/datadog/0oa14qzg61my9GN3O1d8/28057"
-      logo: "datadog.png"
-      authorized_users: []
-      authorized_groups: ['svcops']
-      display: true
   - application:
       name: "Discourse"
       op: auth0
@@ -338,8 +322,8 @@ apps:
       display: false
   - application:
       name: "iplimitirc"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_iplimitirc_1/0oa17z5yvahelg3w71d8/aln17z6n109sp7Dle1d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/f4SlPDVeVcWBChrAvH8uLuEYyt0aW916"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['everyone']
@@ -407,14 +391,6 @@ apps:
       display: true
       vanity_url: ['/mozillians']
   - application:
-      name: "NationBuilder"
-      op: okta
-      url: "https://mozilla.okta.com/home/nationbuilder/0oa1968y83wEr9MzD1d8/aln16zwrr44GHMwMr1d8"
-      logo: "nationbuilder.png"
-      authorized_users: []
-      authorized_groups: ['service_nationbuilder']
-      display: true
-  - application:
       name: "NetX (Staging)"
       op: okta
       url: "https://mozilla.okta.com/home/template_saml_2_0/0oaznv9ol7IFGWICDCFO/3079"
@@ -422,14 +398,6 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
-  - application:
-      name: "NewRelic"
-      op: okta
-      url: "https://mozilla.okta.com/home/newrelic/0oa18y1rm8x3gAjkq1d8/843"
-      logo: "newrelic.png"
-      authorized_users: []
-      authorized_groups: []
-      display: true
   - application:
       name: "Nucleus"
       op: okta
@@ -473,14 +441,6 @@ apps:
       authorized_groups: ['phonebook_access']
       display: true
       vanity_url: ['/phonebook']
-  - application:
-      name: "Phonebook Dev"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_phonebookdev_1/0oa17c2mnqdmspvpO1d8/aln17c3ko6fRPgeIu1d8"
-      logo: "phonebook.png"
-      authorized_users: []
-      authorized_groups: ['phonebook_access']
-      display: false
   - application:
       name: "Phonebook Stage"
       op: auth0
@@ -543,8 +503,8 @@ apps:
       vanity_url: ['/reps']
   - application:
       name: "RiskHeatMap"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_riskheatmap_2/0oa17etf6tf5AD5Fk1d8/aln17etvigvq6WHX41d8"
+      op: auth0
+      url: "https://riskheatmap.security.mozilla.org/"
       logo: "riskheatmap.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
@@ -552,8 +512,8 @@ apps:
       vanity_url: ['/riskheatmap']
   - application:
       name: "RiskHeatMap (Dev)"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_riskheatmap_1/0oa17er32k4sMYb561d8/aln17eri154hKBekb1d8"
+      op: auth0
+      url: "https://riskheatmap.security.allizom.org/"
       logo: "riskheatmap.png"
       authorized_users: []
       authorized_groups: ['SecurityAssuranceOpsec']
@@ -742,14 +702,6 @@ apps:
       authorized_groups: ['aws_sandbox_test']
       display: true
   - application:
-      name: "test-wiki"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_testwiki_1/0oa17bjizdcJe0rfP1d8/aln17bk12xoM8boqP1d8"
-      logo: "auth0.png"
-      authorized_users: ['jdow@mozilla.com', 'rsoderberg@mozilla.com']
-      authorized_groups: []
-      display: false
-  - application:
       name: "The Hub"
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP"
@@ -758,39 +710,6 @@ apps:
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/thehub', '/servicenow']
-  - application:
-      name: "toolsdev-test"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_toolsdevtest_1/0oa17dovm5hloizFS1d8/aln17dp3levzWDxJD1d8"
-      logo: "auth0.png"
-      authorized_users: ['jdow@mozilla.com', 'rtucker@mozilla.com']
-      authorized_groups: []
-      display: false
-  - application:
-      name: "Wake"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_wake_1/0oa182le8k9TcbvQ11d8/aln182lnryscWFAQY1d8"
-      logo: "auth0.png"
-      authorized_users: ['jdow@mozilla.com']
-      authorized_groups: []
-      display: false
-  - application:
-      name: "Wake"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_wake_2/0oa1839px4zH2Llz91d8/aln183a8541VUK02h1d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
-      vanity_url: ['/wake']
-  - application:
-      name: "WordPress"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oa11qdq2v3ppgsEL1e8/3079"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_webops']
-      display: false
   - application:
       name: "Workday"
       op: okta
