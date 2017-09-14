@@ -645,16 +645,16 @@ apps:
       vanity_url: ['/statuspage']
   - application:
       name: "support.allizom.org:admin"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_supportallizomorgadmin_1/0oa17zhfbn9l5zYrR1d8/aln17zhqlf3uHaBC51d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/Wz5oO6y8oJ35Yq1B91aC4pkwlXdes7jR"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
   - application:
       name: "support.mozilla.org:admin"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_supportmozillaorgadmin_1/0oa180fvhkf66C77B1d8/aln180gouv2Ax9OPb1d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/a145ph7ZPSz97z8QkiuP1iId6MFPXXUH"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['everyone']
