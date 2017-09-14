@@ -670,14 +670,6 @@ apps:
       authorized_groups: ['aws_consolidatedbilling_temporary_admin']
       display: true
   - application:
-      name: "Test Sandbox"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa141fvckguWItMo1d8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_sandbox_test']
-      display: true
-  - application:
       name: "The Hub"
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP"
