@@ -112,14 +112,6 @@ apps:
       display: true
       vanity_url: ['/casa']
   - application:
-      name: "Careers Admin"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_careersadmin_1/0oa16llln9xjYIOVy1d8/aln16lmihug7Ps2f71d8"
-      logo: "careers.png"
-      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com']
-      authorized_groups: []
-      display: true
-  - application:
       name: "CloudHealth"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_cloudhealth_1/0oa17d37qwlAVuZKJ1d8/aln17d3mgtgWFkA251d8"
