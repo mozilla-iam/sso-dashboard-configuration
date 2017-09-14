@@ -468,22 +468,6 @@ apps:
       display: true
       vanity_url: ['/plansource']
   - application:
-      name: "Plugins Prod"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_pluginsprod_1/0oa1813d2nrIwjArc1d8/aln1813vup0P384Ed1d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
-  - application:
-      name: "Plugins Stage"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_pluginsstage_1/0oa17zkmwim1UOc4I1d8/aln17zkwrxaMOpZbl1d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
-  - application:
       name: "ProductPlan"
       op: auth0
       url: "https://desktop.pingone.com/mozilla/url?source=application&url=https%3A%2F%2Fsso.connect.pingidentity.com%2Fsso%2Fsp%2Finitsso%3Fsaasid%3D72a035e2-0939-4685-aa8a-8c731729298b%26idpid%3Dmozilla.com&title=IDP%20Connection&applicationtype=APPLICATION_DEFAULT&saasid=72a035e2-0939-4685-aa8a-8c731729298b&newDock=true"
