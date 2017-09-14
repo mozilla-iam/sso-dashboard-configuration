@@ -610,8 +610,8 @@ apps:
       display: true
   - application:
       name: "Splunk"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_splunk_1/0oa17vx6oz9FuxiDD1d8/aln17vxd9ueXk8aww1d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/EUmKs3owmNdeDWxZ4CJIeSGM5ez3Suav"
       logo: "splunk.png"
       authorized_users: []
       authorized_groups: ['netops', 'team_moc', 'team_opsec', 'team_infra', 'relops', 'desktop']
