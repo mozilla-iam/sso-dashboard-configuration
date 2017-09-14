@@ -236,8 +236,8 @@ apps:
       vanity_url: ['/egencianz']
   - application:
       name: "EventBoard"
-      op: okta
-      url: "https://mozilla.okta.com/home/eventboardsaml/0oa17mfipzoKbVw0b1d8/62635"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/DhBV04HLs6H8OeTHOlodz0LtkyY7VTU0"
       logo: "eventboard.png"
       authorized_users: []
       authorized_groups: ['eventboard']
