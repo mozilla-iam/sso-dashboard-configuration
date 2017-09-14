@@ -112,14 +112,6 @@ apps:
       display: true
       vanity_url: ['/casa']
   - application:
-      name: "Careers Admin"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_careersadmin_1/0oa16llln9xjYIOVy1d8/aln16lmihug7Ps2f71d8"
-      logo: "careers.png"
-      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com']
-      authorized_groups: []
-      display: true
-  - application:
       name: "CloudHealth"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_cloudhealth_1/0oa17d37qwlAVuZKJ1d8/aln17d3mgtgWFkA251d8"
@@ -339,8 +331,8 @@ apps:
       vanity_url: ['/irccloud']
   - application:
       name: "LucidChart"
-      op: okta
-      url: "https://mozilla.okta.com/home/lucidchart/0oa1adlirb6blPkcO1d8/2655"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/80JNexePA737rSLhBAABqIvMJTEAn11u"
       logo: "lucidchart.png"
       authorized_users: []
       authorized_groups: ['service_lucidchart']
@@ -467,22 +459,6 @@ apps:
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/plansource']
-  - application:
-      name: "Plugins Prod"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_pluginsprod_1/0oa1813d2nrIwjArc1d8/aln1813vup0P384Ed1d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
-  - application:
-      name: "Plugins Stage"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_pluginsstage_1/0oa17zkmwim1UOc4I1d8/aln17zkwrxaMOpZbl1d8"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
   - application:
       name: "ProductPlan"
       op: auth0
@@ -692,14 +668,6 @@ apps:
       logo: "aws.png"
       authorized_users: []
       authorized_groups: ['aws_consolidatedbilling_temporary_admin']
-      display: true
-  - application:
-      name: "Test Sandbox"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa141fvckguWItMo1d8/272"
-      logo: "aws.png"
-      authorized_users: []
-      authorized_groups: ['aws_sandbox_test']
       display: true
   - application:
       name: "The Hub"
