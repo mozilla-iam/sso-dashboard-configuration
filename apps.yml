@@ -113,8 +113,8 @@ apps:
       vanity_url: ['/casa']
   - application:
       name: "CloudHealth"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_cloudhealth_1/0oa17d37qwlAVuZKJ1d8/aln17d3mgtgWFkA251d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/kvfwYzMi40o93JJuuzfdwzeXnnJghgwN"
       logo: "cloudhealth.png"
       authorized_users: []
       authorized_groups: ['cloudhealth-power', 'cloudhealth-standard', 'cloudhealth-administrator', 'cloudhealth-enhanced-power-user', 'cloudhealth-enhanced-standard-user']
