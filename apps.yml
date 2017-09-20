@@ -41,7 +41,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/ql6V6DHXglhTCq9qe6DPdV3eAW2da44F"
       logo: "amplitude.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: false
       vanity_url: ['/amplitude']
   - application:
@@ -55,8 +55,8 @@ apps:
       vanity_url: ['/anaplan']
   - application:
       name: "ASAP (AWS Security Auditing Platform)"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_asapawssecurityauditingplatform_1/0oa15z8ov14B0YqEX1d8/66219"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/snpYGrMjpcnNlz7FlXxgFs9ok7IRz83g"
       logo: "asap.png"
       authorized_users: []
       authorized_groups: ['SecurityAssuranceOpsec']
