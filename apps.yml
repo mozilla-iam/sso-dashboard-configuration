@@ -41,7 +41,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/ql6V6DHXglhTCq9qe6DPdV3eAW2da44F"
       logo: "amplitude.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: false
       vanity_url: ['/amplitude']
   - application:
