@@ -87,8 +87,8 @@ apps:
       display: true
   - application:
       name: "Beckon"
-      op: auth0
-      url: "https://auth.mozilla.auth0.com/samlp/ZtHVNezP0k2vuZnAg5zbRuFTz76vrXpZ"
+      op: okta
+      url: "https://mozilla.okta.com/home/beckon/0oa182vs1s4VgVyzb1d8/aln17u541etdgTW7b1d8"
       logo: "beckon.png"
       authorized_users: []
       authorized_groups: ['service_beckon']
