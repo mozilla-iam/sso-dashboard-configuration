@@ -62,14 +62,6 @@ apps:
       authorized_groups: ['SecurityAssuranceOpsec']
       display: true
   - application:
-      name: "ASAP Dev (AWS Security Auditing Platform)"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_awssecurityauditingplatformasapdev_1/0oa15xwg4o7hZIaAu1d8/66187"
-      logo: "asap.png"
-      authorized_users: ['gene@mozilla.com']
-      authorized_groups: []
-      display: true
-  - application:
       name: "Basket"
       op: okta
       url: "https://mozilla.okta.com/home/mozillacorp_basket_1/0oa17crf8iggjVHSv1d8/aln17crt0j0HLFSZ01d8"
@@ -511,14 +503,6 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
-  - application:
-      name: "ScaleFT EIS (Dev)"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_scalefteisdev_1/0oa17jlgmcxKP6znL1d8/aln17jmejhopZR9c81d8"
-      logo: "auth0.png"
-      authorized_users: ['gene@mozilla.com']
-      authorized_groups: []
-      display: true
   - application:
       name: "Securitywiki"
       op: auth0
