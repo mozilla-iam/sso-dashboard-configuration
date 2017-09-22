@@ -19,8 +19,8 @@ apps:
       display: false
   - application:
       name: "Adobe EchoSign"
-      op: okta
-      url: "https://mozilla.okta.com/home/echosign/0oays9hz96EHZHFUEADW/70"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/9F55B8e5VmFl4lCgYObnA1TkyRFTxQ9M"
       logo: "adobe-sign.png"
       authorized_users: ['team_moco', 'team_mofo']
       authorized_groups: []
