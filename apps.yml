@@ -578,23 +578,6 @@ apps:
       display: true
       vanity_url: ['/splunk']
   - application:
-      name: "Sprinklr"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oa12jog0g5nmOieS1d8/3079"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
-      vanity_url: ['/sprinklr']
-  - application:
-      name: "Sprinklr - Stage"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oa12j4wf5lJOK6181d8/3079"
-      logo: "auth0.png"
-      authorized_users: ['jdow@mozilla.com']
-      authorized_groups: []
-      display: false
-  - application:
       name: "StatusPage"
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq"
