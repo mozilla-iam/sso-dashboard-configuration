@@ -554,8 +554,8 @@ apps:
       vanity_url: ['/smartsheet', '/smartsheets']
   - application:
       name: "Snippets"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_mozillasnippets_1/0oa16vcpr1sWOWWt01d8/aln16vdza09oc9BfA1d8"
+      op: auth0
+      url: "https://snippets-admin.us-west.moz.works/oidc/authenticate/"
       logo: "snippets.png"
       authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com', 'mthayer@mozilla.com', 'cprice@mozilla.com', 'jcollings@mozilla.com', 'wbowden@mozilla.com', 'pchevrel@mozilla.com', 'wwinton@mozilla.com', 'dvincent@mozilla.com']
       authorized_groups: []
