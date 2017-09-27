@@ -63,24 +63,24 @@ apps:
       display: true
   - application:
       name: "Basket"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_basket_1/0oa17crf8iggjVHSv1d8/aln17crt0j0HLFSZ01d8"
+      op: auth0
+      url: "https://basket-admin.us-west.moz.works/oidc/authenticate/"
       logo: "basket.png"
       authorized_users: ['jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'jdavis@mozilla.com', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'stephaniev@mozillafoundation.org', 'bhaack@mozilla.com', 'awade@mozilla.com']
       authorized_groups: []
       display: true
   - application:
       name: "Basket Dev"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_basketdev_1/0oa17iu6jc89Jbtm71d8/aln17ivaxxetAOQj11d8"
+      op: auth0
+      url: "https://basket-dev.allizom.org/oidc/authenticate/"
       logo: "basket.png"
       authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com']
       authorized_groups: []
       display: true
   - application:
       name: "Basket Staging"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_basketstaging_1/0oa17iuzjwoz0h0Sv1d8/aln17ividouN4nstF1d8"
+      op: auth0
+      url: "https://basket-admin-stage.us-west.moz.works/oidc/authenticate/"
       logo: "basket.png"
       authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com']
       authorized_groups: []
@@ -140,8 +140,8 @@ apps:
       vanity_url: ['/discourse']
   - application:
       name: "Domo"
-      op: okta
-      url: "https://mozilla.okta.com/home/domo/0oa13jchi8gUzht7B1d8/3419"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/72Q4MlsbMzRo5Sij6y5JPDAiyGcyDKB2"
       logo: "domo.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
@@ -376,16 +376,16 @@ apps:
       display: false
   - application:
       name: "Nucleus"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_nucleus_1/0oa19n94riaTd3mxk1d8/aln19n9mzj9vIa85k1d8"
+      op: auth0
+      url: "https://nucleus.mozilla.org/oidc/authenticate/"
       logo: "nucleus.png"
       authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com', 'jcristau@mozilla.com', 'ehenry@mozilla.com', 'gchang@mozilla.com', 'lmandel@mozilla.com', 'marcia@mozilla.com', 'pkewisch@mozilla.com', 'kent@caspia.com', 'mozilla@jorgk.com', 'mbanner@mozilla.com', 'sledru@mozilla.com', 'pchevrel@mozilla.com']
       authorized_groups: []
       display: true
   - application:
-      name: "Nucleus Stage"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_nucleusstage_1/0oa19n96nyzOYidTp1d8/aln19n9l9sjMGy5hB1d8"
+      name: "Nucleus Dev"
+      op: auth0
+      url: "https://nucleus-dev.frankfurt.moz.works/oidc/authenticate/"
       logo: "nucleus.png"
       authorized_users: ['jmize@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com']
       authorized_groups: []
@@ -554,8 +554,8 @@ apps:
       vanity_url: ['/smartsheet', '/smartsheets']
   - application:
       name: "Snippets"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_mozillasnippets_1/0oa16vcpr1sWOWWt01d8/aln16vdza09oc9BfA1d8"
+      op: auth0
+      url: "https://snippets-admin.us-west.moz.works/oidc/authenticate/"
       logo: "snippets.png"
       authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com', 'mthayer@mozilla.com', 'cprice@mozilla.com', 'jcollings@mozilla.com', 'wbowden@mozilla.com', 'pchevrel@mozilla.com', 'wwinton@mozilla.com', 'dvincent@mozilla.com']
       authorized_groups: []
