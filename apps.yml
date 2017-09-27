@@ -140,8 +140,8 @@ apps:
       vanity_url: ['/discourse']
   - application:
       name: "Domo"
-      op: okta
-      url: "https://mozilla.okta.com/home/domo/0oa13jchi8gUzht7B1d8/3419"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/72Q4MlsbMzRo5Sij6y5JPDAiyGcyDKB2"
       logo: "domo.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
