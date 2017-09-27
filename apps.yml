@@ -149,16 +149,16 @@ apps:
       vanity_url: ['/domo']
   - application:
       name: "DXR"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_dxr_1/0oa17za2aglTmV8F81d8/aln17zak468wj5kNn1d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/GmGXMS6RJt3ZvabfTjx16B97pETlnUxd"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
   - application:
       name: "DXR-stage"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_dxrstage_1/0oa17yzjzizbMO1wd1d8/aln17z05maikAOkyB1d8"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/kNsY9QiOy7pSUjiordq7WixztBPCepuD"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['everyone']
