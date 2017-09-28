@@ -106,8 +106,8 @@ apps:
       vanity_url: ['/cloudhealth']
   - application:
       name: "Consolidated Billing AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11wolm0q7cDwyj1e8/272"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/koX1ze40wpoUovVV3RA7K79uTlxpbZFp"
       logo: "aws.png"
       authorized_users: []
       authorized_groups: ['aws_consolidatedbilling_read_only']
@@ -614,8 +614,8 @@ apps:
       vanity_url: ['/taskcluster']
   - application:
       name: "Temp Admin - Consolidated Billing AWS"
-      op: okta
-      url: "https://mozilla.okta.com/home/amazon_aws/0oa11wog0zlKRpOrD1e8/272"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/XA2fOQITX6rGNHy8DI3KuuRdccaKwsM6"
       logo: "aws.png"
       authorized_users: []
       authorized_groups: ['aws_consolidatedbilling_temporary_admin']
