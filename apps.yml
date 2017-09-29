@@ -605,8 +605,8 @@ apps:
       display: false
   - application:
       name: "TaskCluster"
-      op: okta
-      url: "https://mozilla.okta.com/home/mozillacorp_taskcluster_1/0oa1570pgf5bQXst01d8/64274"
+      op: auth0
+      url: "https://login.taskcluster.net"
       logo: "taskcluster.png"
       authorized_users: []
       authorized_groups: ['everyone']
