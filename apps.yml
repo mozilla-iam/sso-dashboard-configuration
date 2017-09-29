@@ -113,15 +113,6 @@ apps:
       authorized_groups: ['aws_consolidatedbilling_read_only']
       display: true
   - application:
-      name: "DAM"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oa11mwojvywinyUK1e8/3079"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['team_moco']
-      display: false
-      vanity_url: ['/dam']
-  - application:
       name: "Discourse"
       op: auth0
       url: "https://discourse.mozilla.org/auth/auth0"
@@ -358,14 +349,6 @@ apps:
       authorized_groups: ['everyone']
       display: true
       vanity_url: ['/mozillians']
-  - application:
-      name: "NetX (Staging)"
-      op: okta
-      url: "https://mozilla.okta.com/home/template_saml_2_0/0oaznv9ol7IFGWICDCFO/3079"
-      logo: "auth0.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: false
   - application:
       name: "Nucleus"
       op: auth0
