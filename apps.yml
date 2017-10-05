@@ -343,7 +343,7 @@ apps:
   - application:
       name: "MDN Web Docs"
       op: auth0
-      url: "https://developer.mozilla.org/
+      url: "https://developer.mozilla.org/"
       logo: "mdn.png"
       authorized_users: []
       authorized_groups: ['everyone']
