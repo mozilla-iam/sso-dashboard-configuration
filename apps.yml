@@ -2,11 +2,13 @@
 apps:
   - application:
       name: "Account Portal"
+      op: basic
       url: "https://login.mozilla.com/"
       logo: "accountmanager.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
+      vanity_url: ['/accountmanager']
   - application:
       name: "Adaptive Insights"
       op: auth0
