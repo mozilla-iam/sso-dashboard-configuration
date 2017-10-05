@@ -2,7 +2,7 @@
 apps:
   - application:
       name: "Account Portal"
-      op: basic
+      op: auth0
       url: "https://login.mozilla.com/"
       logo: "accountmanager.png"
       authorized_users: []
@@ -349,7 +349,7 @@ apps:
       authorized_groups: ['everyone']
       display: true
       vanity_url: ['/mdn']
-   - application:
+  - application:
       name: "Moderator"
       op: auth0
       url: "https://moderator.mozilla.org/oidc/authenticate/"
