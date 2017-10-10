@@ -67,7 +67,7 @@ apps:
       op: auth0
       url: "https://basket-admin.us-west.moz.works/oidc/authenticate/"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'jdavis@mozilla.com', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'stephaniev@mozillafoundation.org', 'bhaack@mozilla.com', 'awade@mozilla.com']
+      authorized_users: ['jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'jdavis@mozilla.com', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'stephaniev@mozillafoundation.org', 'bhaack@mozilla.com', 'awade@mozilla.com', 'lwright@mozilla.com']
       authorized_groups: []
       display: true
   - application:
@@ -75,7 +75,7 @@ apps:
       op: auth0
       url: "https://basket-dev.allizom.org/oidc/authenticate/"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com']
+      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com', 'lwright@mozilla.com']
       authorized_groups: []
       display: true
   - application:
@@ -83,7 +83,7 @@ apps:
       op: auth0
       url: "https://basket-admin-stage.us-west.moz.works/oidc/authenticate/"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com']
+      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com', 'lwright@mozilla.com']
       authorized_groups: []
       display: true
   - application:
