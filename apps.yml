@@ -43,7 +43,7 @@ apps:
       logo: "amplitude.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
-      display: false
+      display: true
       vanity_url: ['/amplitude']
   - application:
       name: "Anaplan"
