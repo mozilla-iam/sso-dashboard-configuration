@@ -757,3 +757,12 @@ apps:
       authorized_users: []
       authorized_groups: []
       display: false
+  - application:
+      name: "Palo Alto Networks Panorama"
+      client_id: "z5zWsArYQgI63CEjMMtODh0DFtDr5oSz"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/z5zWsArYQgI63CEjMMtODh0DFtDr5oSz"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['netops', 'team_infra']
+      display: true
