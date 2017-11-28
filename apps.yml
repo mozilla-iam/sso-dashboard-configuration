@@ -766,3 +766,12 @@ apps:
       authorized_users: []
       authorized_groups: ['netops', 'team_infra']
       display: true
+  - application:
+      name: "Apache Test RP"
+      client_id: "BRMXeyw2avAOj7GgBD4SuIHxopb0yZJP"
+      op: auth0
+      url: "https://apache.testrp.security.allizom.org/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['cis_whitelist']
+      display: true
