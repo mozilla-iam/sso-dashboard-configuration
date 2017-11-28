@@ -773,5 +773,5 @@ apps:
       url: "https://apache.testrp.security.allizom.org/"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: ['cis_whitelist']
+      authorized_groups: ['cis_whitelist', 'team_moco']
       display: true
