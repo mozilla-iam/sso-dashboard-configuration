@@ -66,7 +66,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/snpYGrMjpcnNlz7FlXxgFs9ok7IRz83g"
       logo: "asap.png"
       authorized_users: []
-      authorized_groups: ['SecurityAssuranceOpsec']
+      authorized_groups: ['team_opsec']
       display: true
   - application:
       name: "Basket"
@@ -766,6 +766,15 @@ apps:
       authorized_users: []
       authorized_groups: ['netops', 'team_infra']
       display: true
+  - application:
+      name: "Analysis Telemetry"
+      client_id: "6GDrRrIYZuRRKLXXbucm4bO0eafK0AKN"
+      op: auth0
+      url: "https://analysis.telemetry.mozilla.org/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo', 'cloudops_atmo_access']
+      display: false
   - application:
       name: "Apache Test RP"
       client_id: "BRMXeyw2avAOj7GgBD4SuIHxopb0yZJP"
