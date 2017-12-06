@@ -776,6 +776,15 @@ apps:
       authorized_groups: ['team_moco', 'team_mofo', 'cloudops_atmo_access']
       display: false
   - application:
+      name: "Netops Gitlab"
+      client_id: "GWhjnB7egp5hDryXeoD7OJRjHshWWQap"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/GWhjnB7egp5hDryXeoD7OJRjHshWWQap"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['netops', 'relops', 'team_opsec']
+      display: false
+  - application:
       name: "Apache Test RP"
       client_id: "BRMXeyw2avAOj7GgBD4SuIHxopb0yZJP"
       op: auth0-dev
