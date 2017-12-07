@@ -25,8 +25,8 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/9F55B8e5VmFl4lCgYObnA1TkyRFTxQ9M"
       logo: "adobe-sign.png"
-      authorized_users: ['team_moco', 'team_mofo']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: false
       vanity_url: ['/echosign']
   - application:
@@ -45,7 +45,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/ql6V6DHXglhTCq9qe6DPdV3eAW2da44F"
       logo: "amplitude.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
       vanity_url: ['/amplitude']
@@ -66,7 +66,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/snpYGrMjpcnNlz7FlXxgFs9ok7IRz83g"
       logo: "asap.png"
       authorized_users: []
-      authorized_groups: ['SecurityAssuranceOpsec']
+      authorized_groups: ['team_opsec']
       display: true
   - application:
       name: "Basket"
@@ -74,8 +74,8 @@ apps:
       op: auth0
       url: "https://basket-admin.us-west.moz.works/oidc/authenticate/"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'jdavis@mozilla.com', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'stephaniev@mozillafoundation.org', 'bhaack@mozilla.com', 'awade@mozilla.com', 'lwright@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['service_basket']
       display: true
   - application:
       name: "Basket Dev"
@@ -83,8 +83,8 @@ apps:
       op: auth0
       url: "https://basket-dev.allizom.org/oidc/authenticate/"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com', 'lwright@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['service_basket']
       display: true
   - application:
       name: "Basket Staging"
@@ -92,8 +92,8 @@ apps:
       op: auth0
       url: "https://basket-admin-stage.us-west.moz.works/oidc/authenticate/"
       logo: "basket.png"
-      authorized_users: ['jmize@mozilla.com', 'stephaniev@mozillafoundation.org', 'bniolet@mozilla.com', 'lharris@mozilla.com', 'bsternthal@mozilla.com', 'glogiotatidis@mozilla.com', 'jdavis@mozilla.com', 'pmclanahan@mozilla.com', 'bhaack@mozilla.com', 'awade@mozilla.com', 'lwright@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['service_basket']
       display: true
   - application:
       name: "Beckon"
@@ -268,7 +268,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://mail.google.com/"
       logo: "gmail.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
       vanity_url: ['/gmail']
@@ -355,7 +355,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/LVjFyOpHUdAJTLkTmDnUADnQmUKOWXO2"
       logo: "mana.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['IntranetWiki', 'GuestWiki']
       display: true
       vanity_url: ['/mana']
@@ -365,8 +365,8 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/IuWFSguzDAqbTT4qdtmABNdCVayuCWy5"
       logo: "mana.png"
-      authorized_users: ['jdow@mozilla.com', 'rsoderberg@mozilla.com', 'smani@mozilla.com', 'gdestuynder@mozilla.com', 'cshields@mozilla.com', 'eziegenhorn@mozilla.com', 'rwatson@mozilla.com', 'gene@mozilla.com', 'rtucker@mozilla.com', 'smani_mana_admin@mozilla.com', 'jkrejci_mana_admin@mozilla.com', 'hwine@mozilla.com', 'bcolloran@mozilla.com', 'arich@mozilla.com', 'bwatson@mozilla.com', 'ckarlof@mozilla.com', 'isegall@mozilla.com', 'dburns@mozilla.com', 'dtenser@mozilla.com', 'ivida@mozilla.com', 'christopher@mozillafoundation.org', 'mcote@mozilla.com', 'jtanumijaya@mozilla.com', 'kfraser@mozilla.com', 'mmarovich@mozilla.com', 'shelms@mozilla.com', 'glind@mozilla.com', 'hskupin@mozilla.com', 'jvarela@mozilla.com', 'cblackwell@mozilla.com', 'dhunt@mozilla.com', 'jjensen@mozilla.com', 'mpressman@mozilla.com', 'rwhitmarsh@mozilla.com', 'ayounsi@mozilla.com', 'rweiss@mozilla.com', 'saik_mana_admin@mozilla.com', 'sdonner@mozilla.com', 'jkarahalis@mozilla.com', 'rcarroll@mozilla.com', 'rmiddleton@mozilla.com', 'sbennetts@mozilla.com', 'hhoffman@mozilla.com', 'jbircher@mozilla.com', 'rrayborn@mozilla.com', 'achang@mozilla.com', 'jbarnell@mozilla.com', 'jhoward@mozilla.com', 'jmaher@mozilla.com', 'saik@mozilla.com', 'sguha@mozilla.com', 'spatil@mozilla.com', 'tdowner@mozilla.com', 'dtate@mozilla.com', 'hulmer@mozilla.com', 'mgrimes@mozilla.com', 'pdawda@mozilla.com', 'srich@mozilla.com', 'rberenbaum@mozilla.com', 'justdave@mozilla.com', 'tblow@mozilla.com', 'vle@mozilla.com', 'marcia@mozilla.com', 'wkahngreene@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['service_mana_stage']
       display: false
   - application:
       name: "Data Collective"
@@ -374,7 +374,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh?RelayState=https://www.mozdatacollective.com"
       logo: "mdc.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
       vanity_url: ['/mdc']
@@ -413,8 +413,8 @@ apps:
       op: auth0
       url: "https://nucleus.mozilla.org/oidc/authenticate/"
       logo: "nucleus.png"
-      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com', 'jcristau@mozilla.com', 'ehenry@mozilla.com', 'gchang@mozilla.com', 'lmandel@mozilla.com', 'marcia@mozilla.com', 'pkewisch@mozilla.com', 'kent@caspia.com', 'mozilla@jorgk.com', 'mbanner@mozilla.com', 'sledru@mozilla.com', 'pchevrel@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['service_nucleus_prod']
       display: true
   - application:
       name: "Nucleus Dev"
@@ -422,8 +422,8 @@ apps:
       op: auth0
       url: "https://nucleus-dev.frankfurt.moz.works/oidc/authenticate/"
       logo: "nucleus.png"
-      authorized_users: ['jmize@mozilla.com', 'bsternthal@mozilla.com', 'pmclanahan@mozilla.com', 'glogiotatidis@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['service_nucleus_dev']
       display: true
   - application:
       name: "Optimizely"
@@ -566,8 +566,8 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX"
       logo: "servicenow.png"
-      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
   - application:
       name: "ServiceNow - Stage"
@@ -575,8 +575,8 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9"
       logo: "servicenow.png"
-      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
   - application:
       name: "ServiceNow - Test"
@@ -584,8 +584,8 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh"
       logo: "servicenow.png"
-      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
   - application:
       name: "ServiceNow - Upgrade"
@@ -593,8 +593,8 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ"
       logo: "servicenow.png"
-      authorized_users: ['jdow@mozilla.com', 'vdoan@mozilla.com', 'jhayashi@mozilla.com']
-      authorized_groups: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
+      authorized_groups: ['team_moco', 'team_mofo']
       display: true
   - application:
       name: "Smartsheet"
@@ -612,8 +612,8 @@ apps:
       op: auth0
       url: "https://snippets-admin.us-west.moz.works/oidc/authenticate/"
       logo: "snippets.png"
-      authorized_users: ['bsternthal@mozilla.com', 'jmize@mozilla.com', 'glogiotatidis@mozilla.com', 'pmclanahan@mozilla.com', 'mthayer@mozilla.com', 'cprice@mozilla.com', 'jcollings@mozilla.com', 'wbowden@mozilla.com', 'pchevrel@mozilla.com', 'wwinton@mozilla.com', 'dvincent@mozilla.com']
-      authorized_groups: []
+      authorized_users: []
+      authorized_groups: ['service_snippets']
       display: true
   - application:
       name: "Splunk"
@@ -697,7 +697,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP"
       logo: "thehub.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/thehub', '/servicenow']
@@ -746,7 +746,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/meBoR5vlD0kK0qeUXshNjOB1PbGKjsro?RelayState=https://app.convercent.com/"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: []
+      authorized_groups: ['team_moco', 'team_mofo']
       display: false
   - application:
       name: "OneTrust"
@@ -755,7 +755,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/i55sTCbmgUTkvHPW3SDueKlKbtPj5iRF"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: []
+      authorized_groups: ['everyone']
       display: false
   - application:
       name: "Palo Alto Networks Panorama"
@@ -767,6 +767,24 @@ apps:
       authorized_groups: ['netops', 'team_infra']
       display: true
   - application:
+      name: "Analysis Telemetry"
+      client_id: "6GDrRrIYZuRRKLXXbucm4bO0eafK0AKN"
+      op: auth0
+      url: "https://analysis.telemetry.mozilla.org/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo', 'cloudops_atmo_access']
+      display: false
+  - application:
+      name: "Netops Gitlab"
+      client_id: "GWhjnB7egp5hDryXeoD7OJRjHshWWQap"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/GWhjnB7egp5hDryXeoD7OJRjHshWWQap"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['netops', 'relops', 'team_opsec']
+      display: false
+  - application:
       name: "Apache Test RP"
       client_id: "BRMXeyw2avAOj7GgBD4SuIHxopb0yZJP"
       op: auth0-dev
@@ -774,4 +792,13 @@ apps:
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['cis_whitelist', 'team_moco']
+      display: false
+  - application:
+      name: "PTO"
+      client_id: "Q3z1fjeoZhGyws1IXDUc6rHdcYNpxTv8"
+      op: auth0
+      url: "https://pto.mozilla.org/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco']
       display: false
