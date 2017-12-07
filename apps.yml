@@ -214,7 +214,7 @@ apps:
       vanity_url: ['/egenciasg']
   - application:
       name: "Egencia (DE)"
-      client_id: “5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY”
+      client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
       op: auth0
       url: "http://www.egencia.de/pub/agent.dll?qscr=vain&amp;vain=mozilla"
       logo: "egencia.png"
