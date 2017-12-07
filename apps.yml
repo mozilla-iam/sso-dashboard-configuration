@@ -45,7 +45,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/ql6V6DHXglhTCq9qe6DPdV3eAW2da44F"
       logo: "amplitude.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
       vanity_url: ['/amplitude']
@@ -268,7 +268,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://mail.google.com/"
       logo: "gmail.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
       vanity_url: ['/gmail']
@@ -355,7 +355,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/LVjFyOpHUdAJTLkTmDnUADnQmUKOWXO2"
       logo: "mana.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['IntranetWiki', 'GuestWiki']
       display: true
       vanity_url: ['/mana']
@@ -374,7 +374,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh?RelayState=https://www.mozdatacollective.com"
       logo: "mdc.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
       vanity_url: ['/mdc']
@@ -593,7 +593,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ"
       logo: "servicenow.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
   - application:
@@ -697,7 +697,7 @@ apps:
       op: auth0
       url: "https://auth.mozilla.auth0.com/samlp/5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP"
       logo: "thehub.png"
-      authorized_users: []
+      authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/thehub', '/servicenow']
@@ -792,4 +792,13 @@ apps:
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['cis_whitelist', 'team_moco']
+      display: false
+  - application:
+      name: "PTO"
+      client_id: "Q3z1fjeoZhGyws1IXDUc6rHdcYNpxTv8"
+      op: auth0
+      url: "https://pto.mozilla.org/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco']
       display: false
