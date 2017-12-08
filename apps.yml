@@ -249,7 +249,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/DhBV04HLs6H8OeTHOlodz0LtkyY7VTU0"
       logo: "eventboard.png"
       authorized_users: []
-      authorized_groups: ['eventboard']
+      authorized_groups: ['service_eventboard']
       display: false
       vanity_url: ['/eventboard']
   - application:
