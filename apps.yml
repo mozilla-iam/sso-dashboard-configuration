@@ -179,7 +179,7 @@ apps:
       url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['team_moco', 'team_mofo']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
       vanity_url: ['/egencia']
   - application:
@@ -698,7 +698,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP"
       logo: "thehub.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
-      authorized_groups: ['team_moco', 'team_mofo']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
       display: true
       vanity_url: ['/thehub', '/servicenow']
   - application:
