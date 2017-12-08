@@ -46,7 +46,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/ql6V6DHXglhTCq9qe6DPdV3eAW2da44F"
       logo: "amplitude.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
-      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'moc_service_accounts']
       display: true
       vanity_url: ['/amplitude']
   - application:
@@ -269,7 +269,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://mail.google.com/"
       logo: "gmail.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
-      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'gsuite_shared_accounts', 'moc_service_accounts']
       display: true
       vanity_url: ['/gmail']
   - application:
@@ -279,7 +279,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://calendar.google.com/"
       logo: "gcal.png"
       authorized_users: []
-      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'gsuite_shared_accounts', 'moc_service_accounts']
       display: true
       vanity_url: ['/gcalendar']
   - application:
@@ -289,7 +289,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://drive.google.com/"
       logo: "gdrive.png"
       authorized_users: []
-      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'gsuite_shared_accounts', 'moc_service_accounts']
       display: true
       vanity_url: ['/gdrive']
   - application:
@@ -356,7 +356,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/LVjFyOpHUdAJTLkTmDnUADnQmUKOWXO2"
       logo: "mana.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
-      authorized_groups: ['IntranetWiki', 'GuestWiki']
+      authorized_groups: ['IntranetWiki', 'GuestWiki', 'moc_service_accounts']
       display: true
       vanity_url: ['/mana']
   - application:
@@ -375,7 +375,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh?RelayState=https://www.mozdatacollective.com"
       logo: "mdc.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
-      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'moc_service_accounts']
       display: true
       vanity_url: ['/mdc']
   - application:
@@ -594,7 +594,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ"
       logo: "servicenow.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
-      authorized_groups: ['team_moco', 'team_mofo']
+      authorized_groups: ['team_moco', 'team_mofo', 'moc_service_accounts']
       display: true
   - application:
       name: "Smartsheet"
@@ -698,7 +698,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP"
       logo: "thehub.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
-      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'moc_service_accounts']
       display: true
       vanity_url: ['/thehub', '/servicenow']
   - application:
