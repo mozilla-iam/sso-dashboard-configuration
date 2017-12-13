@@ -126,6 +126,16 @@ apps:
       display: true
       vanity_url: ['/cloudhealth']
   - application:
+      name: "Community Analytics"
+      client_id: "BbenZUhB0TUVZnAtYvysfvpZKNHby4JX"
+      op: auth0
+      url: "https://analytics.mozilla.community/oidc/authenticate/"
+      logo: "bitergia.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/analytics']
+  - application:
       name: "Consolidated Billing AWS"
       client_id: "koX1ze40wpoUovVV3RA7K79uTlxpbZFp"
       op: auth0
