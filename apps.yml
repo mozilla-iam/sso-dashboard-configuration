@@ -812,3 +812,13 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco']
       display: false
+  - application:
+      name: "Desk"
+      client_id: "VjJFa4EeFWd29pMnhyAk7AkGW2ids5UX"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/VjJFa4EeFWd29pMnhyAk7AkGW2ids5UX"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: false
+      vanity_url: ['/desk']
