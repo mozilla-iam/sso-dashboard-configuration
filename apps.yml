@@ -822,3 +822,22 @@ apps:
       authorized_groups: ['everyone']
       display: false
       vanity_url: ['/desk']
+  - application:
+      name: "Mozilla Defense Platform"
+      client_id: "E2Y8ZO8wkm0wlFq6vUrht9c2QEjKUNdA"
+      op: auth0
+      url: "https://mozdef.private.scl3.mozilla.com/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ["hris_costcenter_1420"]
+      display: true
+  - application:
+      name: "Mozilla Defense Platform QA"
+      client_id: "slS7eNQ2XUm6yyfB4OPWwprZ7P9OaLMU"
+      op: auth0
+      url: "https://mozdefqa2.private.scl3.mozilla.com/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ["hris_costcenter_1420"]
+      display: false
+  
