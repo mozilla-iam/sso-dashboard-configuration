@@ -829,7 +829,7 @@ apps:
       url: "https://mozdef.private.scl3.mozilla.com/"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef"]
+      authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef", "team_moc"]
       display: true
   - application:
       name: "Mozilla Defense Platform QA"
