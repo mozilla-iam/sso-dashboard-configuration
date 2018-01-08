@@ -578,7 +578,7 @@ apps:
       logo: "servicenow.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
-      display: true
+      display: false
   - application:
       name: "ServiceNow - Stage"
       client_id: "DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9"
@@ -587,7 +587,7 @@ apps:
       logo: "servicenow.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
-      display: true
+      display: false
   - application:
       name: "ServiceNow - Test"
       client_id: "dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh"
@@ -596,7 +596,7 @@ apps:
       logo: "servicenow.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
-      display: true
+      display: false
   - application:
       name: "ServiceNow - Upgrade"
       client_id: "axoW08Nny1HXe0qcP0416YGrmYtfgdTQ"
@@ -605,7 +605,7 @@ apps:
       logo: "servicenow.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
       authorized_groups: ['team_moco', 'team_mofo', 'moc_service_accounts']
-      display: true
+      display: false
   - application:
       name: "Smartsheet"
       client_id: "l094SuNKnntJaVwkUU2tWxOsEtx5h3Oo"
