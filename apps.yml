@@ -840,4 +840,22 @@ apps:
       authorized_users: []
       authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef"]
       display: false
+  - application:
+      name: "Xmatters Stage"
+      client_id: "t1KWNQt71oskeip2KCu9j0KhwJJbBkig"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/t1KWNQt71oskeip2KCu9j0KhwJJbBkig"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
+      display: false
+  - application:
+      name: "Xmatters"
+      client_id: "uMkOuQX8LGTxAyYIiX4eLoc4hl0pWSJt"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/uMkOuQX8LGTxAyYIiX4eLoc4hl0pWSJt"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
+      display: false
   
