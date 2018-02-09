@@ -385,7 +385,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh?RelayState=https://www.mozdatacollective.com"
       logo: "mdc.png"
       authorized_users: ['moc+servicenow@mozilla.com', 'moc-sso-monitoring@mozilla.com']
-      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'moc_service_accounts']
+      authorized_groups: ['mozilliansorg_nda','team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'moc_service_accounts']
       display: true
       vanity_url: ['/mdc']
   - application:
