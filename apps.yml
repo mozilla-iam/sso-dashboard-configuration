@@ -31,12 +31,12 @@ apps:
       vanity_url: ['/echosign']
   - application:
       name: "Air Mozilla"
-      client_id: "nV1rnMMkB4uX9IewNOCitqy8NoyXVHlM"
+      client_id: "7euXeq96glWUS85bwDRCCs10xKGY93t0"
       op: auth0
-      url: "https://air.mozilla.org"
+      url: "https://onlinexperiences.com/scripts/Server.nxp?LASCmd=L:0&AI=1&InitialDisplay=1&ClientBrowser=0&ShowKey=44908"
       logo: "airmo.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo', 'team_mozillaonline']
       display: true
       vanity_url: ['/airmo']
   - application:
@@ -349,6 +349,16 @@ apps:
       authorized_groups: ['irccloud']
       display: true
       vanity_url: ['/irccloud']
+  - application:
+      name: "Legacy Air Mozilla"
+      client_id: "nV1rnMMkB4uX9IewNOCitqy8NoyXVHlM"
+      op: auth0
+      url: "https://air.mozilla.org"
+      logo: "legacy-airmo.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/legacy-airmo']
   - application:
       name: "LucidChart"
       client_id: "80JNexePA737rSLhBAABqIvMJTEAn11u"
