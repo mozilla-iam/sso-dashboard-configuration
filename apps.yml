@@ -712,6 +712,16 @@ apps:
       display: true
       vanity_url: ['/thehub', '/servicenow']
   - application:
+      name: "Treeherder"
+      client_id: "q8fZZFfGEmSB2c5uSI8hOkKdDGXnlo5z"
+      op: auth0
+      url: "https://treeherder.mozilla.org"
+      logo: "treeherder.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/treeherder']
+   - application:
       name: "Workday"
       client_id: "Hypn042D0cqtqET33nRrnqOwAcIXOqx6"
       op: auth0
