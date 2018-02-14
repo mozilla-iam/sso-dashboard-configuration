@@ -827,7 +827,7 @@ apps:
       client_id: "E2Y8ZO8wkm0wlFq6vUrht9c2QEjKUNdA"
       op: auth0
       url: "https://mozdef.private.scl3.mozilla.com/"
-      logo: "auth0.png"
+      logo: "mozdef.png"
       authorized_users: []
       authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef", "team_moc"]
       display: true
@@ -836,7 +836,7 @@ apps:
       client_id: "slS7eNQ2XUm6yyfB4OPWwprZ7P9OaLMU"
       op: auth0
       url: "https://mozdefqa2.private.scl3.mozilla.com/"
-      logo: "auth0.png"
+      logo: "mozdef.png"
       authorized_users: []
       authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef"]
       display: false
