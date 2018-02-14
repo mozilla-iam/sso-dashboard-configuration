@@ -868,3 +868,13 @@ apps:
       authorized_users: []
       authorized_groups: ['mozilliansorg_mozilla-iam-aws-access']
       display: false
+  - application:
+      name: "Box"
+      client_id: "yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj"
+      op: auth0
+      vanity_url: ['/box']
+      url: "https://auth.mozilla.auth0.com/samlp/Jd8q8egYqsQHQ16dfwwyVjSXJPKioiZ4"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo']
+      display: false
