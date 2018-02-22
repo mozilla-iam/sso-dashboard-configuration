@@ -873,7 +873,7 @@ apps:
       client_id: "yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj"
       op: auth0
       vanity_url: ['/box']
-      url: "https://auth.mozilla.auth0.com/samlp/Jd8q8egYqsQHQ16dfwwyVjSXJPKioiZ4"
+      url: "https://auth.mozilla.auth0.com/samlp/yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo']
