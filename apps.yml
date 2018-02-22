@@ -193,15 +193,15 @@ apps:
       display: true
       vanity_url: ['/egencia']
   - application:
-      name: "Egencia (GB)"
+      name: "Egencia (UK)"
       client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
       op: auth0
       url: "http://mozilla.egencia.co.uk"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['egencia_gb']
+      authorized_groups: ['egencia_uk']
       display: false
-      vanity_url: ['/egenciagb']
+      vanity_url: ['/egenciauk']
   - application:
       name: "Egencia (CA)"
       client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
@@ -242,16 +242,6 @@ apps:
       authorized_groups: ['egencia_fr']
       display: false
       vanity_url: ['/egenciafr']
-  - application:
-      name: "Egencia (NZ)"
-      client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
-      op: auth0
-      url: "http://www.egencia.co.nz/pub/agent.dll?qscr=vain&amp;vain=mozilla"
-      logo: "egencia.png"
-      authorized_users: []
-      authorized_groups: ['egencia_nz']
-      display: false
-      vanity_url: ['/egencianz']
   - application:
       name: "EventBoard"
       client_id: "DhBV04HLs6H8OeTHOlodz0LtkyY7VTU0"
