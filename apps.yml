@@ -129,10 +129,10 @@ apps:
       name: "Community Analytics"
       client_id: "BbenZUhB0TUVZnAtYvysfvpZKNHby4JX"
       op: auth0
-      url: "https://analytics.mozilla.community/oidc/authenticate/"
+      url: "https://analytics.mozilla.community"
       logo: "bitergia.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo']
       display: true
       vanity_url: ['/analytics']
   - application:
