@@ -1,5 +1,7 @@
 # sso-dashboard-configuration
 
+[![Build Status](https://travis-ci.org/mozilla-iam/sso-dashboard-configuration.svg?branch=master)](https://travis-ci.org/mozilla-iam/sso-dashboard-configuration)
+
 # How it works...
 
 The apps.yml controls app visibility in the dashboard based on group membership
