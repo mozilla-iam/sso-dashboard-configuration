@@ -721,7 +721,7 @@ apps:
       authorized_groups: ['everyone']
       display: true
       vanity_url: ['/treeherder']
-   - application:
+  - application:
       name: "Workday"
       client_id: "Hypn042D0cqtqET33nRrnqOwAcIXOqx6"
       op: auth0
@@ -756,7 +756,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/WXVdgVoCca11OtpGlK8Ir3pR9CBAlSA5"
       logo: "slack.png"
       authorized_users: []
-      authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo', 'team_mozillaonline']
+      authorized_groups: ['mozilliansorg_slack-access', 'team_moco', 'team_mofo', 'team_mozillaonline']
       display: true
       vanity_url: ['/slack']
   - application:
