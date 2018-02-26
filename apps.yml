@@ -31,12 +31,12 @@ apps:
       vanity_url: ['/echosign']
   - application:
       name: "Air Mozilla"
-      client_id: "nV1rnMMkB4uX9IewNOCitqy8NoyXVHlM"
+      client_id: "7euXeq96glWUS85bwDRCCs10xKGY93t0"
       op: auth0
-      url: "https://air.mozilla.org"
+      url: "https://onlinexperiences.com/scripts/Server.nxp?LASCmd=L:0&AI=1&InitialDisplay=1&ClientBrowser=0&ShowKey=44908"
       logo: "airmo.png"
       authorized_users: []
-      authorized_groups: ['everyone']
+      authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo', 'team_mozillaonline']
       display: true
       vanity_url: ['/airmo']
   - application:
@@ -339,6 +339,16 @@ apps:
       authorized_groups: ['irccloud']
       display: true
       vanity_url: ['/irccloud']
+  - application:
+      name: "Legacy Air Mozilla"
+      client_id: "nV1rnMMkB4uX9IewNOCitqy8NoyXVHlM"
+      op: auth0
+      url: "https://air.mozilla.org"
+      logo: "legacy-airmo.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/legacy-airmo']
   - application:
       name: "LucidChart"
       client_id: "80JNexePA737rSLhBAABqIvMJTEAn11u"
@@ -702,6 +712,16 @@ apps:
       display: true
       vanity_url: ['/thehub', '/servicenow']
   - application:
+      name: "Treeherder"
+      client_id: "q8fZZFfGEmSB2c5uSI8hOkKdDGXnlo5z"
+      op: auth0
+      url: "https://treeherder.mozilla.org"
+      logo: "treeherder.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/treeherder']
+  - application:
       name: "Workday"
       client_id: "Hypn042D0cqtqET33nRrnqOwAcIXOqx6"
       op: auth0
@@ -736,7 +756,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/WXVdgVoCca11OtpGlK8Ir3pR9CBAlSA5"
       logo: "slack.png"
       authorized_users: []
-      authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo', 'team_mozillaonline']
+      authorized_groups: ['mozilliansorg_slack-access', 'team_moco', 'team_mofo', 'team_mozillaonline']
       display: true
       vanity_url: ['/slack']
   - application:
@@ -863,7 +883,7 @@ apps:
       client_id: "yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj"
       op: auth0
       vanity_url: ['/box']
-      url: "https://auth.mozilla.auth0.com/samlp/Jd8q8egYqsQHQ16dfwwyVjSXJPKioiZ4"
+      url: "https://auth.mozilla.auth0.com/samlp/yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj"
       logo: "auth0.png"
       authorized_users: []
       authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo']
