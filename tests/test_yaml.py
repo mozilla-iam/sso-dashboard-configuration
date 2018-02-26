@@ -11,7 +11,9 @@ logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
 class YAMLTest(unittest.TestCase):
     def get_yaml_file(self):
         apps_yml = open('apps.yml')
-        return apps_yml.read()
+        contents = apps_yml.read()
+        apps_yml.close()
+        return contents
 
     def test_output_exists(self):
         assert self.get_yaml_file() is not None
