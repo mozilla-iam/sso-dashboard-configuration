@@ -413,6 +413,16 @@ apps:
       display: true
       vanity_url: ['/mozillians']
   - application:
+      name: "Mozillians Staging"
+      client_id: "T2tB7Ss8It7PKrw3ijazoXu9PgZniLPD"
+      op: auth0
+      url: "https://web-mozillians-staging.production.paas.mozilla.community/oidc/authenticate/"
+      logo: "mozillians.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: false
+      AAI: "LOW"
+  - application:
       name: "Nucleus"
       client_id: "a6cidU6mSbciFAjy4uRQeeuFHIsLIWgg"
       op: auth0
