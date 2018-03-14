@@ -802,7 +802,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/GWhjnB7egp5hDryXeoD7OJRjHshWWQap"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: ['netops', 'relops', 'team_opsec']
+      authorized_groups: ['netops', 'relops', 'team_opsec', 'team_moc']
       display: false
   - application:
       name: "Apache Test RP"
