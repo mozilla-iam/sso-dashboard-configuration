@@ -888,3 +888,13 @@ apps:
       authorized_users: []
       authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo']
       display: false
+  - application:
+      name: "AirTable"
+      client_id: "mKlNDH9c7JKO1Rh3HtGXdTtLntTlHefx"
+      op: auth0
+      vanity_url: ['/airtable']
+      url: "https://auth.mozilla.auth0.com/samlp/mKlNDH9c7JKO1Rh3HtGXdTtLntTlHefx"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['service_airtable']
+      display: false
