@@ -40,6 +40,16 @@ apps:
       display: true
       vanity_url: ['/airmo']
   - application:
+      name: "Air Mozilla (Legacy)"
+      client_id: "nV1rnMMkB4uX9IewNOCitqy8NoyXVHlM"
+      op: auth0
+      url: "https://air.mozilla.org"
+      logo: "legacy-airmo.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: true
+      vanity_url: ['/legacy-airmo']
+  - application:
       name: "Amplitude"
       client_id: "ql6V6DHXglhTCq9qe6DPdV3eAW2da44F"
       op: auth0
@@ -339,16 +349,6 @@ apps:
       authorized_groups: ['irccloud']
       display: true
       vanity_url: ['/irccloud']
-  - application:
-      name: "Legacy Air Mozilla"
-      client_id: "nV1rnMMkB4uX9IewNOCitqy8NoyXVHlM"
-      op: auth0
-      url: "https://air.mozilla.org"
-      logo: "legacy-airmo.png"
-      authorized_users: []
-      authorized_groups: ['everyone']
-      display: true
-      vanity_url: ['/legacy-airmo']
   - application:
       name: "LucidChart"
       client_id: "80JNexePA737rSLhBAABqIvMJTEAn11u"
