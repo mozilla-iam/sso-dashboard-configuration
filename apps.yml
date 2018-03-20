@@ -898,3 +898,12 @@ apps:
       authorized_users: []
       authorized_groups: ['service_airtable']
       display: false
+  - application:
+      name: "admin.readitlater.com"
+      client_id: "ChKEapjEYTPx0T1b5QP01WhAeP8ymRJ7"
+      op: auth0
+      url: "https://admin.readitlater.com"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
+      display: false
