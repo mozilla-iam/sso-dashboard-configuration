@@ -917,3 +917,12 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco']
       display: false
+  - application:
+      name: "Expensify"
+      op: auth0
+      vanity_url: ['/expensify']
+      url: "https://auth.mozilla.auth0.com/samlp/adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws"
+      logo: "expensify.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillaonline']
+      display: true
