@@ -926,3 +926,13 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillaonline']
       display: true
+  - application:
+      name: "GCP Infrastructure"
+      client_id: "uYFDijsgXulJ040Os6VJLRxf0GG30OmC"
+      op: auth0
+      vanity_url: ['/gcp']
+      url: "https://auth.mozilla.auth0.com/samlp/uYFDijsgXulJ040Os6VJLRxf0GG30OmC"
+      logo: "gmail.png"
+      authorized_users: ['gdestuynder@mozilla.com', 'akrug@mozilla.com', 'jmize@mozilla.com']
+      authorized_groups: ['mozilliansorg_gcp-infrastructure-production']
+      display: true
