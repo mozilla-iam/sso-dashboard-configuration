@@ -36,7 +36,7 @@ apps:
       url: "https://onlinexperiences.com/scripts/Server.nxp?LASCmd=L:0&AI=1&InitialDisplay=1&ClientBrowser=0&ShowKey=44908"
       logo: "airmo.png"
       authorized_users: []
-      authorized_groups: ['mozilliansorg_nda', 'team_moco', 'team_mofo', 'team_mozillaonline']
+      authorized_groups: ['everyone']
       display: true
       vanity_url: ['/airmo']
   - application:
