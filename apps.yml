@@ -916,7 +916,7 @@ apps:
       logo: "syntrio.png"
       authorized_users: []
       authorized_groups: ['team_moco']
-      display: false
+      display: true
   - application:
       name: "Expensify"
       op: auth0
