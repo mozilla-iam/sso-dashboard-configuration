@@ -915,7 +915,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/2QnAFjxpltXc2dTkd9QW7nY43dx6xf5a"
       logo: "syntrio.png"
       authorized_users: []
-      authorized_groups: ['team_moco']
+      authorized_groups: ['team_moco', 'team_mozillaonline']
       display: true
   - application:
       name: "Expensify"
