@@ -779,7 +779,6 @@ apps:
       display: false
   - application:
       name: "Palo Alto Networks Panorama"
-      client_id: "z5zWsArYQgI63CEjMMtODh0DFtDr5oSz"
       op: auth0
       url: "https://panorama.mozilla.net/"
       logo: "paloalto.png"
