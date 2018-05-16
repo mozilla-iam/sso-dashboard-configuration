@@ -199,7 +199,7 @@ apps:
       url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline']
+      authorized_groups: ['egencia_us', 'egencia_de', 'egencia_fr', 'egencia_ca', 'egencia_sg']
       display: true
       vanity_url: ['/egencia']
   - application:
@@ -210,7 +210,7 @@ apps:
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['egencia_uk']
-      display: false
+      display: true
       vanity_url: ['/egenciauk']
   - application:
       name: "Egencia (CA)"
@@ -779,6 +779,7 @@ apps:
       display: false
   - application:
       name: "Palo Alto Networks Panorama"
+      client_id: "z5zWsArYQgI63CEjMMtODh0DFtDr5oSz"
       op: auth0
       url: "https://panorama.mozilla.net/"
       logo: "paloalto.png"
