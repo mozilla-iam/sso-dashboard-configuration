@@ -194,7 +194,6 @@ apps:
       display: false
   - application:
       name: "Egencia"
-      client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
       op: auth0
       url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
@@ -204,7 +203,6 @@ apps:
       vanity_url: ['/egencia']
   - application:
       name: "Egencia (UK)"
-      client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
       op: auth0
       url: "http://mozilla.egencia.co.uk"
       logo: "egencia.png"
@@ -214,7 +212,6 @@ apps:
       vanity_url: ['/egenciauk']
   - application:
       name: "Egencia (CA)"
-      client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
       op: auth0
       url: "http://www.egencia.ca/pub/agent.dll?qscr=vain&amp;vain=mozilla"
       logo: "egencia.png"
@@ -224,7 +221,6 @@ apps:
       vanity_url: ['/egenciaca']
   - application:
       name: "Egencia (SG)"
-      client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
       op: auth0
       url: "http://www.egencia.com.sg/pub/agent.dll?qscr=vain&amp;vain=mozilla"
       logo: "egencia.png"
@@ -234,7 +230,6 @@ apps:
       vanity_url: ['/egenciasg']
   - application:
       name: "Egencia (DE)"
-      client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
       op: auth0
       url: "http://www.egencia.de/pub/agent.dll?qscr=vain&amp;vain=mozilla"
       logo: "egencia.png"
@@ -244,7 +239,6 @@ apps:
       vanity_url: ['/egenciade']
   - application:
       name: "Egencia (FR)"
-      client_id: "5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY"
       op: auth0
       url: "http://www.egencia.fr/pub/agent.dll?qscr=vain&amp;vain=mozilla"
       logo: "egencia.png"
