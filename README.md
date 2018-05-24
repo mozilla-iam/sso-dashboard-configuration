@@ -7,8 +7,9 @@
 The apps.yml controls app visibility in the dashboard based on group membership
 or lists of users.  
 
-Groups are simple _name of group_.  Users are identified by their mozilla
-e-mail.
+Groups are simple _name of group_.  Users are identified by their `primaryEmail`.
+`expire_access_when_unused_after` is used to expire access to a relying party automatically after the said time in
+seconds.
 
 # Git workflow
 

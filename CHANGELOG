@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Released]
 
-## [1.0.0] - 2017-02-26
+## [1.0.1] - 2018-05-24
+### Added
+- Support for `expire_access_when_unused_after`
+
+## [1.0.0] - 2018-02-26
 ### Added
 - Tests for invalid YML to build pipeline.
 - TravisCI badges.
