@@ -198,7 +198,7 @@ apps:
       url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['egencia_us', 'egencia_de', 'egencia_fr', 'egencia_ca', 'egencia_sg']
+      authorized_groups: ['egencia_us', 'egencia_de', 'egencia_ca', 'egencia_sg']
       display: true
       vanity_url: ['/egencia']
   - application:
@@ -244,7 +244,7 @@ apps:
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['egencia_fr']
-      display: false
+      display: true
       vanity_url: ['/egenciafr']
   - application:
       name: "EventBoard"
