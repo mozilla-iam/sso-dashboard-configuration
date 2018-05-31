@@ -36,3 +36,5 @@ class YAMLTest(unittest.TestCase):
             assert app['application']['authorized_users'] is not None
             assert app['application']['authorized_groups'] is not None
             assert app['application']['display'] is not None
+            if app['application'].get('expire_access_when_unused_after') is not None:
+                assert isinstance(app['application']['expire_access_when_unused_after'], int)

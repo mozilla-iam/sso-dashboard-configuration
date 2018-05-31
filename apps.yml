@@ -834,6 +834,7 @@ apps:
       logo: "mozdef.png"
       authorized_users: []
       authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef", "team_moc"]
+      expire_access_when_unused_after: 7776000
       display: true
   - application:
       name: "Mozilla Defense Platform QA"
@@ -843,6 +844,7 @@ apps:
       logo: "mozdef.png"
       authorized_users: []
       authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef"]
+      expire_access_when_unused_after: 7776000
       display: false
   - application:
       name: "Xmatters Stage"
