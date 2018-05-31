@@ -240,7 +240,7 @@ apps:
   - application:
       name: "Egencia (FR)"
       op: auth0
-      url: "http://www.egencia.fr/pub/agent.dll?qscr=vain&amp;vain=mozilla"
+      url: "http://mozilla.egencia.fr"
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['egencia_fr']
