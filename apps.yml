@@ -932,3 +932,13 @@ apps:
       authorized_users: ['gdestuynder@mozilla.com', 'akrug@mozilla.com', 'jmize@mozilla.com']
       authorized_groups: ['mozilliansorg_gcp-infrastructure-production']
       display: true
+  - application:
+      name: "Events"
+      client_id: "mwPj23OAUISYVlG5VxW0xI3qSY6OKMON"
+      op: auth0
+      vanity_url: ["/events"]
+      url: "https://splashthat.com/users/oauth/1257"
+      logo: "events.jpg"
+      authorized_users: []
+      authorized_groups: ["everyone"]
+      display: true
