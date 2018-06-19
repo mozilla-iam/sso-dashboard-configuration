@@ -847,6 +847,26 @@ apps:
       expire_access_when_unused_after: 7776000
       display: false
   - application:
+      name: "Mozilla Defense Platform"
+      client_id: "PSCl3uIPg5IT2GaiOcAIJprYK7iBK32r"
+      op: auth0
+      url: "https://mozdef.private.mdc1.mozilla.com/"
+      logo: "mozdef.png"
+      authorized_users: []
+      authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef", "team_moc"]
+      expire_access_when_unused_after: 7776000
+      display: true
+  - application:
+      name: "Mozilla Defense Platform QA"
+      client_id: "Dj0vncaBmaHn1zxzRc1cuFQIBxD0YSGp"
+      op: auth0
+      url: "https://mozdefqa1.private.mdc1.mozilla.com/"
+      logo: "mozdef.png"
+      authorized_users: []
+      authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef"]
+      expire_access_when_unused_after: 7776000
+      display: false 
+  - application:
       name: "Xmatters Stage"
       client_id: "t1KWNQt71oskeip2KCu9j0KhwJJbBkig"
       op: auth0
