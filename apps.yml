@@ -664,7 +664,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/DJjScCAlzVuVwEgmcqOOit4NfGNPcODA"
       logo: "tableau.png"
       authorized_users: []
-      authorized_groups: ['tableau_users']
+      authorized_groups: ['tableau_users', 'moc_service_accounts']
       display: true
       vanity_url: ['/tableau']
   - application:
@@ -674,7 +674,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/SbobH1O2aplALsPffstqETIIbS831yHi"
       logo: "tableau.png"
       authorized_users: []
-      authorized_groups: ['tableau_users']
+      authorized_groups: ['tableau_users', 'moc_service_accounts']
       display: false
   - application:
       name: "TaskCluster"
