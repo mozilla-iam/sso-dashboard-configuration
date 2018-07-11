@@ -778,7 +778,7 @@ apps:
       url: "https://panorama.mozilla.net/"
       logo: "paloalto.png"
       authorized_users: []
-      authorized_groups: ['netops', 'team_infra', 'team_moc', 'team_opsec', 'team_avops']
+      authorized_groups: ['netops', 'team_infra', 'team_moc', 'team_opsec', 'team_avops', 'team_relops']
       display: true
   - application:
       name: "Analysis Telemetry"
