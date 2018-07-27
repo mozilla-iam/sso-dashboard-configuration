@@ -198,13 +198,13 @@ apps:
       url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['egencia_us', 'egencia_de', 'egencia_ca', 'egencia_sg']
+      authorized_groups: ['egencia_us', 'egencia_de', 'egencia_ca', 'egencia_apac']
       display: true
       vanity_url: ['/egencia']
   - application:
       name: "Egencia (UK)"
       op: auth0
-      url: "http://mozilla.egencia.co.uk"
+      url: "https://www.egencia.com/auth/v1/login?call-back-url=aHR0cDovL21vemlsbGEuZWdlbmNpYS5jby51ay9hcHA%2Fc2VydmljZT1leHRlcm5hbCZwYWdlPUxvZ2luJm1vZGU9Zm9ybSZtYXJrZXQ9R0I%3D"
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['egencia_uk']
@@ -220,18 +220,18 @@ apps:
       display: false
       vanity_url: ['/egenciaca']
   - application:
-      name: "Egencia (SG)"
+      name: "Egencia (APAC)"
       op: auth0
-      url: "http://www.egencia.com.sg/pub/agent.dll?qscr=vain&amp;vain=mozilla"
+      url: "https://www.egencia.com/auth/v1/login?call-back-url=aHR0cDovL21vemlsbGEuZWdlbmNpYS5jb20uc2cvYXBwP3NlcnZpY2U9ZXh0ZXJuYWwmcGFnZT1Mb2dpbiZtb2RlPWZvcm0mbWFya2V0PVNH"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['egencia_sg']
+      authorized_groups: ['egencia_apac']
       display: false
-      vanity_url: ['/egenciasg']
+      vanity_url: ['/egenciaapac']
   - application:
       name: "Egencia (DE)"
       op: auth0
-      url: "http://www.egencia.de/pub/agent.dll?qscr=vain&amp;vain=mozilla"
+      url: "https://www.egencia.com/auth/v1/login?call-back-url=aHR0cDovL21vemlsbGEuZWdlbmNpYS5kZS9hcHA%2Fc2VydmljZT1leHRlcm5hbCZwYWdlPUxvZ2luJm1vZGU9Zm9ybSZtYXJrZXQ9REU%3D"
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['egencia_de']
@@ -240,7 +240,7 @@ apps:
   - application:
       name: "Egencia (FR)"
       op: auth0
-      url: "http://mozilla.egencia.fr"
+      url: "https://www.egencia.com/auth/v1/login?call-back-url=aHR0cDovL21vemlsbGEuZWdlbmNpYS5mci9hcHA%2Fc2VydmljZT1leHRlcm5hbCZwYWdlPUxvZ2luJm1vZGU9Zm9ybSZtYXJrZXQ9RlI%3D"
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['egencia_fr']
