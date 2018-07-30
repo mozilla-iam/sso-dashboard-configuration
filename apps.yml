@@ -942,3 +942,13 @@ apps:
       authorized_users: []
       authorized_groups: ["everyone"]
       display: true
+  - application:
+      name: "DataBricks"
+      client_id: "G4vEl4RoedI2Pb7ItlWMNwUUQpsGAmT6"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/G4vEl4RoedI2Pb7ItlWMNwUUQpsGAmT6"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['mozilliansorg_databricks_nda', 'team_moco', 'team_mofo']
+      display: false
+      vanity_url: ['/databricks']
