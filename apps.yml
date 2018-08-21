@@ -808,6 +808,15 @@ apps:
       authorized_groups: ['cis_whitelist', 'team_moco']
       display: false
   - application:
+      name: "SSO Dashboard (Dev)"
+      client_id: "mc1l0G4sJI2eQfdWxqgVNcRAD9EAgHib"
+      op: auth0-dev
+      url: "https://sso.allizom.org/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: false
+  - application:
       name: "PTO"
       client_id: "Q3z1fjeoZhGyws1IXDUc6rHdcYNpxTv8"
       op: auth0
@@ -845,7 +854,7 @@ apps:
       authorized_users: []
       authorized_groups: ["hris_costcenter_1420", "vpn_opsec_mozdef"]
       expire_access_when_unused_after: 7776000
-      display: false 
+      display: false
   - application:
       name: "Xmatters Stage"
       client_id: "t1KWNQt71oskeip2KCu9j0KhwJJbBkig"
