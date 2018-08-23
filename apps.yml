@@ -198,7 +198,7 @@ apps:
       url: "https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla"
       logo: "egencia.png"
       authorized_users: []
-      authorized_groups: ['egencia_us', 'egencia_de', 'egencia_ca']
+      authorized_groups: ['egencia_us', 'egencia_ca']
       display: true
       vanity_url: ['/egencia']
   - application:
@@ -235,7 +235,7 @@ apps:
       logo: "egencia.png"
       authorized_users: []
       authorized_groups: ['egencia_de']
-      display: false
+      display: true
       vanity_url: ['/egenciade']
   - application:
       name: "Egencia (FR)"
