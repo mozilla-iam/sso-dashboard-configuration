@@ -48,14 +48,9 @@ This is a list of available fields.
       # Provider
       expire_access_when_unused_after: 7776000
 
-      ## Mappings to standard levels (https://infosec.mozilla.org/guidelines/risk/standard_levels) of the TAI and AAI
+      ## Mappings to standard levels (https://infosec.mozilla.org/guidelines/risk/standard_levels) AAI
       ## values below are available at the IAM well-known endpoint
       ## (https://github.com/mozilla-iam/cis/blob/profilev2/docs/Well-known%20Endpoint.md)
-      # TAI is Trust Assurance Indicator. A Standard Level (https://infosec.mozilla.org/guidelines/risk/standard_levels)
-      # which indicates the amount of trust in the user identity is required to access this RP. It is enforced by the
-      # Access Provider.
-      # E.g. "MEDIUM may mean the user has contributed to Firefox source code and has passed review in the past"
-      TAI: "MAXIMUM"
       # AAI is Authenticator Assurance Indicator: A Standard level which indicates the amount confidence in the
       # authentication mechanism used is required to access this RP. It is enforced by the Access Provider.
       # E.g. "MEDIUM may mean 2FA required"

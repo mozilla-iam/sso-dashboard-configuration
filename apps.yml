@@ -164,7 +164,6 @@ apps:
       authorized_groups: ['everyone']
       display: true
       vanity_url: ['/discourse']
-      TAI: "LOW"
       AAI: "LOW"
   - application:
       name: "Domo"
