@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Released]
 
+## [1.1] - 2018-09-20
+- Support for `TAI` and `AAI`
+- README updates
+
 ## [1.0.1] - 2018-05-24
 ### Added
 - Support for `expire_access_when_unused_after`

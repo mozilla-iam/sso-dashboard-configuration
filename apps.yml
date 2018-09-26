@@ -164,6 +164,7 @@ apps:
       authorized_groups: ['everyone']
       display: true
       vanity_url: ['/discourse']
+      AAI: "LOW"
   - application:
       name: "Domo"
       client_id: "72Q4MlsbMzRo5Sij6y5JPDAiyGcyDKB2"
