@@ -809,6 +809,16 @@ apps:
       authorized_groups: ['cis_whitelist', 'team_moco']
       display: false
   - application:
+      name: "AAI Low Test RP"
+      client_id: "FeqjZfpOqMIkcGKkd2fDjpnm5oSsOOZ2"
+      op: auth0-dev
+      url: "https://aai-low-social-ldap-pwless.testrp.security.allizom.org/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: []
+      display: false
+      AAI: "LOW"
+  - application:
       name: "SSO Dashboard (Dev)"
       client_id: "mc1l0G4sJI2eQfdWxqgVNcRAD9EAgHib"
       op: auth0-dev
