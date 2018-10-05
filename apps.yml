@@ -815,7 +815,7 @@ apps:
       url: "https://aai-low-social-ldap-pwless.testrp.security.allizom.org/"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: []
+      authorized_groups: ['everyone']
       display: false
       AAI: "LOW"
   - application:
