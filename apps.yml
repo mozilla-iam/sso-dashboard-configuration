@@ -315,6 +315,7 @@ apps:
       authorized_users: []
       authorized_groups: ['mozilliansorg_heroku-members']
       display: true
+      logo: "auth0.png"
       vanity_url: ['/heroku']
   - application:
       name: "Intranet"
