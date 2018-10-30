@@ -308,6 +308,16 @@ apps:
       display: true
       vanity_url: ['/greenhouse']
   - application:
+      name: "Heroku"
+      client_id: "KOyQ76xjXqtsPgt4ci4bThpIz3a1396E"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/KOyQ76xjXqtsPgt4ci4bThpIz3a1396E"
+      authorized_users: []
+      authorized_groups: ['mozilliansorg_heroku-members']
+      display: true
+      logo: "auth0.png"
+      vanity_url: ['/heroku']
+  - application:
       name: "Intranet"
       client_id: "3TMLWJb8KIbjB1S3HeyjDm0ns192BTdZ"
       op: auth0
