@@ -967,7 +967,7 @@ apps:
       client_id: "uYFDijsgXulJ040Os6VJLRxf0GG30OmC"
       op: auth0
       vanity_url: ['/gcp']
-      url: "https://auth.mozilla.auth0.com/samlp/uYFDijsgXulJ040Os6VJLRxf0GG30OmC"
+      url: "https://auth.mozilla.auth0.com/samlp/uYFDijsgXulJ040Os6VJLRxf0GG30OmC?RelayState=https://console.cloud.google.com/"
       logo: "gmail.png"
       authorized_users: ['gdestuynder@mozilla.com', 'akrug@mozilla.com', 'jmize@mozilla.com']
       authorized_groups: ['mozilliansorg_gcp-infrastructure-production']
