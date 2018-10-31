@@ -799,7 +799,7 @@ apps:
       url: "https://panorama.mozilla.net/"
       logo: "paloalto.png"
       authorized_users: []
-      authorized_groups: ['netops', 'team_infra', 'team_moc', 'team_opsec', 'team_avops', 'team_relops']
+      authorized_groups: ['netops', 'team_infra', 'team_moc', 'team_opsec', 'team_avops', 'team_relops', 'vpn_panorama']
       display: true
   - application:
       name: "Analysis Telemetry"
