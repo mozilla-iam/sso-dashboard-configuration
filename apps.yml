@@ -647,7 +647,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/EUmKs3owmNdeDWxZ4CJIeSGM5ez3Suav"
       logo: "splunk.png"
       authorized_users: []
-      authorized_groups: ['netops', 'team_moc', 'team_opsec', 'team_infra', 'relops', 'desktop']
+      authorized_groups: ['netops', 'team_moc', 'team_opsec', 'team_infra', 'relops', 'desktop', 'splunk_admin', 'team_itpmo', 'team_webops']
       display: true
       vanity_url: ['/splunk']
   - application:
