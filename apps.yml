@@ -164,7 +164,7 @@ apps:
       authorized_groups: ['everyone']
       display: true
       vanity_url: ['/discourse']
-      AAI: "LOW"
+      AAL: "LOW"
   - application:
       name: "Discourse-Dev"
       client_id: "3LIXec4tKVr6SltYFYUYsE0GIw0Jm2T0"
@@ -175,7 +175,7 @@ apps:
       authorized_groups: ['everyone']
       display: false
       vanity_url: ['/discourse-dev']
-      AAI: "LOW"
+      AAL: "LOW"
 
   - application:
       name: "Domo"
@@ -443,7 +443,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
-      AAI: "LOW"
+      AAL: "LOW"
   - application:
       name: "Nucleus"
       client_id: "a6cidU6mSbciFAjy4uRQeeuFHIsLIWgg"
@@ -841,7 +841,7 @@ apps:
       authorized_groups: ['cis_whitelist', 'team_moco']
       display: false
   - application:
-      name: "AAI Low Test RP"
+      name: "AAL Low Test RP"
       client_id: "FeqjZfpOqMIkcGKkd2fDjpnm5oSsOOZ2"
       op: auth0-dev
       url: "https://aai-low-social-ldap-pwless.testrp.security.allizom.org/"
@@ -849,7 +849,7 @@ apps:
       authorized_users: []
       authorized_groups: ['everyone']
       display: false
-      AAI: "LOW"
+      AAL: "LOW"
   - application:
       name: "SSO Dashboard (Dev)"
       client_id: "mc1l0G4sJI2eQfdWxqgVNcRAD9EAgHib"
