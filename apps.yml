@@ -166,6 +166,18 @@ apps:
       vanity_url: ['/discourse']
       AAI: "LOW"
   - application:
+      name: "Discourse-Dev"
+      client_id: "3LIXec4tKVr6SltYFYUYsE0GIw0Jm2T0"
+      op: auth0-dev
+      url: "https://discourse.allizom.org/auth/auth0"
+      logo: "discourse.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: false
+      vanity_url: ['/discourse-dev']
+      AAI: "LOW"
+
+  - application:
       name: "Domo"
       client_id: "72Q4MlsbMzRo5Sij6y5JPDAiyGcyDKB2"
       op: auth0
