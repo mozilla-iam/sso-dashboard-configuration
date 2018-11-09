@@ -48,13 +48,13 @@ This is a list of available fields.
       # Provider
       expire_access_when_unused_after: 7776000
 
-      ## Mappings to standard levels (https://infosec.mozilla.org/guidelines/risk/standard_levels) AAI
+      ## Mappings to standard levels (https://infosec.mozilla.org/guidelines/risk/standard_levels) AAL
       ## values below are available at the IAM well-known endpoint
-      ## (https://github.com/mozilla-iam/cis/blob/profilev2/docs/Well-known%20Endpoint.md)
+      ## (https://auth.mozilla.org/.well-known/mozilla-iam)
       # AAI is Authenticator Assurance Indicator: A Standard level which indicates the amount confidence in the
       # authentication mechanism used is required to access this RP. It is enforced by the Access Provider.
       # E.g. "MEDIUM may mean 2FA required"
-      AAI: "MAXIMUM"
+      AAL: "MAXIMUM"
 ```
 
 # Git workflow
