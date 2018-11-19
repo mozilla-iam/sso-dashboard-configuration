@@ -924,7 +924,7 @@ apps:
       url: "https://auth.mozilla.auth0.com/samlp/2lTZtlpqx4bslng167l1BBqTMusCAJkZ"
       logo: "auth0.png"
       authorized_users: []
-      authorized_groups: ['mozilliansorg_mozilla-iam-aws-access']
+      authorized_groups: ['mozilliansorg_mozilla-iam-aws-access', 'mozilla-iam-aws-access-read-only']
       display: false
   - application:
       name: "Box"
