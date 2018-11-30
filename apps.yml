@@ -1014,3 +1014,12 @@ apps:
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
       vanity_url: ['/zoom']
+  - application:
+      name: "Atlassian Forge"
+      client_id: "ghFZnGJkgwTIqbs5yDn4vCnrLx3UWmaF"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/ghFZnGJkgwTIqbs5yDn4vCnrLx3UWmaF"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['atlassian_forge']
+      display: false
