@@ -927,6 +927,16 @@ apps:
       authorized_groups: ['mozilliansorg_mozilla-iam-aws-access']
       display: false
   - application:
+      name: "IAM Grafana"
+      client_id: "qIOeGmYddK11UwsB9L3cpuYQ1RdAuQkn"
+      vanity_url: ['/iam-grafana']
+      op: auth0
+      url: "https://grafana.infra.iam.mozilla.com/login/generic_oauth"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['mozilliansorg_mozilla-iam-aws-access']
+      display: false
+  - application:
       name: "Box"
       client_id: "yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj"
       op: auth0
