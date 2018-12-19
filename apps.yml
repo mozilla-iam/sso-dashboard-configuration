@@ -928,7 +928,7 @@ apps:
       display: false
   - application:
       name: "IAM Grafana"
-      client_id: "qIOeGmYddK11UwsB9L3cpuYQ1RdAuQkn"
+      client_id: "nlE73wPPuOaN0wAYKWY6QD3VcjUStehZ"
       vanity_url: ['/iam-grafana']
       op: auth0
       url: "https://grafana.infra.iam.mozilla.com/login/generic_oauth"
