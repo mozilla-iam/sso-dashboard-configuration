@@ -1033,3 +1033,12 @@ apps:
       authorized_users: []
       authorized_groups: ['atlassian_forge']
       display: false
+  - application:
+      name: "SurveyMonkey"
+      client_id: "LS57OeRbl164EPk39as1TQJ3QbiMuX5M"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/LS57OeRbl164EPk39as1TQJ3QbiMuX5M"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['service_surveymonkey']
+      display: false
