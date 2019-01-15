@@ -1042,3 +1042,4 @@ apps:
       authorized_users: []
       authorized_groups: ['service_surveymonkey']
       display: false
+      vanity_url: ['/surveymonkey']
