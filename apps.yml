@@ -166,6 +166,17 @@ apps:
       vanity_url: ['/discourse']
       AAL: "LOW"
   - application:
+      name: "Discourse Staging"
+      client_id: "RqUns8zD5oTsEsjTKAUMhF55sLfuQsGv"
+      op: auth0-dev
+      url: "https://discourse-staging.production.paas.mozilla.community/auth/auth0"
+      logo: "discourse.png"
+      authorized_users: []
+      authorized_groups: ['everyone']
+      display: false
+      vanity_url: ['/discourse-stage']
+      AAL: "LOW"
+  - application:
       name: "Discourse-Dev"
       client_id: "3LIXec4tKVr6SltYFYUYsE0GIw0Jm2T0"
       op: auth0-dev
