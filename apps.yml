@@ -405,7 +405,7 @@ apps:
       logo: "jira.png"
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'moc_service_accounts']
-      display: false
+      display: true
       vanity_url: ['/jira']
   - application:
       name: "Mana Stage"
