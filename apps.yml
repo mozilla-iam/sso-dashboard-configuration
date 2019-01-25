@@ -398,6 +398,16 @@ apps:
       display: true
       vanity_url: ['/mana']
   - application:
+      name: "Jira"
+      client_id: "zXilPvZm4Vy2c2YcpMslENEtGXHWc5Rq"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/zXilPvZm4Vy2c2YcpMslENEtGXHWc5Rq"
+      logo: "jira.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo', 'team_mozillajapan', 'team_mozillaonline', 'moc_service_accounts']
+      display: false
+      vanity_url: ['/jira']
+  - application:
       name: "Mana Stage"
       client_id: "IuWFSguzDAqbTT4qdtmABNdCVayuCWy5"
       op: auth0
