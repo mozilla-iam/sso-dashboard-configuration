@@ -1064,7 +1064,7 @@ apps:
       authorized_groups: ['service_surveymonkey']
       display: false
       vanity_url: ['/surveymonkey']
- - application:
+  - application:
       name: mozillians.org Verification Client
       client_id: jijaIzcZmFCDRtV74scMb9lI87MtYNTA
       url: https://mozillians.org/verify/identity/callback/
@@ -1074,7 +1074,7 @@ apps:
       display: false
       op: auth0
       AAL: LOW
- - application:
+  - application:
       name: mozillians.org Verification Client Staging
       client_id: t9bMi4eTCPpMp5Y6E1Lu92iVcqU0r1P1
       url: https://web-mozillians-staging.production.paas.mozilla.community/verify/identity/callback/
