@@ -1085,6 +1085,16 @@ apps:
       op: auth0
       AAL: LOW
   - application:
+      name: https://web-mozillians-staging.production.paas.mozilla.community -- account verification client
+      client_id: HvN5D3R64YNNhvcHKuMKny1O0KJZOOwH
+      url: https://web-mozillians-staging.production.paas.mozilla.community/verify/identity/callback/
+      logo: auth0.png
+      authorized_users: []
+      authorized_groups: ["everyone"]
+      display: false
+      op: auth0-dev
+      AAL: LOW
+  - application:
       name: "SurveyGizmo"
       client_id: "tU9fTz20E17hlFVo2DViKtDLABzVxrir"
       op: auth0
