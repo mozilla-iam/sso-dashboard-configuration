@@ -816,6 +816,17 @@ apps:
       authorized_users: []
       authorized_groups: ['team_moco', 'team_mofo']
       display: false
+      vanity_url: ['/convercent']
+  - application:
+      name: "Convercent - Community"
+      client_id: "j8FN0DB6RwrlfLhX4opVAZ2tDYbBiMMU"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/j8FN0DB6RwrlfLhX4opVAZ2tDYbBiMMU?RelayState=https://app.convercent.com/"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
+      display: false
+      vanity_url: ['/convercentcommunity']
   - application:
       name: "OneTrust"
       client_id: "i55sTCbmgUTkvHPW3SDueKlKbtPj5iRF"
@@ -1104,3 +1115,23 @@ apps:
       authorized_groups: ['team_moco', 'team_mofo']
       display: true
       vanity_url: ['/surveygizmo']
+  - application:
+      name: "Concur"
+      client_id: "64Ud5s4qJ3GgFZQ2rUG2D4Fod0lYoUu0"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/64Ud5s4qJ3GgFZQ2rUG2D4Fod0lYoUu0"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
+      display: false
+      vanity_url: ['/concur']
+  - application:
+      name: "Navex"
+      client_id: "iz2qSHo0lSv2nRZ8V3JnOESX5UR4dcpX"
+      op: auth0
+      url: "https://auth.mozilla.auth0.com/samlp/iz2qSHo0lSv2nRZ8V3JnOESX5UR4dcpX"
+      logo: "auth0.png"
+      authorized_users: []
+      authorized_groups: ['team_moco', 'team_mofo']
+      display: false
+      vanity_url: ['/navex']
