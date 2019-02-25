@@ -38,6 +38,7 @@ apps:
     vanity_url:
     - /echosign
 - application:
+    AAL: LOW
     authorized_groups:
     - everyone
     authorized_users: []
@@ -50,6 +51,7 @@ apps:
     vanity_url:
     - /airmo
 - application:
+    AAL: LOW
     authorized_groups:
     - everyone
     authorized_users: []
@@ -579,6 +581,7 @@ apps:
     vanity_url:
     - /moderator
 - application:
+    AAL: LOW
     authorized_groups:
     - everyone
     authorized_users: []
@@ -706,6 +709,7 @@ apps:
     vanity_url:
     - /productplan
 - application:
+    AAL: LOW
     authorized_groups:
     - everyone
     authorized_users: []
@@ -927,6 +931,7 @@ apps:
     op: auth0
     url: https://dataviz.allizom.org/
 - application:
+    AAL: LOW
     authorized_groups:
     - everyone
     authorized_users: []
@@ -968,6 +973,7 @@ apps:
     - /thehub
     - /servicenow
 - application:
+    AAL: LOW
     authorized_groups:
     - everyone
     authorized_users: []
@@ -1310,6 +1316,7 @@ apps:
     vanity_url:
     - /gcp
 - application:
+    AAL: LOW
     authorized_groups:
     - everyone
     authorized_users: []
@@ -1443,3 +1450,383 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/iz2qSHo0lSv2nRZ8V3JnOESX5UR4dcpX
     vanity_url:
     - /navex
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: 1tAZ7tyiARXodCaLoy38jYmzKLqjyDX8
+    display: false
+    logo: auth0.png
+    name: confluence.mozilla-community.org
+    op: auth0
+    url: https://confluence.mozilla-community.org/plugins/servlet/samlsso
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: 7RvvmjstmMm93e1eVimyRElqv8vjrEJC
+    display: false
+    logo: auth0.png
+    name: mcws.wpengine.com
+    op: auth0
+    url: https://wpengine.mcws.mozilla.community/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: 7wyIItkJX4t7vYEaDmGrwP9k2fBh5qWP
+    display: false
+    logo: auth0.png
+    name: prod.testrp.security.allizom.org
+    op: auth0
+    url: https://prod.testrp.security.allizom.org/redirect_uri
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: 8J731AkHnZXviXJWzM2kdQTENMJMSVNI
+    display: false
+    logo: auth0.png
+    name: jenkins.services.mozilla.community
+    op: auth0
+    url: https://jenkins.services.mozilla.community/redirect_uri
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: 8fsFs05sqRr0Gt3RGm4Jh0AYNyByjXKt
+    display: false
+    logo: auth0.png
+    name: mon.admin.us-west-2.nubis-gozer.nubis.allizom.org
+    op: auth0
+    url: https://mon.admin.us-west-2.nubis-gozer.nubis.allizom.org/redirect
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: 9D6nm17QufE7lvipnl8l7sVHWCaElnrL
+    display: false
+    logo: auth0.png
+    name: standupdev.herokuapp.com
+    op: auth0
+    url: https://standupdev.herokuapp.com/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: 9LGw821wb6hHd30HZWMy3eBE3JMtuDLs
+    display: false
+    logo: auth0.png
+    name: taskcluster demo - http://localhost:5050/
+    op: auth0
+    url: http://localhost:5050/login
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: 9sl5SW42wjikqzf9DXZSxzD8BHPf456e
+    display: false
+    logo: auth0.png
+    name: air-dev.allizom.org
+    op: auth0
+    url: https://air-dev.allizom.org/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: CPnG4kKY6vWH39q2adBEyxFRAE0lO7bm
+    display: false
+    logo: auth0.png
+    name: opensource.mozilla.community - localhost
+    op: auth0
+    url: http://localhost:8080/oidc/callback
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: CeA3IcqB1hc2Sbsxmtm909rbeInXv69s
+    display: false
+    logo: auth0.png
+    name: https://sso.core.us-west-2.nubis-jd.nubis.allizom.org/sso
+    op: auth0
+    url: https://sso.admin.us-west-2.nubis-jd.nubis.allizom.org/sso
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: CtXC7ukVJO7T3kfAwdvHLjxiV0eLFTaZ
+    display: false
+    logo: auth0.png
+    name: nubis-training.nubis.allizom.org
+    op: auth0
+    url: https://sso.admin.us-west-2.nubis-training.nubis.allizom.org/sso
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: DVvwftNuKq4miIQ0HDy7YqlkfilCAuLp
+    display: false
+    logo: auth0.png
+    name: crash-stats - localhost
+    op: auth0
+    url: http://localhost:8000/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: FQw134gwheaK3KkW6fQf0JPV6P7h2yo1
+    display: false
+    logo: auth0.png
+    name: https://web-mozillians-staging.production.paas.mozilla.community
+    op: auth0
+    url: https://web-mozillians.dinopark.infra.iam.mozilla.com/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: Hg3vUmTAlI2sFXR6Z4cy0Lm1hgKRapf6
+    display: false
+    logo: auth0.png
+    name: pulseguardian.mozilla.org
+    op: auth0
+    url: https://pulseguardian.mozilla.org/auth/callback
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: I2T4dYNc0dj2u1C8qbddYipgnpVtEd1K
+    display: false
+    logo: auth0.png
+    name: mon.stage.us-west-2.nubis-gozer.nubis.allizom.org
+    op: auth0
+    url: https://sso.stage.us-west-2.nubis-gozer.nubis.allizom.org/sso
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: M9OoQEQVR0M1qtyGvPql3ZDi4T7XMQEA
+    display: false
+    logo: auth0.png
+    name: tools.taskcluster.net
+    op: auth0
+    url: https://tools.taskcluster.net/login/auth0
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: NI6D4Rk4QCZIlLOBKmTtPvrz5CyMBm23
+    display: false
+    logo: auth0.png
+    name: web-remo-staging.production.paas.mozilla.community
+    op: auth0
+    url: https://web-remo-staging.production.paas.mozilla.community/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: OwbZj5f5NnK161LTtOVshM131Nf6jWBe
+    display: false
+    logo: auth0.png
+    name: https://respond.mozilla.community
+    op: auth0
+    url: https://respond.mozilla.community/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: Qp7DIxm4B16jnTcXsR6fai1X0a8GWVBZ
+    display: false
+    logo: auth0.png
+    name: mon.prod.us-west-2.nubis-gozer.nubis.allizom.org
+    op: auth0
+    url: https://mon.prod.us-west-2.nubis-gozer.nubis.allizom.org/redirect
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: RaxnXTpQY5WyVVw6I2mSLblbljiGH8B2
+    display: false
+    logo: auth0.png
+    name: moderator.mozilla.org
+    op: auth0
+    url: https://moderator.mozilla.org/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: SSG7PVY70x785oW1noHJZi1Ck2wzdlyM
+    display: false
+    logo: auth0.png
+    name: taskcluster-tools.ngrok.io/oidc-login
+    op: auth0
+    url: https://taskcluster-tools.ngrok.io/oidc-login
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: StXJySdOLGiWbnnmUGTC5zRGDymFSBO1
+    display: false
+    logo: auth0.png
+    name: https://github.com/comzeradd/auth0-python-web-app
+    op: auth0
+    url: http://127.0.0.1:8000/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: Tpd4uL15gBCjbypCYERVffaCuDx7hFPc
+    display: false
+    logo: auth0.png
+    name: discourse-localhost-development-leo-mcardle
+    op: auth0
+    url: http://localhost:3000/auth/auth0/callback
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: U4mXW5E6cfBqLziVewwkxApHGFNPA2pI
+    display: false
+    logo: auth0.png
+    name: jira.mozilla-community.org
+    op: auth0
+    url: https://jira.mozilla-community.org/plugins/servlet/samlsso
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: UCOY390lYDxgj5rU8EeXRtN6EP005k7V
+    display: false
+    logo: auth0.png
+    name: sso.mozilla.com
+    op: auth0
+    url: https://sso.mozilla.com/redirect_uri
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: YwL6bJ8mXFiCplWbMLaX2fqu715rKP8u
+    display: false
+    logo: auth0.png
+    name: voice.mozilla.org
+    op: auth0
+    url: https://voice.mozilla.org/callback
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: ZShocyal5HnbTYs7CH0rwytjTJGMFsav
+    display: false
+    logo: auth0.png
+    name: https://dinopark.k8s.dev.sso.allizom.org
+    op: auth0
+    url: https://dinopark.k8s.dev.sso.allizom.org/redirect_uri
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: aDL5o9SZRaYTH5zzkGntT4l76qydMbZe
+    display: false
+    logo: auth0.png
+    name: sso.allizom.org
+    op: auth0
+    url: http://localhost:5000/redirect_uri
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: aJc4zjynRegTcrrxjB7PqV8lb9FdAVBr
+    display: false
+    logo: auth0.png
+    name: discourse-staging.production.paas.mozilla.community
+    op: auth0
+    url: https://discourse-staging.production.paas.mozilla.community/auth/auth0/callback
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: c4j1TRdnJPdkFGJoEsU5LtL3ltPC5QyU
+    display: false
+    logo: auth0.png
+    name: www.standu.ps
+    op: auth0
+    url: https://www.standu.ps/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: iQk5ysxf2Cx5o85fIjEJi0ARCMFvSdTF
+    display: false
+    logo: auth0.png
+    name: sso.core.us-west-2.tpe-marketing.nubis.allizom.org
+    op: auth0
+    url: https://sso.core.us-west-2.tpe-marketing.nubis.allizom.org/sso
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: jUNRL0G9LVGyxROwV42QJSyf7jh67960
+    display: false
+    logo: auth0.png
+    name: standupstage.herokuapp.com
+    op: auth0
+    url: https://standupstage.herokuapp.com/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: lDyt2V0UvWdXsWj4lgcENLZ10E6TJ0Yt
+    display: false
+    logo: auth0.png
+    name: pulseguardian-dev.herokuapp.com
+    op: auth0
+    url: https://pulseguardian-dev.allizom.org:5000/redirect_uri
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: t17aylgO4Jw6lvSEFuO9kFVxNm4Fb04z
+    display: false
+    logo: auth0.png
+    name: moderator-staging.production.paas.mozilla.community.1
+    op: auth0
+    url: https://moderator-staging.production.paas.mozilla.community/oidc/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: t6K0dg86KPvhkIgFAFz1CyC6reG8UV21
+    display: false
+    logo: auth0.png
+    name: voice.allizom.org
+    op: auth0
+    url: http://localhost:9000/callback
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: w5mW5ZufRCWg6metsZ7hMckSH5s3b1Cq
+    display: false
+    logo: auth0.png
+    name: air.allizom.org
+    op: auth0
+    url: https://air.allizom.org/authentication/callback/
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: wBrqQY7k2sCNWQTeBLl4B6nDEDOesXG9
+    display: false
+    logo: auth0.png
+    name: mozillastaging.wake.com
+    op: auth0
+    url: https://mozillastaging.wake.com/saml2/acs
+- application:
+    AAL: LOW
+    authorized_groups: []
+    authorized_users: []
+    client_id: ytxE7FfAMnFOXw3bF7SgKv6PwklueYUW
+    display: false
+    logo: auth0.png
+    name: appsvcs-generic.nubis.allizom.org
+    op: auth0
+    url: https://sso.admin.us-west-2.appsvcs-generic.nubis.allizom.org/sso
