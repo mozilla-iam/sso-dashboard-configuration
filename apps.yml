@@ -464,6 +464,9 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/0tHkuAC17kDkFip4szjsLvWHlXGJSjwc
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: f4SlPDVeVcWBChrAvH8uLuEYyt0aW916
@@ -639,6 +642,9 @@ apps:
     - /optimizely
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: Gav1XmmrpBxts0zeDPOSfGesVrTt044k
@@ -746,6 +752,9 @@ apps:
     url: https://riskheatmap.security.allizom.org/
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: ByW5ChOPpsQaQFLcAuZBbtjFrh67uBgt
@@ -758,6 +767,9 @@ apps:
     - /salescloud
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: 54KBW3ESzKFfQws77PCXziJnPt0dYHE0
@@ -888,6 +900,9 @@ apps:
     - /statuspage
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: Wz5oO6y8oJ35Yq1B91aC4pkwlXdes7jR
@@ -1000,6 +1015,9 @@ apps:
     - /workday
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: kyeMyPALPK84A58vlOnb7lrCzAIFJapP
@@ -1010,6 +1028,9 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/kyeMyPALPK84A58vlOnb7lrCzAIFJapP
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: pRwf1AWvIO5t4zyMsF8R18wtt1jfLp5o
@@ -1062,6 +1083,9 @@ apps:
     - /convercentcommunity
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: i55sTCbmgUTkvHPW3SDueKlKbtPj5iRF
@@ -1155,6 +1179,9 @@ apps:
     url: https://pto.mozilla.org/
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     - everyone
     authorized_users: []
     client_id: VjJFa4EeFWd29pMnhyAk7AkGW2ids5UX
