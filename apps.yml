@@ -1895,3 +1895,15 @@ apps:
     name: appsvcs-generic.nubis.allizom.org
     op: auth0
     url: https://sso.admin.us-west-2.appsvcs-generic.nubis.allizom.org/sso
+- application:
+    authorized_groups:
+    - service_simplemdm
+    authorized_users: []
+    client_id: 2X4EmanmPDfF3oRKS4Ex2sopZ2NsfLQU
+    display: false
+    logo: eventboard.png
+    name: EventBoard
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/2X4EmanmPDfF3oRKS4Ex2sopZ2NsfLQU
+    vanity_url:
+    - /simplemdm
