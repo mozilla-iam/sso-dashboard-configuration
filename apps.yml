@@ -1479,7 +1479,8 @@ apps:
     - /navex
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: 1tAZ7tyiARXodCaLoy38jYmzKLqjyDX8
     display: false
@@ -1489,7 +1490,8 @@ apps:
     url: https://confluence.mozilla-community.org/plugins/servlet/samlsso
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: 7RvvmjstmMm93e1eVimyRElqv8vjrEJC
     display: false
@@ -1499,7 +1501,8 @@ apps:
     url: https://wpengine.mcws.mozilla.community/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: 7wyIItkJX4t7vYEaDmGrwP9k2fBh5qWP
     display: false
@@ -1509,7 +1512,8 @@ apps:
     url: https://prod.testrp.security.allizom.org/redirect_uri
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: 8J731AkHnZXviXJWzM2kdQTENMJMSVNI
     display: false
@@ -1519,7 +1523,8 @@ apps:
     url: https://jenkins.services.mozilla.community/redirect_uri
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: 8fsFs05sqRr0Gt3RGm4Jh0AYNyByjXKt
     display: false
@@ -1529,7 +1534,8 @@ apps:
     url: https://mon.admin.us-west-2.nubis-gozer.nubis.allizom.org/redirect
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: 9D6nm17QufE7lvipnl8l7sVHWCaElnrL
     display: false
@@ -1539,7 +1545,8 @@ apps:
     url: https://standupdev.herokuapp.com/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: 9LGw821wb6hHd30HZWMy3eBE3JMtuDLs
     display: false
@@ -1549,7 +1556,8 @@ apps:
     url: http://localhost:5050/login
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: 9sl5SW42wjikqzf9DXZSxzD8BHPf456e
     display: false
@@ -1559,7 +1567,8 @@ apps:
     url: https://air-dev.allizom.org/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: CPnG4kKY6vWH39q2adBEyxFRAE0lO7bm
     display: false
@@ -1569,7 +1578,8 @@ apps:
     url: http://localhost:8080/oidc/callback
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: CeA3IcqB1hc2Sbsxmtm909rbeInXv69s
     display: false
@@ -1579,7 +1589,8 @@ apps:
     url: https://sso.admin.us-west-2.nubis-jd.nubis.allizom.org/sso
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: CtXC7ukVJO7T3kfAwdvHLjxiV0eLFTaZ
     display: false
@@ -1589,7 +1600,8 @@ apps:
     url: https://sso.admin.us-west-2.nubis-training.nubis.allizom.org/sso
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: DVvwftNuKq4miIQ0HDy7YqlkfilCAuLp
     display: false
@@ -1599,7 +1611,8 @@ apps:
     url: http://localhost:8000/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: FQw134gwheaK3KkW6fQf0JPV6P7h2yo1
     display: false
@@ -1609,7 +1622,8 @@ apps:
     url: https://web-mozillians.dinopark.infra.iam.mozilla.com/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: Hg3vUmTAlI2sFXR6Z4cy0Lm1hgKRapf6
     display: false
@@ -1619,7 +1633,8 @@ apps:
     url: https://pulseguardian.mozilla.org/auth/callback
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: I2T4dYNc0dj2u1C8qbddYipgnpVtEd1K
     display: false
@@ -1629,7 +1644,8 @@ apps:
     url: https://sso.stage.us-west-2.nubis-gozer.nubis.allizom.org/sso
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: M9OoQEQVR0M1qtyGvPql3ZDi4T7XMQEA
     display: false
@@ -1639,7 +1655,8 @@ apps:
     url: https://tools.taskcluster.net/login/auth0
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: NI6D4Rk4QCZIlLOBKmTtPvrz5CyMBm23
     display: false
@@ -1649,7 +1666,8 @@ apps:
     url: https://web-remo-staging.production.paas.mozilla.community/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: OwbZj5f5NnK161LTtOVshM131Nf6jWBe
     display: false
@@ -1659,7 +1677,8 @@ apps:
     url: https://respond.mozilla.community/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: Qp7DIxm4B16jnTcXsR6fai1X0a8GWVBZ
     display: false
@@ -1669,7 +1688,8 @@ apps:
     url: https://mon.prod.us-west-2.nubis-gozer.nubis.allizom.org/redirect
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: RaxnXTpQY5WyVVw6I2mSLblbljiGH8B2
     display: false
@@ -1679,7 +1699,8 @@ apps:
     url: https://moderator.mozilla.org/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: SSG7PVY70x785oW1noHJZi1Ck2wzdlyM
     display: false
@@ -1689,7 +1710,8 @@ apps:
     url: https://taskcluster-tools.ngrok.io/oidc-login
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: StXJySdOLGiWbnnmUGTC5zRGDymFSBO1
     display: false
@@ -1699,7 +1721,8 @@ apps:
     url: http://127.0.0.1:8000/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: Tpd4uL15gBCjbypCYERVffaCuDx7hFPc
     display: false
@@ -1709,7 +1732,8 @@ apps:
     url: http://localhost:3000/auth/auth0/callback
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: U4mXW5E6cfBqLziVewwkxApHGFNPA2pI
     display: false
@@ -1719,7 +1743,8 @@ apps:
     url: https://jira.mozilla-community.org/plugins/servlet/samlsso
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: UCOY390lYDxgj5rU8EeXRtN6EP005k7V
     display: false
@@ -1729,7 +1754,8 @@ apps:
     url: https://sso.mozilla.com/redirect_uri
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: YwL6bJ8mXFiCplWbMLaX2fqu715rKP8u
     display: false
@@ -1739,7 +1765,8 @@ apps:
     url: https://voice.mozilla.org/callback
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: ZShocyal5HnbTYs7CH0rwytjTJGMFsav
     display: false
@@ -1749,7 +1776,8 @@ apps:
     url: https://dinopark.k8s.dev.sso.allizom.org/redirect_uri
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: aDL5o9SZRaYTH5zzkGntT4l76qydMbZe
     display: false
@@ -1759,7 +1787,8 @@ apps:
     url: http://localhost:5000/redirect_uri
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: aJc4zjynRegTcrrxjB7PqV8lb9FdAVBr
     display: false
@@ -1769,7 +1798,8 @@ apps:
     url: https://discourse-staging.production.paas.mozilla.community/auth/auth0/callback
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: c4j1TRdnJPdkFGJoEsU5LtL3ltPC5QyU
     display: false
@@ -1779,7 +1809,8 @@ apps:
     url: https://www.standu.ps/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: iQk5ysxf2Cx5o85fIjEJi0ARCMFvSdTF
     display: false
@@ -1789,7 +1820,8 @@ apps:
     url: https://sso.core.us-west-2.tpe-marketing.nubis.allizom.org/sso
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: jUNRL0G9LVGyxROwV42QJSyf7jh67960
     display: false
@@ -1799,7 +1831,8 @@ apps:
     url: https://standupstage.herokuapp.com/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: lDyt2V0UvWdXsWj4lgcENLZ10E6TJ0Yt
     display: false
@@ -1809,7 +1842,8 @@ apps:
     url: https://pulseguardian-dev.allizom.org:5000/redirect_uri
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: t17aylgO4Jw6lvSEFuO9kFVxNm4Fb04z
     display: false
@@ -1819,7 +1853,8 @@ apps:
     url: https://moderator-staging.production.paas.mozilla.community/oidc/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: t6K0dg86KPvhkIgFAFz1CyC6reG8UV21
     display: false
@@ -1829,7 +1864,8 @@ apps:
     url: http://localhost:9000/callback
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: w5mW5ZufRCWg6metsZ7hMckSH5s3b1Cq
     display: false
@@ -1839,7 +1875,8 @@ apps:
     url: https://air.allizom.org/authentication/callback/
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: wBrqQY7k2sCNWQTeBLl4B6nDEDOesXG9
     display: false
@@ -1849,7 +1886,8 @@ apps:
     url: https://mozillastaging.wake.com/saml2/acs
 - application:
     AAL: LOW
-    authorized_groups: []
+    authorized_groups:
+    - everyone
     authorized_users: []
     client_id: ytxE7FfAMnFOXw3bF7SgKv6PwklueYUW
     display: false
