@@ -1511,7 +1511,7 @@ apps:
     op: auth0
     url: https://prod.testrp.security.allizom.org/redirect_uri
 - application:
-    AAL: LOW
+    AAL: MEDIUM
     authorized_groups:
     - everyone
     authorized_users: []
