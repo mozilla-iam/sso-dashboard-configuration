@@ -339,7 +339,8 @@ apps:
     - /egenciafr
 - application:
     authorized_groups:
-    - service_eventboard
+    - team_moco
+    - team_mofo
     authorized_users: []
     client_id: DhBV04HLs6H8OeTHOlodz0LtkyY7VTU0
     display: false
