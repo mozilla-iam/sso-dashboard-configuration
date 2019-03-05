@@ -1908,3 +1908,14 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/2X4EmanmPDfF3oRKS4Ex2sopZ2NsfLQU
     vanity_url:
     - /simplemdm
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: P5kUBn21KQ5m8IRMdNFONg17dJ9qTrlP
+    display: false
+    logo: auth0.png
+    name: InfluxData
+    op: auth0
+    url: https://hillvalley-b40313e5.influxcloud.net
