@@ -1223,6 +1223,7 @@ apps:
     authorized_groups:
     - hris_costcenter_1420
     - vpn_opsec_mozdef
+    - vpn_opsec_mozdefqa
     authorized_users: []
     client_id: JN8CMx02E4xoohapKc9l0VrWm8YdrLDV
     display: false
