@@ -1221,6 +1221,18 @@ apps:
     url: https://mozdefqa1.private.mdc1.mozilla.com/
 - application:
     authorized_groups:
+    - hris_costcenter_1420
+    - vpn_opsec_mozdef
+    authorized_users: []
+    client_id: JN8CMx02E4xoohapKc9l0VrWm8YdrLDV
+    display: false
+    expire_access_when_unused_after: 7776000
+    logo: mozdef.png
+    name: Mozilla Defense Platform QA 2
+    op: auth0
+    url: https://qa2.mozdef.infosec.mozilla.org/
+- application:
+    authorized_groups:
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1940,7 +1952,7 @@ apps:
     client_id: wsvwqDk1Z2zYa6AU4mMT5Dq4H40lfvF2
     display: false
     logo: gearstore.png
-    name: Gear Store - Stage
+    name: Gear Store
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/wsvwqDk1Z2zYa6AU4mMT5Dq4H40lfvF2
     vanity_url:
