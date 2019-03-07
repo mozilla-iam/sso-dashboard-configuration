@@ -1780,7 +1780,8 @@ apps:
 - application:
     AAL: LOW
     authorized_groups:
-    - everyone
+    - team_moco
+    - team_mofo
     authorized_users: []
     client_id: ZShocyal5HnbTYs7CH0rwytjTJGMFsav
     display: false
