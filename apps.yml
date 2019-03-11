@@ -1963,6 +1963,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - mozilliansorg_nda
     authorized_users: []
     client_id: AJBSCa58Vu3bi1OiL30s2yCTXUkBj6KR
     display: false
