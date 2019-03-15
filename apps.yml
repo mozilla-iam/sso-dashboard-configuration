@@ -1635,6 +1635,16 @@ apps:
     op: auth0
     url: https://web-mozillians.dinopark.infra.iam.mozilla.com/oidc/callback/
 - application:
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: mC9OzwCHicAsokpRyJt468BTlO8bl5C4
+    display: false
+    logo: auth0.png
+    name: https://web-mozillians.dinopark.infra.iam.mozilla.com/beta/
+    op: auth0
+    url: https://web-mozillians.dinopark.infra.iam.mozilla.com/beta/
+- application:
     AAL: LOW
     authorized_groups:
     - everyone
