@@ -1995,3 +1995,14 @@ apps:
     name: Bugzilla Management Dashboard
     op: auth0
     url: https://bugzilla-management-dashboard.netlify.com/
+- application:
+    authorized_groups:
+    - team_services_ops
+    - balrog
+    authorized_users: []
+    client_id: BXaDyWq2F0MNWc56hTxVnM0SkMBXMG0d
+    display: true
+    logo: balrog.png
+    name: Balrog
+    op: auth0
+    url: https://aus4-admin.mozilla.org
