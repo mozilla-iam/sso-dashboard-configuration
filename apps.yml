@@ -1984,3 +1984,14 @@ apps:
     url: https://sotrar.mozilla.community
     vanity_url:
     - /sotrar
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: DGloMN2BXb0AC7lF5eRyOe1GXweqBAiI
+    display: false
+    logo: auth0.png
+    name: Bugzilla Management Dashboard
+    op: auth0
+    url: https://bugzilla-management-dashboard.netlify.com/
