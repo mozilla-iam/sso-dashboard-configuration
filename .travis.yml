@@ -2,4 +2,4 @@ language: python
 python:
   - 3.6
 script:
-  - python -m unittest discover tests
+  - make test

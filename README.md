@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/mozilla-iam/sso-dashboard-configuration.svg?branch=master)](https://travis-ci.org/mozilla-iam/sso-dashboard-configuration)
 
+[![Codebuild Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiUWVHQlJNT2FjckNEcUFtUzI4VVR3ZlBTYjRCYnl4SWhWcUx0TTFEMUMzWmFMM3N2eGdLOFJMTUl6NkNtQTFkRVdXa2RzSEQ5SGYvZWRZMW01Q2cvcXhRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjZjWmVyRWdkRDFFVTllRksiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 # How it works...
 
 `apps.yml` is used both for first stage access control and SSO Dashboard visibility settings.
