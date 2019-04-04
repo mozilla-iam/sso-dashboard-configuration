@@ -1482,6 +1482,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: iz2qSHo0lSv2nRZ8V3JnOESX5UR4dcpX
     display: false
