@@ -9,7 +9,7 @@ phases:
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
-      - aws s3 sync . s3://$S3_BUCKET
+      - ./deploy.sh
   post_build:
     commands:
       - echo Build completed on `date`
