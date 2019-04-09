@@ -1790,7 +1790,7 @@ apps:
     op: auth0
     url: https://voice.mozilla.org/callback
 - application:
-    AAL: LOW
+    AAL: MEDIUM
     authorized_groups:
     - team_moco
     - team_mofo
@@ -1801,6 +1801,28 @@ apps:
     name: https://dinopark.k8s.dev.sso.allizom.org
     op: auth0
     url: https://dinopark.k8s.dev.sso.allizom.org/redirect_uri
+- application:
+    AAL: MEDIUM
+    authorized_groups:
+    - dinopark-preview-access
+    authorized_users: []
+    client_id: 7oxEfEV2QSSKQ5MhMuKJYHF9hkATHdls
+    display: false
+    logo: auth0.png
+    name: https://dinopark.k8s.test.sso.allizom.org
+    op: auth0
+    url: https://dinopark.k8s.test.sso.allizom.org/redirect_uri
+- application:
+    AAL: MEDIUM
+    authorized_groups:
+    - dinopark-preview-access
+    authorized_users: []
+    client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
+    display: false
+    logo: auth0.png
+    name: https://people.mozilla.org
+    op: auth0
+    url: https://people.mozilla.org/redirect_uri
 - application:
     AAL: LOW
     authorized_groups:
