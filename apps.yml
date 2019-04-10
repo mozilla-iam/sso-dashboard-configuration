@@ -1804,7 +1804,7 @@ apps:
 - application:
     AAL: MEDIUM
     authorized_groups:
-    - dinopark-preview-access
+    - mozilliansorg_dinopark-preview-access
     authorized_users: []
     client_id: 7oxEfEV2QSSKQ5MhMuKJYHF9hkATHdls
     display: false
@@ -1815,7 +1815,7 @@ apps:
 - application:
     AAL: MEDIUM
     authorized_groups:
-    - dinopark-preview-access
+    - mozilliansorg_dinopark-preview-access
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: false
