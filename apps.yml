@@ -518,10 +518,7 @@ apps:
     - /mana
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozillajapan
-    - team_mozillaonline
+    - service_jira
     - moc_service_accounts
     authorized_users: []
     client_id: zXilPvZm4Vy2c2YcpMslENEtGXHWc5Rq
