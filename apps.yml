@@ -1384,6 +1384,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - zoom_non_staff
     authorized_users: []
     client_id: TnqNECyCfoQYd1X7c4xwMF4PMsEfyWPj
     display: false
