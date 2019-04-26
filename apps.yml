@@ -1983,7 +1983,7 @@ apps:
     - service_gearstore
     authorized_users: []
     client_id: wsvwqDk1Z2zYa6AU4mMT5Dq4H40lfvF2
-    display: false
+    display: true
     logo: gearstore.png
     name: Gear Store
     op: auth0
