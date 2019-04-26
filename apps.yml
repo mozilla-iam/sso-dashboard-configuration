@@ -617,10 +617,10 @@ apps:
     url: https://nucleus.mozilla.org/oidc/authenticate/
 - application:
     authorized_groups:
-    - service_nucleus_dev
+    - everyone
     authorized_users: []
     client_id: grGFAm6XbCYn3feUbyg5i9M6eyQHuhe6
-    display: true
+    display: false
     logo: nucleus.png
     name: Nucleus Dev
     op: auth0
