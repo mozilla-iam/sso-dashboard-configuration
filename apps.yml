@@ -617,10 +617,10 @@ apps:
     url: https://nucleus.mozilla.org/oidc/authenticate/
 - application:
     authorized_groups:
-    - service_nucleus_dev
+    - everyone
     authorized_users: []
     client_id: grGFAm6XbCYn3feUbyg5i9M6eyQHuhe6
-    display: true
+    display: false
     logo: nucleus.png
     name: Nucleus Dev
     op: auth0
@@ -1983,7 +1983,7 @@ apps:
     - service_gearstore
     authorized_users: []
     client_id: wsvwqDk1Z2zYa6AU4mMT5Dq4H40lfvF2
-    display: false
+    display: true
     logo: gearstore.png
     name: Gear Store
     op: auth0
