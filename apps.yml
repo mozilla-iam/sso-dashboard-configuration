@@ -2060,3 +2060,17 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/31dwqlImDXaTqW7m8E0YY5CN16ZLf72Q
     vanity_url:
     - /crashplan
+- application:
+    authorized_groups:
+    - hris_costcenter_1420
+    - vpn_opsec_mozdef
+    - team_moc
+    - team_secops
+    authorized_users: []
+    client_id: lGsSlYNdiV6f5tF05pWN3EbQoDPHx44k
+    display: true
+    expire_access_when_unused_after: 7776000
+    logo: mozdef.png
+    name: cloudymozdef.security.allizom.org
+    op: auth0
+    url: https://cloudymozdef.security.allizom.org/
