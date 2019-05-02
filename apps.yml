@@ -531,6 +531,17 @@ apps:
     - /jira
 - application:
     authorized_groups:
+    - service_jira
+    - moc_service_accounts
+    authorized_users: []
+    client_id: LNU9XiEHlgeU07GLt00vx4y9RR7ALsov
+    display: true
+    logo: jira.png
+    name: Jira - Stage
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/LNU9XiEHlgeU07GLt00vx4y9RR7ALsov
+- application:
+    authorized_groups:
     - service_mana_stage
     authorized_users: []
     client_id: IuWFSguzDAqbTT4qdtmABNdCVayuCWy5
