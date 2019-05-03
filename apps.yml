@@ -1398,8 +1398,8 @@ apps:
     - zoom_non_staff
     authorized_users: []
     client_id: TnqNECyCfoQYd1X7c4xwMF4PMsEfyWPj
-    display: false
-    logo: auth0.png
+    display: true
+    logo: zoom.png
     name: Zoom
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/TnqNECyCfoQYd1X7c4xwMF4PMsEfyWPj
