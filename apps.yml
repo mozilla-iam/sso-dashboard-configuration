@@ -1991,7 +1991,9 @@ apps:
     - /gearstore_stage
 - application:
     authorized_groups:
-    - service_gearstore
+    - team_moco
+    - team_mofo
+    - team_pocket
     authorized_users: []
     client_id: wsvwqDk1Z2zYa6AU4mMT5Dq4H40lfvF2
     display: true
