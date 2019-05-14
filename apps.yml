@@ -2087,3 +2087,18 @@ apps:
     name: cloudymozdef.security.allizom.org
     op: auth0
     url: https://cloudymozdef.security.allizom.org/
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: 2dbkrvUJa5gnxGSnMLZ1jflbtrahhrEi
+    display: false
+    logo: trello.png
+    name: Trello
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/2dbkrvUJa5gnxGSnMLZ1jflbtrahhrEi
+    vanity_url:
+    - /trello
