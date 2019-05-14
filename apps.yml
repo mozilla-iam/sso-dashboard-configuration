@@ -491,9 +491,13 @@ apps:
 - application:
     authorized_groups:
     - service_lucidchart
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
     authorized_users: []
     client_id: 80JNexePA737rSLhBAABqIvMJTEAn11u
-    display: true
+    display: false
     logo: lucidchart.png
     name: LucidChart
     op: auth0
