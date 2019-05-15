@@ -1388,8 +1388,8 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: G4vEl4RoedI2Pb7ItlWMNwUUQpsGAmT6
-    display: false
-    logo: auth0.png
+    display: true
+    logo: databricks.png
     name: DataBricks
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/G4vEl4RoedI2Pb7ItlWMNwUUQpsGAmT6
