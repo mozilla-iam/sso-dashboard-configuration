@@ -2251,3 +2251,39 @@ apps:
     name: stage.grafana.nonprod.dataops.mozgcp.net
     op: auth0
     url: https://stage.grafana.nonprod.dataops.mozgcp.net/login/generic_oauth
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 7jfouvibRlddw49I8prbSl2xrxKXwwoh
+    display: false
+    logo: auth0.png
+    name: activedata-private.devsvcdev.mozaws.net
+    op: auth0
+    url: https://activedata-private.devsvcdev.mozaws.net/openidc/logout
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: R04ouRZsRnbVXztgFEA0ZdNUia6WMFa1
+    display: false
+    logo: auth0.png
+    name: activedata-private.devsvcstage.mozaws.net
+    op: auth0
+    url: https://activedata-private.devsvcstage.mozaws.net/openidc/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 8udOeshOuK7LREPL0G5Z9n2mY4expDLx
+    display: false
+    logo: auth0.png
+    name: activedata-private.devsvcprod.mozaws.net
+    op: auth0
+    url: https://activedata-private.devsvcprod.mozaws.net/openidc/callback/login
