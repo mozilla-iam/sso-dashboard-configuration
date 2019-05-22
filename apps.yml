@@ -2107,3 +2107,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/2dbkrvUJa5gnxGSnMLZ1jflbtrahhrEi
     vanity_url:
     - /trello
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: WuFEV87Q4or1WlncXR3WRgcbD1oceeme
+    display: true
+    logo: auth0.png
+    name: Experimenter
+    op: auth0
+    url: https://experimenter.services.mozilla.com
