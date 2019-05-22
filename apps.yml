@@ -2119,3 +2119,39 @@ apps:
     name: Experimenter
     op: auth0
     url: https://experimenter.services.mozilla.com
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: Lh20PL4WfuZRoZ45dCW0PbnTN8wqN8fd
+    display: true
+    logo: auth0.png
+    name: webcompat-kibana.herokuapp.com
+    op: auth0
+    url: https://webcompat-kibana.herokuapp.com
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: jGx4Z2JTWsgQWiBmvrCNbe5WXAfMivzb
+    display: true
+    logo: auth0.png
+    name: earthangel-b40313e5.influxcloud.net
+    op: auth0
+    url: https://earthangel-b40313e5.influxcloud.net
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: WLQrmFTcXlSDelnxOASZ4KJQTE5gXZFt
+    display: true
+    logo: auth0.png
+    name: dev.sumo.moz.works
+    op: auth0
+    url: https://dev.sumo.moz.works
