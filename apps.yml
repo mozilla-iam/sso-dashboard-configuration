@@ -2155,3 +2155,99 @@ apps:
     name: dev.sumo.moz.works
     op: auth0
     url: https://dev.sumo.moz.works
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: dWcDz6ZYNuevquzzvAgRYOgBZLxY0ucx
+    display: false
+    logo: auth0.png
+    name: normandy-admin.prod.mozaws.net
+    op: auth0
+    url: https://delivery-console.prod.mozaws.net/
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: k3JF93rR1HI7O2HEndhCI0p1ZyBhhMCr
+    display: false
+    logo: auth0.png
+    name: wpt.stage.mozaws.net
+    op: auth0
+    url: https://wpt.stage.mozaws.net/redirect_uri
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: OlwWsXslbA9wk5lQOHUDIUSrtIFTauTy
+    display: false
+    logo: auth0.png
+    name: metrics.mozilla.com/protected
+    op: auth0
+    url: https://metrics.mozilla.com/protected
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: m6x0phAu4rq4imC6f6gRYaGmQgStCdlG
+    display: false
+    logo: auth0.png
+    name: strategy-and-insights.mozilla.com
+    op: auth0
+    url: https://strategy-and-insights.mozilla.com/callback
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 7YTXsNQhLSiNsXPtDdXdvryD5dN30DEb
+    display: false
+    logo: auth0.png
+    name: mozilla-private.report
+    op: auth0
+    url: https://reports-dev.telemetry.mozilla.org/callback
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: UR9C6jNpAxXBv0bEnzDsHGUQAEyasre2
+    display: false
+    logo: auth0.png
+    name: data-iodide.stage.mozaws.net
+    op: auth0
+    url: https://data-iodide.stage.mozaws.net/oidc/callback
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: wC5AsSzi8BbDHHDDieRjU3mcpEeTVcwj
+    display: false
+    logo: auth0.png
+    name: grafana.telemetry.mozilla.org
+    op: auth0
+    url: https://grafana.telemetry.mozilla.org/login/generic_oauth
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: dVL10G8KVJymQ6Tx6naRZRbX6L8rhO1E
+    display: false
+    logo: auth0.png
+    name: stage.grafana.nonprod.dataops.mozgcp.net
+    op: auth0
+    url: https://stage.grafana.nonprod.dataops.mozgcp.net/login/generic_oauth
