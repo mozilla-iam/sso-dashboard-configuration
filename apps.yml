@@ -2697,6 +2697,8 @@ apps:
     url: https://screenshots-admin-default.stage.mozaws.net/openid/callback/login/
 - application:
     authorized_groups:
+    - team_mozillaonline
+    - mozilliansorg_stmo_nda
     - hris_is_staff
     - team_moco
     - team_mofo
