@@ -2125,7 +2125,7 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: WuFEV87Q4or1WlncXR3WRgcbD1oceeme
-    display: true
+    display: false
     logo: auth0.png
     name: Experimenter
     op: auth0
@@ -2137,7 +2137,7 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: Lh20PL4WfuZRoZ45dCW0PbnTN8wqN8fd
-    display: true
+    display: false
     logo: auth0.png
     name: webcompat-kibana.herokuapp.com
     op: auth0
@@ -2149,7 +2149,7 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: jGx4Z2JTWsgQWiBmvrCNbe5WXAfMivzb
-    display: true
+    display: false
     logo: auth0.png
     name: earthangel-b40313e5.influxcloud.net
     op: auth0
@@ -2161,7 +2161,7 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: WLQrmFTcXlSDelnxOASZ4KJQTE5gXZFt
-    display: true
+    display: false
     logo: auth0.png
     name: dev.sumo.moz.works
     op: auth0
