@@ -2438,7 +2438,7 @@ apps:
     client_id: 5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY
     display: 'false'
     logo: auth0.png
-    name: Egencia (US)
+    name: Egencia (US) SAML backend
     op: auth0
     url: https://www.egencia.com/auth/v1/artifactConsumer
 - application:
