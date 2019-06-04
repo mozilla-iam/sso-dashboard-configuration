@@ -3433,6 +3433,8 @@ apps:
     name: Miro
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
+    vanity_url:
+    - /miro
 - application:
     authorized_groups:
     - hris_is_staff
