@@ -3419,3 +3419,13 @@ apps:
     name: metrics.mozilla-itsre.mozit.cloud
     op: auth0
     url: https://metrics.mozilla-itsre.mozit.cloud/login/generic_oauth
+- application:
+    authorized_groups:
+    - service_miro
+    authorized_users: []
+    client_id: wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
+    display: false
+    logo: auth0.png
+    name: Miro
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
