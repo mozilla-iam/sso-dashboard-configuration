@@ -1381,7 +1381,11 @@ apps:
 - application:
     AAL: LOW
     authorized_groups:
-    - everyone
+    - mozilliansorg_event-super-admins
+    - mozilliansorg_event-program-managers
+    - mozilliansorg_event-program-leads
+    - mozilliansorg_event-analysts
+    - mozilliansorg_event-event-tech
     authorized_users: []
     client_id: mwPj23OAUISYVlG5VxW0xI3qSY6OKMON
     display: true
@@ -3395,3 +3399,51 @@ apps:
     name: pto.allizom.org
     op: auth0
     url: https://pto.allizom.org/callback
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: Ury9HCvBS4B1SzAH8f3YASbbcGf5QlQf
+    display: false
+    logo: auth0.png
+    name: LGTM.com
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Ury9HCvBS4B1SzAH8f3YASbbcGf5QlQf
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: sAwFfYrOicxvNjkA75pdZUvkPcJqUPl3
+    display: false
+    logo: auth0.png
+    name: metrics.mozilla-itsre.mozit.cloud
+    op: auth0
+    url: https://metrics.mozilla-itsre.mozit.cloud/login/generic_oauth
+- application:
+    authorized_groups:
+    - service_miro
+    authorized_users: []
+    client_id: wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
+    display: false
+    logo: auth0.png
+    name: Miro
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
+    vanity_url:
+    - /miro
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: SJmdyaeuz4SkdoWgOXZxVFeQukpt5SMo
+    display: false
+    logo: auth0.png
+    name: Fluxx
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/SJmdyaeuz4SkdoWgOXZxVFeQukpt5SMo
