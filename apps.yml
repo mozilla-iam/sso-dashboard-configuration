@@ -1381,7 +1381,11 @@ apps:
 - application:
     AAL: LOW
     authorized_groups:
-    - everyone
+    - mozilliansorg_event-super-admins
+    - mozilliansorg_event-program-managers
+    - mozilliansorg_event-program-leads
+    - mozilliansorg_event-analysts
+    - mozilliansorg_event-event-tech
     authorized_users: []
     client_id: mwPj23OAUISYVlG5VxW0xI3qSY6OKMON
     display: true
