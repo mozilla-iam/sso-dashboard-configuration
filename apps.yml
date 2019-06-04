@@ -3407,3 +3407,15 @@ apps:
     name: LGTM.com
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Ury9HCvBS4B1SzAH8f3YASbbcGf5QlQf
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: sAwFfYrOicxvNjkA75pdZUvkPcJqUPl3
+    display: false
+    logo: auth0.png
+    name: metrics.mozilla-itsre.mozit.cloud
+    op: auth0
+    url: https://metrics.mozilla-itsre.mozit.cloud/login/generic_oauth
