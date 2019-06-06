@@ -3459,3 +3459,16 @@ apps:
     name: Mana Stage (new)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/pKXyeYwf5sIG6vImQ0HLvPpfzbZObhX0
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - mozilliansorg_nda
+    authorized_users: []
+    client_id: LGK34V7wTjZ8tkMSCQhxI0ynfiMcAsvg
+    display: false
+    logo: auth0.png
+    name: mozilla-test.modular.im
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/LGK34V7wTjZ8tkMSCQhxI0ynfiMcAsvg
