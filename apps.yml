@@ -195,7 +195,7 @@ apps:
     client_id: koX1ze40wpoUovVV3RA7K79uTlxpbZFp
     display: true
     logo: aws.png
-    name: Consolidated Billing AWS
+    name: AWS Consolidated Billing - Readonly
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/koX1ze40wpoUovVV3RA7K79uTlxpbZFp
 - application:
@@ -973,12 +973,12 @@ apps:
     - /taskcluster
 - application:
     authorized_groups:
-    - aws_consolidatedbilling_temporary_admin
+    - aws_consolidatedbilling_admin
     authorized_users: []
     client_id: XA2fOQITX6rGNHy8DI3KuuRdccaKwsM6
     display: true
     logo: aws.png
-    name: Temp Admin - Consolidated Billing AWS
+    name: AWS Consolidated Billing - Admin
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/XA2fOQITX6rGNHy8DI3KuuRdccaKwsM6
 - application:
