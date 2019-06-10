@@ -3488,3 +3488,27 @@ apps:
     name: mattermost-test.allizom.org
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/dkb2y4Ow9L2PQ6V8bxU7Z1SvNuCSxen6
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: TSYr6tZcybHxtOlYznB1fslCvCInnKw3
+    display: false
+    logo: auth0.png
+    name: pad.mozilla.org
+    op: auth0
+    url: https://pad.mozilla.org/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: JW5noOxn5yRl3HbThBAqet7yLqu5uoTm
+    display: false
+    logo: auth0.png
+    name: paste.mozilla.org
+    op: auth0
+    url: https://paste.mozilla.org/openid/callback/login
