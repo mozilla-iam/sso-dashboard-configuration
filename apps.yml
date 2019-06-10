@@ -3426,7 +3426,9 @@ apps:
     url: https://metrics.mozilla-itsre.mozit.cloud/login/generic_oauth
 - application:
     authorized_groups:
-    - service_miro
+    - hris_is_staff
+    - team_moco
+    - team_mofo
     authorized_users: []
     client_id: wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
     display: false
