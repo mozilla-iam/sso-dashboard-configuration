@@ -3512,3 +3512,15 @@ apps:
     name: paste.mozilla.org
     op: auth0
     url: https://paste.mozilla.org/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: nJkH6xvVNwogpLjkrTePAKwjB4NpE74h
+    display: false
+    logo: auth0.png
+    name: virgo-b.fuzzing.mozilla.org
+    op: auth0
+    url: https://virgo-b.fuzzing.mozilla.org/
