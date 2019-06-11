@@ -3495,6 +3495,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - mozilliansorg_nda
     authorized_users: []
     client_id: TSYr6tZcybHxtOlYznB1fslCvCInnKw3
     display: false
@@ -3507,6 +3508,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - mozilliansorg_nda
     authorized_users: []
     client_id: JW5noOxn5yRl3HbThBAqet7yLqu5uoTm
     display: false
