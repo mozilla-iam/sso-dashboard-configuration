@@ -1355,7 +1355,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mozillaonline
-    authorized_users: []
+    authorized_users:
+    - billing@mozilla.com
     display: true
     logo: expensify.png
     name: Expensify
