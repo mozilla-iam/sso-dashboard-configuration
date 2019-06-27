@@ -3541,3 +3541,15 @@ apps:
     url: https://graylog.infra.iam.mozilla.com/redirect_uri
     vanity_url:
     - /iam-graylog
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: hj3jYIhcrgvPWTpnFoHWLPx57t6KKqhA
+    display: false
+    logo: auth0.png
+    name: api.netlify.com
+    op: auth0
+    url: https://api.netlify.com/saml/mozilla-it/init
