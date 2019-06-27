@@ -3529,3 +3529,15 @@ apps:
     name: virgo-b.fuzzing.mozilla.org
     op: auth0
     url: https://virgo-b.fuzzing.mozilla.org/
+- application:
+    authorized_groups:
+    - mozilliansorg_mozilla-iam-aws-access
+    authorized_users: []
+    client_id: LuNrrJpcnK2Nlh75wRJ2ab6gxEJYFMQG
+    display: false
+    logo: auth0.png
+    name: IAM Graylog
+    op: auth0
+    url: https://graylog.infra.iam.mozilla.com/redirect_uri
+    vanity_url:
+    - /iam-graylog
