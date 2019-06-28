@@ -2348,18 +2348,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: 5UpSojG2Z4qFxnVS8oa9s3m9KQFpMI5h
-    display: false
-    logo: auth0.png
-    name: signoff.shipit.staging.mozilla-releng.net
-    op: auth0
-    url: https://signoff.shipit.staging.mozilla-releng.net/oidc_callback
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: MmT719PU6y84GsRkym00nVvVHi2y5hPa
     display: false
     logo: auth0.png
@@ -2431,6 +2419,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - vpn_cloudops_shipit
     authorized_users: []
     client_id: 4u5EiGAICaWFmsyWamVaN1D4f4P6MlR0
     display: false
@@ -2831,6 +2820,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - vpn_cloudops_shipit
     authorized_users: []
     client_id: 2dXygwTNP3p7iLTSaEWbdoiJFkjSBqm4
     display: false
