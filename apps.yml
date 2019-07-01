@@ -3543,3 +3543,13 @@ apps:
     name: api.netlify.com
     op: auth0
     url: https://api.netlify.com/saml/mozilla-it/init
+- application:
+    authorized_groups:
+    - hris_costcenter_1410
+    authorized_users: []
+    client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
+    display: false
+    logo: auth0.png
+    name: New Relic IT SRE
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
