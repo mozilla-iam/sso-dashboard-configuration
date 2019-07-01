@@ -1367,10 +1367,12 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_gcp-infrastructure-production
+    - service_meao_gcp
     authorized_users:
     - gdestuynder@mozilla.com
     - akrug@mozilla.com
     - jmize@mozilla.com
+    - dparfitt@mozilla.com
     client_id: uYFDijsgXulJ040Os6VJLRxf0GG30OmC
     display: true
     logo: gmail.png
