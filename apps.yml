@@ -3519,3 +3519,37 @@ apps:
     name: virgo-b.fuzzing.mozilla.org
     op: auth0
     url: https://virgo-b.fuzzing.mozilla.org/
+- application:
+    authorized_groups:
+    - mozilliansorg_mozilla-iam-aws-access
+    authorized_users: []
+    client_id: LuNrrJpcnK2Nlh75wRJ2ab6gxEJYFMQG
+    display: false
+    logo: auth0.png
+    name: IAM Graylog
+    op: auth0
+    url: https://graylog.infra.iam.mozilla.com/redirect_uri
+    vanity_url:
+    - /iam-graylog
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: hj3jYIhcrgvPWTpnFoHWLPx57t6KKqhA
+    display: false
+    logo: auth0.png
+    name: api.netlify.com
+    op: auth0
+    url: https://api.netlify.com/saml/mozilla-it/init
+- application:
+    authorized_groups:
+    - hris_costcenter_1410
+    authorized_users: []
+    client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
+    display: false
+    logo: auth0.png
+    name: New Relic IT SRE
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
