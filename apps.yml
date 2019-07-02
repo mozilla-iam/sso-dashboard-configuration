@@ -513,7 +513,7 @@ apps:
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     client_id: LVjFyOpHUdAJTLkTmDnUADnQmUKOWXO2
-    display: true
+    display: false
     logo: mana.png
     name: Mana - old
     op: auth0
