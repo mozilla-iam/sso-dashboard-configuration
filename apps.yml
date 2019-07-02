@@ -515,11 +515,9 @@ apps:
     client_id: LVjFyOpHUdAJTLkTmDnUADnQmUKOWXO2
     display: true
     logo: mana.png
-    name: Mana
+    name: Mana - old
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/LVjFyOpHUdAJTLkTmDnUADnQmUKOWXO2
-    vanity_url:
-    - /mana
 - application:
     authorized_groups:
     - service_jira
@@ -3590,3 +3588,19 @@ apps:
     name: iodide.telemetry.mozilla.org
     op: auth0
     url: https://iodide.telemetry.mozilla.org/oidc/callback
+- application:
+    authorized_groups:
+    - IntranetWiki
+    - GuestWiki
+    - moc_service_accounts
+    authorized_users:
+    - moc+servicenow@mozilla.com
+    - moc-sso-monitoring@mozilla.com
+    client_id: Qzs1IbNmnXB1js1KlhhdnwYZT9rwwF4U
+    display: true
+    logo: mana.png
+    name: Mana
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Qzs1IbNmnXB1js1KlhhdnwYZT9rwwF4U
+    vanity_url:
+    - /mana
