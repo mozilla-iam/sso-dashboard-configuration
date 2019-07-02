@@ -3578,3 +3578,15 @@ apps:
     name: fxa-support-panel2.stage.mozaws.net
     op: auth0
     url: https://fxa-support-panel2.stage.mozaws.net/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: m3UJJU40O2T6awdbhoA8V6onp3AbzU3Q
+    display: false
+    logo: auth0.png
+    name: iodide.telemetry.mozilla.org
+    op: auth0
+    url: https://iodide.telemetry.mozilla.org/oidc/callback
