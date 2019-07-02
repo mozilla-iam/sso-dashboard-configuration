@@ -1859,6 +1859,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozillaonline
     - hris_is_staff
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
