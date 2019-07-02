@@ -3565,3 +3565,15 @@ apps:
     name: stage.taskcluster.nonprod.cloudops.mozgcp.net
     op: auth0
     url: https://stage.taskcluster.nonprod.cloudops.mozgcp.net/login/mozilla-auth0/callback
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: HhsEpi14LlupTdZJjWcbsfWU0w8dVPxT
+    display: false
+    logo: auth0.png
+    name: fxa-support-panel2.stage.mozaws.net
+    op: auth0
+    url: https://fxa-support-panel2.stage.mozaws.net/openid/callback/login
