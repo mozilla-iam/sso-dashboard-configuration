@@ -3557,7 +3557,7 @@ apps:
     url: https://api.netlify.com/saml/mozilla-it/init
 - application:
     authorized_groups:
-    - hris_costcenter_1410
+    - team_moco
     authorized_users: []
     client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
     display: false
@@ -3565,3 +3565,39 @@ apps:
     name: New Relic IT SRE
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: pTTMCxf9YNo4zPOE2l81JqIGHbxkotuJ
+    display: false
+    logo: auth0.png
+    name: stage.taskcluster.nonprod.cloudops.mozgcp.net
+    op: auth0
+    url: https://stage.taskcluster.nonprod.cloudops.mozgcp.net/login/mozilla-auth0/callback
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: HhsEpi14LlupTdZJjWcbsfWU0w8dVPxT
+    display: false
+    logo: auth0.png
+    name: fxa-support-panel2.stage.mozaws.net
+    op: auth0
+    url: https://fxa-support-panel2.stage.mozaws.net/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: m3UJJU40O2T6awdbhoA8V6onp3AbzU3Q
+    display: false
+    logo: auth0.png
+    name: iodide.telemetry.mozilla.org
+    op: auth0
+    url: https://iodide.telemetry.mozilla.org/oidc/callback
