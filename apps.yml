@@ -3544,7 +3544,7 @@ apps:
     url: https://api.netlify.com/saml/mozilla-it/init
 - application:
     authorized_groups:
-    - hris_costcenter_1410
+    - team_moco
     authorized_users: []
     client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
     display: false
