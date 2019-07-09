@@ -1300,7 +1300,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_mozilla-iam-aws-access
-    authorized_users: []
+    authorized_users: ['hcondei@mozilla.com']
     client_id: nlE73wPPuOaN0wAYKWY6QD3VcjUStehZ
     display: false
     logo: auth0.png
