@@ -1,6 +1,17 @@
 apps:
 - application:
     authorized_groups:
+    - team_sre
+    authorized_users: []
+    display: true
+    logo: netlify.png
+    name: Netlify
+    op: auth0
+    url: https://api.netlify.com/saml/mozilla-it/init
+    vanity_url:
+    - /netlify
+- application:
+    authorized_groups:
     - team_moco
     - team_mofo
     authorized_users: []
