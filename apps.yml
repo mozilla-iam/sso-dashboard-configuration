@@ -3615,3 +3615,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/Qzs1IbNmnXB1js1KlhhdnwYZT9rwwF4U
     vanity_url:
     - /mana
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: uqaHX7JDz335eg0A89725t4GH5dLCUoW
+    display: false
+    logo: auth0.png
+    name: biff-5adb6e55.influxcloud.net
+    op: auth0
+    url: https://biff-5adb6e55.influxcloud.net/login/generic_oauth
