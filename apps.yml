@@ -3641,3 +3641,15 @@ apps:
     name: biff-5adb6e55.influxcloud.net
     op: auth0
     url: https://biff-5adb6e55.influxcloud.net/login/generic_oauth
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: NKhaOVehPM0VNljIiENTEP8jvaEUjYV3
+    display: false
+    logo: auth0.png
+    name: star-dot.admin.readitlater.com
+    op: auth0
+    url: https://admin.readitlater.localhost/auth
