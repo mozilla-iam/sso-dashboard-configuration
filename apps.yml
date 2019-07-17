@@ -3595,6 +3595,18 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: Vq6X0h7r43esUhNmrbUD1HBZskVejhHW
+    display: false
+    logo: auth0.png
+    name: fxa-support-panel.stage.mozaws.net
+    op: auth0
+    url: https://fxa-support-panel.stage.mozaws.net/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
     client_id: m3UJJU40O2T6awdbhoA8V6onp3AbzU3Q
     display: false
     logo: auth0.png
