@@ -1835,6 +1835,7 @@ apps:
     - team_moco
     - team_mofo
     - mozilliansorg_nda
+    - mozilliansorg_dinopark-dev
     authorized_users: []
     client_id: ZShocyal5HnbTYs7CH0rwytjTJGMFsav
     display: false
