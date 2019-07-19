@@ -3596,6 +3596,18 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: Vq6X0h7r43esUhNmrbUD1HBZskVejhHW
+    display: false
+    logo: auth0.png
+    name: fxa-support-panel.stage.mozaws.net
+    op: auth0
+    url: https://fxa-support-panel.stage.mozaws.net/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
     client_id: m3UJJU40O2T6awdbhoA8V6onp3AbzU3Q
     display: false
     logo: auth0.png
@@ -3630,3 +3642,37 @@ apps:
     name: biff-5adb6e55.influxcloud.net
     op: auth0
     url: https://biff-5adb6e55.influxcloud.net/login/generic_oauth
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: NKhaOVehPM0VNljIiENTEP8jvaEUjYV3
+    display: false
+    logo: auth0.png
+    name: star-dot.admin.readitlater.com
+    op: auth0
+    url: https://admin.readitlater.localhost/auth
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+    display: false
+    logo: auth0.png
+    name: HackerRank
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+- application:
+    authorized_groups:
+    - service_uptycs
+    authorized_users: []
+    client_id: VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
+    display: false
+    logo: auth0.png
+    name: Uptycs
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
