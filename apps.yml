@@ -3666,3 +3666,13 @@ apps:
     name: HackerRank
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+- application:
+    authorized_groups:
+    - service_uptycs
+    authorized_users: []
+    client_id: VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
+    display: false
+    logo: auth0.png
+    name: Uptycs
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
