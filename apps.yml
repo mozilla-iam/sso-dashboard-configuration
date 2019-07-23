@@ -15,7 +15,7 @@ apps:
     - team_sre
     authorized_users: []
     display: true
-    logo: new-relic.png
+    logo: newrelic.png
     name: New Relic
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
