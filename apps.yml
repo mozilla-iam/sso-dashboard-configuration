@@ -3680,10 +3680,13 @@ apps:
 - application:
     authorized_groups:
     - service_uptycs
+    - service_uptycs_admin
     authorized_users: []
     client_id: VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
-    display: false
-    logo: auth0.png
+    display: true
+    logo: uptycs.png
     name: Uptycs
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
+    url: https://mozilla.uptycs.io/saml/auth
+    vanity_url:
+    - /uptycs
