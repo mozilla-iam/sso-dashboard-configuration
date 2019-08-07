@@ -544,6 +544,7 @@ apps:
     authorized_groups:
     - service_jira
     - moc_service_accounts
+    - mozilliansorg_jira_vendors
     authorized_users: []
     client_id: zXilPvZm4Vy2c2YcpMslENEtGXHWc5Rq
     display: true
@@ -557,6 +558,7 @@ apps:
     authorized_groups:
     - service_jira
     - moc_service_accounts
+    - mozilliansorg_jira_vendors
     authorized_users: []
     client_id: LNU9XiEHlgeU07GLt00vx4y9RR7ALsov
     display: true
