@@ -544,6 +544,7 @@ apps:
     authorized_groups:
     - service_jira
     - moc_service_accounts
+    - mozilliansorg_jira_vendors
     authorized_users: []
     client_id: zXilPvZm4Vy2c2YcpMslENEtGXHWc5Rq
     display: true
@@ -557,6 +558,7 @@ apps:
     authorized_groups:
     - service_jira
     - moc_service_accounts
+    - mozilliansorg_jira_vendors
     authorized_users: []
     client_id: LNU9XiEHlgeU07GLt00vx4y9RR7ALsov
     display: true
@@ -3680,10 +3682,13 @@ apps:
 - application:
     authorized_groups:
     - service_uptycs
+    - service_uptycs_admin
     authorized_users: []
     client_id: VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
-    display: false
-    logo: auth0.png
+    display: true
+    logo: uptycs.png
     name: Uptycs
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
+    url: https://mozilla.uptycs.io/saml/auth
+    vanity_url:
+    - /uptycs
