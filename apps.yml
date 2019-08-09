@@ -544,7 +544,6 @@ apps:
     authorized_groups:
     - service_jira
     - moc_service_accounts
-    - mozilliansorg_jira_vendors
     authorized_users: []
     client_id: zXilPvZm4Vy2c2YcpMslENEtGXHWc5Rq
     display: true
@@ -3674,11 +3673,13 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: 1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
-    display: false
-    logo: auth0.png
+    display: true
+    logo: hackerrank.png
     name: HackerRank
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+    vanity_url:
+    - /hackerrank
 - application:
     authorized_groups:
     - service_uptycs
