@@ -3673,11 +3673,13 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: 1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
-    display: false
-    logo: auth0.png
+    display: true
+    logo: hackerrank.png
     name: HackerRank
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+    vanity_url:
+    - /hackerrank
 - application:
     authorized_groups:
     - service_uptycs
