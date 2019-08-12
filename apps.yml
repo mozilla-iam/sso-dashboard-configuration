@@ -694,7 +694,7 @@ apps:
     - phonebook_access
     authorized_users: []
     client_id: K7vKewjQHKe45mmOo5cRae6yyOvnmg74
-    display: true
+    display: false
     logo: phonebook.png
     name: Phonebook
     op: auth0
@@ -1876,7 +1876,7 @@ apps:
     - hris_is_staff
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
-    display: false
+    display: true
     logo: auth0.png
     name: https://people.mozilla.org
     op: auth0
