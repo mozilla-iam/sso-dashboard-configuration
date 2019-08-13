@@ -3693,3 +3693,16 @@ apps:
     url: https://mozilla.uptycs.io/saml/auth
     vanity_url:
     - /uptycs
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: ljY6JKsFj7e8qTE4WGuEgaNCq5cc1QuE
+    display: false
+    logo: discourse.png
+    name: Discourse - Dev
+    op: auth0
+    url: https://discourse-dev.itsre-apps.mozit.cloud/auth/auth0/callback
+    vanity_url:
+    - /discourse-dev
