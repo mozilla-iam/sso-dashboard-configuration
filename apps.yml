@@ -1877,10 +1877,10 @@ apps:
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: true
-    logo: auth0.png
-    name: https://people.mozilla.org
+    logo: people.png
+    name: Mozilla People Directory
     op: auth0
-    url: https://people.mozilla.org/redirect_uri
+    url: https://people.mozilla.org
 - application:
     AAL: LOW
     authorized_groups:
