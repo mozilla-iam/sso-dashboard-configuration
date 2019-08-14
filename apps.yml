@@ -699,8 +699,6 @@ apps:
     name: Phonebook
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/K7vKewjQHKe45mmOo5cRae6yyOvnmg74
-    vanity_url:
-    - /phonebook
 - application:
     authorized_groups:
     - phonebook_access
@@ -1895,6 +1893,8 @@ apps:
     name: Phonebook
     op: auth0
     url: https://people.mozilla.org
+    vanity_url:
+    - /phonebook
 - application:
     AAL: LOW
     authorized_groups:
