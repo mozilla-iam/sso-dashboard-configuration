@@ -3732,3 +3732,13 @@ apps:
     name: AdZerk
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/T95l6gp1PoerbniGDm9eMUaUcKiBJVZt
+- application:
+    authorized_groups:
+    - team_pocket
+    authorized_users: []
+    client_id: Nw44gx8sBU2sjVvoIY8Se3solzd9XM8X
+    display: false
+    logo: auth0.png
+    name: recit.getpocket.dev
+    op: auth0
+    url: https://recit.getpocket.dev/login
