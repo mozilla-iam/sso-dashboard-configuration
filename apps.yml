@@ -2737,6 +2737,7 @@ apps:
     authorized_groups:
     - team_mozillaonline
     - mozilliansorg_stmo_nda
+    - stmo_nda
     - hris_is_staff
     - team_moco
     - team_mofo
