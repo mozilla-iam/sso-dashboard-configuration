@@ -260,6 +260,19 @@ apps:
     vanity_url:
     - /discourse-dev
 - application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: ljY6JKsFj7e8qTE4WGuEgaNCq5cc1QuE
+    display: false
+    logo: discourse.png
+    name: Discourse-Dev-k8s
+    op: auth0-dev
+    url: https://discourse-dev.itsre-apps.mozit.cloud/auth/auth0
+    vanity_url:
+    - /discourse-dev-k8s
+- application:
     authorized_groups:
     - team_moco
     - team_mofo
