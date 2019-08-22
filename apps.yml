@@ -3743,3 +3743,13 @@ apps:
     name: recit.getpocket.dev
     op: auth0
     url: https://recit.getpocket.dev/login
+- application:
+    authorized_groups:
+    - vpn_fxa_support_panel
+    authorized_users: []
+    client_id: 7EtX4Eg0zXBjI5fL3Wu53roaXEnVIFsx
+    display: false
+    logo: auth0.png
+    name: fxa-support-panel.prod.mozaws.net
+    op: auth0
+    url: https://fxa-support-panel.prod.mozaws.net/openid/callback/login
