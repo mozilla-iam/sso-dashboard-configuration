@@ -2849,6 +2849,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - statuspage_service_accounts
     authorized_users: []
     client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
     display: false
@@ -3040,6 +3041,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - statuspage_service_accounts
     authorized_users: []
     client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
     display: false
