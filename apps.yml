@@ -2849,6 +2849,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - statuspage_service_accounts
     authorized_users: []
     client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
     display: false
@@ -3040,6 +3041,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - statuspage_service_accounts
     authorized_users: []
     client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
     display: false
@@ -3743,3 +3745,13 @@ apps:
     name: recit.getpocket.dev
     op: auth0
     url: https://recit.getpocket.dev/login
+- application:
+    authorized_groups:
+    - vpn_fxa_support_panel
+    authorized_users: []
+    client_id: 7EtX4Eg0zXBjI5fL3Wu53roaXEnVIFsx
+    display: false
+    logo: auth0.png
+    name: fxa-support-panel.prod.mozaws.net
+    op: auth0
+    url: https://fxa-support-panel.prod.mozaws.net/openid/callback/login
