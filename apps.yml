@@ -3755,3 +3755,14 @@ apps:
     name: fxa-support-panel.prod.mozaws.net
     op: auth0
     url: https://fxa-support-panel.prod.mozaws.net/openid/callback/login
+- application:
+    authorized_groups:
+    - team_netops
+    - team_infra
+    authorized_users: []
+    client_id: OSKMKPkvUoDg0K8agd4iHSwUam0lpr6p
+    display: false
+    logo: auth0.png
+    name: Console View
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/OSKMKPkvUoDg0K8agd4iHSwUam0lpr6p
