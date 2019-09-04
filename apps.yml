@@ -3763,6 +3763,6 @@ apps:
     client_id: OSKMKPkvUoDg0K8agd4iHSwUam0lpr6p
     display: false
     logo: auth0.png
-    name: Console View
+    name: ConsoleFlow
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/OSKMKPkvUoDg0K8agd4iHSwUam0lpr6p
