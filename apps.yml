@@ -3740,3 +3740,36 @@ apps:
     name: ConsoleFlow
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/OSKMKPkvUoDg0K8agd4iHSwUam0lpr6p
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: LGK34V7wTjZ8tkMSCQhxI0ynfiMcAsvg
+    display: false
+    logo: auth0.png
+    name: Matrix IM
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/LGK34V7wTjZ8tkMSCQhxI0ynfiMcAsvg
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: Naob9cwJz8EnGahxCbHURFGuIkpL5fm7
+    display: false
+    logo: auth0.png
+    name: RocketChat IM
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Naob9cwJz8EnGahxCbHURFGuIkpL5fm7
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: dkb2y4Ow9L2PQ6V8bxU7Z1SvNuCSxen6
+    display: false
+    logo: auth0.png
+    name: Mattermost IM
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/dkb2y4Ow9L2PQ6V8bxU7Z1SvNuCSxen6
