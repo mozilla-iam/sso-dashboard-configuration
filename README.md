@@ -7,7 +7,7 @@
 # How it works...
 
 `apps.yml` is used both for first stage access control and SSO Dashboard visibility settings.
-See: https://github.com/mozilla-iam/cis/blob/master/docs/AccessFile.md for a complete reference.
+See: https://github.com/mozilla-iam/cis/blob/master/docs/AccessFile.md for a complete reference. `apps.yml` is deployed to an S3 bucket by CI and made available via the CDN at https://cdn.sso.mozilla.com/apps.yml
 
 ## Fields reference
 
