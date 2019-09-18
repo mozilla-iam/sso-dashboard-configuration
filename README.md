@@ -64,11 +64,11 @@ This is a list of available fields.
 In order to publish a change you must:
 
 1. Clone the repository
-2. Pull request to Master and get it approved.
-3. Pull request to Production
-  * The pull request will kick off an approval.  Once one other repo writer reviews your commit and approves / merges
-    the PR this will kick off the CI pipeline.
+2. Pull request to `master` and get it approved.
+3. Have the PR merged to the `master` branch which will cause CI to deploy to the `sso-dashboard.configuration` S3 bucket used by the dev environment
+4. Test the change in dev
+5. Tag the commit in `master` that should be deployed to production which will cause CI to deploy to the `sso-dashboard.configuration-prod` S3 bucket used by production
 
 # CI Pipeline
 
-Configuration files for the Mozilla SSO-Dashboard.
+This GitHub repo has a webhook configured which triggers the `apps_yml` AWS CodeBuild job in the `mozilla-iam` AWS account in `us-west-2`. This CodeBuild job follows the [`buildspec.yml`](buildspec.yml) which calls [`deploy.sh`](deploy.sh) to deploy the change.
