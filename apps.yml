@@ -1298,7 +1298,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/uMkOuQX8LGTxAyYIiX4eLoc4hl0pWSJt
 - application:
     authorized_groups:
-    - mozilliansorg_mozilla-iam-aws-access
+    - aws_320464205386_admin
     authorized_users: []
     client_id: 2lTZtlpqx4bslng167l1BBqTMusCAJkZ
     display: false
