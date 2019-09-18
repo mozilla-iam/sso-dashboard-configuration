@@ -7,7 +7,7 @@
 # How it works...
 
 `apps.yml` is used both for first stage access control and SSO Dashboard visibility settings.
-See: https://github.com/mozilla-iam/cis/blob/master/docs/AccessFile.md for a complete reference.
+See: https://github.com/mozilla-iam/cis/blob/master/docs/AccessFile.md for a complete reference. `apps.yml` is deployed to an S3 bucket by CI and made available via the CDN at https://cdn.sso.mozilla.com/apps.yml
 
 ## Fields reference
 
@@ -64,11 +64,10 @@ This is a list of available fields.
 In order to publish a change you must:
 
 1. Clone the repository
-2. Pull request to Master and get it approved.
-3. Pull request to Production
-  * The pull request will kick off an approval.  Once one other repo writer reviews your commit and approves / merges
-    the PR this will kick off the CI pipeline.
+2. Pull request to `master` and get it approved.
+3. Have the PR merged to the `master` branch which will cause CI to deploy to the `sso-dashboard.configuration` S3 bucket
+4. Tag the commit in `master` that should be deployed to production which will cause CI to deploy to the `sso-dashboard.configuration-prod` S3 bucket used by production
 
 # CI Pipeline
 
-Configuration files for the Mozilla SSO-Dashboard.
+This GitHub repo has a webhook configured which triggers the `apps_yml` AWS CodeBuild job in the `mozilla-iam` AWS account in `us-west-2`. This CodeBuild job follows the [`buildspec.yml`](buildspec.yml) which calls [`deploy.sh`](deploy.sh) to deploy the change.
