@@ -3320,7 +3320,8 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - iris-testing@mozilla.com
     client_id: 383wZyKOqULjvIJnA4Njz04lztkmxKjf
     display: false
     logo: auth0.png
