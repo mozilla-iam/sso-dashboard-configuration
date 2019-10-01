@@ -1522,8 +1522,8 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: 64Ud5s4qJ3GgFZQ2rUG2D4Fod0lYoUu0
-    display: false
-    logo: auth0.png
+    display: true
+    logo: concur.png
     name: Concur
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/64Ud5s4qJ3GgFZQ2rUG2D4Fod0lYoUu0
