@@ -3816,3 +3816,14 @@ apps:
     name: Developer Portal (prod)
     op: auth0
     url: https://developer-portal.prod.mdn.mozit.cloud/auth/callback
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: KgsLx8URDpoMK779VdNue6Yswx2ZfBKu
+    display: false
+    logo: taskcluster.png
+    name: FirefoxCI TaskCluster
+    op: auth0
+    url: https://firefox-ci-tc.services.mozilla.com/
