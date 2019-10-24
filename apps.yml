@@ -3789,7 +3789,7 @@ apps:
     logo: auth0.png
     name: Developer Portal (local)
     op: auth0
-    url: https://developer-portal-127-0-0-1.nip.io/auth/callback
+    url: http://localhost:8000/auth/callback
 - application:
     authorized_groups:
     - hris_is_staff
