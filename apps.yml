@@ -1857,8 +1857,6 @@ apps:
 - application:
     AAL: MEDIUM
     authorized_groups:
-    - team_moco
-    - team_mofo
     - mozilliansorg_dinopark-test
     authorized_users: []
     client_id: 7oxEfEV2QSSKQ5MhMuKJYHF9hkATHdls
