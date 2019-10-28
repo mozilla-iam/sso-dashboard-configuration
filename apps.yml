@@ -198,20 +198,6 @@ apps:
     - /cloudhealth
 - application:
     authorized_groups:
-    - mozilliansorg_nda
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: BbenZUhB0TUVZnAtYvysfvpZKNHby4JX
-    display: true
-    logo: bitergia.png
-    name: Community Analytics
-    op: auth0
-    url: https://analytics.mozilla.community
-    vanity_url:
-    - /analytics
-- application:
-    authorized_groups:
     - aws_consolidatedbilling_read_only
     authorized_users: []
     client_id: koX1ze40wpoUovVV3RA7K79uTlxpbZFp
