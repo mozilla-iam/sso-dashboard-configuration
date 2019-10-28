@@ -2983,18 +2983,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: fK4mw4Vvpr6prjwfThJs3mDlr8FkhVgw
-    display: false
-    logo: auth0.png
-    name: HackMD
-    op: auth0
-    url: https://mozilla-infosec.hackmd.io/auth/saml/callback
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: rrXGZ6x7J4MIWWlQ6zhTzgED2GxIsHCv
     display: false
     logo: auth0.png
