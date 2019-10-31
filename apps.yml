@@ -930,6 +930,8 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/a145ph7ZPSz97z8QkiuP1iId6MFPXXUH
 - application:
     authorized_groups:
+    - team_moco
+    - team_mofo
     - tableau_users
     - moc_service_accounts
     authorized_users: []
@@ -943,6 +945,8 @@ apps:
     - /tableau
 - application:
     authorized_groups:
+    - team_moco
+    - team_mofo
     - tableau_users
     - moc_service_accounts
     authorized_users: []
