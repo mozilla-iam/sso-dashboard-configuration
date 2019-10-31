@@ -486,18 +486,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/f4SlPDVeVcWBChrAvH8uLuEYyt0aW916
 - application:
     authorized_groups:
-    - irccloud
-    authorized_users: []
-    client_id: D4hqwOVDV2UUJBW2FwD1RxnguPm14Mv3
-    display: true
-    logo: irccloud.png
-    name: IRCCloud
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/D4hqwOVDV2UUJBW2FwD1RxnguPm14Mv3
-    vanity_url:
-    - /irccloud
-- application:
-    authorized_groups:
     - service_lucidchart
     - hris_is_staff
     - team_moco
