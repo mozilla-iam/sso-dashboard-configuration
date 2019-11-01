@@ -73,19 +73,6 @@ apps:
     vanity_url:
     - /airmo
 - application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: nV1rnMMkB4uX9IewNOCitqy8NoyXVHlM
-    display: true
-    logo: legacy-airmo.png
-    name: Air Mozilla (Legacy)
-    op: auth0
-    url: https://air.mozilla.org
-    vanity_url:
-    - /legacy-airmo
-- application:
     authorized_groups:
     - team_moco
     - team_mofo
