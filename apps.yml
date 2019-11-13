@@ -3788,7 +3788,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/cuC3NOGPFm58H172NnOypPf1jGQwMoUf
 - application:
       authorized_groups:
-        - team_moco
+        - hris_costcenter_1420
       authorized_users: []
       display: true
       logo: newrelic.png
