@@ -3454,11 +3454,9 @@ apps:
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/pKXyeYwf5sIG6vImQ0HLvPpfzbZObhX0
 - application:
+    AAL: LOW
     authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    - mozilliansorg_nda
+    - everyone
     authorized_users: []
     client_id: TSYr6tZcybHxtOlYznB1fslCvCInnKw3
     display: false
