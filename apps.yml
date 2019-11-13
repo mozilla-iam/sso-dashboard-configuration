@@ -3788,3 +3788,14 @@ apps:
     name: Cloudsnap
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/cuC3NOGPFm58H172NnOypPf1jGQwMoUf
+- application:
+      authorized_groups:
+        - team_opsec
+      authorized_users: []
+      display: true
+      logo: newrelic.png
+      name: New Relic EIS
+      op: auth0
+      url: https://auth.mozilla.auth0.com/samlp/yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
+      vanity_url:
+          - /new-relic-eis
