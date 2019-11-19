@@ -3808,6 +3808,7 @@ apps:
     - team_mofo
     authorized_users: []
     display: false
+    logo: newrelic.png
     name: New Relic Emerging Tech
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
@@ -3820,6 +3821,7 @@ apps:
     - team_mofo
     authorized_users: []
     display: false
+    logo: newrelic.png
     name: New Relic SubHub
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
@@ -3832,6 +3834,7 @@ apps:
     - team_mofo
     authorized_users: []
     display: false
+    logo: newrelic.png
     name: New Relic Data
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/dCRd3omR9fkejcm31qBw138SRJqg4M5i
@@ -3844,6 +3847,7 @@ apps:
     - team_mofo
     authorized_users: []
     display: false
+    logo: newrelic.png
     name: New Relic Voice
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
