@@ -3807,6 +3807,7 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
     display: false
     logo: newrelic.png
     name: New Relic Emerging Tech
@@ -3820,6 +3821,7 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
     display: false
     logo: newrelic.png
     name: New Relic SubHub
@@ -3833,6 +3835,7 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: dCRd3omR9fkejcm31qBw138SRJqg4M5i
     display: false
     logo: newrelic.png
     name: New Relic Data
@@ -3846,6 +3849,7 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
     display: false
     logo: newrelic.png
     name: New Relic Voice
