@@ -3815,3 +3815,17 @@ apps:
     name: Braintree
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/x7TF6ZtJev4ktoHR4ObWmA9KeqGni6rq
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: 6RMuGl43VwCGOxvFXoDLDXE3U3yhEtT8
+    display: true
+    logo: securityawarenesstraining.png
+    name: Security Awareness Training
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/6RMuGl43VwCGOxvFXoDLDXE3U3yhEtT8
+    vanity_url:
+    - /securitytraining
