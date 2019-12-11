@@ -3805,6 +3805,62 @@ apps:
     - /new-relic-eis
 - application:
     authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
+    display: false
+    logo: newrelic.png
+    name: New Relic Emerging Tech
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
+    vanity_url:
+    - /new-relic-emerging-tech
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
+    display: false
+    logo: newrelic.png
+    name: New Relic SubHub
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
+    vanity_url:
+    - /new-relic-subhub
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: dCRd3omR9fkejcm31qBw138SRJqg4M5i
+    display: false
+    logo: newrelic.png
+    name: New Relic Data
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/dCRd3omR9fkejcm31qBw138SRJqg4M5i
+    vanity_url:
+    - /new-relic-data
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
+    display: false
+    logo: newrelic.png
+    name: New Relic Voice
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
+    vanity_url:
+    - /new-relic-voice
+- application:
+    authorized_groups:
     - braintree_admin_sso
     - braintree_analyst
     - braintree_donor_care
