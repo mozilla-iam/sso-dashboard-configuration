@@ -3878,6 +3878,7 @@ apps:
     - team_moco
     - team_mofo
     - team_pocket
+    - team_mozillaonline
     authorized_users: []
     client_id: 6RMuGl43VwCGOxvFXoDLDXE3U3yhEtT8
     display: true
