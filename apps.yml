@@ -3887,3 +3887,14 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/6RMuGl43VwCGOxvFXoDLDXE3U3yhEtT8
     vanity_url:
     - /securitytraining
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: p2lSKumiDFFnTfopf6zkiF3WB0W359ZK
+    display: true
+    logo: auth0
+    name: Consider.it
+    op: auth0
+    url: https://mozilla.consider.it/
