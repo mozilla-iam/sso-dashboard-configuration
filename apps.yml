@@ -3897,4 +3897,4 @@ apps:
     logo: auth0
     name: Consider.it
     op: auth0
-    url: https://mozilla.consider.it/
+    url: https://mozilla-soti.consider.it
