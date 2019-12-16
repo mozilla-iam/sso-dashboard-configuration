@@ -3888,3 +3888,35 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/6RMuGl43VwCGOxvFXoDLDXE3U3yhEtT8
     vanity_url:
     - /securitytraining
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: p2lSKumiDFFnTfopf6zkiF3WB0W359ZK
+    display: false
+    logo: auth0
+    name: Consider.it
+    op: auth0
+    url: https://mozilla-soti.consider.it
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: pouConqZTpmZNBuKyzeWEyauZHlnAirS
+    display: false
+    logo: auth0
+    name: community.mozilla.org
+    op: auth0
+    url: https://community.mozilla.org
+- application:
+    authorized_groups:
+    - service_mozilla_donate
+    authorized_users: []
+    client_id: XdAr3brwNP9VXHcqaqC9YSepMLMMCIjS
+    display: false
+    logo: auth0
+    name: Mozilla Donate
+    op: auth0
+    url: https://give.mozilla.org
