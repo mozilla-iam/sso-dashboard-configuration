@@ -1843,6 +1843,7 @@ apps:
     - hris_is_staff
     - mozilliansorg_pmo-community-access
     - mozilliansorg_nda
+    - all_ldap_users
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: true
@@ -1859,6 +1860,7 @@ apps:
     - hris_is_staff
     - mozilliansorg_pmo-community-access
     - mozilliansorg_nda
+    - all_ldap_users
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: true
