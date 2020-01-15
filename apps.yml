@@ -1359,9 +1359,8 @@ apps:
     - service_meao_gcp
     authorized_users:
     - gdestuynder@mozilla.com
-    - akrug@mozilla.com
-    - jmize@mozilla.com
     - dparfitt@mozilla.com
+    - aalexander@mozilla.com
     client_id: uYFDijsgXulJ040Os6VJLRxf0GG30OmC
     display: true
     logo: gmail.png
