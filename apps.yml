@@ -1737,7 +1737,7 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: RaxnXTpQY5WyVVw6I2mSLblbljiGH8B2
+    client_id: cav8o4za5QGMXilUEjglH9cgJpQl33Ck
     display: false
     logo: auth0.png
     name: moderator.mozilla.org
