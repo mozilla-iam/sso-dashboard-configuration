@@ -3704,8 +3704,7 @@ apps:
 - application:
     AAL: LOW
     authorized_groups:
-    - team_moco
-    - team_mofo
+    - everyone
     authorized_users: []
     client_id: LGK34V7wTjZ8tkMSCQhxI0ynfiMcAsvg
     display: false
