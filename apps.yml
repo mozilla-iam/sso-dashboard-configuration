@@ -274,7 +274,7 @@ apps:
     logo: egencia.png
     name: Egencia
     op: auth0
-    url: https://www.egencia.com/pub/agent.dll?qscr=vain&vain=mozilla
+    url: https://mozilla.egencia.com
     vanity_url:
     - /egencia
 - application:
@@ -285,7 +285,7 @@ apps:
     logo: egencia.png
     name: Egencia (UK)
     op: auth0
-    url: https://www.egencia.com/auth/v1/login?call-back-url=aHR0cDovL21vemlsbGEuZWdlbmNpYS5jby51ay9hcHA%2Fc2VydmljZT1leHRlcm5hbCZwYWdlPUxvZ2luJm1vZGU9Zm9ybSZtYXJrZXQ9R0I%3D
+    url: https://mozilla.egencia.co.uk
     vanity_url:
     - /egenciauk
 - application:
@@ -307,7 +307,7 @@ apps:
     logo: egencia.png
     name: Egencia (APAC)
     op: auth0
-    url: https://www.egencia.com/auth/v1/login?call-back-url=aHR0cDovL21vemlsbGEuZWdlbmNpYS5jb20uc2cvYXBwP3NlcnZpY2U9ZXh0ZXJuYWwmcGFnZT1Mb2dpbiZtb2RlPWZvcm0mbWFya2V0PVNH
+    url: https://mozilla.egencia.com.sg
     vanity_url:
     - /egenciaapac
 - application:
@@ -318,7 +318,7 @@ apps:
     logo: egencia.png
     name: Egencia (DE)
     op: auth0
-    url: https://www.egencia.com/auth/v1/login?call-back-url=aHR0cDovL21vemlsbGEuZWdlbmNpYS5kZS9hcHA%2Fc2VydmljZT1leHRlcm5hbCZwYWdlPUxvZ2luJm1vZGU9Zm9ybSZtYXJrZXQ9REU%3D
+    url: https://mozilla.egencia.de
     vanity_url:
     - /egenciade
 - application:
@@ -329,7 +329,7 @@ apps:
     logo: egencia.png
     name: Egencia (FR)
     op: auth0
-    url: https://www.egencia.com/auth/v1/login?call-back-url=aHR0cDovL21vemlsbGEuZWdlbmNpYS5mci9hcHA%2Fc2VydmljZT1leHRlcm5hbCZwYWdlPUxvZ2luJm1vZGU9Zm9ybSZtYXJrZXQ9RlI%3D
+    url: https://mozilla.egencia.fr
     vanity_url:
     - /egenciafr
 - application:
@@ -1737,7 +1737,7 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: RaxnXTpQY5WyVVw6I2mSLblbljiGH8B2
+    client_id: cav8o4za5QGMXilUEjglH9cgJpQl33Ck
     display: false
     logo: auth0.png
     name: moderator.mozilla.org
