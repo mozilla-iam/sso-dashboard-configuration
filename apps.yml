@@ -1308,8 +1308,8 @@ apps:
     - service_airtable
     authorized_users: []
     client_id: mKlNDH9c7JKO1Rh3HtGXdTtLntTlHefx
-    display: false
-    logo: auth0.png
+    display: true
+    logo: airtable.png
     name: AirTable
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/mKlNDH9c7JKO1Rh3HtGXdTtLntTlHefx
