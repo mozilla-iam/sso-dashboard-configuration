@@ -39,8 +39,12 @@ This is a list of available fields.
       vanity_url: ['/an-easy-to-remember-url']
 
       ### Security settings
-      # The list of users and groups allowed to access this RP. Both empty means allow everyone, one empty means the
-      # other field is used
+      # The list of users and groups allowed to access this RP. 
+      # If both authorize_users and authorized_groups are empty, everyone is allowed
+      # If one is empty and the other has content, only the members of the non empty one are allowed
+      # If both have content, the union of everyone in both are allowed
+      # https://github.com/mozilla-iam/auth0-deploy/blob/4ac5cb4959fc93a668fcc9909ce33eac2eb8416c/rules/AccessRules.js#L173-L181
+      # https://github.com/mozilla-iam/sso-dashboard/blob/a0d66f10b28654b40722f4a9e773069a8f84c629/dashboard/models/user.py#L138-L152
       # This is used by the SSO Dashboard for display purposes and for first stage access control by the Access Provider
       authorized_users: []
       authorized_groups: []
