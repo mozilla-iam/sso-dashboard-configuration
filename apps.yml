@@ -2127,6 +2127,7 @@ apps:
     - team_moco
     - team_mofo
     - team_pocket
+    - team_mozillaonline
     authorized_users: []
     client_id: 2dbkrvUJa5gnxGSnMLZ1jflbtrahhrEi
     display: false
