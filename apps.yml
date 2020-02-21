@@ -503,6 +503,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/LVjFyOpHUdAJTLkTmDnUADnQmUKOWXO2
 - application:
     authorized_groups:
+    - team_mozillaonline
     - team_moco
     - team_mofo
     - service_jira
