@@ -1190,6 +1190,8 @@ apps:
     name: PTO
     op: auth0
     url: https://pto.mozilla.org/
+    vanity_url:
+    - /pto
 - application:
     authorized_groups:
     - hris_is_staff
