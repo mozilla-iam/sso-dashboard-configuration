@@ -3960,3 +3960,48 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/3444IQx7ZwykpuznWYd6VC6dEyvLtM9v
     vanity_url:
     - /docusign
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: 7i1G4gM7zGuIE4h9T6s1Mho1e9P0cxk1
+    display: false
+    logo: auth0.png
+    name: Convert.com
+    op: auth0
+    url: http://app.convert.com/auth/signin/34nrb9vvf8o51islb4s011ap6l/Mozilla
+    vanity_url:
+    - /convert
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
+    display: false
+    logo: auth0.png
+    name: SpaceIQ
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
+    vanity_url:
+    - /spaceiq
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: 7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
+    display: false
+    logo: auth0.png
+    name: IdeaScale
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
+    vanity_url:
+    - /ideascale
