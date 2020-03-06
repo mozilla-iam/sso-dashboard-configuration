@@ -4007,13 +4007,16 @@ apps:
     - /ideascale
 - application:
     authorized_groups:
-    - ldapAdmins
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
     authorized_users: []
-    client_id: 
+    client_id: wgh8S9GaE7sJ4i0QrAzeMxFXgWZYtB0l
     display: false
     logo: auth0.png
-    name: IdeaScale
+    name: sage Intacct
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
+    url: https://auth.mozilla.auth0.com/samlp/wgh8S9GaE7sJ4i0QrAzeMxFXgWZYtB0l
     vanity_url:
-    - /ideascale
+    - /sageintacct
