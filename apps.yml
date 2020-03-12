@@ -1185,11 +1185,13 @@ apps:
     - team_moco
     authorized_users: []
     client_id: fNzzMG3XfkxQJcnUpgrGyH2deII3nFFM
-    display: false
-    logo: auth0.png
+    display: true
+    logo: pto.png
     name: PTO
     op: auth0
     url: https://pto.mozilla.org/
+    vanity_url:
+    - /pto
 - application:
     authorized_groups:
     - hris_is_staff
