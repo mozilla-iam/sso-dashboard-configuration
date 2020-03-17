@@ -1185,11 +1185,13 @@ apps:
     - team_moco
     authorized_users: []
     client_id: fNzzMG3XfkxQJcnUpgrGyH2deII3nFFM
-    display: false
-    logo: auth0.png
+    display: true
+    logo: pto.png
     name: PTO
     op: auth0
     url: https://pto.mozilla.org/
+    vanity_url:
+    - /pto
 - application:
     authorized_groups:
     - hris_is_staff
@@ -3998,8 +4000,8 @@ apps:
     - team_pocket
     authorized_users: []
     client_id: 7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
-    display: false
-    logo: auth0.png
+    display: true
+    logo: ideascale.png
     name: IdeaScale
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
@@ -4020,3 +4022,29 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/wgh8S9GaE7sJ4i0QrAzeMxFXgWZYtB0l
     vanity_url:
     - /sageintacct
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: cEWzoPzUcDwk3JhpD9ENtPKMmE7T5QWv
+    display: false
+    logo: auth0.png
+    name: GLAM (Stage)
+    op: auth0
+    url: https://glam-stage.bespoke.nonprod.dataops.mozgcp.net
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: kfax6JBFqyXQcfEEQmEa56np04rm3uYX
+    display: false
+    logo: auth0.png
+    name: GLAM
+    op: auth0
+    url: https://glam.telemetry.mozilla.org
