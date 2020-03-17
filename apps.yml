@@ -4000,8 +4000,8 @@ apps:
     - team_pocket
     authorized_users: []
     client_id: 7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
-    display: false
-    logo: auth0.png
+    display: true
+    logo: ideascale.png
     name: IdeaScale
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
