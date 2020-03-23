@@ -3994,6 +3994,15 @@ apps:
     - /spaceiq
 - application:
     authorized_groups:
+    - service_spaceiq_preview
+    authorized_users: []
+    display: true
+    logo: spaceiq.png
+    name: SpaceIQ (Preview)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
+- application:
+    authorized_groups:
     - hris_is_staff
     - team_moco
     - team_mofo
@@ -4048,3 +4057,18 @@ apps:
     name: GLAM
     op: auth0
     url: https://glam.telemetry.mozilla.org
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: NhzqLGjjqXIp3kGoonkTLSO7awPBhWsK
+    display: false
+    logo: auth0.png
+    name: Udemy
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/NhzqLGjjqXIp3kGoonkTLSO7awPBhWsK
+    vanity_url:
+    - /udemy
