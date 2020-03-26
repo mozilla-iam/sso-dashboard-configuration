@@ -1406,6 +1406,7 @@ apps:
     - team_mofo
     - team_mozillaonline
     - zoom_non_staff
+    - mozilliansorg_community-zoom
     authorized_users: []
     client_id: TnqNECyCfoQYd1X7c4xwMF4PMsEfyWPj
     display: true
