@@ -4004,10 +4004,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    - team_pocket
+    - everyone
     authorized_users: []
     client_id: 7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
     display: true
@@ -4094,7 +4091,7 @@ apps:
     - team_pocket
     authorized_users: []
     client_id: QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
-    display: true
+    display: false
     logo: getabstract.png
     name: getAbstract
     op: auth0
