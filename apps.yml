@@ -4004,10 +4004,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    - team_pocket
+    - everyone
     authorized_users: []
     client_id: 7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
     display: true
@@ -4066,10 +4063,38 @@ apps:
     - team_pocket
     authorized_users: []
     client_id: NhzqLGjjqXIp3kGoonkTLSO7awPBhWsK
-    display: false
-    logo: auth0.png
+    display: true
+    logo: udemy.png
     name: Udemy
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/NhzqLGjjqXIp3kGoonkTLSO7awPBhWsK
     vanity_url:
     - /udemy
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: w8hBBYB30b12DqElacIQkFM6V2deEpwz
+    display: false
+    logo: auth0.png
+    name: getAbstract - Test
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/w8hBBYB30b12DqElacIQkFM6V2deEpwz
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
+    display: false
+    logo: getabstract.png
+    name: getAbstract
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
+    vanity_url:
+    - /getAbstract
