@@ -3,6 +3,7 @@ apps:
     authorized_groups:
     - team_sre
     authorized_users: []
+    client_id: hj3jYIhcrgvPWTpnFoHWLPx57t6KKqhA
     display: true
     logo: netlify.png
     name: Netlify
@@ -14,6 +15,7 @@ apps:
     authorized_groups:
     - team_sre
     authorized_users: []
+    client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
     display: true
     logo: newrelic.png
     name: New Relic
@@ -270,6 +272,7 @@ apps:
     - egencia_us
     - egencia_ca
     authorized_users: []
+    client_id: 5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY
     display: true
     logo: egencia.png
     name: Egencia
@@ -281,6 +284,7 @@ apps:
     authorized_groups:
     - egencia_uk
     authorized_users: []
+    client_id: 5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY
     display: true
     logo: egencia.png
     name: Egencia (UK)
@@ -292,6 +296,7 @@ apps:
     authorized_groups:
     - egencia_ca
     authorized_users: []
+    client_id: 5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY
     display: false
     logo: egencia.png
     name: Egencia (CA)
@@ -303,6 +308,7 @@ apps:
     authorized_groups:
     - egencia_apac
     authorized_users: []
+    client_id: 5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY
     display: true
     logo: egencia.png
     name: Egencia (APAC)
@@ -314,6 +320,7 @@ apps:
     authorized_groups:
     - egencia_de
     authorized_users: []
+    client_id: 5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY
     display: true
     logo: egencia.png
     name: Egencia (DE)
@@ -325,6 +332,7 @@ apps:
     authorized_groups:
     - egencia_fr
     authorized_users: []
+    client_id: 5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY
     display: true
     logo: egencia.png
     name: Egencia (FR)
@@ -1349,6 +1357,7 @@ apps:
     - team_mozillaonline
     authorized_users:
     - billing@mozilla.com
+    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
     display: true
     logo: expensify.png
     name: Expensify
@@ -3799,6 +3808,7 @@ apps:
     authorized_groups:
     - hris_costcenter_1420
     authorized_users: []
+    client_id: yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
     display: true
     logo: newrelic.png
     name: New Relic EIS
@@ -3997,6 +4007,7 @@ apps:
     authorized_groups:
     - service_spaceiq_preview
     authorized_users: []
+    client_id: b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
     display: true
     logo: spaceiq.png
     name: SpaceIQ (Preview)
