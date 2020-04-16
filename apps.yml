@@ -4091,7 +4091,7 @@ apps:
     - team_pocket
     authorized_users: []
     client_id: QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
-    display: false
+    display: true
     logo: getabstract.png
     name: getAbstract
     op: auth0
