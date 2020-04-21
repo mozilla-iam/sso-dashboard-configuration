@@ -4098,3 +4098,14 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
     vanity_url:
     - /getAbstract
+- application:
+    authorized_groups:
+    - service_1password
+    authorized_users: []
+    display: true
+    logo: 1password.png
+    name: 1password
+    op: auth0
+    url: https://mozilla.1password.com/
+    vanity_url:
+    - /1password
