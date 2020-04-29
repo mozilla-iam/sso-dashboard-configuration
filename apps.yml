@@ -875,6 +875,7 @@ apps:
     - netops
     - splunk_admin
     - hris_dept_it
+    - team_infra
     authorized_users: []
     client_id: EUmKs3owmNdeDWxZ4CJIeSGM5ez3Suav
     display: true
