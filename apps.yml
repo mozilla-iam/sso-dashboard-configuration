@@ -4005,7 +4005,11 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
 - application:
     authorized_groups:
-    - everyone
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - team_pocket
+    - team_mozillaonline
     authorized_users: []
     client_id: 7HxWt6W66K2QeytVVCeOoWpJxkVExnzz
     display: true
