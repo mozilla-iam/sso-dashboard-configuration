@@ -1562,17 +1562,6 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: 8fsFs05sqRr0Gt3RGm4Jh0AYNyByjXKt
-    display: false
-    logo: auth0.png
-    name: mon.admin.us-west-2.nubis-gozer.nubis.allizom.org
-    op: auth0
-    url: https://mon.admin.us-west-2.nubis-gozer.nubis.allizom.org/redirect
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
     client_id: 9D6nm17QufE7lvipnl8l7sVHWCaElnrL
     display: false
     logo: auth0.png
@@ -1612,28 +1601,6 @@ apps:
     name: opensource.mozilla.community - localhost
     op: auth0
     url: http://localhost:8080/oidc/callback
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: CeA3IcqB1hc2Sbsxmtm909rbeInXv69s
-    display: false
-    logo: auth0.png
-    name: https://sso.core.us-west-2.nubis-jd.nubis.allizom.org/sso
-    op: auth0
-    url: https://sso.admin.us-west-2.nubis-jd.nubis.allizom.org/sso
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: CtXC7ukVJO7T3kfAwdvHLjxiV0eLFTaZ
-    display: false
-    logo: auth0.png
-    name: nubis-training.nubis.allizom.org
-    op: auth0
-    url: https://sso.admin.us-west-2.nubis-training.nubis.allizom.org/sso
 - application:
     AAL: LOW
     authorized_groups:
@@ -1683,17 +1650,6 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: I2T4dYNc0dj2u1C8qbddYipgnpVtEd1K
-    display: false
-    logo: auth0.png
-    name: mon.stage.us-west-2.nubis-gozer.nubis.allizom.org
-    op: auth0
-    url: https://sso.stage.us-west-2.nubis-gozer.nubis.allizom.org/sso
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
     client_id: M9OoQEQVR0M1qtyGvPql3ZDi4T7XMQEA
     display: false
     logo: auth0.png
@@ -1722,17 +1678,6 @@ apps:
     name: https://respond.mozilla.community
     op: auth0
     url: https://respond.mozilla.community/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: Qp7DIxm4B16jnTcXsR6fai1X0a8GWVBZ
-    display: false
-    logo: auth0.png
-    name: mon.prod.us-west-2.nubis-gozer.nubis.allizom.org
-    op: auth0
-    url: https://mon.prod.us-west-2.nubis-gozer.nubis.allizom.org/redirect
 - application:
     AAL: LOW
     authorized_groups:
@@ -1904,17 +1849,6 @@ apps:
     name: www.standu.ps
     op: auth0
     url: https://www.standu.ps/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: iQk5ysxf2Cx5o85fIjEJi0ARCMFvSdTF
-    display: false
-    logo: auth0.png
-    name: sso.core.us-west-2.tpe-marketing.nubis.allizom.org
-    op: auth0
-    url: https://sso.core.us-west-2.tpe-marketing.nubis.allizom.org/sso
 - application:
     AAL: LOW
     authorized_groups:
@@ -2116,7 +2050,7 @@ apps:
     authorized_groups:
     - hris_costcenter_1420
     - vpn_opsec_mozdef
-    - vpn_opsec_mozdefqa    
+    - vpn_opsec_mozdefqa
     - team_secops
     authorized_users: []
     client_id: lGsSlYNdiV6f5tF05pWN3EbQoDPHx44k
@@ -2790,18 +2724,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: VFyJuuandL3Z1TyMB9E2z4MGfSPD6Yhn
-    display: false
-    logo: auth0.png
-    name: sso.core.us-west-2.mozilla-mdn.nubis.allizom.org
-    op: auth0
-    url: https://sso.core.us-west-2.mozilla-mdn.nubis.allizom.org/sso
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: btcSD131nsA7Mv1g01U535XPRG3qdNFp
     display: false
     logo: auth0.png
@@ -2876,36 +2798,12 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: 5fLvz26mK20Zp96Bds9MHq1O2uvUd18z
-    display: false
-    logo: auth0.png
-    name: sso.core.us-west-2.nubis-limed.nubis.allizom.org
-    op: auth0
-    url: https://sso.admin.us-west-2.nubis-limed.nubis.allizom.org/sso
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: AL3fXafFNeSp83gZmuR7ZXm5DI70TZyG
     display: false
     logo: auth0.png
     name: phonebook-dev.allizom.org
     op: auth0
     url: https://phonebook-dev.allizom.org/mellon/postResponse
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: RUPtScmxyp4lUOVQrx4jfogKnOHkoqlZ
-    display: false
-    logo: auth0.png
-    name: sso.core.us-west-2.mozilla-netops.nubis.allizom.org
-    op: auth0
-    url: https://sso.core.us-west-2.mozilla-netops.nubis.allizom.org/sso
 - application:
     authorized_groups:
     - service_snippets
@@ -2928,18 +2826,6 @@ apps:
     name: https://nhobot.ngrok.io
     op: auth0
     url: https://nhobot.ngrok.io/callback/auth
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: m5bgG4Pw1tUykSdQrTDyhafXkhdqZbaz
-    display: false
-    logo: auth0.png
-    name: iplimit.irc.allizom.org
-    op: auth0
-    url: https://iplimit.irc.allizom.org/mellon/postResponse
 - application:
     authorized_groups:
     - hris_is_staff
@@ -3241,18 +3127,6 @@ apps:
     name: tempmozilla.service-now.com
     op: auth0
     url: https://tempmozilla.service-now.com/navpage.do
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: L30gQvva5TqiV2JRQ132gzgenoOiWxGI
-    display: false
-    logo: auth0.png
-    name: akamai-aws.nubis.allizom.org
-    op: auth0
-    url: https://sso.admin.us-west-2.akamai-aws.nubis.allizom.org/sso
 - application:
     authorized_groups:
     - hris_is_staff
