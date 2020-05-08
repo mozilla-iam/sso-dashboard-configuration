@@ -4000,3 +4000,27 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/W9vcVP1mhAcg7EITFGSfWAsn6UwY88lR
     vanity_url:
     - /250ok
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: HNCCtcr6z8ZpFX3rT0K3SyDcNonByaUG
+    display: false
+    logo: auth0.png
+    name: fxa-admin-panel.stage.mozaws.net
+    op: auth0
+    url: https://fxa-admin-panel.stage.mozaws.net/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: uSpi6gd7ZqdjA3PwtJ4CavG29DQJla4Y
+    display: false
+    logo: auth0.png
+    name: stats.voice.mozit.cloud
+    op: auth0
+    url: https://stats.voice.mozit.cloud/
