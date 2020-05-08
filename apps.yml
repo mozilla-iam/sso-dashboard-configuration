@@ -1562,17 +1562,6 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: 9D6nm17QufE7lvipnl8l7sVHWCaElnrL
-    display: false
-    logo: auth0.png
-    name: standupdev.herokuapp.com
-    op: auth0
-    url: https://standupdev.herokuapp.com/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
     client_id: 9LGw821wb6hHd30HZWMy3eBE3JMtuDLs
     display: false
     logo: auth0.png
@@ -1689,17 +1678,6 @@ apps:
     name: moderator.mozilla.org
     op: auth0
     url: https://moderator.mozilla.org/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: SSG7PVY70x785oW1noHJZi1Ck2wzdlyM
-    display: false
-    logo: auth0.png
-    name: taskcluster-tools.ngrok.io/oidc-login
-    op: auth0
-    url: https://taskcluster-tools.ngrok.io/oidc-login
 - application:
     AAL: LOW
     authorized_groups:
@@ -1838,28 +1816,6 @@ apps:
     name: discourse-staging.production.paas.mozilla.community
     op: auth0
     url: https://discourse-staging.production.paas.mozilla.community/auth/auth0/callback
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: c4j1TRdnJPdkFGJoEsU5LtL3ltPC5QyU
-    display: false
-    logo: auth0.png
-    name: www.standu.ps
-    op: auth0
-    url: https://www.standu.ps/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: jUNRL0G9LVGyxROwV42QJSyf7jh67960
-    display: false
-    logo: auth0.png
-    name: standupstage.herokuapp.com
-    op: auth0
-    url: https://standupstage.herokuapp.com/oidc/callback/
 - application:
     AAL: LOW
     authorized_groups:
@@ -2310,18 +2266,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: Hi9rqHLPlnpRfMkc7dtkToFc3DHtcf4Z
-    display: false
-    logo: auth0.png
-    name: rundeck1.private.scl3.mozilla.com
-    op: auth0
-    url: https://rundeck1.private.scl3.mozilla.com/callback
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: 3zF88HNSxJLrQqvzz3h1IM3DWTEZ09o4
     display: false
     logo: auth0.png
@@ -2340,18 +2284,6 @@ apps:
     name: wde.allizom.org
     op: auth0
     url: https://wde-stage.public.mdc1.mozilla.com/redirect_uri
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: 7ZuP8yUgV0pQ4siB3paWoLfdq5wRDxCi
-    display: false
-    logo: auth0.png
-    name: firefox-test-tube.herokuapp.com
-    op: auth0
-    url: https://firefox-test-tube.herokuapp.com/accounts/callback/
 - application:
     authorized_groups:
     - hris_is_staff
@@ -2844,18 +2776,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: rrXGZ6x7J4MIWWlQ6zhTzgED2GxIsHCv
-    display: false
-    logo: auth0.png
-    name: pentest-master.private.mdc1.mozilla.com
-    op: auth0
-    url: https://pentest-master.private.mdc1.mozilla.com/redirect_uri
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: s7ICwWzGSP8WRnAkAMpIjDyayaEIOneU
     display: false
     logo: auth0.png
@@ -2899,18 +2819,6 @@ apps:
     name: firefoxoperations.statuspage.io
     op: auth0
     url: https://manage.statuspage.io/sso/saml/consume
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: amWBDrIIzlk2pyjgCyLruw0n9wplzUlm
-    display: false
-    logo: auth0.png
-    name: bacula1.private.scl3.mozilla.com
-    op: auth0
-    url: https://bacula1.private.scl3.mozilla.com/callback
 - application:
     authorized_groups:
     - hris_is_staff
@@ -3049,18 +2957,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: e1g4q4s7Q2Jos5XOt6pyHVA9JH4G3xjJ
-    display: false
-    logo: auth0.png
-    name: Nagios
-    op: auth0
-    url: https://nagios3.private.scl3.mozilla.com/scl3
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: zw5M6MyDDixeSXQR2XiDZz46hSOKIHhr
     display: false
     logo: auth0.png
@@ -3144,19 +3040,6 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    - mozilliansorg_nda
-    authorized_users: []
-    client_id: 4dkKrPLpWZ177LRaFNznEJdRQn0nrWME
-    display: false
-    logo: auth0.png
-    name: firefox-test-tube-staging.herokuapp.com
-    op: auth0
-    url: https://firefox-test-tube-staging.herokuapp.com/accounts/callback/
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
     authorized_users:
     - iris-testing@mozilla.com
     client_id: 383wZyKOqULjvIJnA4Njz04lztkmxKjf
@@ -3214,19 +3097,6 @@ apps:
     name: Firefox Test Tube localhost
     op: auth0
     url: http://localhost:8000/accounts/callback/
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    - mozilliansorg_nda
-    authorized_users: []
-    client_id: a9d4XdRa07eZxC6GoPUI6WDFjvfyE9sY
-    display: false
-    logo: auth0.png
-    name: New Hire Onboarding (NHO) Slack Bot
-    op: auth0
-    url: https://nhobot.ngrok.io/callback/auth
 - application:
     authorized_groups:
     - hris_is_staff
