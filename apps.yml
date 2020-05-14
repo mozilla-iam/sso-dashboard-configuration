@@ -4018,6 +4018,18 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: GYCcYQfcwVU9lwKF8WT4AvYufBvtp7yx
+    display: false
+    logo: auth0.png
+    name: fxa-admin-panel.prod.mozaws.net
+    op: auth0
+    url: https://fxa-admin-panel.prod.mozaws.net/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
     client_id: uSpi6gd7ZqdjA3PwtJ4CavG29DQJla4Y
     display: false
     logo: auth0.png
