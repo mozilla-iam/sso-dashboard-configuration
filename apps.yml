@@ -4045,8 +4045,8 @@ apps:
     client_id: cEfnJekrSStxxxBascTjNEDAZVUPAIU2
     display: false
     logo: auth0.png
-    name: Stripe
+    name: Stripe (subplat)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/cEfnJekrSStxxxBascTjNEDAZVUPAIU2
     vanity_url:
-    - /stripe
+    - /stripe-subplat
