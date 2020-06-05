@@ -544,25 +544,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/IuWFSguzDAqbTT4qdtmABNdCVayuCWy5
 - application:
     authorized_groups:
-    - mozilliansorg_nda
-    - team_moco
-    - team_mofo
-    - team_mozillajapan
-    - team_mozillaonline
-    - moc_service_accounts
-    authorized_users:
-    - moc+servicenow@mozilla.com
-    - moc-sso-monitoring@mozilla.com
-    client_id: wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh
-    display: true
-    logo: mdc.png
-    name: Data Collective
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh?RelayState=https://www.mozdatacollective.com
-    vanity_url:
-    - /mdc
-- application:
-    authorized_groups:
     - everyone
     authorized_users: []
     display: true
