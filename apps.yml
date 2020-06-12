@@ -4043,3 +4043,13 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/axRGaXPRd5pe60fnEllluSN76MefFX1E
     vanity_url:
     - /cultureamp
+- application:
+    authorized_groups:
+    - team_opsec
+    authorized_users: []
+    client_id: M6lxk8phwDaqH4gECMWDLxKxxZwJcDI7
+    display: true
+    logo: auth0.png
+    name: session-invalidation.security.allizom.org
+    op: auth0-dev
+    url: https://session-invalidation.security.allizom.org/callback
