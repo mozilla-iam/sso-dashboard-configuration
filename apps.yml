@@ -1750,15 +1750,9 @@ apps:
     op: auth0
     url: https://dinopark.k8s.test.sso.allizom.org/redirect_uri
 - application:
-    AAL: MEDIUM
+    AAL: LOW
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozillaonline
-    - hris_is_staff
-    - mozilliansorg_pmo-community-access
-    - mozilliansorg_nda
-    - all_ldap_users
+    - everyone
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: true
@@ -1767,15 +1761,9 @@ apps:
     op: auth0
     url: https://people.mozilla.org
 - application:
-    AAL: MEDIUM
+    AAL: LOW
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozillaonline
-    - hris_is_staff
-    - mozilliansorg_pmo-community-access
-    - mozilliansorg_nda
-    - all_ldap_users
+    - everyone
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: true
