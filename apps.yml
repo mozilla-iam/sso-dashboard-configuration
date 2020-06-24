@@ -4034,7 +4034,8 @@ apps:
 - application:
     authorized_groups:
     - team_opsec
-    authorized_users: []
+    authorized_users:
+    - jclaudius@mozilla.com
     client_id: M6lxk8phwDaqH4gECMWDLxKxxZwJcDI7
     display: true
     logo: auth0.png
