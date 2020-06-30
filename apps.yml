@@ -4042,3 +4042,13 @@ apps:
     name: session-invalidation.security.allizom.org
     op: auth0-dev
     url: https://session-invalidation.security.allizom.org/callback
+- application:
+    authorized_groups:
+    - team_opsec
+    authorized_users: []
+    client_id: wX5uKEP7oV4wgxf0B3USOrDQ5kgHFda0
+    display: true
+    logo: auth0.png
+    name: session-invalidation.security.mozilla.org
+    op: auth0
+    url: https://session-invalidation.security.mozilla.org/callback
