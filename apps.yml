@@ -1252,7 +1252,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/uMkOuQX8LGTxAyYIiX4eLoc4hl0pWSJt
 - application:
     authorized_groups:
-    - mozilliansorg_mozilla-iam-aws-access
+    - aws_320464205386_admin
     authorized_users: ['hcondei@mozilla.com']
     client_id: nlE73wPPuOaN0wAYKWY6QD3VcjUStehZ
     display: false
@@ -3332,7 +3332,7 @@ apps:
     url: https://virgo-b.fuzzing.mozilla.org/
 - application:
     authorized_groups:
-    - mozilliansorg_mozilla-iam-aws-access
+    - aws_320464205386_admin
     authorized_users: []
     client_id: LuNrrJpcnK2Nlh75wRJ2ab6gxEJYFMQG
     display: false
