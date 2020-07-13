@@ -534,25 +534,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/IuWFSguzDAqbTT4qdtmABNdCVayuCWy5
 - application:
     authorized_groups:
-    - mozilliansorg_nda
-    - team_moco
-    - team_mofo
-    - team_mozillajapan
-    - team_mozillaonline
-    - moc_service_accounts
-    authorized_users:
-    - moc+servicenow@mozilla.com
-    - moc-sso-monitoring@mozilla.com
-    client_id: wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh
-    display: true
-    logo: mdc.png
-    name: Data Collective
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/wAXfZ9Z2JS3gRMbY6G3uxzUZTNO1YPwh?RelayState=https://www.mozdatacollective.com
-    vanity_url:
-    - /mdc
-- application:
-    authorized_groups:
     - everyone
     authorized_users: []
     display: true
@@ -1252,18 +1233,6 @@ apps:
 - application:
     authorized_groups:
     - aws_320464205386_admin
-    authorized_users: []
-    client_id: 2lTZtlpqx4bslng167l1BBqTMusCAJkZ
-    display: false
-    logo: auth0.png
-    name: IAM AWS Account
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/2lTZtlpqx4bslng167l1BBqTMusCAJkZ
-    vanity_url:
-    - /iam-infra
-- application:
-    authorized_groups:
-    - mozilliansorg_mozilla-iam-aws-access
     authorized_users: ['hcondei@mozilla.com']
     client_id: nlE73wPPuOaN0wAYKWY6QD3VcjUStehZ
     display: false
@@ -1761,15 +1730,9 @@ apps:
     op: auth0
     url: https://dinopark.k8s.test.sso.allizom.org/redirect_uri
 - application:
-    AAL: MEDIUM
+    AAL: LOW
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozillaonline
-    - hris_is_staff
-    - mozilliansorg_pmo-community-access
-    - mozilliansorg_nda
-    - all_ldap_users
+    - everyone
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: true
@@ -1778,15 +1741,9 @@ apps:
     op: auth0
     url: https://people.mozilla.org
 - application:
-    AAL: MEDIUM
+    AAL: LOW
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozillaonline
-    - hris_is_staff
-    - mozilliansorg_pmo-community-access
-    - mozilliansorg_nda
-    - all_ldap_users
+    - everyone
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: true
@@ -3343,7 +3300,7 @@ apps:
     url: https://virgo-b.fuzzing.mozilla.org/
 - application:
     authorized_groups:
-    - mozilliansorg_mozilla-iam-aws-access
+    - aws_320464205386_admin
     authorized_users: []
     client_id: LuNrrJpcnK2Nlh75wRJ2ab6gxEJYFMQG
     display: false
@@ -3986,9 +3943,80 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: GYCcYQfcwVU9lwKF8WT4AvYufBvtp7yx
+    display: false
+    logo: auth0.png
+    name: fxa-admin-panel.prod.mozaws.net
+    op: auth0
+    url: https://fxa-admin-panel.prod.mozaws.net/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
     client_id: uSpi6gd7ZqdjA3PwtJ4CavG29DQJla4Y
     display: false
     logo: auth0.png
     name: stats.voice.mozit.cloud
     op: auth0
     url: https://stats.voice.mozit.cloud/
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: cEfnJekrSStxxxBascTjNEDAZVUPAIU2
+    display: false
+    logo: auth0.png
+    name: Stripe (subplat)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/cEfnJekrSStxxxBascTjNEDAZVUPAIU2
+    vanity_url:
+    - /stripe-subplat
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_pocket
+    - team_mozillaonline
+    authorized_users: []
+    client_id: axRGaXPRd5pe60fnEllluSN76MefFX1E
+    display: false
+    logo: auth0.png
+    name: Culture Amp (ACL)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/axRGaXPRd5pe60fnEllluSN76MefFX1E
+- application:
+    authorized_groups:
+    - managers_all
+    authorized_users: []
+    display: true
+    logo: cultureamp.png
+    name: Culture Amp
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/axRGaXPRd5pe60fnEllluSN76MefFX1E
+    vanity_url:
+    - /cultureamp
+- application:
+    authorized_groups:
+    - team_opsec
+    authorized_users:
+    - jclaudius@mozilla.com
+    client_id: M6lxk8phwDaqH4gECMWDLxKxxZwJcDI7
+    display: true
+    logo: auth0.png
+    name: session-invalidation.security.allizom.org
+    op: auth0-dev
+    url: https://session-invalidation.security.allizom.org/callback
+- application:
+    authorized_groups:
+    - team_opsec
+    authorized_users: []
+    client_id: wX5uKEP7oV4wgxf0B3USOrDQ5kgHFda0
+    display: true
+    logo: auth0.png
+    name: session-invalidation.security.mozilla.org
+    op: auth0
+    url: https://session-invalidation.security.mozilla.org/callback
