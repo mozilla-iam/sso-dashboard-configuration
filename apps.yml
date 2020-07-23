@@ -4013,6 +4013,7 @@ apps:
 - application:
     authorized_groups:
     - team_opsec
+    - service_session_invalidation
     authorized_users: []
     client_id: wX5uKEP7oV4wgxf0B3USOrDQ5kgHFda0
     display: true
