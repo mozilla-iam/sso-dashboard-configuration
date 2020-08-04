@@ -3848,6 +3848,18 @@ apps:
     url: https://glam-stage.bespoke.nonprod.dataops.mozgcp.net
 - application:
     authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_pocket
+    authorized_users: []
+    client_id: WlWmEUQ2dmQFQJfKxNx1ZNkAJRKueaR1
+    display: false
+    logo: auth0.png
+    name: GLAM (prod)
+    op: auth0
+    url: https://glamtelemetry.mozilla.org
+- application:
+    authorized_groups:
     - hris_is_staff
     - team_moco
     - team_mofo
