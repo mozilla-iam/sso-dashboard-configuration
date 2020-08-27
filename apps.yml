@@ -1813,12 +1813,12 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: t17aylgO4Jw6lvSEFuO9kFVxNm4Fb04z
+    client_id: fOrASkloZehth1DIMcHr2or37gyr74Kk
     display: false
     logo: auth0.png
-    name: moderator-staging.production.paas.mozilla.community.1
+    name: moderator-stage.itsre-apps.mozit.cloud
     op: auth0
-    url: https://moderator-staging.production.paas.mozilla.community/oidc/callback/
+    url: https://moderator-stage.itsre-apps.mozit.cloud/oidc/callback/
 - application:
     AAL: LOW
     authorized_groups:
