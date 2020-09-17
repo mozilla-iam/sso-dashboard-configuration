@@ -2391,9 +2391,7 @@ apps:
     url: https://sso.admin.us-west-2.nubis-market.nubis.allizom.org/sso
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
+    - everyone
     authorized_users: []
     client_id: N7lULzWtfVUDGymwDs0yDEq6ZcwmFazj
     display: false
