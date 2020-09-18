@@ -2394,6 +2394,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - mozilliansorg_project-link-aws-admin
     authorized_users: []
     client_id: N7lULzWtfVUDGymwDs0yDEq6ZcwmFazj
     display: false
