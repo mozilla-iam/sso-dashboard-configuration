@@ -4021,3 +4021,27 @@ apps:
     name: session-invalidation.security.mozilla.org
     op: auth0
     url: https://session-invalidation.security.mozilla.org/callback
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: HrdSoUsSJiJOKH2MICEXRXGMxTxUK5fa
+    display: false
+    logo: auth0.png
+    name: stage.statping.nonprod.dataops.mozgcp.net
+    op: auth0
+    url: https://stage.statping.nonprod.dataops.mozgcp.net/openid/callback/login
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: pozwk4HuT6AELY5Mf1oZPDdIDUo6VId4
+    display: false
+    logo: auth0.png
+    name: health.telemetry.mozilla.org
+    op: auth0
+    url: https://health.telemetry.mozilla.org/openid/callback/login
