@@ -2031,7 +2031,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    - non-moco-sheriffs-basic
+    - mozilliansorg_non-moco-sheriffs-basic
     authorized_users: []
     client_id: jGx4Z2JTWsgQWiBmvrCNbe5WXAfMivzb
     display: false
