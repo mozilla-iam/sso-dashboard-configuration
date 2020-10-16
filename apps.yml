@@ -4033,3 +4033,14 @@ apps:
     name: health.telemetry.mozilla.org
     op: auth0
     url: https://health.telemetry.mozilla.org/openid/callback/login
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: Nqo9YvvVxjpLDLPv7YGmpJXv2JNraUtH
+    display: false
+    logo: smartling.png
+    name: Smartling
+    op: auth0
+    url: https://sso.smartling.com/sso-apps/dashboard/accounts/5d57441d
