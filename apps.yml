@@ -4039,8 +4039,8 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: Nqo9YvvVxjpLDLPv7YGmpJXv2JNraUtH
-    display: false
+    display: true
     logo: smartling.png
     name: Smartling
     op: auth0
-    url: https://sso.smartling.com/sso-apps/dashboard/accounts/5d57441d
+    url: https://sso.smartling.com/sso-apps/dashboard/accounts/3f16c2f8
