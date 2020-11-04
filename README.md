@@ -26,8 +26,10 @@ This is a list of available fields.
       op: auth0
 
       ### SSO Dashboard display settings
-      # This is the canonical URL for the RP / front page
-      url: "https://rp.example.net/"
+      # This is the URL that a user must visit to be logged into the RP. This URL would
+      # either be the URL of the login button on the site (if it has one), or the URL
+      # that a user gets redirected to when they visit a protected page while unauthenticated.
+      url: "https://rp.example.net/oidc/authenticate"
 
       # A custom logo to be displayed for this RP on the SSO Dashboard
       logo: "example.png"
