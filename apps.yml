@@ -579,6 +579,7 @@ apps:
     client_id: HC1FeMf3dVCTnAZbQR08quMylQEUcu60
     display: false
     name: vouches.mozillians.org
+    logo: mozillians.png
     op: auth0
     url: https://vouches.mozillians.org/oidc/authenticate/
 - application:
