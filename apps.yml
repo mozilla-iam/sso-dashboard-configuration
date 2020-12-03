@@ -2394,6 +2394,7 @@ apps:
     - team_moco
     - team_mofo
     - mozilliansorg_project-link-aws-admin
+    - mozilliansorg_searchfox-aws  # https://bugzilla.mozilla.org/show_bug.cgi?id=1677158
     authorized_users: []
     client_id: N7lULzWtfVUDGymwDs0yDEq6ZcwmFazj
     display: false
