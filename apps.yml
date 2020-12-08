@@ -4045,4 +4045,16 @@ apps:
     name: experimenter.stage.mozaws.net
     op: auth0
     url: https://stage.experimenter.nonprod.dataops.mozgcp.net/
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: K1fsiDh5Ta7pc7BrEECi2VLhPyqHwy4r
+    display: false
+    logo: auth0.png
+    name: bugzilla-dev.allizom.org
+    op: auth0
+    url: https://bugzilla-dev.allizom.org
 
