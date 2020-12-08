@@ -4056,3 +4056,13 @@ apps:
     name: Smartling
     op: auth0
     url: https://sso.smartling.com/sso-apps/dashboard/accounts/3f16c2f8
+- application:
+    authorized_groups:
+    - mozilliansorg_tripactions
+    authorized_users: []
+    client_id: i1qBrMjJEdKlTNEVgGwc9P0xFxI9cuD8
+    display: false
+    logo: auth0.png
+    name: TripActions
+    op: auth0
+    url: https://app.tripactions.com/app/user2/auth
