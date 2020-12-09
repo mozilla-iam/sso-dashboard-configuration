@@ -3511,11 +3511,13 @@ apps:
     - everyone
     authorized_users: []
     client_id: LGK34V7wTjZ8tkMSCQhxI0ynfiMcAsvg
-    display: false
-    logo: auth0.png
+    display: true
+    logo: matrix.png
     name: Matrix IM
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/LGK34V7wTjZ8tkMSCQhxI0ynfiMcAsvg
+    url: https://chat.mozilla.org/#/start_sso
+    vanity_url:
+    - /matrix
 - application:
     AAL: LOW
     authorized_groups:
