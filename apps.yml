@@ -4068,3 +4068,15 @@ apps:
     name: TripActions
     op: auth0
     url: https://app.tripactions.com/app/user2/auth
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: XCRyDou6ETr873QKnjaFgNsuiLKl6Oj2  # https://bugzilla.mozilla.org/show_bug.cgi?id=1681831
+    display: false
+    logo: auth0.png
+    name: experimenter.stage.mozaws.net
+    op: auth0
+    url: https://stage.experimenter.nonprod.dataops.mozgcp.net/
