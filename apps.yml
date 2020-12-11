@@ -3715,19 +3715,6 @@ apps:
     url: https://give.mozilla.org
 - application:
     authorized_groups:
-    - mozilliansorg_nda
-    - team_moco
-    - team_mofo
-    - team_mozillaonline
-    authorized_users: []
-    client_id: Ff8t25wUy4gTTSmYVA6n29MTuJlowcpA
-    display: false
-    logo: auth0.png
-    name: Developer portal (Dev)
-    op: auth0
-    url: https://developer-portal.dev.mdn.mozit.cloud/auth/callback/
-- application:
-    authorized_groups:
     - hris_is_staff
     - team_moco
     - team_mofo
