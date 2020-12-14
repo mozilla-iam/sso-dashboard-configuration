@@ -2651,6 +2651,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - mozilliansorg_shipit_devs
     authorized_users: []
     client_id: FK1mJkHhwjulTYBGklxn8W4Fhd1pgT4t
     display: false
