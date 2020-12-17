@@ -4030,7 +4030,7 @@ apps:
     authorized_users: []
     client_id: i1qBrMjJEdKlTNEVgGwc9P0xFxI9cuD8
     display: false
-    logo: auth0.png
+    logo: tripactions.png
     name: TripActions
     op: auth0
     url: https://app.tripactions.com/app/user2/auth
