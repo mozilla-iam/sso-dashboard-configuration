@@ -527,6 +527,18 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/LNU9XiEHlgeU07GLt00vx4y9RR7ALsov
 - application:
     authorized_groups:
+    - mozilliansorg_jira_cloud_admins
+    authorized_users: []
+    client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
+    display: true
+    logo: jira.png
+    name: Jira Cloud
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
+    vanity_url:
+    - /jira_cloud
+- application:
+    authorized_groups:
     - service_mana_stage
     authorized_users: []
     client_id: IuWFSguzDAqbTT4qdtmABNdCVayuCWy5
