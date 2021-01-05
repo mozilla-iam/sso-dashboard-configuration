@@ -4029,7 +4029,7 @@ apps:
     - mozilliansorg_tripactions
     authorized_users: []
     client_id: i1qBrMjJEdKlTNEVgGwc9P0xFxI9cuD8
-    display: false
+    display: true
     logo: tripactions.png
     name: TripActions
     op: auth0
