@@ -1704,6 +1704,8 @@ apps:
     name: Mozilla People Directory
     op: auth0
     url: https://people.mozilla.org
+    vanity_url:
+    - /phonebook
 - application:
     AAL: LOW
     authorized_groups:
