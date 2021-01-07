@@ -534,7 +534,7 @@ apps:
     logo: jira.png
     name: Jira Cloud
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
+    url: https://mozilla-hub.atlassian.net
     vanity_url:
     - /jira_cloud
 - application:
