@@ -552,6 +552,45 @@ apps:
     - /jira_cloud
 - application:
     authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
+    display: false
+    logo: auth0.png
+    name: Looker
+    op: auth0
+    url: https://mozilla.cloud.looker.com/samlcallback
+    vanity_url:
+    - /looker
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 1do5W84RLwLWBti921ixd3otO7t2619B
+    display: false
+    logo: auth0.png
+    name: Looker Stage
+    op: auth0
+    url: https://mozillastaging.cloud.looker.com/samlcallback
+    vanity_url:
+    - /looker-stage
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 5dRN6IgxPWSJrk9OQ2leoLbRDQDPCa5k
+    display: false
+    logo: auth0.png
+    name: Looker Dev
+    op: auth0
+    url: https://mozilladev.cloud.looker.com/samlcallback
+    vanity_url:
+    - /looker-dev
+- application:
+    authorized_groups:
     - service_mana_stage
     authorized_users: []
     client_id: IuWFSguzDAqbTT4qdtmABNdCVayuCWy5
