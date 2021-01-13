@@ -565,8 +565,7 @@ apps:
     - /looker
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
+    - mozilliansorg_looker_stage_access
     authorized_users: []
     client_id: 1do5W84RLwLWBti921ixd3otO7t2619B
     display: false
@@ -578,8 +577,7 @@ apps:
     - /looker-stage
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
+    - mozilliansorg_looker_dev_access
     authorized_users: []
     client_id: 5dRN6IgxPWSJrk9OQ2leoLbRDQDPCa5k
     display: false
