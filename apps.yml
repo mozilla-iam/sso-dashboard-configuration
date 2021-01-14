@@ -905,6 +905,16 @@ apps:
     url: https://snippets-admin.us-west.moz.works/oidc/authenticate/
 - application:
     authorized_groups:
+    - mozilliansorg_pocket_dataanalytics 
+    authorized_users: []
+    client_id: fTJMnRKzzEzw0nnfkLMv8lN1BaIrWBoz
+    display: false
+    logo: auth0.png
+    name: Snowflake
+    op: auth0
+    url: https://cka72749.us-east-1.snowflakecomputing.com/
+- application:
+    authorized_groups:
     - netops
     - splunk_admin
     - hris_dept_it
