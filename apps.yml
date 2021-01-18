@@ -625,36 +625,12 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: HdfEiM1SZibaQnOYTxLoMdxSh4a6ZKD3
-    display: true
-    logo: mozillians.png
-    name: Mozillians
-    op: auth0
-    url: https://mozillians.org/oidc/authenticate/
-    vanity_url:
-    - /mozillians
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
     client_id: HC1FeMf3dVCTnAZbQR08quMylQEUcu60
     display: false
     name: vouches.mozillians.org
     logo: mozillians.png
     op: auth0
     url: https://vouches.mozillians.org/oidc/authenticate/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: T2tB7Ss8It7PKrw3ijazoXu9PgZniLPD
-    display: false
-    logo: mozillians.png
-    name: Mozillians Staging
-    op: auth0
-    url: https://web-mozillians-staging.production.paas.mozilla.community/oidc/authenticate/
 - application:
     authorized_groups:
     - service_nucleus_prod
