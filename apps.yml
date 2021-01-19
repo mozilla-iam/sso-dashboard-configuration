@@ -681,28 +681,6 @@ apps:
     - /pagerduty
 - application:
     authorized_groups:
-    - phonebook_access
-    authorized_users: []
-    client_id: K7vKewjQHKe45mmOo5cRae6yyOvnmg74
-    display: false
-    logo: phonebook.png
-    name: Phonebook
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/K7vKewjQHKe45mmOo5cRae6yyOvnmg74
-- application:
-    authorized_groups:
-    - phonebook_access
-    authorized_users: []
-    client_id: 00fgOKsjo530sIxfhsved8jyTjAD0av2
-    display: false
-    logo: phonebook.png
-    name: Phonebook Stage
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/00fgOKsjo530sIxfhsved8jyTjAD0av2
-    vanity_url:
-    - /phonebook-stage
-- application:
-    authorized_groups:
     - ldapAdmins
     authorized_users: []
     client_id: W3SoWmYcqvP2Yms14s5VTeUFCZmBOJPT
@@ -1787,17 +1765,6 @@ apps:
     name: Mozilla People Directory
     op: auth0
     url: https://people.mozilla.org
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
-    display: true
-    logo: people.png
-    name: Phonebook
-    op: auth0
-    url: https://people.mozilla.org
     vanity_url:
     - /phonebook
 - application:
@@ -2782,18 +2749,6 @@ apps:
     url: https://peaceful-stream-36350.herokuapp.com/redirect_url
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: AL3fXafFNeSp83gZmuR7ZXm5DI70TZyG
-    display: false
-    logo: auth0.png
-    name: phonebook-dev.allizom.org
-    op: auth0
-    url: https://phonebook-dev.allizom.org/mellon/postResponse
-- application:
-    authorized_groups:
     - service_snippets
     authorized_users: []
     client_id: a6jCoSzt99DFySdC3qvP5oSpYcEEOsvT
@@ -3103,18 +3058,6 @@ apps:
     name: tempmozilla.service-now.com
     op: auth0
     url: https://tempmozilla.service-now.com/navpage.do
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: LZDdEewR2KFwJsAMnmC3NgKFDakf5DeP
-    display: false
-    logo: auth0.png
-    name: phonebook-dev1.dmz.mdc1.mozilla.com
-    op: auth0
-    url: https://phonebook-dev1.dmz.mdc1.mozilla.com/callback
 - application:
     authorized_groups:
     - hris_is_staff
