@@ -35,6 +35,18 @@ apps:
     - /accountmanager
 - application:
     authorized_groups:
+    - mozilliansorg_acoustic_production_access
+    authorized_users: []
+    client_id: sBImsybtPPLyWlstD0SC35IwnAafE4nB
+    display: false
+    logo: auth0.png
+    name: Acoustic
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/sBImsybtPPLyWlstD0SC35IwnAafE4nB
+    vanity_url:
+    - /acoustic
+- application:
+    authorized_groups:
     - mozilliansorg_acoustic_stage_access
     authorized_users: []
     client_id: inoLoMyAEOzLX1cZOvubQpcW18pk4O1S
