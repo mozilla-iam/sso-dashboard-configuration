@@ -1249,6 +1249,7 @@ apps:
     - hris_costcenter_1420
     - vpn_opsec_mozdef
     - team_secops
+    - team_opsec
     authorized_users: []
     client_id: PSCl3uIPg5IT2GaiOcAIJprYK7iBK32r
     display: true
