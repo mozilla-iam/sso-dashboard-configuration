@@ -1,8 +1,9 @@
 apps:
 - application:
     authorized_groups:
-    - team_sre
+    - netlify_access
     authorized_users: []
+    client_id: hj3jYIhcrgvPWTpnFoHWLPx57t6KKqhA
     display: true
     logo: netlify.png
     name: Netlify
@@ -895,7 +896,7 @@ apps:
     url: https://snippets-admin.us-west.moz.works/oidc/authenticate/
 - application:
     authorized_groups:
-    - mozilliansorg_pocket_dataanalytics 
+    - mozilliansorg_pocket_dataanalytics
     authorized_users: []
     client_id: fTJMnRKzzEzw0nnfkLMv8lN1BaIrWBoz
     display: false
@@ -3341,18 +3342,6 @@ apps:
     url: https://graylog.infra.iam.mozilla.com/redirect_uri
     vanity_url:
     - /iam-graylog
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: hj3jYIhcrgvPWTpnFoHWLPx57t6KKqhA
-    display: false
-    logo: auth0.png
-    name: api.netlify.com
-    op: auth0
-    url: https://api.netlify.com/saml/mozilla-it/init
 - application:
     authorized_groups:
     - team_moco
