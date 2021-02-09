@@ -1574,17 +1574,6 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: 9D6nm17QufE7lvipnl8l7sVHWCaElnrL
-    display: false
-    logo: auth0.png
-    name: standupdev.herokuapp.com
-    op: auth0
-    url: https://standupdev.herokuapp.com/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
     client_id: 9LGw821wb6hHd30HZWMy3eBE3JMtuDLs
     display: false
     logo: auth0.png
@@ -1838,17 +1827,6 @@ apps:
     name: www.standu.ps
     op: auth0
     url: https://www.standu.ps/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: jUNRL0G9LVGyxROwV42QJSyf7jh67960
-    display: false
-    logo: auth0.png
-    name: standupstage.herokuapp.com
-    op: auth0
-    url: https://standupstage.herokuapp.com/oidc/callback/
 - application:
     AAL: LOW
     authorized_groups:
@@ -2312,36 +2290,12 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: 3zF88HNSxJLrQqvzz3h1IM3DWTEZ09o4
-    display: false
-    logo: auth0.png
-    name: bz-dev-stats.herokuapp.com
-    op: auth0
-    url: https://bz-dev-stats.herokuapp.com/login
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: hIjZmDmmtkKuaOjmhd5HUzn0ResPDeqX
     display: false
     logo: auth0.png
     name: wde.allizom.org
     op: auth0
     url: https://wde-stage.public.mdc1.mozilla.com/redirect_uri
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: 7ZuP8yUgV0pQ4siB3paWoLfdq5wRDxCi
-    display: false
-    logo: auth0.png
-    name: firefox-test-tube.herokuapp.com
-    op: auth0
-    url: https://firefox-test-tube.herokuapp.com/accounts/callback/
 - application:
     authorized_groups:
     - hris_is_staff
@@ -3096,19 +3050,6 @@ apps:
     name: tempmozilla.service-now.com
     op: auth0
     url: https://tempmozilla.service-now.com/navpage.do
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    - mozilliansorg_nda
-    authorized_users: []
-    client_id: 4dkKrPLpWZ177LRaFNznEJdRQn0nrWME
-    display: false
-    logo: auth0.png
-    name: firefox-test-tube-staging.herokuapp.com
-    op: auth0
-    url: https://firefox-test-tube-staging.herokuapp.com/accounts/callback/
 - application:
     authorized_groups:
     - hris_is_staff
