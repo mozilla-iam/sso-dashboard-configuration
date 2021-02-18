@@ -3964,6 +3964,8 @@ apps:
     name: TripActions
     op: auth0
     url: https://app.tripactions.com/app/user2/auth
+    vanity_url:
+    - /tripactions
 - application:
     authorized_groups:
     - hris_is_staff
