@@ -603,6 +603,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
     display: false
@@ -2157,6 +2158,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: 7YTXsNQhLSiNsXPtDdXdvryD5dN30DEb
     display: false
@@ -3346,6 +3348,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: m3UJJU40O2T6awdbhoA8V6onp3AbzU3Q
     display: false
