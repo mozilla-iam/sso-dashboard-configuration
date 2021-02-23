@@ -659,6 +659,19 @@ apps:
     - /mdn
 - application:
     authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: Zoc0rFi7D3iD18MZGeYXsmXmtuToC7SI
+    display: false
+    logo: auth0.png
+    name: Mentoring
+    op: auth0
+    url: https://mentoring.mozilla.org/oidc/authenticate/
+    vanity_url:
+    - /mentoring
+- application:
+    authorized_groups:
     - everyone
     authorized_users: []
     client_id: nPr8QRo0dLxM3RRHwIXRSvhmOSPDvNr4
