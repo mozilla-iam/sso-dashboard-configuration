@@ -1,7 +1,6 @@
 apps:
 - application:
     authorized_groups:
-    - netlify_access
     - mozilliansorg_netlify-access
     authorized_users: []
     client_id: hj3jYIhcrgvPWTpnFoHWLPx57t6KKqhA
@@ -14,7 +13,6 @@ apps:
     - /netlify
 - application:
     authorized_groups:
-    - team_sre
     - mozilliansorg_web-sre-aws-access
     authorized_users: []
     display: true
