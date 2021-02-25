@@ -4019,4 +4019,16 @@ apps:
     name: ValiMail
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/wXpnkKIgoucVrybZmxiPnnpeSqn816qD
+- application:
+    authorized_groups:
+    - mozilliansorg_everestemailsuite
+    authorized_users: []
+    client_id: 04UuoOzA5CoCWRQqKbsYc6uM1p0a4WlY
+    display: true
+    logo: everest.png
+    name: Everest
+    op: auth0
+    url: https://everest.validity.com/saml/mozilla?sso
+    vanity_url:
+    - /everest
 
