@@ -668,7 +668,7 @@ apps:
     logo: auth0.png
     name: Mentoring
     op: auth0
-    url: https://mentoring.mozilla.org/oidc/authenticate/
+    url: https://mentoring.mozilla.com/oidc/authenticate/
     vanity_url:
     - /mentoring
 - application:
