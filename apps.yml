@@ -3983,7 +3983,7 @@ apps:
     logo: tripactions.png
     name: TripActions
     op: auth0
-    url: https://app.tripactions.com/app/user2/auth
+    url: https://auth.mozilla.auth0.com/samlp/i1qBrMjJEdKlTNEVgGwc9P0xFxI9cuD8
     vanity_url:
     - /tripactions
 - application:
