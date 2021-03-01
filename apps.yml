@@ -2147,6 +2147,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: OlwWsXslbA9wk5lQOHUDIUSrtIFTauTy
     display: false
@@ -3752,6 +3753,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozillaonline
     - team_pocket
     authorized_users: []
     client_id: WlWmEUQ2dmQFQJfKxNx1ZNkAJRKueaR1
@@ -3765,6 +3767,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     - team_pocket
     authorized_users: []
     client_id: kfax6JBFqyXQcfEEQmEa56np04rm3uYX
@@ -3952,6 +3955,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: pozwk4HuT6AELY5Mf1oZPDdIDUo6VId4
     display: false
