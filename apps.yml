@@ -919,7 +919,7 @@ apps:
     logo: snippets.png
     name: Snippets
     op: auth0
-    url: https://snippets-admin.us-west.moz.works/oidc/authenticate/
+    url: https://snippets-admin.mozilla.org/oidc/authenticate/
 - application:
     authorized_groups:
     - mozilliansorg_pocket_dataanalytics
