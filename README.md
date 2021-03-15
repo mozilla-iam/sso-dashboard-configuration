@@ -71,8 +71,8 @@ In order to publish a change you must:
 
 1. Clone the repository
 2. Pull request to `master` and get it approved.
-3. Have the PR merged to the `master` branch which will cause CI to deploy to the `sso-dashboard.configuration` S3 bucket
-4. Tag the commit in `master` that should be deployed to production which will cause CI to deploy to the `sso-dashboard.configuration-prod` S3 bucket used by production
+3. Have the PR merged to the `master` branch which will cause CI to deploy to the *dev* S3 bucket called `sso-dashboard.configuration`
+4. Tag the commit in `master` that should be deployed to *production* which will cause CI to deploy to the `sso-dashboard.configuration-prod` S3 bucket used by production
 
 # CI Pipeline
 
