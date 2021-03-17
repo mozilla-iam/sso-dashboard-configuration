@@ -8,7 +8,7 @@ if [[ "branch/master" == "$CODEBUILD_WEBHOOK_TRIGGER" ]]
 	then
 		echo "Deploying to the development CDN cdn.sso.allizom.org"
         make deploy S3_BUCKET=sso-dashboard.configuration
-elif [[ "$CODEBUILD_WEBHOOK_TRIGGER" =~ ^tag\/[0-9]\.[0-9]\.[0-9](\-(prod))?$ ]]
+elif [[ "$CODEBUILD_WEBHOOK_TRIGGER" =~ ^tag\/[0-9]+\.[0-9]+\.[0-9]+(\-(prod))?$ ]]
 	then
 		echo "Deploying to the production CDN cdn.sso.mozilla.com"
         make deploy S3_BUCKET=sso-dashboard.configuration-prod
