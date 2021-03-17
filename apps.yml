@@ -2014,7 +2014,7 @@ apps:
     name: Zendesk - mozilladev
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/zk9N7LU2ihMIy0bwlGd7GfRVXDKsGQjI
-application:
+- application:
     authorized_groups:
     - team_pocket
     authorized_users: []
