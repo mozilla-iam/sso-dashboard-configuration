@@ -2023,7 +2023,9 @@ apps:
     logo: jira.png
     name: getpocket.atlassian.net
     op: auth0
-    url: IJfd6g73V42fh6LHW6leFdQO7jR0A8of
+    url: https://getpocket.atlassian.net/
+    vanity_url:
+    - /pocket-jira
 - application:
     authorized_groups:
     - team_moco
