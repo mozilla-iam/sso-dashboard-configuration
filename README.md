@@ -72,7 +72,7 @@ In order to publish a change you must:
 1. Clone the repository
 2. Pull request to `master` and get it approved.
 3. Have the PR merged to the `master` branch which will cause CI to deploy to the *dev* S3 bucket called `sso-dashboard.configuration`
-4. Tag the commit in `master` that should be deployed to *production* which will cause CI to deploy to the `sso-dashboard.configuration-prod` S3 bucket used by production
+4. Tag the commit in `master` that should be deployed to *production* which will cause CI to deploy to the `sso-dashboard.configuration-prod` S3 bucket used by production. The easiest way to tag and trigger a production deploymenbt is to [create a 'release'](https://github.com/mozilla-iam/sso-dashboard-configuration/releases), typically we are using semantic versioning (v0.0.1) for this repo, but check the previous release to validate.
 
 # CI Pipeline
 
