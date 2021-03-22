@@ -589,6 +589,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_jira_cloud_admins
+    - mozilliansorg_jira_cloud_access
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
