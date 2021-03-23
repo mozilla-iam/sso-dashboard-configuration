@@ -3885,16 +3885,6 @@ apps:
     - team_mofo
     - team_mozillaonline
     authorized_users: []
-    client_id: axRGaXPRd5pe60fnEllluSN76MefFX1E
-    display: false
-    logo: auth0.png
-    name: Culture Amp (ACL)
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/axRGaXPRd5pe60fnEllluSN76MefFX1E
-- application:
-    authorized_groups:
-    - managers_all
-    authorized_users: []
     display: true
     logo: cultureamp.png
     name: Culture Amp
