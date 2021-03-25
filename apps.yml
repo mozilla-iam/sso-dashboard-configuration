@@ -3314,6 +3314,7 @@ apps:
 - application:
     authorized_groups:
     - team_moco
+    - team_mofo
     authorized_users: []
     client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
     display: false
@@ -3527,9 +3528,11 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/cuC3NOGPFm58H172NnOypPf1jGQwMoUf
 - application:
     authorized_groups:
-    - hris_costcenter_1420
+    - team_moco
+    - team_mofo
     authorized_users: []
-    display: true
+    client_id: yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
+    display: false
     logo: newrelic.png
     name: New Relic EIS
     op: auth0
@@ -3538,7 +3541,6 @@ apps:
     - /new-relic-eis
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3552,7 +3554,6 @@ apps:
     - /new-relic-emerging-tech
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3566,7 +3567,6 @@ apps:
     - /new-relic-subhub
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3580,7 +3580,6 @@ apps:
     - /new-relic-data
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
