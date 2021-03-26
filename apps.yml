@@ -696,7 +696,7 @@ apps:
     url: https://vouches.mozillians.org/oidc/authenticate/
 - application:
     authorized_groups:
-    - service_nucleus_prod
+    - mozilliansorg_nucleus_admin
     authorized_users: []
     client_id: a6cidU6mSbciFAjy4uRQeeuFHIsLIWgg
     display: true
@@ -706,7 +706,7 @@ apps:
     url: https://nucleus.mozilla.org/oidc/authenticate/
 - application:
     authorized_groups:
-    - everyone
+    - mozilliansorg_nucleus_admin
     authorized_users: []
     client_id: grGFAm6XbCYn3feUbyg5i9M6eyQHuhe6
     display: false
@@ -912,7 +912,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ
 - application:
     authorized_groups:
-    - service_snippets
+    - mozilliansorg_snippets_admin
     authorized_users: []
     client_id: A7GAcuN9gE9x3H186dKQgzS3jsV9Qmgp
     display: true
@@ -2769,7 +2769,7 @@ apps:
     url: https://peaceful-stream-36350.herokuapp.com/redirect_url
 - application:
     authorized_groups:
-    - service_snippets
+    - mozilliansorg_snippets_admin
     authorized_users: []
     client_id: a6jCoSzt99DFySdC3qvP5oSpYcEEOsvT
     display: false
