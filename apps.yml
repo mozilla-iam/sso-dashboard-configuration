@@ -142,7 +142,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/snpYGrMjpcnNlz7FlXxgFs9ok7IRz83g
 - application:
     authorized_groups:
-    - service_basket
+    - mozilliansorg_basket_admin
     authorized_users: []
     client_id: 14G95j0WAteSbDicn75gsZvRPXN6bkQm
     display: true
@@ -152,7 +152,7 @@ apps:
     url: https://basket-admin.us-west.moz.works/oidc/authenticate/
 - application:
     authorized_groups:
-    - service_basket
+    - mozilliansorg_basket_admin
     authorized_users: []
     client_id: xZsLG6eg9XjFm5vHKNi4pgE12gfpQM1p
     display: true
@@ -162,7 +162,7 @@ apps:
     url: https://basket-dev.allizom.org/oidc/authenticate/
 - application:
     authorized_groups:
-    - service_basket
+    - mozilliansorg_basket_admin
     authorized_users: []
     client_id: vBgSD2axkzQ6UnC20AFTko0oRr3elwa6
     display: true
@@ -4019,4 +4019,13 @@ apps:
     url: https://everest.validity.com/saml/mozilla?sso
     vanity_url:
     - /everest
-
+- application:
+    authorized_groups:
+    - mozilliansorg_chronicle_poc
+    authorized_users: []
+    client_id: ICT9TtChxTlLMrHlLjeMeLH0x6vG31Ai
+    display: false
+    logo: mozdef.png
+    name: Mozilla Chronicle
+    op: auth0
+    url: https://mozilla.backstory.chronicle.security
