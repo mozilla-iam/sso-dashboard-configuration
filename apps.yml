@@ -4029,3 +4029,15 @@ apps:
     name: Mozilla Chronicle
     op: auth0
     url: https://mozilla.backstory.chronicle.security
+- application:
+    authorized_groups:
+    - mozilliansorg_finance_planful
+    authorized_users: []
+    client_id: H5ddlJSCfGP8ab65EnWaB2sd541CJAlM
+    display: true
+    logo: planful.png
+    name: Planful
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/H5ddlJSCfGP8ab65EnWaB2sd541CJAlM
+    vanity_url:
+    - /planful
