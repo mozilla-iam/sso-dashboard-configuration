@@ -4050,6 +4050,6 @@ apps:
     logo: compiler_explorer.png
     name: Compiler Explorer
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/SS69h1GdOidHxtxeWLG2ryO5c6BYnj6O
+    url: https://foxyeah.com
     vanity_url:
     - /compiler_explorer
