@@ -4021,16 +4021,6 @@ apps:
     - /everest
 - application:
     authorized_groups:
-    - mozilliansorg_chronicle_poc
-    authorized_users: []
-    client_id: ICT9TtChxTlLMrHlLjeMeLH0x6vG31Ai
-    display: false
-    logo: mozdef.png
-    name: Mozilla Chronicle
-    op: auth0
-    url: https://mozilla.backstory.chronicle.security
-- application:
-    authorized_groups:
     - mozilliansorg_finance_planful
     authorized_users: []
     client_id: H5ddlJSCfGP8ab65EnWaB2sd541CJAlM
