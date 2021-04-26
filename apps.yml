@@ -778,19 +778,6 @@ apps:
     vanity_url:
     - /productplan
 - application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: zwpij4T2QTt7QdbmdpkAG5FQgoeSRbyB
-    display: true
-    logo: reps.png
-    name: Reps
-    op: auth0
-    url: https://reps.mozilla.org/oidc/authenticate/
-    vanity_url:
-    - /reps
-- application:
     authorized_groups:
     - team_moco
     - team_mofo
