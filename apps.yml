@@ -628,6 +628,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_looker_dev_access
+    - mozilliansorg_looker_dev_user_access
     authorized_users: []
     client_id: 5dRN6IgxPWSJrk9OQ2leoLbRDQDPCa5k
     display: false
