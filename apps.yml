@@ -4060,3 +4060,14 @@ apps:
     url: https://foxyeah.com
     vanity_url:
     - /compiler_explorer
+- application:
+    authorized_groups:
+    - team_relops
+    authorized_users: []
+    client_id: D2MqgpKSZJKpovi6Dw74L4FUU4r5hEcR
+    display: false
+    logo: auth0.png
+    name: Relops Vault
+    op: auth0
+    url: https://vault.relops.mozops.net:8200/ui/vault/auth?with=oidc
+
