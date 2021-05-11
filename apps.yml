@@ -4079,6 +4079,6 @@ apps:
     logo: auth0.png
     name: Learnerbly
     op: auth0
-    url: https://auth.app.learnerbly.com/saml2/idpresponse
+    url: https://auth.mozilla.auth0.com/samlp/qr9gHxVa4UPxItn327rtu2DYnhoKilH4
     vanity_url:
     - /learnerbly
