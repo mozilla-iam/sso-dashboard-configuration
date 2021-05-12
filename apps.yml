@@ -4080,6 +4080,6 @@ apps:
     logo: auth0.png
     name: Learnerbly
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/qr9gHxVa4UPxItn327rtu2DYnhoKilH4
+    url: https://app.learnerbly.com/auth-init/?customProvider=9bd4f3ef
     vanity_url:
     - /learnerbly
