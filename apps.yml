@@ -593,7 +593,7 @@ apps:
     - team_mozillaonline
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
-    display: true
+    display: false
     logo: jira.png
     name: Jira Cloud
     op: auth0
