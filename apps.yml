@@ -588,8 +588,9 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/LNU9XiEHlgeU07GLt00vx4y9RR7ALsov
 - application:
     authorized_groups:
-    - mozilliansorg_jira_cloud_admins
-    - mozilliansorg_jira_cloud_access
+    - team_moco
+    - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
