@@ -406,6 +406,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: eaiAVdOLtf2KXZvexyCCViw0154E0U6x
     display: false
