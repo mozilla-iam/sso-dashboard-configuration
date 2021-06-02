@@ -4058,3 +4058,15 @@ apps:
     url: https://app.learnerbly.com/auth-init/?customProvider=9bd4f3ef
     vanity_url:
     - /learnerbly
+- application:
+    authorized_groups:
+    - mozilliansorg_web-sre-papertrail-access
+    authorized_users: []
+    client_id: QSbhAzqUlqCSWt6iAV45um5DDGdhhDTR
+    display: true
+    logo: papertrail-logo.png
+    name: Papertrail Web SRE
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/QSbhAzqUlqCSWt6iAV45um5DDGdhhDTR
+    vanity_url:
+    - /papertrail-web-sre-access
