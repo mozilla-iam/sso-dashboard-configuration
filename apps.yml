@@ -565,7 +565,7 @@ apps:
     - mozilliansorg_jira_vendors
     authorized_users: []
     client_id: LNU9XiEHlgeU07GLt00vx4y9RR7ALsov
-    display: true
+    display: false
     logo: jira.png
     name: Jira - Stage
     op: auth0
@@ -577,7 +577,7 @@ apps:
     - team_mozillaonline
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
-    display: false
+    display: true
     logo: jira.png
     name: Jira
     op: auth0
