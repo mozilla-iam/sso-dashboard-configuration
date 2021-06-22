@@ -3420,7 +3420,9 @@ apps:
     logo: auth0.png
     name: Kevel
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/WQnlYTEc4PYRRK3FT7n3l9VOtew1IDo2
+    url: https://app.kevel.co/new_login_flow.html?orgcode=mozilla
+    vanity_url:
+    - /kevel
 - application:
     authorized_groups:
     - team_pocket
