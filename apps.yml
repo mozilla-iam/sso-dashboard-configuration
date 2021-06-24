@@ -3858,6 +3858,18 @@ apps:
     - /cultureamp
 - application:
     authorized_groups:
+    - team_mofo
+    authorized_users: []
+    client_id: 4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
+    display: true
+    logo: cultureamp.png
+    name: Mozilla Foundation Culture Amp
+    op: auth0
+    url: https://mozillafoundation.cultureamp.com/saml/mozillafoundation
+    vanity_url:
+    - /mofo-cultureamp
+- application:
+    authorized_groups:
     - team_opsec
     authorized_users:
     - jclaudius@mozilla.com
