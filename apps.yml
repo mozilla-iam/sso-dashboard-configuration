@@ -4050,6 +4050,6 @@ apps:
       logo: bitsight.png
       name: BitSight
       op: auth0
-      url: https://auth.mozilla.auth0.com/samlp/metadata/eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
+      url: https://auth.mozilla.auth0.com/samlp/eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
       vanity_url:
           - /bitsight
