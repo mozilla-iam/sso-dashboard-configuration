@@ -3845,7 +3845,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    - team_mofo
     - team_mozillaonline
     authorized_users: []
     client_id: axRGaXPRd5pe60fnEllluSN76MefFX1E
