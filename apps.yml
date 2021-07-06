@@ -4040,3 +4040,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/6T3nWVBk9uTyzXSGfxq21UtZ3jAaracA
     vanity_url:
     - /everfi
+- application:
+      authorized_groups:
+          - team_opsec
+          - team_secops
+      authorized_users: []
+      client_id: eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
+      display: true
+      logo: bitsight.png
+      name: BitSight
+      op: auth0
+      url: https://auth.mozilla.auth0.com/samlp/metadata/eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
+      vanity_url:
+          - /bitsight
