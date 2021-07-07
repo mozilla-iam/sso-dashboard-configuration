@@ -3851,7 +3851,7 @@ apps:
     logo: cultureamp.png
     name: Mozilla Foundation Culture Amp
     op: auth0
-    url: https://mozillafoundation.cultureamp.com/saml/mozillafoundation
+    url: https://auth.mozilla.auth0.com/samlp/4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
     vanity_url:
     - /mofo-cultureamp
 - application:
