@@ -103,24 +103,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    - team_mofo
-    - team_mozillajapan
-    - team_mozillaonline
-    - moc_service_accounts
-    authorized_users:
-    - moc+servicenow@mozilla.com
-    - moc-sso-monitoring@mozilla.com
-    client_id: ql6V6DHXglhTCq9qe6DPdV3eAW2da44F
-    display: true
-    logo: amplitude.png
-    name: Amplitude
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/ql6V6DHXglhTCq9qe6DPdV3eAW2da44F
-    vanity_url:
-    - /amplitude
-- application:
-    authorized_groups:
-    - team_moco
     authorized_users: []
     client_id: xAJuHbCa1v0mPp72QMm88hYA2dFEvSy5
     display: false
@@ -591,11 +573,11 @@ apps:
     - team_mozillaonline
     authorized_users: []
     client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
-    display: false
-    logo: auth0.png
+    display: true
+    logo: looker.png
     name: Looker
     op: auth0
-    url: https://mozilla.cloud.looker.com/samlcallback
+    url: https://auth.mozilla.auth0.com/samlp/8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
     vanity_url:
     - /looker
 - application:
@@ -607,7 +589,7 @@ apps:
     logo: auth0.png
     name: Looker Stage
     op: auth0
-    url: https://mozillastaging.cloud.looker.com/samlcallback
+    url: https://auth.mozilla.auth0.com/samlp/1do5W84RLwLWBti921ixd3otO7t2619B
     vanity_url:
     - /looker-stage
 - application:
@@ -620,7 +602,7 @@ apps:
     logo: auth0.png
     name: Looker Dev
     op: auth0
-    url: https://mozilladev.cloud.looker.com/samlcallback
+    url: https://auth.mozilla.auth0.com/samlp/5dRN6IgxPWSJrk9OQ2leoLbRDQDPCa5k
     vanity_url:
     - /looker-dev
 - application:
