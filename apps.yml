@@ -4061,6 +4061,6 @@ apps:
       logo: bitsight.png
       name: BitSight
       op: auth0
-      url: https://auth.mozilla.auth0.com/samlp/eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
+      url: https://service.bitsighttech.com/sso/mozilla-corporation/
       vanity_url:
           - /bitsight
