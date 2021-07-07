@@ -103,24 +103,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    - team_mofo
-    - team_mozillajapan
-    - team_mozillaonline
-    - moc_service_accounts
-    authorized_users:
-    - moc+servicenow@mozilla.com
-    - moc-sso-monitoring@mozilla.com
-    client_id: ql6V6DHXglhTCq9qe6DPdV3eAW2da44F
-    display: true
-    logo: amplitude.png
-    name: Amplitude
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/ql6V6DHXglhTCq9qe6DPdV3eAW2da44F
-    vanity_url:
-    - /amplitude
-- application:
-    authorized_groups:
-    - team_moco
     authorized_users: []
     client_id: xAJuHbCa1v0mPp72QMm88hYA2dFEvSy5
     display: false
@@ -557,23 +539,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/LVjFyOpHUdAJTLkTmDnUADnQmUKOWXO2
 - application:
     authorized_groups:
-    - team_mozillaonline
-    - team_moco
-    - team_mofo
-    - service_jira
-    - moc_service_accounts
-    - mozilliansorg_jira_vendors
-    authorized_users: []
-    client_id: zXilPvZm4Vy2c2YcpMslENEtGXHWc5Rq
-    display: true
-    logo: jira.png
-    name: Jira
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/zXilPvZm4Vy2c2YcpMslENEtGXHWc5Rq
-    vanity_url:
-    - /jira
-- application:
-    authorized_groups:
     - team_moco
     - team_mofo
     - service_jira
@@ -593,13 +558,13 @@ apps:
     - team_mozillaonline
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
-    display: false
+    display: true
     logo: jira.png
-    name: Jira Cloud
+    name: Jira
     op: auth0
     url: https://mozilla-hub.atlassian.net
     vanity_url:
-    - /jira_cloud
+    - /jira
 - application:
     authorized_groups:
     - team_moco
@@ -607,11 +572,11 @@ apps:
     - team_mozillaonline
     authorized_users: []
     client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
-    display: false
-    logo: auth0.png
+    display: true
+    logo: looker.png
     name: Looker
     op: auth0
-    url: https://mozilla.cloud.looker.com/samlcallback
+    url: https://auth.mozilla.auth0.com/samlp/8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
     vanity_url:
     - /looker
 - application:
@@ -623,7 +588,7 @@ apps:
     logo: auth0.png
     name: Looker Stage
     op: auth0
-    url: https://mozillastaging.cloud.looker.com/samlcallback
+    url: https://auth.mozilla.auth0.com/samlp/1do5W84RLwLWBti921ixd3otO7t2619B
     vanity_url:
     - /looker-stage
 - application:
@@ -636,7 +601,7 @@ apps:
     logo: auth0.png
     name: Looker Dev
     op: auth0
-    url: https://mozilladev.cloud.looker.com/samlcallback
+    url: https://auth.mozilla.auth0.com/samlp/5dRN6IgxPWSJrk9OQ2leoLbRDQDPCa5k
     vanity_url:
     - /looker-dev
 - application:
@@ -660,19 +625,6 @@ apps:
     url: https://developer.mozilla.org/
     vanity_url:
     - /mdn
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Zoc0rFi7D3iD18MZGeYXsmXmtuToC7SI
-    display: false
-    logo: auth0.png
-    name: Mentoring
-    op: auth0
-    url: https://mentoring.mozilla.com/oidc/authenticate/
-    vanity_url:
-    - /mentoring
 - application:
     authorized_groups:
     - everyone
@@ -3431,22 +3383,14 @@ apps:
     authorized_groups:
     - team_moco
     authorized_users: []
-    client_id: T95l6gp1PoerbniGDm9eMUaUcKiBJVZt
-    display: false
-    logo: auth0.png
-    name: AdZerk
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/T95l6gp1PoerbniGDm9eMUaUcKiBJVZt
-- application:
-    authorized_groups:
-    - team_moco
-    authorized_users: []
     client_id: WQnlYTEc4PYRRK3FT7n3l9VOtew1IDo2
     display: false
     logo: auth0.png
     name: Kevel
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/WQnlYTEc4PYRRK3FT7n3l9VOtew1IDo2
+    url: https://app.kevel.co/new_login_flow.html?orgcode=mozilla
+    vanity_url:
+    - /kevel
 - application:
     authorized_groups:
     - team_pocket
@@ -3869,7 +3813,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    - team_mofo
     - team_mozillaonline
     authorized_users: []
     client_id: axRGaXPRd5pe60fnEllluSN76MefFX1E
@@ -3880,6 +3823,18 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/axRGaXPRd5pe60fnEllluSN76MefFX1E
     vanity_url:
     - /cultureamp
+- application:
+    authorized_groups:
+    - team_mofo
+    authorized_users: []
+    client_id: 4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
+    display: true
+    logo: cultureamp.png
+    name: Mozilla Foundation Culture Amp
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
+    vanity_url:
+    - /mofo-cultureamp
 - application:
     authorized_groups:
     - team_opsec
@@ -4080,3 +4035,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/6T3nWVBk9uTyzXSGfxq21UtZ3jAaracA
     vanity_url:
     - /everfi
+- application:
+      authorized_groups:
+          - team_opsec
+          - team_secops
+      authorized_users: []
+      client_id: eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
+      display: true
+      logo: bitsight.png
+      name: BitSight
+      op: auth0
+      url: https://service.bitsighttech.com/sso/mozilla-corporation/
+      vanity_url:
+          - /bitsight
