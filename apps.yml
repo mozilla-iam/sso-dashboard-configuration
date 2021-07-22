@@ -4023,3 +4023,25 @@ apps:
       url: https://service.bitsighttech.com/sso/mozilla-corporation/
       vanity_url:
           - /bitsight
+- application:
+    authorized_groups:
+    - team_secops
+    - team_opsec
+    authorized_users: []
+    client_id: oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
+    display: true
+    logo: splunk.png
+    name: Splunk Security SC
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
+- application:
+    authorized_groups:
+    - team_secops
+    - team_opsec
+    authorized_users: []
+    client_id: vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
+    display: true
+    logo: splunk.png
+    name: Splunk Security ES
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
