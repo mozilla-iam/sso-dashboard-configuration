@@ -757,19 +757,16 @@ apps:
     url: https://riskheatmap.security.allizom.org/
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
     - team_mofo
-    - everyone
     authorized_users: []
-    client_id: ByW5ChOPpsQaQFLcAuZBbtjFrh67uBgt
+    client_id: Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
     display: false
     logo: salescloud.png
     name: SalesCloud
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/ByW5ChOPpsQaQFLcAuZBbtjFrh67uBgt
+    url: https://auth.mozilla.auth0.com/samlp/Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
     vanity_url:
-    - /salescloud
+    - /nonprofitcloud
 - application:
     authorized_groups:
     - hris_is_staff
