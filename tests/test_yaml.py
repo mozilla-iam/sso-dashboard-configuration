@@ -19,27 +19,43 @@ class YAMLTest(unittest.TestCase):
 
     def test_output_exists(self):
         ''' Verify that apps.yml is present '''
-        assert self.get_yaml_file() is not None
+        self.assertIsNotNone(self.get_yaml_file(), msg='Loading apps.yml failed')
 
     def test_yaml_loads(self):
         ''' Verify that apps.yml is valid yaml '''
         yaml_content = yaml.load(self.get_yaml_file(), Loader=yaml.FullLoader)
-        assert yaml_content is not None
+        self.assertIsNotNone(yaml_content, msg='apps.yml is structurally invalid YAML')
 
     def test_each_has_required_keys(self):
         ''' Verify that apps.yml has keys we expect '''
         yaml_content = yaml.load(self.get_yaml_file(), Loader=yaml.FullLoader)
-        assert yaml_content is not None
+        self.assertIsNotNone(yaml_content, msg='apps.yml is structurally invalid YAML')
+        # The YAML is a key of the literal word 'apps' ...
+        self.assertIn('apps', yaml_content, msg='apps.yml has no "apps" key')
 
-        for app in yaml_content['apps']:
-            logger.info('Validating keys for %s', app['application'])
-            assert app['application']['name'] is not None
-            # assert app['application']['client_id'] is not None # Client ID not required
-            assert app['application']['op'] is not None
-            assert app['application']['url'] is not None
-            assert app['application']['logo'] is not None
-            assert app['application']['authorized_users'] is not None
-            assert app['application']['authorized_groups'] is not None
-            assert app['application']['display'] is not None
-            if app['application'].get('expire_access_when_unused_after') is not None:
-                assert isinstance(app['application']['expire_access_when_unused_after'], int)
+        # ... whose values are a list of entries ...
+        for app_entry in yaml_content.get('apps', []):
+            # ... where each entry is key'ed as the literal word 'application':
+            app = app_entry.get('application', {})
+            # And each entry has keys, which we'll now look at.
+
+            # First, let's look at the name, because otherwise, we'll be super spammy when
+            # we report on what we're looking at:
+            appname = app.get('name')
+            if appname is None:
+                logger.info(('There is an entry without a name in app %s.'
+                             'This is so broken I am stopping analyzing it.'), app)
+                continue
+
+            # Now, investigate the rest of the keys that must be present:
+            logger.info('Validating keys for %s', appname)
+            for attribute in ['op', 'url', 'logo', 'authorized_users', 'authorized_groups',
+                              'display']:
+                              #'display', 'client_id']:
+                # client_id is not required, but maybe should be.
+                self.assertIsNotNone(app.get(attribute),
+                                     msg=f'{appname} is missing a "{attribute}" attribute')
+
+            # Finally, inspect the keys that are "if they're here, must be a certain way":
+            if app.get('expire_access_when_unused_after') is not None:
+                self.assertIsInstance(app['expire_access_when_unused_after'], int)
