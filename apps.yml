@@ -3956,6 +3956,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    client_id: SS69h1GdOidHxtxeWLG2ryO5c6BYnj6O
     authorized_users: []
     display: true
     logo: compiler_explorer.png
