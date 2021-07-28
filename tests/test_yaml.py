@@ -23,12 +23,12 @@ class YAMLTest(unittest.TestCase):
 
     def test_yaml_loads(self):
         ''' Verify that apps.yml is valid yaml '''
-        yaml_content = yaml.load(self.get_yaml_file())
+        yaml_content = yaml.load(self.get_yaml_file(), Loader=yaml.FullLoader)
         assert yaml_content is not None
 
     def test_each_has_required_keys(self):
         ''' Verify that apps.yml has keys we expect '''
-        yaml_content = yaml.load(self.get_yaml_file())
+        yaml_content = yaml.load(self.get_yaml_file(), Loader=yaml.FullLoader)
         assert yaml_content is not None
 
         for app in yaml_content['apps']:
