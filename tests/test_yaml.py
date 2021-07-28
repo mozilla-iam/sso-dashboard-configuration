@@ -51,11 +51,16 @@ class YAMLTest(unittest.TestCase):
             logger.info('Validating keys for %s', appname)
             for attribute in ['op', 'url', 'logo', 'authorized_users', 'authorized_groups',
                               'display']:
-                              #'display', 'client_id']:
-                # client_id is not required, but maybe should be.
                 self.assertIsNotNone(app.get(attribute),
                                      msg=f'{appname} is missing a "{attribute}" attribute')
 
             # Finally, inspect the keys that are "if they're here, must be a certain way":
+            if app.get('client_id') is not None:
+                # client_id is not required, but maybe should be, see
+                # https://github.com/mozilla-iam/sso-dashboard-configuration/pull/371
+                self.assertRegex(app['client_id'], r'^[A-Za-z0-9]{32}$',
+                                 msg=f'{appname} has a malformed client_id')
+            else:
+                logger.warning('%s has no client_id', appname)
             if app.get('expire_access_when_unused_after') is not None:
                 self.assertIsInstance(app['expire_access_when_unused_after'], int)
