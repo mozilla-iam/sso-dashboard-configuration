@@ -2504,6 +2504,18 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: 3a6sbM3CfbTQ8YkZ4wW7YpOdNN5NX4Hb
+    display: false
+    logo: auth0.png
+    name: lando.devsvcdev.mozaws.net
+    op: auth0
+    url: https://lando.devsvcdev.mozaws.net/redirect_uri
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
     client_id: 47BCiKGMwpCH5K7IzmJ1DjrHSo82krNs
     display: false
     logo: auth0.png
