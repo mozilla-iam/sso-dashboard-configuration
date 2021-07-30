@@ -4058,3 +4058,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/tc4KWmjurzZJpqF3HCXcWeo7xlycNLp7
     vanity_url:
     - /sendgrid
+- application:
+    authorized_groups:
+    - mozilliansorg_talentwall-access
+    authorized_users: []
+    client_id: 2igLHKcnjKFZDp5qOzONLM951lnJscOu
+    display: true
+    logo: talentwall.png
+    name: TalentWall
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/2igLHKcnjKFZDp5qOzONLM951lnJscOu
+    vanity_url:
+    - /talentwall
