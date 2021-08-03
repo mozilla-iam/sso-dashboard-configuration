@@ -772,19 +772,16 @@ apps:
     - /salescloud
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
     - team_mofo
-    - everyone
     authorized_users: []
     client_id: Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
-    display: false
+    display: true
     logo: salescloud.png
     name: SalesCloud Non-Profit
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
     vanity_url:
-    - /salescloud_np
+    - /salesforcenonprofit
 - application:
     authorized_groups:
     - hris_is_staff
