@@ -55,12 +55,19 @@ class YAMLTest(unittest.TestCase):
                                      msg=f'{appname} is missing a "{attribute}" attribute')
 
             # Finally, inspect the keys that are "if they're here, must be a certain way":
+            self.assertIsInstance(app.get('display'), bool)
+
             if app.get('client_id') is not None:
                 # client_id is not required, but maybe should be, see
                 # https://github.com/mozilla-iam/sso-dashboard-configuration/pull/371
                 self.assertRegex(app['client_id'], r'^[A-Za-z0-9]{32}$',
                                  msg=f'{appname} has a malformed client_id')
+                if not (app.get('authorized_groups') or app.get('authorized_users')):
+                    logger.warning(('%s has a client_id but no auth layers defined.  '
+                                     'Verify this is correct.'), appname)
             else:
-                logger.warning('%s has no client_id', appname)
+                logger.warning(('%s has no client_id, everyone has access.  '
+                                'Verify this is correct.'), appname)
+
             if app.get('expire_access_when_unused_after') is not None:
                 self.assertIsInstance(app['expire_access_when_unused_after'], int)
