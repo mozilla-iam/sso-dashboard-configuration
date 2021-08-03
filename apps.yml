@@ -4028,6 +4028,7 @@ apps:
     authorized_groups:
     - team_secops
     - team_opsec
+    - team_netops
     authorized_users: []
     client_id: oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
     display: true
@@ -4039,6 +4040,7 @@ apps:
     authorized_groups:
     - team_secops
     - team_opsec
+    - team_netops
     authorized_users: []
     client_id: vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
     display: true
@@ -4046,6 +4048,18 @@ apps:
     name: Splunk Security ES
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
+- application:
+    authorized_groups:
+    - team_secops
+    - team_opsec
+    - team_netops
+    authorized_users: []
+    client_id: GbOYKyYEIIfgu34Aq2ykl8vTnGfQ28aq
+    display: true
+    logo: splunk.png
+    name: Splunk Security Dev
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/GbOYKyYEIIfgu34Aq2ykl8vTnGfQ28aq
 - application:
     authorized_groups:
     - mozilliansorg_sendgrid-access
