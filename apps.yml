@@ -890,6 +890,8 @@ apps:
     - splunk_admin
     - hris_dept_it
     - team_infra
+    - team_secops
+    - team_opsec
     authorized_users: []
     client_id: EUmKs3owmNdeDWxZ4CJIeSGM5ez3Suav
     display: true
