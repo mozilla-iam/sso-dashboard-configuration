@@ -3700,6 +3700,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: NhzqLGjjqXIp3kGoonkTLSO7awPBhWsK
     display: true
@@ -3714,6 +3715,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: w8hBBYB30b12DqElacIQkFM6V2deEpwz
     display: false
@@ -3726,6 +3728,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
     display: true
