@@ -1382,6 +1382,7 @@ apps:
     - team_mozillaonline
     authorized_users:
     - billing@mozilla.com
+    - ad|Mozilla-LDAP|billing
     display: true
     logo: expensify.png
     name: Expensify
