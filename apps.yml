@@ -2210,48 +2210,12 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: l7kCqo8U1Ka2ZtlE85Dmy2a8Ic1I8y7H
-    display: false
-    logo: auth0.png
-    name: bacula1.private.mdc1.mozilla.com
-    op: auth0
-    url: https://bacula1.private.mdc1.mozilla.com/callback
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: EtCJe9m2NFGF4TO0kIfPoT7gQqTKU0DE
     display: false
     logo: auth0.png
     name: Foreman
     op: auth0
     url: https://foreman.private.mdc1.mozilla.com/callback
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: MmT719PU6y84GsRkym00nVvVHi2y5hPa
-    display: false
-    logo: auth0.png
-    name: testwebapp.private.mdc1.mozilla.com
-    op: auth0
-    url: https://testwebapp.private.mdc1.mozilla.com/callback
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Hi9rqHLPlnpRfMkc7dtkToFc3DHtcf4Z
-    display: false
-    logo: auth0.png
-    name: rundeck1.private.scl3.mozilla.com
-    op: auth0
-    url: https://rundeck1.private.scl3.mozilla.com/callback
 - application:
     authorized_groups:
     - hris_is_staff
@@ -2590,18 +2554,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: LNPKbJGoCqEBuCtIZIoJg08V4QtNzfYJ
-    display: false
-    logo: auth0.png
-    name: graphite-mdc1.mozilla.org
-    op: auth0
-    url: https://graphite-mdc1.mozilla.org/login
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: a8153qZo1lnReZ3hj3ZCmP8YMzArrHqU
     display: false
     logo: auth0.png
@@ -2760,18 +2712,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: rrXGZ6x7J4MIWWlQ6zhTzgED2GxIsHCv
-    display: false
-    logo: auth0.png
-    name: pentest-master.private.mdc1.mozilla.com
-    op: auth0
-    url: https://pentest-master.private.mdc1.mozilla.com/redirect_uri
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: s7ICwWzGSP8WRnAkAMpIjDyayaEIOneU
     display: false
     logo: auth0.png
@@ -2887,18 +2827,6 @@ apps:
     name: Logging 2.0 CEP Dev
     op: auth0
     url: https://logging-cep.dev.mozaws.net/dashboard_output/login
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: K3ZolIlVbVH41tI9czWdQaPAHWriGx92
-    display: false
-    logo: auth0.png
-    name: bacula1.private.mdc2.mozilla.com
-    op: auth0
-    url: https://bacula1.private.mdc2.mozilla.com/callback
 - application:
     authorized_groups:
     - hris_is_staff
@@ -3131,18 +3059,6 @@ apps:
     name: Expensify
     op: auth0
     url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Scha3pS5Y3vITvnhnbLxSla2MBMPdo3M
-    display: false
-    logo: auth0.png
-    name: graphite-mdc2.mozilla.org
-    op: auth0
-    url: https://graphite-mdc2.mozilla.org/login
 - application:
     authorized_groups:
     - hris_is_staff
