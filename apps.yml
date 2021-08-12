@@ -2700,7 +2700,8 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - billing@mozilla.com
     client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
     display: false
     logo: auth0.png
@@ -3122,7 +3123,8 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - billing@mozilla.com
     client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
     display: false
     logo: auth0.png
