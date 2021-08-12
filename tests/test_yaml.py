@@ -1,6 +1,7 @@
 "Test the YAML file is loadable and valid"
 import logging
 import unittest
+from collections import defaultdict
 import yaml
 
 
@@ -33,6 +34,13 @@ class YAMLTest(unittest.TestCase):
         # The YAML is a key of the literal word 'apps' ...
         self.assertIn('apps', yaml_content, msg='apps.yml has no "apps" key')
 
+        unique_entries = {}
+        required_attributes = ['name', 'op', 'url', 'logo', 'authorized_users',
+                               'authorized_groups', 'display']
+        unique_attributes = ['name', 'url', 'client_id']
+        for attribute in unique_attributes:
+            unique_entries[attribute] = defaultdict(lambda: 0)
+
         # ... whose values are a list of entries ...
         for app_entry in yaml_content.get('apps', []):
             # ... where each entry is key'ed as the literal word 'application':
@@ -49,10 +57,12 @@ class YAMLTest(unittest.TestCase):
 
             # Now, investigate the rest of the keys that must be present:
             logger.info('Validating keys for %s', appname)
-            for attribute in ['op', 'url', 'logo', 'authorized_users', 'authorized_groups',
-                              'display']:
-                self.assertIsNotNone(app.get(attribute),
+            for attribute in required_attributes:
+                value = app.get(attribute)
+                self.assertIsNotNone(value,
                                      msg=f'{appname} is missing a "{attribute}" attribute')
+                if attribute in unique_attributes:
+                    unique_entries[attribute][value] += 1
 
             # Finally, inspect the keys that are "if they're here, must be a certain way":
             self.assertIsInstance(app.get('display'), bool)
@@ -71,3 +81,10 @@ class YAMLTest(unittest.TestCase):
 
             if app.get('expire_access_when_unused_after') is not None:
                 self.assertIsInstance(app['expire_access_when_unused_after'], int)
+
+        for attribute, valuehash in unique_entries.items():
+            for value, count in valuehash.items():
+                if count < 2:
+                    continue
+                logger.warning('%s appears as a "%s" field %s times, but may need to be unique',
+                               value, attribute, count)
