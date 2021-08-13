@@ -1377,20 +1377,6 @@ apps:
     - /syntrio
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozillaonline
-    authorized_users:
-    - billing@mozilla.com
-    display: true
-    logo: expensify.png
-    name: Expensify
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
-    vanity_url:
-    - /expensify
-- application:
-    authorized_groups:
     - mozilliansorg_gcp-infrastructure-production
     - service_meao_gcp
     authorized_users: []
@@ -2700,19 +2686,6 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users:
-    - billing@mozilla.com
-    client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
-    display: false
-    logo: auth0.png
-    name: Expensify (getpocket.com)
-    op: auth0
-    url: https://www.expensify.com/authentication/saml/loginCallback?domain=getpocket.com
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
     authorized_users: []
     client_id: 5tkbwIFZqYLtZtFIDki6Nqpt8GHUzZ2J
     display: false
@@ -3118,19 +3091,6 @@ apps:
     name: DAM Stage (NetX)
     op: auth0
     url: https://mozillatest.netx.net/SSO
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users:
-    - billing@mozilla.com
-    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
-    display: false
-    logo: auth0.png
-    name: Expensify
-    op: auth0
-    url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
 - application:
     authorized_groups:
     - hris_is_staff
@@ -4124,3 +4084,50 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/2igLHKcnjKFZDp5qOzONLM951lnJscOu
     vanity_url:
     - /talentwall
+
+# Expensify for everyone has no client_id, but the URL's client ID matches below.
+# TODO: client_id is not set; other instances of the client ID in the URL may affect access.
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_mozillaonline
+    authorized_users:
+    - billing@mozilla.com
+    display: true
+    logo: expensify.png
+    name: Expensify
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
+    vanity_url:
+    - /expensify
+# Expensify for 'mozilla.com' has a client_id, duplicating the URL's above.
+# TODO: Does MozillaOnline have appropriate access?
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users:
+    - billing@mozilla.com
+    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
+    display: false
+    logo: auth0.png
+    name: Expensify
+    op: auth0
+    url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
+# Expensify for getpocket.com has a different client ID than MoCo above.
+# TODO: Verify that this still functions and is needed.
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users:
+    - billing@mozilla.com
+    client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
+    display: false
+    logo: auth0.png
+    name: Expensify (getpocket.com)
+    op: auth0
+    url: https://www.expensify.com/authentication/saml/loginCallback?domain=getpocket.com
