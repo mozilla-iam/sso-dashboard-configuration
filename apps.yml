@@ -916,19 +916,6 @@ apps:
     - /splunk
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq
-    display: true
-    logo: statuspage.png
-    name: StatusPage
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq
-    vanity_url:
-    - /statuspage
-- application:
-    authorized_groups:
     - hris_is_staff
     - team_moco
     - team_mofo
@@ -2649,19 +2636,6 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    - statuspage_service_accounts
-    authorized_users: []
-    client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
-    display: false
-    logo: auth0.png
-    name: manage.statuspage.io
-    op: auth0
-    url: https://manage.statuspage.io/sso/saml/consume
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
     - vpn_cloudops_shipit
     authorized_users: []
     client_id: 2dXygwTNP3p7iLTSaEWbdoiJFkjSBqm4
@@ -2764,19 +2738,6 @@ apps:
     name: https://anb1.fuzzing.mozilla.org/
     op: auth0
     url: https://anb1.fuzzing.mozilla.org/oidc/callback/
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    - statuspage_service_accounts
-    authorized_users: []
-    client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
-    display: false
-    logo: auth0.png
-    name: firefoxoperations.statuspage.io
-    op: auth0
-    url: https://manage.statuspage.io/sso/saml/consume
 - application:
     authorized_groups:
     - hris_is_staff
@@ -4141,3 +4102,49 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
     vanity_url:
     - /new-relic-voice
+
+# StatusPage application, for general mofoco
+# TODO: Should this groups list match the other statuspage instances?
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq
+    display: true
+    logo: statuspage.png
+    name: StatusPage
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq
+    vanity_url:
+    - /statuspage
+# StatusPage site 'manage'
+# TODO: The URL below is 404. How do we access this? Is this still used?
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - statuspage_service_accounts
+    authorized_users: []
+    client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
+    display: false
+    logo: auth0.png
+    name: manage.statuspage.io
+    op: auth0
+    url: https://manage.statuspage.io/sso/saml/consume
+# StatusPage site 'firefoxoperations'
+# TODO: The URL below is 404. How do we access this? Is this still used?
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    - statuspage_service_accounts
+    authorized_users: []
+    client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
+    display: false
+    logo: auth0.png
+    name: firefoxoperations.statuspage.io
+    op: auth0
+    url: https://manage.statuspage.io/sso/saml/consume
