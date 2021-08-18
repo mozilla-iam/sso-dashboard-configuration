@@ -219,7 +219,7 @@ apps:
     - /cloudhealth
 - application:
     authorized_groups:
-    - team_moco
+    - mozilliansorg_contentful-access
     authorized_users: []
     client_id: i5aMJlDr5FCHEKnHTtYTb8XNmFz6h5jp
     display: true
