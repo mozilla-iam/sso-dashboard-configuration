@@ -3641,22 +3641,14 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
-    display: false
-    logo: auth0.png
-    name: SpaceIQ
+    display: true
+    logo: siq.png
+    name: SiQ
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
     vanity_url:
     - /spaceiq
-- application:
-    authorized_groups:
-    - service_spaceiq_preview
-    authorized_users: []
-    display: true
-    logo: spaceiq.png
-    name: SpaceIQ (Preview)
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
+    - /siq
 - application:
     authorized_groups:
     - hris_is_staff
