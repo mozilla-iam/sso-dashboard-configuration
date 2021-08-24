@@ -3717,8 +3717,7 @@ apps:
     url: https://glam.telemetry.mozilla.org
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
+    - team_moco_benefited
     - team_mofo
     - team_mozillaonline
     authorized_users: []
@@ -3732,8 +3731,7 @@ apps:
     - /udemy
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
+    - team_moco_benefited
     - team_mofo
     - team_mozillaonline
     authorized_users: []
@@ -3745,8 +3743,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/w8hBBYB30b12DqElacIQkFM6V2deEpwz
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
+    - team_moco_benefited
     - team_mofo
     - team_mozillaonline
     authorized_users: []
