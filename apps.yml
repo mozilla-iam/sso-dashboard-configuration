@@ -3369,15 +3369,17 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: 1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+    authorized_users:
+    - dlipski@mozilla.com
+    - jeide@mozilla.com
+    client_id: TB91RkOJc4eQhOuT0SIfUHm2nD6W3ipT
     display: true
-    logo: hackerrank.png
-    name: HackerRank
+    logo: coderpad.png
+    name: CoderPad
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+    url: https://auth.mozilla.auth0.com/samlp/TB91RkOJc4eQhOuT0SIfUHm2nD6W3ipT
     vanity_url:
-    - /hackerrank
+    - /coderpad
 - application:
     authorized_groups:
     - service_uptycs
