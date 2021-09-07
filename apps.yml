@@ -4033,7 +4033,7 @@ apps:
     - team_moco
     authorized_users: []
     client_id: 6T3nWVBk9uTyzXSGfxq21UtZ3jAaracA
-    display: false
+    display: true
     logo: everfi.png
     name: Everfi
     op: auth0
