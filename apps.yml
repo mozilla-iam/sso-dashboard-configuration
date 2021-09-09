@@ -4127,3 +4127,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/7CQiBSkH46JQsZDivIxXdB5KE9iAdDAD
     vanity_url:
     - /helpscout
+- application:
+    authorized_groups:
+    - mozilliansorg_bitrise_access
+    authorized_users: []
+    client_id: SgKK7ZZcUT8gLcZPYq229gCHBIyWV2kq
+    display: true
+    logo: bitrise.png
+    name: Bitrise
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/SgKK7ZZcUT8gLcZPYq229gCHBIyWV2kq
+    vanity_url:
+    - /bitrise
