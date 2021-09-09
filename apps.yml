@@ -1330,7 +1330,9 @@ apps:
     - mozilliansorg_nda
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - mozboxadmin@mozilla.com
+    - servicedesk@mozilla.com
     client_id: yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj
     display: false
     logo: auth0.png
