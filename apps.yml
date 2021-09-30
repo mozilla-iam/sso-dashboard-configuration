@@ -4144,3 +4144,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/SgKK7ZZcUT8gLcZPYq229gCHBIyWV2kq
     vanity_url:
     - /bitrise
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 7M49iYODCiCGdldu4awmF2Pr6pHsRZDe
+    display: false
+    logo: auth0.png
+    name: settings.dev.mozaws.net
+    op: auth0
+    url: https://settings.dev.mozaws.net/v1/admin/
