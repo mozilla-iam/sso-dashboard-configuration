@@ -303,8 +303,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/kNsY9QiOy7pSUjiordq7WixztBPCepuD
 - application:
     authorized_groups:
-    - egencia_us
-    - egencia_ca
+    - mozilliansorg_tripactions
     authorized_users: []
     display: true
     logo: egencia.png
@@ -315,7 +314,7 @@ apps:
     - /egencia
 - application:
     authorized_groups:
-    - egencia_uk
+    - mozilliansorg_tripactions
     authorized_users: []
     display: true
     logo: egencia.png
@@ -326,7 +325,7 @@ apps:
     - /egenciauk
 - application:
     authorized_groups:
-    - egencia_ca
+    - mozilliansorg_tripactions
     authorized_users: []
     display: false
     logo: egencia.png
@@ -337,7 +336,7 @@ apps:
     - /egenciaca
 - application:
     authorized_groups:
-    - egencia_apac
+    - mozilliansorg_tripactions
     authorized_users: []
     display: true
     logo: egencia.png
@@ -348,7 +347,7 @@ apps:
     - /egenciaapac
 - application:
     authorized_groups:
-    - egencia_de
+    - mozilliansorg_tripactions
     authorized_users: []
     display: true
     logo: egencia.png
@@ -359,7 +358,7 @@ apps:
     - /egenciade
 - application:
     authorized_groups:
-    - egencia_fr
+    - mozilliansorg_tripactions
     authorized_users: []
     display: true
     logo: egencia.png
@@ -3919,7 +3918,10 @@ apps:
     url: https://sso.smartling.com/sso-apps/dashboard/accounts/3f16c2f8
 - application:
     authorized_groups:
-    - mozilliansorg_tripactions
+    - team_moco
+    - team_mofo
+    - team_pocket
+    - team_mozillaonline
     authorized_users: []
     client_id: i1qBrMjJEdKlTNEVgGwc9P0xFxI9cuD8
     display: true
