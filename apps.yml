@@ -4080,3 +4080,17 @@ apps:
     name: settings.dev.mozaws.net
     op: auth0
     url: https://settings.dev.mozaws.net/v1/admin/
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 12lnezLro7iC57ooPPPpVeGHXf8MhaRV
+    display: true
+    logo: textio.png
+    name: Textio
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/12lnezLro7iC57ooPPPpVeGHXf8MhaRV
+    vanity_url:
+    - /textio
