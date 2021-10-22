@@ -1010,9 +1010,8 @@ apps:
     logo: thehub.png
     name: Jira Service Management
     op: auth0
-    url: https://mozilla-hub.atlassian.net
+    url: https://mozilla-hub.atlassian.net/servicedesk/customer/portals
     vanity_url:
-    - /jira
     - /thehub
     - /servicenow
 - application:
