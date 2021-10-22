@@ -990,12 +990,29 @@ apps:
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     client_id: 5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP
-    display: true
+    display: false
     logo: thehub.png
-    name: The Hub
+    name: The Hub (deprecated)
     op: auth0
     url: https://mozilla.service-now.com/
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_mozillajapan
+    - team_mozillaonline
+    - moc_service_accounts
+    authorized_users:
+    - moc+servicenow@mozilla.com
+    - moc-sso-monitoring@mozilla.com
+    client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
+    display: false
+    logo: thehub.png
+    name: Jira Service Management
+    op: auth0
+    url: https://mozilla-hub.atlassian.net
     vanity_url:
+    - /jira
     - /thehub
     - /servicenow
 - application:
