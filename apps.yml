@@ -1006,7 +1006,7 @@ apps:
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
-    display: false
+    display: true
     logo: thehub.png
     name: Jira Service Management
     op: auth0
