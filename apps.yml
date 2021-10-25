@@ -963,7 +963,7 @@ apps:
     - moc-sso-monitoring@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
-    logo: thehub.png
+    logo: jsm.png
     name: Jira Service Management
     op: auth0
     url: https://mozilla-hub.atlassian.net/servicedesk/customer/portals
