@@ -4075,3 +4075,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/12lnezLro7iC57ooPPPpVeGHXf8MhaRV
     vanity_url:
     - /textio
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    authorized_users: []
+    client_id: hYQggi94XNgMBJCuENbUA1ec7uoRLecO
+    display: true
+    logo: fivetran.png
+    name: Fivetran
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/hYQggi94XNgMBJCuENbUA1ec7uoRLecO
+    vanity_url:
+    - /fivetran
