@@ -192,7 +192,8 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - casa-fivetran@mozilla.com
     client_id: IU80mVpKPtIZyUZtya9ZnSTs6fKLt3JO
     display: true
     logo: biztera.png
