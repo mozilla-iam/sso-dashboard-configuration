@@ -2589,18 +2589,6 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: R1LKQo9HsKo8up7Dbwsj2HolbjymOUoU
-    display: false
-    logo: auth0.png
-    name: auth0-react-sample-app.netlify.com
-    op: auth0
-    url: https://auth0-react-sample-app.netlify.com/callback
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
     - statuspage_service_accounts
     authorized_users: []
     client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
