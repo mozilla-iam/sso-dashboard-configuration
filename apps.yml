@@ -138,16 +138,6 @@ apps:
     - /anaplan
 - application:
     authorized_groups:
-    - team_opsec
-    authorized_users: []
-    client_id: snpYGrMjpcnNlz7FlXxgFs9ok7IRz83g
-    display: true
-    logo: asap.png
-    name: ASAP (AWS Security Auditing Platform)
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/snpYGrMjpcnNlz7FlXxgFs9ok7IRz83g
-- application:
-    authorized_groups:
     - mozilliansorg_basket_admin
     authorized_users: []
     client_id: 14G95j0WAteSbDicn75gsZvRPXN6bkQm
