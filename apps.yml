@@ -3712,12 +3712,14 @@ apps:
     url: https://stats.voice.mozit.cloud/
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
+    - stripe_subplat_admin
+    - stripe_subplat_analyst
+    - stripe_subplat_developer
+    - stripe_subplat_supportsp
     authorized_users: []
     client_id: cEfnJekrSStxxxBascTjNEDAZVUPAIU2
-    display: false
-    logo: auth0.png
+    display: true
+    logo: stripe.png
     name: Stripe (subplat)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/cEfnJekrSStxxxBascTjNEDAZVUPAIU2
