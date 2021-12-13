@@ -3716,6 +3716,7 @@ apps:
     - stripe_subplat_analyst
     - stripe_subplat_developer
     - stripe_subplat_supportsp
+    - stripe_subplat_viewonly
     authorized_users: []
     client_id: cEfnJekrSStxxxBascTjNEDAZVUPAIU2
     display: true
