@@ -4091,6 +4091,7 @@ apps:
     - /connect
 - application:
     authorized_groups:
+    - team_mozillaonline
     - team_moco
     - team_mofo
     authorized_users: []
