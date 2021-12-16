@@ -4117,4 +4117,4 @@ apps:
     logo: auth0.png
     name: demo.kinto-storage.org
     op: auth0
-    url: https://settings.dev.mozaws.net/v1/admin/
+    url: https://demo.kinto-storage.org/v1/admin/
