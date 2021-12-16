@@ -4107,10 +4107,9 @@ apps:
     vanity_url:
     - /sentry
 - application:
+    AAL: LOW
     authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
+    - everyone
     authorized_users: []
     client_id: XNmXEZhGfNaYltbCKustGunTbH0r8Gkp
     display: false
