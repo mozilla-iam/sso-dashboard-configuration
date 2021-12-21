@@ -4106,3 +4106,14 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/94A5PWkgKK2sJKxUnF8O8k5rNtEMdngk
     vanity_url:
     - /sentry
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: XNmXEZhGfNaYltbCKustGunTbH0r8Gkp
+    display: false
+    logo: auth0.png
+    name: demo.kinto-storage.org
+    op: auth0
+    url: https://demo.kinto-storage.org/v1/admin/
