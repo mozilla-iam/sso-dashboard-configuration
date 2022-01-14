@@ -4118,3 +4118,14 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/h0xnB8lHw5Gfapsg0AA8XH8jZvT1FEBv
     vanity_url:
     - /looker-people
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: XNmXEZhGfNaYltbCKustGunTbH0r8Gkp
+    display: false
+    logo: auth0.png
+    name: demo.kinto-storage.org
+    op: auth0
+    url: https://demo.kinto-storage.org/v1/admin/
