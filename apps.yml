@@ -767,53 +767,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/OWVEwzt059vjws6mkQgGeqJChA4dBI70
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX
-    display: false
-    logo: servicenow.png
-    name: ServiceNow - Dev
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9
-    display: false
-    logo: servicenow.png
-    name: ServiceNow - Stage
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh
-    display: false
-    logo: servicenow.png
-    name: ServiceNow - Test
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    - moc_service_accounts
-    authorized_users:
-    - moc+servicenow@mozilla.com
-    - moc-sso-monitoring@mozilla.com
-    client_id: axoW08Nny1HXe0qcP0416YGrmYtfgdTQ
-    display: false
-    logo: servicenow.png
-    name: ServiceNow - Upgrade
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ
-- application:
-    authorized_groups:
     - mozilliansorg_snippets_admin
     authorized_users: []
     client_id: A7GAcuN9gE9x3H186dKQgzS3jsV9Qmgp
@@ -926,22 +879,6 @@ apps:
     url: https://login.taskcluster.net
     vanity_url:
     - /taskcluster
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozillajapan
-    - team_mozillaonline
-    - moc_service_accounts
-    authorized_users:
-    - moc+servicenow@mozilla.com
-    - moc-sso-monitoring@mozilla.com
-    client_id: 5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP
-    display: false
-    logo: thehub.png
-    name: The Hub (deprecated)
-    op: auth0
-    url: https://mozilla.service-now.com/
 - application:
     authorized_groups:
     - team_moco
@@ -2924,18 +2861,6 @@ apps:
     name: mozillauvd.vidyocloudstaging.com
     op: auth0
     url: https://mozillauvd.vidyocloudstaging.com/saml/SSO/alias/MozillaUVD
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: KFc2l66tcg58HhD5mIeTf0LfjYOUySyU
-    display: false
-    logo: auth0.png
-    name: tempmozilla.service-now.com
-    op: auth0
-    url: https://tempmozilla.service-now.com/navpage.do
 - application:
     authorized_groups:
     - hris_is_staff
