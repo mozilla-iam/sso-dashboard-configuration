@@ -4108,7 +4108,7 @@ apps:
     - /sentry
 - application:
     authorized_groups:
-    - team_moco
+    - mozilliansorg_looker-people-access
     authorized_users: []
     client_id: h0xnB8lHw5Gfapsg0AA8XH8jZvT1FEBv
     display: true
