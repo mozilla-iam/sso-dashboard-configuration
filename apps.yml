@@ -4117,3 +4117,15 @@ apps:
     name: demo.kinto-storage.org
     op: auth0
     url: https://demo.kinto-storage.org/v1/admin/
+- application:
+    authorized_groups:
+    - team_pocket
+    authorized_users: []
+    client_id: kIaT2UagYzIAUmR0nAlvjZu6x388jR5t
+    display: true
+    logo: sentry.png
+    name: Sentry.io (Pocket)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/kIaT2UagYzIAUmR0nAlvjZu6x388jR5t
+    vanity_url:
+    - /sentry-pocket
