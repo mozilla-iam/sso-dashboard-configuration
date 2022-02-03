@@ -1,3 +1,27 @@
+# NOTE: authorized_groups and authorized_users control two things independently:
+#
+# 1. Does the SSO Dashboard display a tile to the user for this application?
+#
+#        No, if display: false.
+#            No SSO users can see the tile.
+#
+#        Maybe, if display: true.
+#            If groups/users are defined,
+#                The user must be a member of them to see the tile.
+#            Otherwise,
+#                All SSO users (including the general public) can see the tile.
+#
+# 2. Does Auth0 restrict SSO access to this application by group or user?
+#
+#        No, if client_id is missing.
+#            All SSO users (including the general public) can access the app.
+#
+#        Maybe, if client_id is defined.
+#            If groups/users are defined,
+#                The user must be a member of them to access the application.
+#            Otherwise,
+#                All SSO users (including the general public) can access the app.
+
 apps:
 - application:
     authorized_groups:
@@ -114,16 +138,6 @@ apps:
     - /anaplan
 - application:
     authorized_groups:
-    - team_opsec
-    authorized_users: []
-    client_id: snpYGrMjpcnNlz7FlXxgFs9ok7IRz83g
-    display: true
-    logo: asap.png
-    name: ASAP (AWS Security Auditing Platform)
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/snpYGrMjpcnNlz7FlXxgFs9ok7IRz83g
-- application:
-    authorized_groups:
     - mozilliansorg_basket_admin
     authorized_users: []
     client_id: 14G95j0WAteSbDicn75gsZvRPXN6bkQm
@@ -168,7 +182,8 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - casa-fivetran@mozilla.com
     client_id: IU80mVpKPtIZyUZtya9ZnSTs6fKLt3JO
     display: true
     logo: biztera.png
@@ -195,7 +210,7 @@ apps:
     - /cloudhealth
 - application:
     authorized_groups:
-    - team_moco
+    - mozilliansorg_contentful-access
     authorized_users: []
     client_id: i5aMJlDr5FCHEKnHTtYTb8XNmFz6h5jp
     display: true
@@ -277,73 +292,6 @@ apps:
     name: DXR-stage
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/kNsY9QiOy7pSUjiordq7WixztBPCepuD
-- application:
-    authorized_groups:
-    - egencia_us
-    - egencia_ca
-    authorized_users: []
-    display: true
-    logo: egencia.png
-    name: Egencia
-    op: auth0
-    url: https://mozilla.egencia.com
-    vanity_url:
-    - /egencia
-- application:
-    authorized_groups:
-    - egencia_uk
-    authorized_users: []
-    display: true
-    logo: egencia.png
-    name: Egencia (UK)
-    op: auth0
-    url: https://mozilla.egencia.co.uk
-    vanity_url:
-    - /egenciauk
-- application:
-    authorized_groups:
-    - egencia_ca
-    authorized_users: []
-    display: false
-    logo: egencia.png
-    name: Egencia (CA)
-    op: auth0
-    url: http://www.egencia.ca/pub/agent.dll?qscr=vain&amp;vain=mozilla
-    vanity_url:
-    - /egenciaca
-- application:
-    authorized_groups:
-    - egencia_apac
-    authorized_users: []
-    display: true
-    logo: egencia.png
-    name: Egencia (APAC)
-    op: auth0
-    url: https://mozilla.egencia.com.sg
-    vanity_url:
-    - /egenciaapac
-- application:
-    authorized_groups:
-    - egencia_de
-    authorized_users: []
-    display: true
-    logo: egencia.png
-    name: Egencia (DE)
-    op: auth0
-    url: https://mozilla.egencia.de
-    vanity_url:
-    - /egenciade
-- application:
-    authorized_groups:
-    - egencia_fr
-    authorized_users: []
-    display: true
-    logo: egencia.png
-    name: Egencia (FR)
-    op: auth0
-    url: https://mozilla.egencia.fr
-    vanity_url:
-    - /egenciafr
 - application:
     authorized_groups:
     - team_moco
@@ -772,19 +720,16 @@ apps:
     - /salescloud
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
     - team_mofo
-    - everyone
     authorized_users: []
     client_id: Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
-    display: false
+    display: true
     logo: salescloud.png
     name: SalesCloud Non-Profit
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
     vanity_url:
-    - /salescloud_np
+    - /salesforcenonprofit
 - application:
     authorized_groups:
     - hris_is_staff
@@ -822,53 +767,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/OWVEwzt059vjws6mkQgGeqJChA4dBI70
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX
-    display: false
-    logo: servicenow.png
-    name: ServiceNow - Dev
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Hy16dlY3Kmw373jWKVeMGulVUTt1y1KX
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9
-    display: false
-    logo: servicenow.png
-    name: ServiceNow - Stage
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/DIx9YBxmtAWGGSV6nc21wSEXuymRSvY9
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh
-    display: false
-    logo: servicenow.png
-    name: ServiceNow - Test
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/dPlqnxe8phbjbhm80W1Ry8SzSGS3ijuh
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    - moc_service_accounts
-    authorized_users:
-    - moc+servicenow@mozilla.com
-    - moc-sso-monitoring@mozilla.com
-    client_id: axoW08Nny1HXe0qcP0416YGrmYtfgdTQ
-    display: false
-    logo: servicenow.png
-    name: ServiceNow - Upgrade
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/axoW08Nny1HXe0qcP0416YGrmYtfgdTQ
-- application:
-    authorized_groups:
     - mozilliansorg_snippets_admin
     authorized_users: []
     client_id: A7GAcuN9gE9x3H186dKQgzS3jsV9Qmgp
@@ -893,6 +791,8 @@ apps:
     - splunk_admin
     - hris_dept_it
     - team_infra
+    - team_secops
+    - team_opsec
     authorized_users: []
     client_id: EUmKs3owmNdeDWxZ4CJIeSGM5ez3Suav
     display: true
@@ -989,12 +889,12 @@ apps:
     authorized_users:
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
-    client_id: 5gtZrLu2eyAapp1BgQsF11rhdPNt2lGP
+    client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
-    logo: thehub.png
-    name: The Hub
+    logo: jsm.jpg
+    name: Jira Service Management
     op: auth0
-    url: https://mozilla.service-now.com/
+    url: https://mozilla-hub.atlassian.net/servicedesk/customer/portals
     vanity_url:
     - /thehub
     - /servicenow
@@ -1307,7 +1207,9 @@ apps:
     - mozilliansorg_nda
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - mozboxadmin@mozilla.com
+    - servicedesk@mozilla.com
     client_id: yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj
     display: false
     logo: auth0.png
@@ -1339,19 +1241,6 @@ apps:
     name: admin.readitlater.com
     op: auth0
     url: https://admin.readitlater.com
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mozillaonline
-    authorized_users: []
-    client_id: 2QnAFjxpltXc2dTkd9QW7nY43dx6xf5a
-    display: true
-    logo: syntrio.png
-    name: Syntrio
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/2QnAFjxpltXc2dTkd9QW7nY43dx6xf5a
-    vanity_url:
-    - /syntrio
 - application:
     authorized_groups:
     - team_moco
@@ -2272,18 +2161,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: 5Ju23B8DLiwzd4bzEHOG2fQHe0R4FRwY
-    display: false
-    logo: auth0.png
-    name: Egencia (US) SAML backend
-    op: auth0
-    url: https://www.egencia.com/auth/v1/artifactConsumer
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: XwWBobhe6XlQrngdct8sEdLFAgsW89yB
     display: false
     logo: auth0.png
@@ -2504,6 +2381,18 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
+    client_id: 3a6sbM3CfbTQ8YkZ4wW7YpOdNN5NX4Hb
+    display: false
+    logo: auth0.png
+    name: lando.devsvcdev.mozaws.net
+    op: auth0
+    url: https://lando.devsvcdev.mozaws.net/redirect_uri
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
     client_id: 47BCiKGMwpCH5K7IzmJ1DjrHSo82krNs
     display: false
     logo: auth0.png
@@ -2627,18 +2516,6 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: R1LKQo9HsKo8up7Dbwsj2HolbjymOUoU
-    display: false
-    logo: auth0.png
-    name: auth0-react-sample-app.netlify.com
-    op: auth0
-    url: https://auth0-react-sample-app.netlify.com/callback
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
     - statuspage_service_accounts
     authorized_users: []
     client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
@@ -2665,7 +2542,8 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - billing@mozilla.com
     client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
     display: false
     logo: auth0.png
@@ -2988,18 +2866,6 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: KFc2l66tcg58HhD5mIeTf0LfjYOUySyU
-    display: false
-    logo: auth0.png
-    name: tempmozilla.service-now.com
-    op: auth0
-    url: https://tempmozilla.service-now.com/navpage.do
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
     authorized_users:
     - iris-testing@mozilla.com
     client_id: 383wZyKOqULjvIJnA4Njz04lztkmxKjf
@@ -3087,7 +2953,8 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - billing@mozilla.com
     client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
     display: false
     logo: auth0.png
@@ -3332,15 +3199,17 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: 1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+    authorized_users:
+    - dlipski@mozilla.com
+    - jeide@mozilla.com
+    client_id: TB91RkOJc4eQhOuT0SIfUHm2nD6W3ipT
     display: true
-    logo: hackerrank.png
-    name: HackerRank
+    logo: coderpad.png
+    name: CoderPad
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+    url: https://auth.mozilla.auth0.com/samlp/TB91RkOJc4eQhOuT0SIfUHm2nD6W3ipT
     vanity_url:
-    - /hackerrank
+    - /coderpad
 - application:
     authorized_groups:
     - service_uptycs
@@ -3489,20 +3358,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: dCRd3omR9fkejcm31qBw138SRJqg4M5i
-    display: false
-    logo: newrelic.png
-    name: New Relic Data
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/dCRd3omR9fkejcm31qBw138SRJqg4M5i
-    vanity_url:
-    - /new-relic-data
-- application:
-    authorized_groups:
-    - hris_is_staff
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
     display: false
     logo: newrelic.png
@@ -3604,22 +3459,14 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
-    display: false
-    logo: auth0.png
-    name: SpaceIQ
+    display: true
+    logo: siq.png
+    name: SiQ
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
     vanity_url:
     - /spaceiq
-- application:
-    authorized_groups:
-    - service_spaceiq_preview
-    authorized_users: []
-    display: true
-    logo: spaceiq.png
-    name: SpaceIQ (Preview)
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/b2ESDyU2mJN5r6Ani52aIWxg0FoudEl8
+    - /siq
 - application:
     authorized_groups:
     - hris_is_staff
@@ -3688,9 +3535,10 @@ apps:
     url: https://glam.telemetry.mozilla.org
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
+    - team_moco_benefited
     - team_mofo
+    - team_mozillaonline
+    - team_elance
     authorized_users: []
     client_id: NhzqLGjjqXIp3kGoonkTLSO7awPBhWsK
     display: true
@@ -3702,9 +3550,10 @@ apps:
     - /udemy
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
+    - team_moco_benefited
     - team_mofo
+    - team_mozillaonline
+    - team_elance
     authorized_users: []
     client_id: w8hBBYB30b12DqElacIQkFM6V2deEpwz
     display: false
@@ -3714,9 +3563,10 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/w8hBBYB30b12DqElacIQkFM6V2deEpwz
 - application:
     authorized_groups:
-    - hris_is_staff
-    - team_moco
+    - team_moco_benefited
     - team_mofo
+    - team_mozillaonline
+    - team_elance
     authorized_users: []
     client_id: QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
     display: true
@@ -3787,12 +3637,15 @@ apps:
     url: https://stats.voice.mozit.cloud/
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
+    - stripe_subplat_admin
+    - stripe_subplat_analyst
+    - stripe_subplat_developer
+    - stripe_subplat_supportsp
+    - stripe_subplat_viewonly
     authorized_users: []
     client_id: cEfnJekrSStxxxBascTjNEDAZVUPAIU2
-    display: false
-    logo: auth0.png
+    display: true
+    logo: stripe.png
     name: Stripe (subplat)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/cEfnJekrSStxxxBascTjNEDAZVUPAIU2
@@ -3823,28 +3676,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
     vanity_url:
     - /mofo-cultureamp
-- application:
-    authorized_groups:
-    - team_opsec
-    authorized_users:
-    - jclaudius@mozilla.com
-    client_id: M6lxk8phwDaqH4gECMWDLxKxxZwJcDI7
-    display: true
-    logo: auth0.png
-    name: session-invalidation.security.allizom.org
-    op: auth0-dev
-    url: https://session-invalidation.security.allizom.org/callback
-- application:
-    authorized_groups:
-    - team_opsec
-    - service_session_invalidation
-    authorized_users: []
-    client_id: wX5uKEP7oV4wgxf0B3USOrDQ5kgHFda0
-    display: true
-    logo: auth0.png
-    name: session-invalidation.security.mozilla.org
-    op: auth0
-    url: https://session-invalidation.security.mozilla.org/callback
 - application:
     authorized_groups:
     - hris_is_staff
@@ -3883,7 +3714,10 @@ apps:
     url: https://sso.smartling.com/sso-apps/dashboard/accounts/3f16c2f8
 - application:
     authorized_groups:
-    - mozilliansorg_tripactions
+    - team_moco
+    - team_mofo
+    - team_pocket
+    - team_mozillaonline
     authorized_users: []
     client_id: i1qBrMjJEdKlTNEVgGwc9P0xFxI9cuD8
     display: true
@@ -3956,6 +3790,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    client_id: SS69h1GdOidHxtxeWLG2ryO5c6BYnj6O
     authorized_users: []
     display: true
     logo: compiler_explorer.png
@@ -4003,7 +3838,7 @@ apps:
     - team_moco
     authorized_users: []
     client_id: 6T3nWVBk9uTyzXSGfxq21UtZ3jAaracA
-    display: false
+    display: true
     logo: everfi.png
     name: Everfi
     op: auth0
@@ -4027,6 +3862,7 @@ apps:
     authorized_groups:
     - team_secops
     - team_opsec
+    - team_netops
     authorized_users: []
     client_id: oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
     display: true
@@ -4038,6 +3874,7 @@ apps:
     authorized_groups:
     - team_secops
     - team_opsec
+    - team_netops
     authorized_users: []
     client_id: vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
     display: true
@@ -4045,3 +3882,187 @@ apps:
     name: Splunk Security ES
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
+- application:
+    authorized_groups:
+    - team_secops
+    - team_opsec
+    - team_netops
+    authorized_users: []
+    client_id: GbOYKyYEIIfgu34Aq2ykl8vTnGfQ28aq
+    display: true
+    logo: splunk.png
+    name: Splunk Security Dev
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/GbOYKyYEIIfgu34Aq2ykl8vTnGfQ28aq
+- application:
+    authorized_groups:
+    - mozilliansorg_sendgrid-access
+    authorized_users: []
+    client_id: tc4KWmjurzZJpqF3HCXcWeo7xlycNLp7
+    display: true
+    logo: sendgrid.png
+    name: Twilio Sendgrid
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/tc4KWmjurzZJpqF3HCXcWeo7xlycNLp7
+    vanity_url:
+    - /sendgrid
+- application:
+    authorized_groups:
+    - mozilliansorg_talentwall-access
+    authorized_users: []
+    client_id: 2igLHKcnjKFZDp5qOzONLM951lnJscOu
+    display: true
+    logo: talentwall.png
+    name: TalentWall
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/2igLHKcnjKFZDp5qOzONLM951lnJscOu
+    vanity_url:
+    - /talentwall
+- application:
+    authorized_groups:
+    - mozilliansorg_helpscout-access
+    authorized_users: []
+    client_id: 7CQiBSkH46JQsZDivIxXdB5KE9iAdDAD
+    display: true
+    logo: helpscout.png
+    name: Help Scout
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/7CQiBSkH46JQsZDivIxXdB5KE9iAdDAD
+    vanity_url:
+    - /helpscout
+- application:
+    authorized_groups:
+    - mozilliansorg_bitrise_access
+    authorized_users: []
+    client_id: SgKK7ZZcUT8gLcZPYq229gCHBIyWV2kq
+    display: true
+    logo: bitrise.png
+    name: Bitrise
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/SgKK7ZZcUT8gLcZPYq229gCHBIyWV2kq
+    vanity_url:
+    - /bitrise
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 7M49iYODCiCGdldu4awmF2Pr6pHsRZDe
+    display: false
+    logo: auth0.png
+    name: settings.dev.mozaws.net
+    op: auth0
+    url: https://settings.dev.mozaws.net/v1/admin/
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 12lnezLro7iC57ooPPPpVeGHXf8MhaRV
+    display: true
+    logo: textio.png
+    name: Textio
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/12lnezLro7iC57ooPPPpVeGHXf8MhaRV
+    vanity_url:
+    - /textio
+- application:
+    authorized_groups:
+    - hris_is_staff
+    - team_moco
+    authorized_users: []
+    client_id: hYQggi94XNgMBJCuENbUA1ec7uoRLecO
+    display: true
+    logo: fivetran.png
+    name: Fivetran
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/hYQggi94XNgMBJCuENbUA1ec7uoRLecO
+    vanity_url:
+    - /fivetran
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: qyHptHsoTtUJR9K4xDirWZUy30cqpeWT
+    display: false
+    logo: auth0.png
+    name: Internal Pocket Admin Tools
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/qyHptHsoTtUJR9K4xDirWZUy30cqpeWT
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: QEM7xyeM5Bqxo5zfxvrQDWyL4Hx3F11a
+    display: false
+    logo: auth0.png
+    name: connect.allizom.org
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/QEM7xyeM5Bqxo5zfxvrQDWyL4Hx3F11a
+    vanity_url:
+    - /connect-stage
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: oAm19NujSERGPVL76RXh31wW5J6KnLRw
+    display: false
+    logo: auth0.png
+    name: connect.mozilla.org
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/oAm19NujSERGPVL76RXh31wW5J6KnLRw
+    vanity_url:
+    - /connect
+- application:
+    authorized_groups:
+    - team_mozillaonline
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: 94A5PWkgKK2sJKxUnF8O8k5rNtEMdngk
+    display: true
+    logo: sentry.png
+    name: Sentry.io
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/94A5PWkgKK2sJKxUnF8O8k5rNtEMdngk
+    vanity_url:
+    - /sentry
+- application:
+    authorized_groups:
+    - mozilliansorg_looker-people-access
+    authorized_users: []
+    client_id: h0xnB8lHw5Gfapsg0AA8XH8jZvT1FEBv
+    display: true
+    logo: looker.png
+    name: Looker (People)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/h0xnB8lHw5Gfapsg0AA8XH8jZvT1FEBv
+    vanity_url:
+    - /looker-people
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: XNmXEZhGfNaYltbCKustGunTbH0r8Gkp
+    display: false
+    logo: auth0.png
+    name: demo.kinto-storage.org
+    op: auth0
+    url: https://demo.kinto-storage.org/v1/admin/
+- application:
+    authorized_groups:
+    - team_pocket
+    authorized_users: []
+    client_id: kIaT2UagYzIAUmR0nAlvjZu6x388jR5t
+    display: true
+    logo: sentry.png
+    name: Sentry.io (Pocket)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/kIaT2UagYzIAUmR0nAlvjZu6x388jR5t
+    vanity_url:
+    - /sentry-pocket
