@@ -3831,12 +3831,12 @@ apps:
     - team_opsec
     - team_netops
     authorized_users: []
-    client_id: GbOYKyYEIIfgu34Aq2ykl8vTnGfQ28aq
+    client_id: eiyKP0duU76bZRO5r83QD9NbLu8uNx2Z
     display: true
     logo: splunk.png
-    name: Splunk Security Dev
+    name: Splunk Security SOAR
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/GbOYKyYEIIfgu34Aq2ykl8vTnGfQ28aq
+    url: https://auth.mozilla.auth0.com/samlp/eiyKP0duU76bZRO5r83QD9NbLu8uNx2Z
 - application:
     authorized_groups:
     - mozilliansorg_sendgrid-access
