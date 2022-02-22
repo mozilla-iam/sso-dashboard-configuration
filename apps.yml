@@ -4021,3 +4021,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/NEb0WzLMyVPdZZHby2nPjfV2EPUiGkik
     vanity_url:
     - /braze-pocket
+- application:
+    authorized_groups:
+    - mozilliansorg_prefect-cloud-pocket-access
+    authorized_users: []
+    client_id: FoeZGnqq0X9fQXQQ9Ve5kdSdPN4eedlG
+    display: true
+    logo: prefect-cloud.png
+    name: Prefect Cloud (Pocket)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/FoeZGnqq0X9fQXQQ9Ve5kdSdPN4eedlG
+    vanity_url:
+    - /prefect-pocket
