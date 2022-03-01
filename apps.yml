@@ -3506,21 +3506,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/w8hBBYB30b12DqElacIQkFM6V2deEpwz
 - application:
     authorized_groups:
-    - team_moco_benefited
-    - team_mofo
-    - team_mozillaonline
-    - team_elance
-    authorized_users: []
-    client_id: QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
-    display: true
-    logo: getabstract.png
-    name: getAbstract
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/QdZOeq5zcpS23Ter4Er0hYmG2PjEZ9It
-    vanity_url:
-    - /getAbstract
-- application:
-    authorized_groups:
     - service_1password
     authorized_users: []
     display: true
