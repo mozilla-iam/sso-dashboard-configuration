@@ -1,3 +1,6 @@
+# Data Classification : Public
+# The contents of this file are meant to be publicly accessible and this file contains no private data
+# 
 # NOTE: authorized_groups and authorized_users control two things independently:
 #
 # 1. Does the SSO Dashboard display a tile to the user for this application?
