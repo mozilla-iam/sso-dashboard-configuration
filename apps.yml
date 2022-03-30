@@ -4033,3 +4033,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/L8LX53BqyxzF5ZAABfLbRWtrTI5eyr1H
     vanity_url:
     - /logikcull
+- application:
+      authorized_groups:
+          - team_moco
+          - team_mofo
+          - team_mozillaonline
+      authorized_users: []
+      client_id: yw8rP8c7Qir1SHybR6xUg7lZixz8FbVy
+      display: false
+      logo: auth0.png
+      name: protosaur.dev
+      op: auth0
+      url: https://protosaur.dev/auth/login
