@@ -3791,9 +3791,10 @@ apps:
           - /bitsight
 - application:
     authorized_groups:
-    - team_secops
-    - team_opsec
-    - team_netops
+    - mozilliansorg_sec_splunk_admin
+    - mozilliansorg_sec_splunk_power
+    - mozilliansorg_sec_splunk_normal
+    - mozilliansorg_sec_splunk_temp
     authorized_users: []
     client_id: oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
     display: true
@@ -3803,9 +3804,10 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
 - application:
     authorized_groups:
-    - team_secops
-    - team_opsec
-    - team_netops
+    - mozilliansorg_sec_splunk_admin
+    - mozilliansorg_sec_splunk_power
+    - mozilliansorg_sec_splunk_normal
+    - mozilliansorg_sec_splunk_temp
     authorized_users: []
     client_id: vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
     display: true
