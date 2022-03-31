@@ -4045,3 +4045,15 @@ apps:
       name: protosaur.dev
       op: auth0
       url: https://protosaur.dev/auth/login
+- application:
+    authorized_groups:
+    - team_moco_benefited
+    authorized_users: []
+    client_id: Y1JS4f0fB7odzJv84z6XCioKlpQoPgJ4
+    display: true
+    logo: modernhealth.png
+    name: Modern Health
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Y1JS4f0fB7odzJv84z6XCioKlpQoPgJ4
+    vanity_url:
+    - /modernhealth
