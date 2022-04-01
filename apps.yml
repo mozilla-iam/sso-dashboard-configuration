@@ -4077,7 +4077,7 @@ apps:
     - mozilliansorg_apollo-studio-access
     authorized_users: []
     client_id: Kc0Ibhin0NJN6TdpsuZB10OwnjDbIZcH
-    display: false
+    display: true
     logo: apollo-studio.png
     name: Apollo Studio
     op: auth0
