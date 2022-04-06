@@ -793,12 +793,11 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq
     display: true
     logo: statuspage.png
     name: StatusPage
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq
+    url: https://manage.statuspage.io/cloud/d8febd08-c6e9-4c03-9c13-db37c2369ce5
     vanity_url:
     - /statuspage
 - application:
