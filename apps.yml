@@ -1825,6 +1825,7 @@ apps:
     - hris_is_staff
     - team_moco
     - team_mofo
+    - team_mozillaonline
     authorized_users: []
     client_id: WuFEV87Q4or1WlncXR3WRgcbD1oceeme
     display: false
