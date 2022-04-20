@@ -463,7 +463,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/0tHkuAC17kDkFip4szjsLvWHlXGJSjwc
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -477,7 +476,6 @@ apps:
 - application:
     authorized_groups:
     - service_lucidchart
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -649,7 +647,6 @@ apps:
     - /optimizely
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -722,7 +719,6 @@ apps:
     url: https://riskheatmap.security.allizom.org/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -749,7 +745,6 @@ apps:
     - /salesforcenonprofit
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -816,7 +811,6 @@ apps:
     - /statuspage
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -925,7 +919,6 @@ apps:
     - /workday
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -938,7 +931,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/kyeMyPALPK84A58vlOnb7lrCzAIFJapP
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -955,7 +947,6 @@ apps:
     - team_moco
     - team_mofo
     - team_mozillaonline
-    - hris_is_staff
     authorized_users: []
     client_id: WXVdgVoCca11OtpGlK8Ir3pR9CBAlSA5
     display: true
@@ -1006,7 +997,6 @@ apps:
     - /convercentcommunity
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -1114,7 +1104,6 @@ apps:
     - /pto
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - everyone
@@ -1821,7 +1810,6 @@ apps:
     - /crashplan
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - team_mozillaonline
@@ -1836,7 +1824,6 @@ apps:
     - /trello
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1848,7 +1835,6 @@ apps:
     url: https://experimenter.services.mozilla.com
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1860,7 +1846,6 @@ apps:
     url: https://webcompat-kibana.herokuapp.com
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - mozilliansorg_non-moco-sheriffs-basic
@@ -1873,7 +1858,6 @@ apps:
     url: https://earthangel-b40313e5.influxcloud.net
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1885,7 +1869,6 @@ apps:
     url: https://dev.sumo.moz.works
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1897,7 +1880,6 @@ apps:
     url: https://delivery-console.prod.mozaws.net/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1909,7 +1891,6 @@ apps:
     url: https://wpt.stage.mozaws.net/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - team_mozillaonline
@@ -1922,7 +1903,6 @@ apps:
     url: https://metrics.mozilla.com/protected
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1934,7 +1914,6 @@ apps:
     url: https://strategy-and-insights.mozilla.com/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - team_mozillaonline
@@ -1947,7 +1926,6 @@ apps:
     url: https://reports-dev.telemetry.mozilla.org/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1959,7 +1937,6 @@ apps:
     url: https://data-iodide.stage.mozaws.net/oidc/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1971,7 +1948,6 @@ apps:
     url: https://grafana.telemetry.mozilla.org/login/generic_oauth
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1983,7 +1959,6 @@ apps:
     url: https://stage.grafana.nonprod.dataops.mozgcp.net/login/generic_oauth
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1995,7 +1970,6 @@ apps:
     url: https://activedata-private.devsvcdev.mozaws.net/openidc/logout
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2007,7 +1981,6 @@ apps:
     url: https://activedata-private.devsvcstage.mozaws.net/openidc/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2019,7 +1992,6 @@ apps:
     url: https://activedata-private.devsvcprod.mozaws.net/openidc/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2031,7 +2003,6 @@ apps:
     url: https://logging-cep.stage.mozaws.net/dashboard_output/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2043,7 +2014,6 @@ apps:
     url: https://bacula1.private.mdc1.mozilla.com/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2055,7 +2025,6 @@ apps:
     url: https://foreman.private.mdc1.mozilla.com/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2067,7 +2036,6 @@ apps:
     url: https://testwebapp.private.mdc1.mozilla.com/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2079,7 +2047,6 @@ apps:
     url: https://rundeck1.private.scl3.mozilla.com/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2091,7 +2058,6 @@ apps:
     url: https://wde-stage.public.mdc1.mozilla.com/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2103,7 +2069,6 @@ apps:
     url: http://admin.readitlater.localhost/auth
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - vpn_cloudops_shipit
@@ -2116,7 +2081,6 @@ apps:
     url: https://shipit.staging.mozilla-releng.net/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2128,7 +2092,6 @@ apps:
     url: https://serviceapi.security.allizom.org/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - mozilliansorg_nda
@@ -2141,7 +2104,6 @@ apps:
     url: https://mozilla-dev.metricinsights.com/simplesaml/module.php/saml/sp/saml2-acs.php/default-sp
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2153,7 +2115,6 @@ apps:
     url: http://hasal-server.ateam.tpe1.mozilla.com:8080/securityRealm/finishLogin
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2165,7 +2126,6 @@ apps:
     url: https://atmo.stage.mozaws.net/oidc/callback/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2177,7 +2137,6 @@ apps:
     url: https://sso.admin.us-west-2.nubis-market.nubis.allizom.org/sso
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - mozilliansorg_project-link-aws-admin
@@ -2191,7 +2150,6 @@ apps:
     url: http://localhost:10800/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2203,7 +2161,6 @@ apps:
     url: https://testwebapp.allizom.org/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2215,7 +2172,6 @@ apps:
     url: https://wpt.dev.mozaws.net/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2227,7 +2183,6 @@ apps:
     url: https://ldapadmin1.private.mdc1.mozilla.com/mellon/postResponse
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2239,7 +2194,6 @@ apps:
     url: https://screenshots-admin.services.mozilla.com/openid/callback/login/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2251,7 +2205,6 @@ apps:
     url: https://normandy-admin.stage.mozaws.net/auth/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2263,7 +2216,6 @@ apps:
     url: https://stage-pto.mozilla.com.tw/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2275,7 +2227,6 @@ apps:
     url: https://logging-cep.data.mozaws.net/dashboard_output/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2287,7 +2238,6 @@ apps:
     url: https://panorama.mdc1.mozilla.net:443/SAML20/SP/ACS
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - mozilliansorg_nda
@@ -2300,7 +2250,6 @@ apps:
     url: https://mozilla-stg.metricinsights.com/simplesaml/module.php/saml/sp/saml2-acs.php/default-sp
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2312,7 +2261,6 @@ apps:
     url: https://data-stmo-rc.stage.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2324,7 +2272,6 @@ apps:
     url: http://localhost:5080/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2336,7 +2283,6 @@ apps:
     url: https://kinto-writer.stage.mozaws.net/v1/admin/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2348,7 +2294,6 @@ apps:
     url: https://lando.devsvcdev.mozaws.net/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2360,7 +2305,6 @@ apps:
     url: https://lando.devsvcstage.mozaws.net/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2372,7 +2316,6 @@ apps:
     url: https://safarijv.auth0.com/login/callback?connection=Mozilla
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2387,7 +2330,6 @@ apps:
     - team_mozillaonline
     - mozilliansorg_stmo_nda
     - stmo_nda
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2399,7 +2341,6 @@ apps:
     url: https://sql.telemetry.mozilla.org/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2411,7 +2352,6 @@ apps:
     url: https://graphite-mdc1.mozilla.org/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2423,7 +2363,6 @@ apps:
     url: https://sumo-dev.oregon-b.moz.works/oidc/callback/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2435,7 +2374,6 @@ apps:
     url: https://jenkins.ops.iam.mozilla.com/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2447,7 +2385,6 @@ apps:
     url: https://cloud.tenable.com/saml/login/53fcab98-7475-4f21-bfba-a082908ca4f4
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - mozilliansorg_shipit_devs
@@ -2460,7 +2397,6 @@ apps:
     url: https://localhost:8010/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2472,7 +2408,6 @@ apps:
     url: https://experimenter.dev.mozaws.net/openid/callback/login/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - statuspage_service_accounts
@@ -2485,7 +2420,6 @@ apps:
     url: https://manage.statuspage.io/sso/saml/consume
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - vpn_cloudops_shipit
@@ -2498,7 +2432,6 @@ apps:
     url: https://shipit.mozilla-releng.net/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users:
@@ -2511,7 +2444,6 @@ apps:
     url: https://www.expensify.com/authentication/saml/loginCallback?domain=getpocket.com
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2533,7 +2465,6 @@ apps:
     url: https://snippets.allizom.org/oidc/callback/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2545,7 +2476,6 @@ apps:
     url: https://nhobot.ngrok.io/callback/auth
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2557,7 +2487,6 @@ apps:
     url: https://auth.atlassian.com/login/callback?connection=saml-094a4f90-c6c4-4741-bfb1-17535bd11e28
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2569,7 +2498,6 @@ apps:
     url: https://pentest-master.private.mdc1.mozilla.com/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2581,7 +2509,6 @@ apps:
     url: https://pto.mozilla.com.tw/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2593,7 +2520,6 @@ apps:
     url: https://logging-cep.devsvcprod.mozaws.net/dashboard_output/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2605,7 +2531,6 @@ apps:
     url: https://anb1.fuzzing.mozilla.org/oidc/callback/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - statuspage_service_accounts
@@ -2618,7 +2543,6 @@ apps:
     url: https://manage.statuspage.io/sso/saml/consume
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2630,7 +2554,6 @@ apps:
     url: https://bacula1.private.scl3.mozilla.com/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2642,7 +2565,6 @@ apps:
     url: https://mozilla.netx.net/SSO
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2654,7 +2576,6 @@ apps:
     url: https://ds-dashboard.data.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2666,7 +2587,6 @@ apps:
     url: https://mozilla.vidyocloud.com/saml/SSO/alias/Mozilla
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2678,7 +2598,6 @@ apps:
     url: https://pipeline-sql.stage.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2690,7 +2609,6 @@ apps:
     url: https://logging-cep.dev.mozaws.net/dashboard_output/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2702,7 +2620,6 @@ apps:
     url: https://bacula1.private.mdc2.mozilla.com/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2714,7 +2631,6 @@ apps:
     url: http://localhost:12731/redirect
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2726,7 +2642,6 @@ apps:
     url: https://experimenter-app.dev.mozaws.net/openid/callback/login/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2738,7 +2653,6 @@ apps:
     url: https://admin-4b043da5.duosecurity.com/saml/DATQ3O9LT3AC6HZHTURB/acs
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2750,7 +2664,6 @@ apps:
     url: https://normandy.dev.mozaws.net/auth/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2762,7 +2675,6 @@ apps:
     url: https://settings-writer.prod.mozaws.net/v1/admin/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2774,7 +2686,6 @@ apps:
     url: https://nagios3.private.scl3.mozilla.com/scl3
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2786,7 +2697,6 @@ apps:
     url: https://auth.test.exacttarget.com/Shibboleth.sso/SAML2/POST
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2798,7 +2708,6 @@ apps:
     url: https://www.google.com/a/test.mozilla.com/acs
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2810,7 +2719,6 @@ apps:
     url: https://fuzzmanager.fuzzing.mozilla.org/oidc/callback/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2822,7 +2730,6 @@ apps:
     url: https://mozillauvd.vidyocloudstaging.com/saml/SSO/alias/MozillaUVD
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users:
@@ -2835,7 +2742,6 @@ apps:
     url: https://auth0proxy.stage.mozaws.net/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2847,7 +2753,6 @@ apps:
     url: https://logging-cep.prod.mozaws.net/dashboard_output/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - mozilliansorg_nda
@@ -2860,7 +2765,6 @@ apps:
     url: http://localhost:5000/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2872,7 +2776,6 @@ apps:
     url: https://wde.mozilla.org/redirect_uri
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2884,7 +2787,6 @@ apps:
     url: http://localhost:8000/accounts/callback/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - mozilliansorg_nda
@@ -2897,7 +2799,6 @@ apps:
     url: https://nhobot.ngrok.io/callback/auth
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2909,7 +2810,6 @@ apps:
     url: https://mozillatest.netx.net/SSO
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users:
@@ -2922,7 +2822,6 @@ apps:
     url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2934,7 +2833,6 @@ apps:
     url: https://graphite-mdc2.mozilla.org/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2946,7 +2844,6 @@ apps:
     url: https://pto.allizom.org/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2958,7 +2855,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/Ury9HCvBS4B1SzAH8f3YASbbcGf5QlQf
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2970,7 +2866,6 @@ apps:
     url: https://metrics.mozilla-itsre.mozit.cloud/login/generic_oauth
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2984,7 +2879,6 @@ apps:
     - /miro
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2996,7 +2890,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/SJmdyaeuz4SkdoWgOXZxVFeQukpt5SMo
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3019,7 +2912,6 @@ apps:
     url: https://pad.mozilla.org/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - mozilliansorg_nda
@@ -3032,7 +2924,6 @@ apps:
     url: https://paste.mozilla.org/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3066,7 +2957,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3078,7 +2968,6 @@ apps:
     url: https://stage.taskcluster.nonprod.cloudops.mozgcp.net/login/mozilla-auth0/callback
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3090,7 +2979,6 @@ apps:
     url: https://fxa-support-panel2.stage.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3102,7 +2990,6 @@ apps:
     url: https://fxa-support-panel.stage.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - team_mozillaonline
@@ -3131,7 +3018,6 @@ apps:
     - /mana
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3143,7 +3029,6 @@ apps:
     url: https://biff-5adb6e55.influxcloud.net/login/generic_oauth
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3155,7 +3040,6 @@ apps:
     url: https://admin.readitlater.localhost/auth
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users:
@@ -3285,7 +3169,6 @@ apps:
     - /new-relic-eis
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3299,7 +3182,6 @@ apps:
     - /new-relic-emerging-tech
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3313,7 +3195,6 @@ apps:
     - /new-relic-subhub
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3373,7 +3254,6 @@ apps:
     url: https://give.mozilla.org
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3399,7 +3279,6 @@ apps:
     - /docusign
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3413,7 +3292,6 @@ apps:
     - /convert
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3428,7 +3306,6 @@ apps:
     - /siq
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - team_mozillaonline
@@ -3443,7 +3320,6 @@ apps:
     - /ideascale
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3457,7 +3333,6 @@ apps:
     - /sageintacct
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3481,7 +3356,6 @@ apps:
     url: https://glamtelemetry.mozilla.org
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - team_mozillaonline
@@ -3545,7 +3419,6 @@ apps:
     - /250ok
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3557,7 +3430,6 @@ apps:
     url: https://fxa-admin-panel.stage.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3569,7 +3441,6 @@ apps:
     url: https://fxa-admin-panel.prod.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3622,7 +3493,6 @@ apps:
     - /mofo-cultureamp
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3634,7 +3504,6 @@ apps:
     url: https://stage.statping.nonprod.dataops.mozgcp.net/openid/callback/login
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     - team_mozillaonline
@@ -3673,7 +3542,6 @@ apps:
     - /tripactions
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3685,7 +3553,6 @@ apps:
     url: https://stage.experimenter.nonprod.dataops.mozgcp.net/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3890,7 +3757,6 @@ apps:
     - /bitrise
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3902,7 +3768,6 @@ apps:
     url: https://settings.dev.mozaws.net/v1/admin/
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     - team_mofo
     authorized_users: []
@@ -3916,7 +3781,6 @@ apps:
     - /textio
 - application:
     authorized_groups:
-    - hris_is_staff
     - team_moco
     authorized_users: []
     client_id: hYQggi94XNgMBJCuENbUA1ec7uoRLecO
