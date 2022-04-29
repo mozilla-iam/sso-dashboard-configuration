@@ -4064,7 +4064,7 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: DC94aLBL6OGoFuBFKgnVYBHanFP6stmV
-    display: false
+    display: true
     logo: paradigmreach.png
     name: Paradigm Reach
     op: auth0
