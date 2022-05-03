@@ -4031,7 +4031,7 @@ apps:
     logo: logikcull.png
     name: Logikcull
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/L8LX53BqyxzF5ZAABfLbRWtrTI5eyr1H
+    url: https://app.logikcull.com/
     vanity_url:
     - /logikcull
 - application:
