@@ -299,7 +299,8 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    authorized_users: []
+    authorized_users:
+    - calendars@mozilla.com
     client_id: DhBV04HLs6H8OeTHOlodz0LtkyY7VTU0
     display: false
     logo: eventboard.png
