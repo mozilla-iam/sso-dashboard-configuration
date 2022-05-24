@@ -301,7 +301,7 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: ap9HoUbKeTrt33vA9MSayfCS2CWxiPcz
-    display: false
+    display: true
     logo: ebsco.png
     name: EBSCO
     op: auth0
