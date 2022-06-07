@@ -1399,17 +1399,6 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: 1tAZ7tyiARXodCaLoy38jYmzKLqjyDX8
-    display: false
-    logo: auth0.png
-    name: confluence.mozilla-community.org
-    op: auth0
-    url: https://confluence.mozilla-community.org/plugins/servlet/samlsso
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
     client_id: 7RvvmjstmMm93e1eVimyRElqv8vjrEJC
     display: false
     logo: auth0.png
