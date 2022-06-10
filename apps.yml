@@ -1654,6 +1654,7 @@ apps:
     url: https://people.mozilla.org
     vanity_url:
     - /phonebook
+    - /people
 - application:
     AAL: LOW
     authorized_groups:
