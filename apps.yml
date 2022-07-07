@@ -738,7 +738,7 @@ apps:
 #    - team_mzla
     authorized_users: []
     client_id: 3rbiX5U5EZZFf9tvYpOdoUxJ6A2TnH2q
-    display: true
+    display: false
     logo: riskheatmap.png
     name: RiskHeatMap
     op: auth0
@@ -750,7 +750,7 @@ apps:
     - SecurityAssuranceOpsec
     authorized_users: []
     client_id: 5vVAvF2lo36Nj576GqZTTsbXzZ1AH21L
-    display: true
+    display: false
     logo: riskheatmap.png
     name: RiskHeatMap (Dev)
     op: auth0
