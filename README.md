@@ -6,8 +6,12 @@
 
 # How it works...
 
-`apps.yml` is used both for first stage access control and SSO Dashboard visibility settings.
-See: https://github.com/mozilla-iam/cis/blob/master/docs/AccessFile.md for a complete reference. `apps.yml` is deployed to an S3 bucket by CI and made available via the CDN at https://cdn.sso.mozilla.com/apps.yml
+`apps.yml` is used both for [first stage access control](https://github.com/mozilla-iam/mozilla-iam#2-stage-access-validation)
+and SSO Dashboard visibility settings.
+
+See: [Access File documentation](https://github.com/mozilla-iam/cis/blob/master/docs/AccessFile.md)
+for a complete reference. `apps.yml` is deployed to an S3 bucket by CI and made
+available via the CDN at https://cdn.sso.mozilla.com/apps.yml
 
 ## Fields reference
 
@@ -71,9 +75,21 @@ In order to publish a change you must:
 
 1. Clone the repository
 2. Pull request to `master` and get it approved.
-3. Have the PR merged to the `master` branch which will cause CI to deploy to the *dev* S3 bucket called `sso-dashboard.configuration`
-4. Tag the commit in `master` that should be deployed to *production* with a conforming tag name. A conforming tag name for a production deploy is in the format of [1.2.3-prod](https://github.com/mozilla-iam/sso-dashboard-configuration/blob/d18277841b9fa728a161050f14fceee59cd4cb46/deploy.sh#L11). Applying this tag will cause CI to deploy to the `sso-dashboard.configuration-prod` S3 bucket used by production. The easiest way to tag and trigger a production deployment is to [create a 'release'](https://github.com/mozilla-iam/sso-dashboard-configuration/releases), we are using semantic versioning (0.0.1) for this repo.
+3. Have the PR merged to the `master` branch which will cause CI to deploy to 
+   the *dev* S3 bucket called `sso-dashboard.configuration` which can then be 
+   seen at https://sso.allizom.org/dashboard and is used by the Auth0 dev tenant
+   rules from https://cdn.sso.allizom.org/apps.yml
+4. Tag the commit in `master` that should be deployed to *production* with a 
+   conforming tag name. A conforming tag name for a production deploy is in the
+   format of [1.2.3-prod](https://github.com/mozilla-iam/sso-dashboard-configuration/blob/26f1e5c7d8512b1a447dbac0e981fa3afbf3c346/deploy.sh#L11).
+   Applying this tag will cause CI to deploy to the 
+   `sso-dashboard.configuration-prod` S3 bucket used by production. The easiest
+   way to tag and trigger a production deployment is to [create a 'release'](https://github.com/mozilla-iam/sso-dashboard-configuration/releases),
+   we are using semantic versioning (0.0.1) for this repo.
 
 # CI Pipeline
 
-This GitHub repo has a webhook configured which triggers the `apps_yml` AWS CodeBuild job in the `mozilla-iam` AWS account in `us-west-2`. This CodeBuild job follows the [`buildspec.yml`](buildspec.yml) which calls [`deploy.sh`](deploy.sh) to deploy the change.
+This GitHub repo has a webhook configured which triggers the `apps_yml` AWS
+CodeBuild job in the `mozilla-iam` AWS account in `us-west-2`. This CodeBuild
+job follows the [`buildspec.yml`](buildspec.yml) which calls [`deploy.sh`](deploy.sh)
+to deploy the change.
