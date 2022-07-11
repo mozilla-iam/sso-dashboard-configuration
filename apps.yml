@@ -3888,9 +3888,11 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
 - application:
     authorized_groups:
-    - team_secops
-    - team_opsec
-    - team_netops
+    - mozilliansorg_sec_splunk_admin
+    - mozilliansorg_sec_splunk_power
+    - mozilliansorg_sec_splunk_normal
+    - mozilliansorg_sec_splunk_temp
+    - mozilliansorg_sec_splunk_netops
     authorized_users: []
     client_id: eiyKP0duU76bZRO5r83QD9NbLu8uNx2Z
     display: true
