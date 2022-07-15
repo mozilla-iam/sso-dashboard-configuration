@@ -536,7 +536,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - service_jira
     - moc_service_accounts
     - mozilliansorg_jira_vendors
@@ -551,7 +551,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
@@ -921,7 +921,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - team_mozillajapan
     - team_mozillaonline
     - moc_service_accounts
@@ -2597,7 +2597,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     authorized_users: []
     client_id: d8fRO14gY7fhl54HU1yDemdJxJMTIV5Q
     display: false
