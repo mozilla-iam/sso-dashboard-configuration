@@ -954,7 +954,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     authorized_users: []
     client_id: Hypn042D0cqtqET33nRrnqOwAcIXOqx6
     display: true
@@ -968,7 +968,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - everyone
     authorized_users: []
     client_id: kyeMyPALPK84A58vlOnb7lrCzAIFJapP
@@ -981,7 +981,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - everyone
     authorized_users: []
     client_id: pRwf1AWvIO5t4zyMsF8R18wtt1jfLp5o
