@@ -4169,3 +4169,13 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/RKJJQHo8w8NghGI751UokRMfz1eY6j1g
     vanity_url:
     - /mdn-redash
+- application:
+    authorized_groups:
+    - mozilliansorg_snowplow-pocket-access
+    authorized_users: []
+    client_id: K9ReyiataiAy7SUxgh8v67jm2qlg3l3B
+    display: false
+    logo: auth0.png
+    name: Pocket Snowplow
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/K9ReyiataiAy7SUxgh8v67jm2qlg3l3B
