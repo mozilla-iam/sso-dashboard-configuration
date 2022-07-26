@@ -2269,18 +2269,6 @@ apps:
     - team_mofo
 #    - team_mzla
     authorized_users: []
-    client_id: W3SoWmYcqvP2Yms14s5VTeUFCZmBOJPT
-    display: false
-    logo: auth0.png
-    name: ldapadmin1.private.mdc1.mozilla.com/phpldapadmin
-    op: auth0
-    url: https://ldapadmin1.private.mdc1.mozilla.com/mellon/postResponse
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
     client_id: Zs6FFIXPUstFKpzBau4cRQ1aFBx4dKBR
     display: false
     logo: auth0.png
