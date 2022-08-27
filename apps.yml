@@ -3860,6 +3860,7 @@ apps:
     - mozilliansorg_sec_splunk_power
     - mozilliansorg_sec_splunk_normal
     - mozilliansorg_sec_splunk_temp
+    - mozilliansorg_sec_splunk_netops
     authorized_users: []
     client_id: oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
     display: true
@@ -3873,6 +3874,7 @@ apps:
     - mozilliansorg_sec_splunk_power
     - mozilliansorg_sec_splunk_normal
     - mozilliansorg_sec_splunk_temp
+    - mozilliansorg_sec_splunk_netops
     authorized_users: []
     client_id: vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
     display: true
