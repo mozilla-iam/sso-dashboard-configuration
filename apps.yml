@@ -4173,3 +4173,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/w7CFWd8WKOfCCnkzsMXm6LH34QEG6BwT
     vanity_url:
     - /twilio
+- application:
+    authorized_groups:
+    - mozilliansorg_sec_endpoint_detection
+    authorized_users: []
+    client_id: 0dlDsk4pkHQOk13M86WR6VvZFaIYBqI8
+    display: true
+    logo: crowdstrike.png
+    name: CrowdStrike
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/0dlDsk4pkHQOk13M86WR6VvZFaIYBqI8
+    vanity_url:
+    - /crowdstrike
