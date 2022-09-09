@@ -3783,20 +3783,6 @@ apps:
     - /planful
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    client_id: SS69h1GdOidHxtxeWLG2ryO5c6BYnj6O
-    authorized_users: []
-    display: true
-    logo: compiler_explorer.png
-    name: Compiler Explorer
-    op: auth0
-    url: https://foxyeah.com
-    vanity_url:
-    - /compiler_explorer
-- application:
-    authorized_groups:
     - team_relops
     authorized_users: []
     client_id: D2MqgpKSZJKpovi6Dw74L4FUU4r5hEcR
