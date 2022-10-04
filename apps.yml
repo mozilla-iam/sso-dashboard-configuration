@@ -377,7 +377,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
@@ -398,7 +398,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
@@ -417,7 +417,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
@@ -2832,7 +2832,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     authorized_users: []
     client_id: q0tFB9QyFIKqPOOKvkFnHMj2VwrLjX46
     display: false
