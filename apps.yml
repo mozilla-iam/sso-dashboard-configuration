@@ -4187,7 +4187,8 @@ apps:
     - /crowdstrike
 - application:
     authorized_groups:
-    - mozilliansorg_acryl_datahub
+    - team_moco
+    - team_mozillaonline
     authorized_users: []
     client_id: NCMamrflooUxJ2cNuhfMLO18kEPyodPx
     display: false
