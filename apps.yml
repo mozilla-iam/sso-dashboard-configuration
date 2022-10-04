@@ -4185,3 +4185,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/0dlDsk4pkHQOk13M86WR6VvZFaIYBqI8
     vanity_url:
     - /crowdstrike
+- application:
+    authorized_groups:
+    - mozilliansorg_acryl_datahub
+    authorized_users: []
+    client_id: NCMamrflooUxJ2cNuhfMLO18kEPyodPx
+    display: false
+    logo: acryldata.png
+    name: Acryl Data
+    op: auth0
+    url: https://mozilla.acryl.io/callback/oidc
+    vanity_url:
+    - /acryl
