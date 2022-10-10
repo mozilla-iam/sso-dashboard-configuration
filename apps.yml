@@ -4198,3 +4198,15 @@ apps:
     url: https://mozilla.acryl.io/callback/oidc
     vanity_url:
     - /acryl
+- application:
+    authorized_groups:
+    - mozilliansorg_digicert_access
+    authorized_users: []
+    client_id: 0MjrDlYSBk6d8BitHMAWXGJtvf9bqniW
+    display: true
+    logo: digicert.png
+    name: DigiCert
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/0MjrDlYSBk6d8BitHMAWXGJtvf9bqniW
+    vanity_url:
+    - /digicert
