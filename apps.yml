@@ -1015,7 +1015,8 @@ apps:
     - team_pocket
     - travelling_accounts
     - mozilliansorg_slack_pocket_access
-    authorized_users: []
+    authorized_users:
+    - cbrentano@mozilla.com
     client_id: sZlNsFIG9f3vKrq9649Y7UxIyrmr8L7v
     display: true
     logo: slack.png
