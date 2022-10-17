@@ -543,7 +543,8 @@ apps:
     - service_jira
     - moc_service_accounts
     - mozilliansorg_jira_vendors
-    authorized_users: []
+    authorized_users:
+    - zoomadmin@mozilla.com
     client_id: LNU9XiEHlgeU07GLt00vx4y9RR7ALsov
     display: false
     logo: jira.png
@@ -556,7 +557,8 @@ apps:
     - team_mofo
     - team_mzla
     - team_mozillaonline
-    authorized_users: []
+    authorized_users:
+    - zoomadmin@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
     logo: jira.png
