@@ -562,9 +562,26 @@ apps:
     logo: jira.png
     name: Jira
     op: auth0
-    url: https://mozilla-hub.atlassian.net
+    url: https://mozilla-hub.atlassian.net/jira
     vanity_url:
     - /jira
+- application:
+    authorized_groups:
+    - IntranetWiki
+    - GuestWiki
+    - moc_service_accounts
+    authorized_users:
+    - moc+servicenow@mozilla.com
+    - moc-sso-monitoring@mozilla.com
+    client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
+    display: true
+    logo: confluence.png
+    name: Confluence
+    op: auth0
+    url: https://mozilla-hub.atlassian.net/wiki/home
+    vanity_url:
+    - /confluence
+    - /mana
 - application:
     authorized_groups:
     - team_moco
@@ -3157,22 +3174,6 @@ apps:
     name: iodide.telemetry.mozilla.org
     op: auth0
     url: https://iodide.telemetry.mozilla.org/oidc/callback
-- application:
-    authorized_groups:
-    - IntranetWiki
-    - GuestWiki
-    - moc_service_accounts
-    authorized_users:
-    - moc+servicenow@mozilla.com
-    - moc-sso-monitoring@mozilla.com
-    client_id: Qzs1IbNmnXB1js1KlhhdnwYZT9rwwF4U
-    display: true
-    logo: mana.png
-    name: Mana
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Qzs1IbNmnXB1js1KlhhdnwYZT9rwwF4U
-    vanity_url:
-    - /mana
 - application:
     authorized_groups:
     - team_moco
