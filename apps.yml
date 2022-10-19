@@ -4195,3 +4195,39 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/0MjrDlYSBk6d8BitHMAWXGJtvf9bqniW
     vanity_url:
     - /digicert
+- application:
+    authorized_groups:
+    - mozilliansorg_shepherd-access
+    authorized_users: []
+    client_id: tKXkNYEvS1R2czXxUDzzQTu9EqRoX0pU
+    display: true
+    logo: generic_web_app.png
+    name: Shepherd (Dev)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/tKXkNYEvS1R2czXxUDzzQTu9EqRoX0pU
+    vanity_url:
+    - /shepherd-dev
+- application:
+    authorized_groups:
+    - mozilliansorg_shepherd-access
+    authorized_users: []
+    client_id: gZXDlN1GlTsfSifdYtNCtYXVyULIFYot
+    display: true
+    logo: generic_web_app.png
+    name: Shepherd (Stage)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/gZXDlN1GlTsfSifdYtNCtYXVyULIFYot
+    vanity_url:
+    - /shepherd-stage
+- application:
+    authorized_groups:
+    - mozilliansorg_shepherd-access
+    authorized_users: []
+    client_id: YyIOhXVUtUWrTOQVwmpztmD69LYxF4Ep
+    display: true
+    logo: generic_web_app.png
+    name: Shepherd
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/YyIOhXVUtUWrTOQVwmpztmD69LYxF4Ep
+    vanity_url:
+    - /shepherd
