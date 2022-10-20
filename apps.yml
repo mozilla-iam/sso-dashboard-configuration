@@ -4180,7 +4180,7 @@ apps:
     logo: acryldata.png
     name: Acryl Data
     op: auth0
-    url: https://mozilla.acryl.io/callback/oidc
+    url: https://mozilla.acryl.io/authenticate
     vanity_url:
     - /acryl
 - application:
