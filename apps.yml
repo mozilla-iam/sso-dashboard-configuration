@@ -574,7 +574,7 @@ apps:
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
-    display: false
+    display: true
     logo: confluence.png
     name: Confluence
     op: auth0
@@ -3182,7 +3182,7 @@ apps:
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     client_id: Qzs1IbNmnXB1js1KlhhdnwYZT9rwwF4U
-    display: true
+    display: false
     logo: mana.png
     name: Mana
     op: auth0
