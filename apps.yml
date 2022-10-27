@@ -1015,7 +1015,7 @@ apps:
     - mozilliansorg_slack-access
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - team_mozillaonline
     - travelling_accounts
     authorized_users: []
