@@ -119,7 +119,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - team_mozillaonline
     - mozilliansorg_nda
     authorized_users: []
