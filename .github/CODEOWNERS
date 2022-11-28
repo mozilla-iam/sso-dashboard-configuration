@@ -1,0 +1,7 @@
+# Assign all reviews to the SSO Dashboard Reviewers team, by default.
+#
+# This team must be assigned Role: Write (or better) in the repository
+# for GitHub to apply this default for new pull requests.
+# https://github.com/mozilla-iam/sso-dashboard-configuration/settings/access
+
+* @mozilla-iam/sso-dashboard-reviewers
