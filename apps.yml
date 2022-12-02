@@ -4260,3 +4260,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/YyIOhXVUtUWrTOQVwmpztmD69LYxF4Ep
     vanity_url:
     - /shepherd
+- application:
+    authorized_groups:
+    - mozilliansorg_watershedclimate-access
+    authorized_users: []
+    client_id: hGEXjbvtxDufKvhzhufYoLn4kp1Fivpt
+    display: true
+    logo: watershed.png
+    name: Watershed
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/hGEXjbvtxDufKvhzhufYoLn4kp1Fivpt
+    vanity_url:
+    - /watershed
