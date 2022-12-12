@@ -381,6 +381,7 @@ apps:
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
+    - team_office_support
     - gsuite_shared_accounts
     - moc_service_accounts
     authorized_users:
@@ -402,6 +403,7 @@ apps:
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
+    - team_office_support
     - gsuite_shared_accounts
     - moc_service_accounts
     authorized_users: []
@@ -421,6 +423,7 @@ apps:
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
+    - team_office_support
     - gsuite_shared_accounts
     - moc_service_accounts
     authorized_users: []
@@ -556,6 +559,7 @@ apps:
     - team_mofo
     - team_mzla
     - team_mozillaonline
+    - team_office_support
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
@@ -943,6 +947,7 @@ apps:
     - team_mzla
     - team_mozillajapan
     - team_mozillaonline
+    - team_office_support
     - moc_service_accounts
     authorized_users:
     - moc+servicenow@mozilla.com
@@ -1018,6 +1023,7 @@ apps:
     - team_mzla
     - team_mozillaonline
     - travelling_accounts
+    - team_office_support
     authorized_users: []
     client_id: WXVdgVoCca11OtpGlK8Ir3pR9CBAlSA5
     display: true
@@ -1322,6 +1328,7 @@ apps:
     - team_mzla
     - team_mozillaonline
     - travelling_accounts
+    - team_office_support
     - zoom_non_staff
     - mozilliansorg_community-zoom
     authorized_users: []
