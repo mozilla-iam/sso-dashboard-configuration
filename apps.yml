@@ -384,6 +384,7 @@ apps:
     - team_office_support
     - gsuite_shared_accounts
     - moc_service_accounts
+    # team_gmail_only: All three GApps entries use the same client_id, so they all must have the same access list for any of them to work, even if access is further restricted within GApps to only one of them.
     - team_gmail_only
     authorized_users:
     - moc+servicenow@mozilla.com
@@ -407,6 +408,8 @@ apps:
     - team_office_support
     - gsuite_shared_accounts
     - moc_service_accounts
+    # team_gmail_only: All three GApps entries use the same client_id, so they all must have the same access list for any of them to work, even if access is further restricted within GApps to only one of them.
+    - team_gmail_only
     authorized_users: []
     client_id: smKTjsVVxUJDEkjIftOsP0bop2NWjysa
     display: true
@@ -427,6 +430,8 @@ apps:
     - team_office_support
     - gsuite_shared_accounts
     - moc_service_accounts
+    # team_gmail_only: All three GApps entries use the same client_id, so they all must have the same access list for any of them to work, even if access is further restricted within GApps to only one of them.
+    - team_gmail_only
     authorized_users: []
     client_id: smKTjsVVxUJDEkjIftOsP0bop2NWjysa
     display: true
