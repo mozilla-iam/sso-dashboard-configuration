@@ -384,6 +384,7 @@ apps:
     - team_office_support
     - gsuite_shared_accounts
     - moc_service_accounts
+    - team_gmail_only
     authorized_users:
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
