@@ -1141,28 +1141,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    authorized_users: []
-    client_id: Q3z1fjeoZhGyws1IXDUc6rHdcYNpxTv8
-    display: false
-    logo: auth0.png
-    name: PTO
-    op: auth0
-    url: https://pto.mozilla.org/
-- application:
-    authorized_groups:
-    - team_moco
-    authorized_users: []
-    client_id: fNzzMG3XfkxQJcnUpgrGyH2deII3nFFM
-    display: true
-    logo: pto.png
-    name: PTO
-    op: auth0
-    url: https://pto.mozilla.org/
-    vanity_url:
-    - /pto
-- application:
-    authorized_groups:
-    - team_moco
     - team_mofo
 #    - team_mzla
     - everyone
@@ -2976,18 +2954,6 @@ apps:
     name: graphite-mdc2.mozilla.org
     op: auth0
     url: https://graphite-mdc2.mozilla.org/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
-    client_id: fkfhxgxU868c6OSstYP4FwPzGzM534r5
-    display: false
-    logo: auth0.png
-    name: pto.allizom.org
-    op: auth0
-    url: https://pto.allizom.org/callback
 - application:
     authorized_groups:
     - team_moco
