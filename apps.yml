@@ -1141,28 +1141,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    authorized_users: []
-    client_id: Q3z1fjeoZhGyws1IXDUc6rHdcYNpxTv8
-    display: false
-    logo: auth0.png
-    name: PTO
-    op: auth0
-    url: https://pto.mozilla.org/
-- application:
-    authorized_groups:
-    - team_moco
-    authorized_users: []
-    client_id: fNzzMG3XfkxQJcnUpgrGyH2deII3nFFM
-    display: true
-    logo: pto.png
-    name: PTO
-    op: auth0
-    url: https://pto.mozilla.org/
-    vanity_url:
-    - /pto
-- application:
-    authorized_groups:
-    - team_moco
     - team_mofo
 #    - team_mzla
     - everyone
@@ -2299,18 +2277,6 @@ apps:
     - team_mofo
 #    - team_mzla
     authorized_users: []
-    client_id: L0Eq6oW30PeB6mYt8NlsaZ2WqC9sj40n
-    display: false
-    logo: auth0.png
-    name: stage-pto.mozilla.com.tw
-    op: auth0
-    url: https://stage-pto.mozilla.com.tw/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
     client_id: albdy7m1X0YqdKEYx6qiJ9dKfg4ousn0
     display: false
     logo: auth0.png
@@ -2611,18 +2577,6 @@ apps:
     name: pentest-master.private.mdc1.mozilla.com
     op: auth0
     url: https://pentest-master.private.mdc1.mozilla.com/redirect_uri
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
-    client_id: s7ICwWzGSP8WRnAkAMpIjDyayaEIOneU
-    display: false
-    logo: auth0.png
-    name: pto.mozilla.com.tw
-    op: auth0
-    url: https://pto.mozilla.com.tw/callback
 - application:
     authorized_groups:
     - team_moco
@@ -2976,18 +2930,6 @@ apps:
     name: graphite-mdc2.mozilla.org
     op: auth0
     url: https://graphite-mdc2.mozilla.org/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
-    client_id: fkfhxgxU868c6OSstYP4FwPzGzM534r5
-    display: false
-    logo: auth0.png
-    name: pto.allizom.org
-    op: auth0
-    url: https://pto.allizom.org/callback
 - application:
     authorized_groups:
     - team_moco
