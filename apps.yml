@@ -3332,7 +3332,7 @@ apps:
     authorized_users: []
     client_id: p2lSKumiDFFnTfopf6zkiF3WB0W359ZK
     display: false
-    logo: auth0
+    logo: auth0.png
     name: Consider.it
     op: auth0
     url: https://mozilla-soti.consider.it
@@ -3343,7 +3343,7 @@ apps:
     authorized_users: []
     client_id: pouConqZTpmZNBuKyzeWEyauZHlnAirS
     display: false
-    logo: auth0
+    logo: auth0.png
     name: community.mozilla.org
     op: auth0
     url: https://community.mozilla.org
@@ -3353,7 +3353,7 @@ apps:
     authorized_users: []
     client_id: XdAr3brwNP9VXHcqaqC9YSepMLMMCIjS
     display: false
-    logo: auth0
+    logo: auth0.png
     name: Mozilla Donate
     op: auth0
     url: https://give.mozilla.org
