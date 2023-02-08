@@ -2812,6 +2812,18 @@ apps:
     - team_mofo
 #    - team_mzla
     authorized_users: []
+    client_id: ZWzknyhzi1drDmC1zIQLomiYDX8IsJIk
+    display: false
+    logo: auth0.png
+    name: https://fuzzmanager-staging.fuzzing.mozilla.org/
+    op: auth0
+    url: https://fuzzmanager-staging.fuzzing.mozilla.org/oidc/callback/
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users: []
     client_id: m35Bq2g6bRV37rs3cGa4UBR0qNI3IBKR
     display: false
     logo: auth0.png
