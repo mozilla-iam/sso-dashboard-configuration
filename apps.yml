@@ -4223,3 +4223,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/TPliDroeFM4p3csAsmC0tfF8AxeOisrP
     vanity_url:
     - /compass
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    client_id: ahsxphJOkKeLqSmzxLeGmwOefrcWfK0T
+    display: false
+    logo: auth0.png
+    name: NetSuite (Sandbox)
+    op: auth0
+    url: https://3372492-sb1.app.netsuite.com/app/login/secure/oidc.nl
+    vanity_url:
+    - /netsuite-sb1
