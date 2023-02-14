@@ -3262,16 +3262,6 @@ apps:
     url: https://firefox-ci-tc.services.mozilla.com/
 - application:
     authorized_groups:
-    - service_cloudsnap
-    authorized_users: []
-    client_id: cuC3NOGPFm58H172NnOypPf1jGQwMoUf
-    display: false
-    logo: auth0.png
-    name: Cloudsnap
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/cuC3NOGPFm58H172NnOypPf1jGQwMoUf
-- application:
-    authorized_groups:
     - hris_costcenter_1420
     authorized_users: []
     display: true
