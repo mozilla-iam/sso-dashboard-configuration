@@ -3651,7 +3651,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     - team_pocket
     - team_mozillaonline
     authorized_users: []
