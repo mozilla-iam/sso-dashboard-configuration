@@ -3081,30 +3081,6 @@ apps:
     - team_moco
     - team_mofo
 #    - team_mzla
-    authorized_users: []
-    client_id: HhsEpi14LlupTdZJjWcbsfWU0w8dVPxT
-    display: false
-    logo: auth0.png
-    name: fxa-support-panel2.stage.mozaws.net
-    op: auth0
-    url: https://fxa-support-panel2.stage.mozaws.net/openid/callback/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
-    client_id: Vq6X0h7r43esUhNmrbUD1HBZskVejhHW
-    display: false
-    logo: auth0.png
-    name: fxa-support-panel.stage.mozaws.net
-    op: auth0
-    url: https://fxa-support-panel.stage.mozaws.net/openid/callback/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: m3UJJU40O2T6awdbhoA8V6onp3AbzU3Q
@@ -3217,16 +3193,6 @@ apps:
     name: recit.getpocket.dev
     op: auth0
     url: https://recit.getpocket.dev/login
-- application:
-    authorized_groups:
-    - vpn_fxa_support_panel
-    authorized_users: []
-    client_id: 7EtX4Eg0zXBjI5fL3Wu53roaXEnVIFsx
-    display: false
-    logo: auth0.png
-    name: fxa-support-panel.prod.mozaws.net
-    op: auth0
-    url: https://fxa-support-panel.prod.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
     - team_netops
