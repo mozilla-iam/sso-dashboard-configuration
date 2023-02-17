@@ -873,19 +873,6 @@ apps:
     - team_moco
     - team_mofo
 #    - team_mzla
-    authorized_users: []
-    display: true
-    logo: statuspage.png
-    name: StatusPage
-    op: auth0
-    url: https://manage.statuspage.io/cloud/d8febd08-c6e9-4c03-9c13-db37c2369ce5
-    vanity_url:
-    - /statuspage
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: Wz5oO6y8oJ35Yq1B91aC4pkwlXdes7jR
@@ -2487,19 +2474,6 @@ apps:
     - team_moco
     - team_mofo
 #    - team_mzla
-    - statuspage_service_accounts
-    authorized_users: []
-    client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
-    display: false
-    logo: auth0.png
-    name: manage.statuspage.io
-    op: auth0
-    url: https://manage.statuspage.io/sso/saml/consume
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
     - vpn_cloudops_shipit
     authorized_users: []
     client_id: 2dXygwTNP3p7iLTSaEWbdoiJFkjSBqm4
@@ -2603,19 +2577,6 @@ apps:
     name: https://anb1.fuzzing.mozilla.org/
     op: auth0
     url: https://anb1.fuzzing.mozilla.org/oidc/callback/
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    - statuspage_service_accounts
-    authorized_users: []
-    client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
-    display: false
-    logo: auth0.png
-    name: firefoxoperations.statuspage.io
-    op: auth0
-    url: https://manage.statuspage.io/sso/saml/consume
 - application:
     authorized_groups:
     - team_moco
@@ -4194,3 +4155,42 @@ apps:
     url: https://3372492.app.netsuite.com/app/login/secure/oidc.nl
     vanity_url:
     - /netsuite
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users: []
+    display: true
+    logo: statuspage.png
+    name: StatusPage
+    op: auth0
+    url: https://manage.statuspage.io/cloud/d8febd08-c6e9-4c03-9c13-db37c2369ce5
+    vanity_url:
+    - /statuspage
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    - statuspage_service_accounts
+    authorized_users: []
+    client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
+    display: false
+    logo: auth0.png
+    name: manage.statuspage.io
+    op: auth0
+    url: https://manage.statuspage.io/sso/saml/consume
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    - statuspage_service_accounts
+    authorized_users: []
+    client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
+    display: false
+    logo: auth0.png
+    name: firefoxoperations.statuspage.io
+    op: auth0
+    url: https://manage.statuspage.io/sso/saml/consume
