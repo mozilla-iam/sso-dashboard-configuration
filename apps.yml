@@ -4182,3 +4182,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/TPliDroeFM4p3csAsmC0tfF8AxeOisrP
     vanity_url:
     - /compass
+- application:
+    authorized_groups:
+    - mozilliansorg_netsuite-access
+    authorized_users: []
+    client_id: 9wFrJBZQVcL1yjOo6qtYdbAX0OwhRRjb
+    display: true
+    logo: netsuite.png
+    name: Oracle NetSuite
+    op: auth0
+    url: https://3372492.app.netsuite.com/app/login/secure/oidc.nl
+    vanity_url:
+    - /netsuite
