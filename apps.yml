@@ -1208,22 +1208,6 @@ apps:
     url: https://admin.readitlater.com
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    - team_mozillaonline
-    authorized_users:
-    - billing@mozilla.com
-    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
-    display: true
-    logo: expensify.png
-    name: Expensify
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
-    vanity_url:
-    - /expensify
-- application:
-    authorized_groups:
     - mozilliansorg_gcp-infrastructure-production
     - service_meao_gcp
     authorized_users: []
@@ -2475,19 +2459,6 @@ apps:
     - team_moco
     - team_mofo
 #    - team_mzla
-    authorized_users:
-    - billing@mozilla.com
-    client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
-    display: false
-    logo: auth0.png
-    name: Expensify (getpocket.com)
-    op: auth0
-    url: https://www.expensify.com/authentication/saml/loginCallback?domain=getpocket.com
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 5tkbwIFZqYLtZtFIDki6Nqpt8GHUzZ2J
     display: false
@@ -2868,19 +2839,6 @@ apps:
     name: DAM Stage (NetX)
     op: auth0
     url: https://mozillatest.netx.net/SSO
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users:
-    - billing@mozilla.com
-    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
-    display: false
-    logo: auth0.png
-    name: Expensify
-    op: auth0
-    url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
 - application:
     authorized_groups:
     - team_moco
@@ -4194,3 +4152,45 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
     vanity_url:
     - /new-relic-voice
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    - team_mozillaonline
+    authorized_users:
+    - billing@mozilla.com
+    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
+    display: true
+    logo: expensify.png
+    name: Expensify
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
+    vanity_url:
+    - /expensify
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users:
+    - billing@mozilla.com
+    client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
+    display: false
+    logo: auth0.png
+    name: Expensify (getpocket.com)
+    op: auth0
+    url: https://www.expensify.com/authentication/saml/loginCallback?domain=getpocket.com
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users:
+    - billing@mozilla.com
+    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
+    display: false
+    logo: auth0.png
+    name: Expensify
+    op: auth0
+    url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
