@@ -4184,7 +4184,7 @@ apps:
     - /compass
 - application:
     authorized_groups:
-      - mozillansorg_netsuite-access
+      - mozilliansorg_netsuite-access
     authorized_users: []
     client_id: 9wFrJBZQVcL1yjOo6qtYdbAX0OwhRRjb
     display: true
