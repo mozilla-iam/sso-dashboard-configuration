@@ -40,18 +40,6 @@ apps:
     - /netlify
 - application:
     authorized_groups:
-    - mozilliansorg_web-sre-aws-access
-    authorized_users: []
-    client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
-    display: true
-    logo: newrelic.png
-    name: New Relic
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
-    vanity_url:
-    - /new-relic-sre
-- application:
-    authorized_groups:
     - team_moco
     - team_mofo
     - team_mzla
@@ -873,19 +861,6 @@ apps:
     - team_moco
     - team_mofo
 #    - team_mzla
-    authorized_users: []
-    display: true
-    logo: statuspage.png
-    name: StatusPage
-    op: auth0
-    url: https://manage.statuspage.io/cloud/d8febd08-c6e9-4c03-9c13-db37c2369ce5
-    vanity_url:
-    - /statuspage
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: Wz5oO6y8oJ35Yq1B91aC4pkwlXdes7jR
@@ -1231,22 +1206,6 @@ apps:
     name: admin.readitlater.com
     op: auth0
     url: https://admin.readitlater.com
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    - team_mozillaonline
-    authorized_users:
-    - billing@mozilla.com
-    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
-    display: true
-    logo: expensify.png
-    name: Expensify
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
-    vanity_url:
-    - /expensify
 - application:
     authorized_groups:
     - mozilliansorg_gcp-infrastructure-production
@@ -2487,19 +2446,6 @@ apps:
     - team_moco
     - team_mofo
 #    - team_mzla
-    - statuspage_service_accounts
-    authorized_users: []
-    client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
-    display: false
-    logo: auth0.png
-    name: manage.statuspage.io
-    op: auth0
-    url: https://manage.statuspage.io/sso/saml/consume
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
     - vpn_cloudops_shipit
     authorized_users: []
     client_id: 2dXygwTNP3p7iLTSaEWbdoiJFkjSBqm4
@@ -2508,19 +2454,6 @@ apps:
     name: shipit.mozilla-releng.net
     op: auth0
     url: https://shipit.mozilla-releng.net/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users:
-    - billing@mozilla.com
-    client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
-    display: false
-    logo: auth0.png
-    name: Expensify (getpocket.com)
-    op: auth0
-    url: https://www.expensify.com/authentication/saml/loginCallback?domain=getpocket.com
 - application:
     authorized_groups:
     - team_moco
@@ -2603,19 +2536,6 @@ apps:
     name: https://anb1.fuzzing.mozilla.org/
     op: auth0
     url: https://anb1.fuzzing.mozilla.org/oidc/callback/
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    - statuspage_service_accounts
-    authorized_users: []
-    client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
-    display: false
-    logo: auth0.png
-    name: firefoxoperations.statuspage.io
-    op: auth0
-    url: https://manage.statuspage.io/sso/saml/consume
 - application:
     authorized_groups:
     - team_moco
@@ -2924,19 +2844,6 @@ apps:
     - team_moco
     - team_mofo
 #    - team_mzla
-    authorized_users:
-    - billing@mozilla.com
-    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
-    display: false
-    logo: auth0.png
-    name: Expensify
-    op: auth0
-    url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Scha3pS5Y3vITvnhnbLxSla2MBMPdo3M
     display: false
@@ -3054,16 +2961,6 @@ apps:
     url: https://graylog.infra.iam.mozilla.com/redirect_uri
     vanity_url:
     - /iam-graylog
-- application:
-    authorized_groups:
-    - team_moco
-    authorized_users: []
-    client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
-    display: false
-    logo: auth0.png
-    name: New Relic IT SRE
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
 - application:
     authorized_groups:
     - team_moco
@@ -3228,60 +3125,6 @@ apps:
     name: FirefoxCI TaskCluster
     op: auth0
     url: https://firefox-ci-tc.services.mozilla.com/
-- application:
-    authorized_groups:
-    - hris_costcenter_1420
-    authorized_users: []
-    client_id: yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
-    display: true
-    logo: newrelic.png
-    name: New Relic EIS
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
-    vanity_url:
-    - /new-relic-eis
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
-    client_id: Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
-    display: false
-    logo: newrelic.png
-    name: New Relic Emerging Tech
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
-    vanity_url:
-    - /new-relic-emerging-tech
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
-    client_id: VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
-    display: false
-    logo: newrelic.png
-    name: New Relic SubHub
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
-    vanity_url:
-    - /new-relic-subhub
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
-    client_id: rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
-    display: false
-    logo: newrelic.png
-    name: New Relic Voice
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
-    vanity_url:
-    - /new-relic-voice
 - application:
     authorized_groups:
     - braintree_admin_sso
@@ -4194,3 +4037,160 @@ apps:
     url: https://3372492.app.netsuite.com/app/login/secure/oidc.nl
     vanity_url:
     - /netsuite
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users: []
+    display: true
+    logo: statuspage.png
+    name: StatusPage
+    op: auth0
+    url: https://manage.statuspage.io/cloud/d8febd08-c6e9-4c03-9c13-db37c2369ce5
+    vanity_url:
+    - /statuspage
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    - statuspage_service_accounts
+    authorized_users: []
+    client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
+    display: false
+    logo: auth0.png
+    name: manage.statuspage.io
+    op: auth0
+    url: https://manage.statuspage.io/sso/saml/consume
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    - statuspage_service_accounts
+    authorized_users: []
+    client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
+    display: false
+    logo: auth0.png
+    name: firefoxoperations.statuspage.io
+    op: auth0
+    url: https://manage.statuspage.io/sso/saml/consume
+- application:
+    authorized_groups:
+    - mozilliansorg_web-sre-aws-access
+    authorized_users: []
+    client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
+    display: true
+    logo: newrelic.png
+    name: New Relic
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
+    vanity_url:
+    - /new-relic-sre
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
+    display: false
+    logo: auth0.png
+    name: New Relic IT SRE
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
+- application:
+    authorized_groups:
+    - hris_costcenter_1420
+    authorized_users: []
+    client_id: yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
+    display: true
+    logo: newrelic.png
+    name: New Relic EIS
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
+    vanity_url:
+    - /new-relic-eis
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users: []
+    client_id: Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
+    display: false
+    logo: newrelic.png
+    name: New Relic Emerging Tech
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
+    vanity_url:
+    - /new-relic-emerging-tech
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users: []
+    client_id: VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
+    display: false
+    logo: newrelic.png
+    name: New Relic SubHub
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
+    vanity_url:
+    - /new-relic-subhub
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users: []
+    client_id: rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
+    display: false
+    logo: newrelic.png
+    name: New Relic Voice
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
+    vanity_url:
+    - /new-relic-voice
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    - team_mozillaonline
+    authorized_users:
+    - billing@mozilla.com
+    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
+    display: true
+    logo: expensify.png
+    name: Expensify
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
+    vanity_url:
+    - /expensify
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users:
+    - billing@mozilla.com
+    client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
+    display: false
+    logo: auth0.png
+    name: Expensify (getpocket.com)
+    op: auth0
+    url: https://www.expensify.com/authentication/saml/loginCallback?domain=getpocket.com
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+#    - team_mzla
+    authorized_users:
+    - billing@mozilla.com
+    client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
+    display: false
+    logo: auth0.png
+    name: Expensify
+    op: auth0
+    url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
