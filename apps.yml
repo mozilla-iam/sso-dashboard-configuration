@@ -3139,6 +3139,16 @@ apps:
     url: https://give.mozilla.org
 - application:
     authorized_groups:
+    - service_mozilla_donate
+    authorized_users: []
+    client_id: 5ZWnfdyR420frw0qRJzlhEss31kmyPEn
+    display: false
+    logo: auth0.png
+    name: Mozilla Donate Stage
+    op: auth0
+    url: https://donate-wagtail.mofostaging.net
+- application:
+    authorized_groups:
     - team_moco
     - team_mofo
 #    - team_mzla
