@@ -3022,19 +3022,6 @@ apps:
     vanity_url:
     - /coderpad
 - application:
-    authorized_groups:
-    - service_uptycs
-    - service_uptycs_admin
-    authorized_users: []
-    client_id: VDBnjB9HB3ulW5ty50toL8fW5p1GCghU
-    display: true
-    logo: uptycs.png
-    name: Uptycs
-    op: auth0
-    url: https://mozilla.uptycs.io/saml/auth
-    vanity_url:
-    - /uptycs
-- application:
     AAL: LOW
     authorized_groups:
     - everyone
