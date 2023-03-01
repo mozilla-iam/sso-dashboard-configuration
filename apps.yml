@@ -4204,3 +4204,15 @@ apps:
     name: Expensify
     op: auth0
     url: https://www.expensify.com/authentication/saml/loginCallback?domain=mozilla.com
+- application:
+    authorized_groups:
+    - mozilliansorg_security_threat_intel
+    authorized_users: []
+    client_id: iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
+    display: true
+    logo: rapid7.png
+    name: Rapid7 Insight
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
+    vanity_url:
+    - /rapid7
