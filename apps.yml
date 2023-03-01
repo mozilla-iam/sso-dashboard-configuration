@@ -1752,9 +1752,42 @@ apps:
     client_id: BXaDyWq2F0MNWc56hTxVnM0SkMBXMG0d
     display: true
     logo: balrog.png
-    name: Balrog
+    name: Balrog - previous
     op: auth0
     url: https://aus4-admin.mozilla.org
+- application:
+    authorized_groups:
+    - team_services_ops
+    - balrog
+    authorized_users: []
+    client_id: Qe16eoq0Uz9eSTVDVEO15DGBPCgqoAA2
+    display: true
+    logo: balrog.png
+    name: Balrog (Prod)
+    op: auth0
+    url: https://aus4-admin.mozilla.org
+- application:
+    authorized_groups:
+    - team_services_ops
+    - balrog
+    authorized_users: []
+    client_id: 43tgBNjaHHhOAPPr10zh2jodVT3t6abD
+    display: true
+    logo: balrog.png
+    name: Balrog (Stage)
+    op: auth0
+    url: https://balrog-admin.stage.mozaws.net
+- application:
+    authorized_groups:
+    - team_services_ops
+    - balrog
+    authorized_users: []
+    client_id: MiCmQACl7ZMdn1lTtYnazMYUFiAYAqbF
+    display: true
+    logo: balrog.png
+    name: Balrog (Dev)
+    op: auth0
+    url: https://balrog-admin.dev.mozaws.net
 - application:
     authorized_groups:
     - team_moco
