@@ -1411,17 +1411,6 @@ apps:
     op: auth0
     url: http://localhost:8000/oidc/callback/
 - application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: FQw134gwheaK3KkW6fQf0JPV6P7h2yo1
-    display: false
-    logo: auth0.png
-    name: https://web-mozillians-staging.production.paas.mozilla.community
-    op: auth0
-    url: https://web-mozillians.dinopark.infra.iam.mozilla.com/oidc/callback/
-- application:
     authorized_groups:
     - team_moco
     - team_mofo
