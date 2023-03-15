@@ -4205,3 +4205,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
     vanity_url:
     - /rapid7
+- application:
+    authorized_groups:
+    - mozilliansorg_sec_network_detection
+    authorized_users: []
+    client_id: RmsIEl3T3cZzpKhEmZv1XZDns0OvTzIy
+    display: true
+    logo: vectra.png
+    name: Vectra
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/RmsIEl3T3cZzpKhEmZv1XZDns0OvTzIy
+    vanity_url:
+    - /vectra
