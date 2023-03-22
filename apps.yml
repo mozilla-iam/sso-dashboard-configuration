@@ -4061,6 +4061,7 @@ apps:
 - application:
     authorized_groups:
     - team_moco
+    - team_mofo
     authorized_users: []
     client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
     display: false
@@ -4070,7 +4071,8 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
 - application:
     authorized_groups:
-    - hris_costcenter_1420
+    - team_moco
+    - team_mofo
     authorized_users: []
     client_id: yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
     display: true
