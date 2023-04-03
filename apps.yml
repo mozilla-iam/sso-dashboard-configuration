@@ -3605,18 +3605,6 @@ apps:
     - /sendgrid
 - application:
     authorized_groups:
-    - mozilliansorg_talentwall-access
-    authorized_users: []
-    client_id: 2igLHKcnjKFZDp5qOzONLM951lnJscOu
-    display: true
-    logo: talentwall.png
-    name: TalentWall
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/2igLHKcnjKFZDp5qOzONLM951lnJscOu
-    vanity_url:
-    - /talentwall
-- application:
-    authorized_groups:
     - mozilliansorg_helpscout-access
     authorized_users: []
     client_id: 7CQiBSkH46JQsZDivIxXdB5KE9iAdDAD
