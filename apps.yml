@@ -1118,6 +1118,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_nda
+    - mozilliansorg_boxcom-access
     - team_moco
     - team_mofo
 #    - team_mzla
@@ -1125,8 +1126,8 @@ apps:
     - mozboxadmin@mozilla.com
     - servicedesk@mozilla.com
     client_id: yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj
-    display: false
-    logo: auth0.png
+    display: true
+    logo: boxcom.png
     name: Box
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/yCKLKXrrkigZwoQ9d6xzmE5NuvVW0oBj
