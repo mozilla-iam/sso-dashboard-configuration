@@ -3638,7 +3638,7 @@ apps:
     logo: auth0.png
     name: settings.dev.mozaws.net
     op: auth0
-    url: https://settings.dev.mozaws.net/v1/admin/
+    url: https://remote-settings-dev.allizom.org/v1/admin/
 - application:
     authorized_groups:
     - team_moco
