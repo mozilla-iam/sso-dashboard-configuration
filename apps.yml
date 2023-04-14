@@ -4179,3 +4179,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/RmsIEl3T3cZzpKhEmZv1XZDns0OvTzIy
     vanity_url:
     - /vectra
+- application:
+    authorized_groups:
+    - mozilliansorg_hireez-access
+    authorized_users: []
+    client_id: KSROA68IeJtrXlQphAnmktIcljbSqLiu
+    display: true
+    logo: hireez.png
+    name: HireEZ
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/KSROA68IeJtrXlQphAnmktIcljbSqLiu
+    vanity_url:
+    - /hireez
