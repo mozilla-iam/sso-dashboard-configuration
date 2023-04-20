@@ -3636,7 +3636,7 @@ apps:
     client_id: 7M49iYODCiCGdldu4awmF2Pr6pHsRZDe
     display: false
     logo: auth0.png
-    name: settings.dev.mozaws.net
+    name: remote-settings-dev.allizom.org
     op: auth0
     url: https://remote-settings-dev.allizom.org/v1/admin/
 - application:
