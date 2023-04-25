@@ -4191,3 +4191,27 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/KSROA68IeJtrXlQphAnmktIcljbSqLiu
     vanity_url:
     - /hireez
+- application:
+    authorized_groups:
+    - mozilliansorg_auth0-user-mgmt
+    authorized_users: []
+    client_id: Qp9pcGMMRqJYS0LBH23JvpaX66D0X3w9
+    display: false
+    logo: auth0.png
+    name: Auth0 Management App (dev)
+    op: auth0
+    url: https://mgmt.sso.allizom.org
+    vanity_url:
+    - /auth0-mgmt-dev
+- application:
+    authorized_groups:
+    - mozilliansorg_auth0-user-mgmt
+    authorized_users: []
+    client_id: FImRoNTtYObJwuoyS7CpKiESiRS9Veom
+    display: false
+    logo: auth0.png
+    name: Auth0 Management App (prod)
+    op: auth0
+    url: https://mgmt.sso.mozilla.com
+    vanity_url:
+    - /auth0-mgmt-prod
