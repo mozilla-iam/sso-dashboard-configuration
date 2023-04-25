@@ -3003,7 +3003,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
+    - team_mzla
     authorized_users:
     - dlipski@mozilla.com
     - jeide@mozilla.com
