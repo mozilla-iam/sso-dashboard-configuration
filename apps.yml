@@ -4215,3 +4215,14 @@ apps:
     url: https://mgmt.sso.mozilla.com
     vanity_url:
     - /auth0-mgmt-prod
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: KEEkMrAaqwh1H3TgnWQmFmSg1dHl7GC8
+    display: false
+    logo: auth0.png
+    name: Swoogo
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/KEEkMrAaqwh1H3TgnWQmFmSg1dHl7GC8
