@@ -4231,7 +4231,7 @@ apps:
     - mozilliansorg_notion-access
     authorized_users: []
     client_id: VezzSFjr5YxbFicOqhLmnL8UfUGALQtl
-    display: false
+    display: true
     logo: notion.png
     name: Notion
     op: auth0
