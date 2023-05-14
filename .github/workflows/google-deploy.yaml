@@ -4,6 +4,7 @@ on:
   push:
 #    branches:
 #      - master
+  pull_request:
   release:
     types: [published]
   workflow_dispatch:
@@ -17,6 +18,7 @@ jobs:
     uses: ./.github/workflows/tests.yaml
 
   deployment:
+    if: github.event_name == 'release' or github.event_name == 'push'
     needs: call-test-configuration
     permissions:
       contents: 'read'
@@ -38,7 +40,7 @@ jobs:
         id: 'upload-folder-to-dev'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
-          path: '/'
+          path: './'
           destination: '${{ env.BUCKET_NAME_DEV }}'
 
       - name: 'Upload to Prod'
@@ -46,5 +48,5 @@ jobs:
         id: 'upload-folder-to-prod'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
-          path: '/'
+          path: './'
           destination: '${{ env.BUCKET_NAME_PROD }}'
