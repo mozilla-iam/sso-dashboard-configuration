@@ -1,0 +1,51 @@
+name: Upload dashboard configuration to google CDN
+
+on:
+  push:
+    branches:
+      - master
+  release:
+    types: [published]
+  workflow_dispatch:
+
+env:
+  BUCKET_NAME_DEV: sso-dasboard-dev
+  BUCKET_NAME_PROD: sso-dasboard-prod
+
+jobs:
+  call-test-configuration:
+    uses: ./.github/workflows/tests.yaml
+
+  deployment:
+    needs: call-test-configuration
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+
+      - name: 'Google auth'
+        id: 'auth'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          workload_identity_provider: '${{ secrets.WIF_PROVIDER }}'
+          service_account: '${{ secrets.WIF_SERVICE_ACCOUNT }}'
+
+      - name: 'Upload to Dev'
+        id: 'upload-folder-to-dev'
+        uses: 'google-github-actions/upload-cloud-storage@v1'
+        with:
+          path: '/'
+          destination: '${{ env.BUCKET_NAME_DEV }}'
+
+      - name: 'Upload to Prod'
+        if: github.event_name == 'release'
+        environment: production
+        id: 'upload-folder-to-prod'
+        uses: 'google-github-actions/upload-cloud-storage@v1'
+        with:
+          path: '/'
+          destination: '${{ env.BUCKET_NAME_PROD }}'
