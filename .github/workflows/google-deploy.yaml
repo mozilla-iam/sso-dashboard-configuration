@@ -18,7 +18,7 @@ jobs:
     uses: ./.github/workflows/tests.yaml
 
   deployment:
-    if: github.event_name == 'release' or github.event_name == 'push'
+    if: github.event_name == 'release' || github.event_name == 'push'
     needs: call-test-configuration
     permissions:
       contents: 'read'
