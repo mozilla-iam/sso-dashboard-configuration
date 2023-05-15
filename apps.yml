@@ -4236,3 +4236,15 @@ apps:
     name: FormAssembly
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/NdaW4gufg0LfVCXCiOXqbV9mn6nou0Qp
+- application:
+    authorized_groups: 
+    - mozilliansorg_notion-access
+    authorized_users: []
+    client_id: VezzSFjr5YxbFicOqhLmnL8UfUGALQtl
+    display: true
+    logo: notion.png
+    name: Notion
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/VezzSFjr5YxbFicOqhLmnL8UfUGALQtl
+    vanity_url:
+    - /notion
