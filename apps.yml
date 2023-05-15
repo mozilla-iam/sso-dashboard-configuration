@@ -4228,6 +4228,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/KEEkMrAaqwh1H3TgnWQmFmSg1dHl7GC8
 - application:
     authorized_groups:
+    - mozilliansorg_formassembly-access
+    authorized_users: []
+    client_id: NdaW4gufg0LfVCXCiOXqbV9mn6nou0Qp
+    display: false
+    logo: auth0.png
+    name: FormAssembly
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/NdaW4gufg0LfVCXCiOXqbV9mn6nou0Qp
+- application:
+    authorized_groups: 
     - mozilliansorg_notion-access
     authorized_users: []
     client_id: VezzSFjr5YxbFicOqhLmnL8UfUGALQtl
