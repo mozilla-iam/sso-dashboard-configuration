@@ -4228,7 +4228,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/KEEkMrAaqwh1H3TgnWQmFmSg1dHl7GC8
 - application:
     authorized_groups:
-    - everyone
+    - mozilliansorg_formassembly-access
     authorized_users: []
     client_id: NdaW4gufg0LfVCXCiOXqbV9mn6nou0Qp
     display: false
