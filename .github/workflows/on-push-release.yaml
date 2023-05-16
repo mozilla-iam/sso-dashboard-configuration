@@ -1,7 +1,8 @@
-name: On push or release
+name: Main workflow
 
 on:
   push:
+  pull_request:
   release:
     types: [published]
   workflow_dispatch:
@@ -11,8 +12,22 @@ jobs:
     name: Test Dashboard Configuration
     uses: ./.github/workflows/tests.yaml
 
-  call-deploy-configuration:
-    name: Deploy Configuration to Google CDN
+  call-deploy-configuration-to-dev:
+    name: Deploy Configuration to Dev Google CDN
+    environment: development
+    if: github.event_name == 'push' && github.branch == 'gha'
     needs: call-test-configuration 
     uses: ./.github/workflows/google-deploy.yaml
+      with:
+        environment: development
+    secrets: inherit
+
+  call-deploy-configuration-to-prod:
+    name: Deploy Configuration to Prod Google CDN
+    environment: production
+    if: github.event_name == 'release'
+    needs: call-test-configuration
+    uses: ./.github/workflows/google-deploy.yaml
+      with:
+        environment: production
     secrets: inherit
