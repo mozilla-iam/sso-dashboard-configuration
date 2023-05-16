@@ -10,7 +10,6 @@ env:
 jobs:
   deployment:
     if: github.event_name == 'release' || github.event_name == 'push'
-    needs: call-test-configuration
     permissions:
       contents: 'read'
       id-token: 'write'
