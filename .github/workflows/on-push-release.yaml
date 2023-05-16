@@ -2,6 +2,8 @@ name: On push or release
 
 on:
   push:
+    branches:
+      - master
   release:
     types: [published]
   workflow_dispatch:
