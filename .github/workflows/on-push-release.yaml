@@ -14,7 +14,7 @@ jobs:
 
   call-deploy-configuration-to-dev:
     name: Deploy Configuration to Dev Google CDN
-    if: github.event_name == 'push' and github.ref_name == 'gha'
+    if: github.event_name == 'push' && github.ref_name == 'gha'
     needs: call-test-configuration 
     uses: ./.github/workflows/google-deploy.yaml
     with:
