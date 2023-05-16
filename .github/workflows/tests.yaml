@@ -1,10 +1,11 @@
-name: Test Configuration
+name: Tests
 
 on:
   workflow_call:
 
 jobs:
   test:
+    name: Test Configuration
     runs-on: ubuntu-latest
 
     steps:
