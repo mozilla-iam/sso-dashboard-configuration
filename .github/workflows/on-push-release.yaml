@@ -18,8 +18,8 @@ jobs:
     if: github.event_name == 'push' && github.branch == 'gha'
     needs: call-test-configuration 
     uses: ./.github/workflows/google-deploy.yaml
-      with:
-        environment: development
+    with:
+      environment: development
     secrets: inherit
 
   call-deploy-configuration-to-prod:
@@ -28,6 +28,6 @@ jobs:
     if: github.event_name == 'release'
     needs: call-test-configuration
     uses: ./.github/workflows/google-deploy.yaml
-      with:
-        environment: production
+    with:
+      environment: production
     secrets: inherit
