@@ -1,0 +1,30 @@
+name: Main workflow
+
+on:
+  push:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  call-test-configuration:
+    name: Test Dashboard Configuration
+    uses: ./.github/workflows/tests.yaml
+
+  call-deploy-configuration-to-dev:
+    name: Deploy to Development
+    if: github.event_name == 'push' && github.ref_name == 'master'
+    needs: call-test-configuration 
+    uses: ./.github/workflows/google-deploy.yaml
+    with:
+      environment: development
+    secrets: inherit
+
+  call-deploy-configuration-to-prod:
+    name: Deploy to Production
+    if: github.event_name == 'release'
+    needs: call-test-configuration
+    uses: ./.github/workflows/google-deploy.yaml
+    with:
+      environment: production
+    secrets: inherit
