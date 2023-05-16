@@ -14,8 +14,7 @@ jobs:
 
   call-deploy-configuration-to-dev:
     name: Deploy Configuration to Dev Google CDN
-    environment: development
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' and github.ref_name == 'gha'
     needs: call-test-configuration 
     uses: ./.github/workflows/google-deploy.yaml
     with:
@@ -24,7 +23,6 @@ jobs:
 
   call-deploy-configuration-to-prod:
     name: Deploy Configuration to Prod Google CDN
-    environment: production
     if: github.event_name == 'release'
     needs: call-test-configuration
     uses: ./.github/workflows/google-deploy.yaml
