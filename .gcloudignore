@@ -2,4 +2,4 @@
 *
 !/apps.yml
 !images/
-
+!images/*.png
