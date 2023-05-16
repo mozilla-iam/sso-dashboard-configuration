@@ -13,8 +13,8 @@ jobs:
     uses: ./.github/workflows/tests.yaml
 
   call-deploy-configuration-to-dev:
-    name: Deploy Configuration to Dev Google CDN
-    if: github.event_name == 'push' && github.ref_name == 'gha'
+    name: Deploy to Development
+    if: github.event_name == 'push' ## && github.ref_name == 'master'
     needs: call-test-configuration 
     uses: ./.github/workflows/google-deploy.yaml
     with:
@@ -22,7 +22,7 @@ jobs:
     secrets: inherit
 
   call-deploy-configuration-to-prod:
-    name: Deploy Configuration to Prod Google CDN
+    name: Deploy to Production
     if: github.event_name == 'release'
     needs: call-test-configuration
     uses: ./.github/workflows/google-deploy.yaml
