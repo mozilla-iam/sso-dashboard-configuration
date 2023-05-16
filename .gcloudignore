@@ -1,0 +1,4 @@
+# Ignore all files by default
+*
+!/apps.yml
+!/images/*.png
