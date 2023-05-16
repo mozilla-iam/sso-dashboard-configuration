@@ -1,0 +1,10 @@
+name: On pull_request
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  call-test-configuration:
+    name: Test Dashboard Configuration
+    uses: ./.github/workflows/tests.yaml

@@ -1,0 +1,18 @@
+name: On push or release
+
+on:
+  push:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  call-test-configuration:
+    name: Test Dashboard Configuration
+    uses: ./.github/workflows/tests.yaml
+
+  call-deploy-configuration:
+    name: Deploy Configuration to Google CDN
+    needs: call-test-configuration 
+    uses: ./.github/workflows/google-deploy.yaml
+    secrets: inherit

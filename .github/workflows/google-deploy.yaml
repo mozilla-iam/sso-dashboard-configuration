@@ -1,22 +1,13 @@
-name: Upload dashboard configuration to google CDN
+name: Deploy to google CDN
 
 on:
-  push:
-#    branches:
-#      - master
-  pull_request:
-  release:
-    types: [published]
-  workflow_dispatch:
+  workflow_call:
 
 env:
   BUCKET_NAME_DEV: sso-dasboard-dev
   BUCKET_NAME_PROD: sso-dasboard-prod
 
 jobs:
-  call-test-configuration:
-    uses: ./.github/workflows/tests.yaml
-
   deployment:
     if: github.event_name == 'release' || github.event_name == 'push'
     needs: call-test-configuration
@@ -44,7 +35,7 @@ jobs:
           destination: '${{ env.BUCKET_NAME_DEV }}'
 
       - name: 'Upload to Prod'
-        if: github.event_name == 'release'
+        #if: github.event_name == 'release'
         id: 'upload-folder-to-prod'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
