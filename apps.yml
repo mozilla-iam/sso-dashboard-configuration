@@ -4251,6 +4251,7 @@ apps:
 - application:
     authorized_groups:
     - team_moco
+    - team_pocket
     - mozilliansorg_pocket-dbt-developer-access
     authorized_users: []
     client_id: UKiIS6wee3c6zbhxQzUWtZDEurrMM8dd
