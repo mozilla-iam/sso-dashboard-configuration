@@ -4256,8 +4256,8 @@ apps:
     client_id: UKiIS6wee3c6zbhxQzUWtZDEurrMM8dd
     display: true
     logo: dbtcloud.png
-    name: Pocket dbt Cloud
+    name: dbt Cloud (Pocket)
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/UKiIS6wee3c6zbhxQzUWtZDEurrMM8dd
+    url: https://cloud.getdbt.com/enterprise-login/mozilla/
     vanity_url:
-    - /pocketdbt
+    - /dbtpocket
