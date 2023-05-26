@@ -557,6 +557,18 @@ apps:
     vanity_url:
     - /mdn
 - application:
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: nPr8QRo0dLxM3RRHwIXRSvhmOSPDvNr4
+    display: true
+    logo: moderator.png
+    name: Moderator
+    op: auth0
+    url: https://moderator.mozilla.org/oidc/authenticate/
+    vanity_url:
+    - /moderator
+- application:
     AAL: LOW
     authorized_groups:
     - everyone
