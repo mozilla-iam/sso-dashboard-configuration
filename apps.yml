@@ -1121,6 +1121,7 @@ apps:
     - mozilliansorg_boxcom-access
     - team_moco
     - team_mofo
+    - team_office_support
 #    - team_mzla
     authorized_users:
     - mozboxadmin@mozilla.com
