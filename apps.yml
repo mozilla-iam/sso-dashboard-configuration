@@ -1017,10 +1017,7 @@ apps:
     - /iam-grafana
 - application:
     authorized_groups:
-    - mozilliansorg_nda
     - mozilliansorg_boxcom-access
-    - team_moco
-    - team_mofo
     - team_office_support
 #    - team_mzla
     authorized_users:
