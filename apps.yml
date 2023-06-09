@@ -231,32 +231,6 @@ apps:
     vanity_url:
     - /discourse
 - application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: RqUns8zD5oTsEsjTKAUMhF55sLfuQsGv
-    display: false
-    logo: discourse.png
-    name: Discourse Staging
-    op: auth0-dev
-    url: https://discourse-staging.production.paas.mozilla.community/auth/auth0
-    vanity_url:
-    - /discourse-stage
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: 3LIXec4tKVr6SltYFYUYsE0GIw0Jm2T0
-    display: false
-    logo: discourse.png
-    name: Discourse-Dev
-    op: auth0-dev
-    url: https://discourse.allizom.org/auth/auth0
-    vanity_url:
-    - /discourse-dev
-- application:
     authorized_groups:
     - team_moco
     - team_mofo
@@ -270,26 +244,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/72Q4MlsbMzRo5Sij6y5JPDAiyGcyDKB2
     vanity_url:
     - /domo
-- application:
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: GmGXMS6RJt3ZvabfTjx16B97pETlnUxd
-    display: false
-    logo: auth0.png
-    name: DXR
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/GmGXMS6RJt3ZvabfTjx16B97pETlnUxd
-- application:
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: kNsY9QiOy7pSUjiordq7WixztBPCepuD
-    display: false
-    logo: auth0.png
-    name: DXR-stage
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/kNsY9QiOy7pSUjiordq7WixztBPCepuD
 - application:
     authorized_groups:
     - team_moco
@@ -808,16 +762,6 @@ apps:
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Wz5oO6y8oJ35Yq1B91aC4pkwlXdes7jR
 - application:
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: a145ph7ZPSz97z8QkiuP1iId6MFPXXUH
-    display: false
-    logo: auth0.png
-    name: support.mozilla.org:admin
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/a145ph7ZPSz97z8QkiuP1iId6MFPXXUH
-- application:
     AAL: LOW
     authorized_groups:
     - everyone
@@ -1022,38 +966,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/GWhjnB7egp5hDryXeoD7OJRjHshWWQap
 - application:
     authorized_groups:
-    - cis_whitelist
-    - team_moco
-    authorized_users: []
-    client_id: BRMXeyw2avAOj7GgBD4SuIHxopb0yZJP
-    display: false
-    logo: auth0.png
-    name: Apache Test RP
-    op: auth0-dev
-    url: https://apache.testrp.security.allizom.org/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: FeqjZfpOqMIkcGKkd2fDjpnm5oSsOOZ2
-    display: false
-    logo: auth0.png
-    name: AAL Low Test RP
-    op: auth0-dev
-    url: https://aai-low-social-ldap-pwless.testrp.security.allizom.org/
-- application:
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: mc1l0G4sJI2eQfdWxqgVNcRAD9EAgHib
-    display: false
-    logo: auth0.png
-    name: SSO Dashboard (Dev)
-    op: auth0-dev
-    url: https://sso.allizom.org/
-- application:
-    authorized_groups:
     - team_moco
     - team_mofo
 #    - team_mzla
@@ -1240,18 +1152,6 @@ apps:
     op: auth0
     url: https://web-mozillians-staging.production.paas.mozilla.community/verify/identity/callback/
 - application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: HvN5D3R64YNNhvcHKuMKny1O0KJZOOwH
-    display: false
-    logo: auth0.png
-    name: https://web-mozillians-staging.production.paas.mozilla.community -- account
-      verification client
-    op: auth0-dev
-    url: https://web-mozillians-staging.production.paas.mozilla.community/verify/identity/callback/
-- application:
     authorized_groups:
     - team_moco
     - team_mofo
@@ -1416,17 +1316,6 @@ apps:
     name: web-remo-staging.production.paas.mozilla.community
     op: auth0
     url: https://web-remo-staging.production.paas.mozilla.community/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: OwbZj5f5NnK161LTtOVshM131Nf6jWBe
-    display: false
-    logo: auth0.png
-    name: https://respond.mozilla.community
-    op: auth0
-    url: https://respond.mozilla.community/oidc/callback/
 - application:
     AAL: LOW
     authorized_groups:
@@ -1836,18 +1725,6 @@ apps:
     - team_mofo
 #    - team_mzla
     authorized_users: []
-    client_id: WLQrmFTcXlSDelnxOASZ4KJQTE5gXZFt
-    display: false
-    logo: auth0.png
-    name: dev.sumo.moz.works
-    op: auth0
-    url: https://dev.sumo.moz.works
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
     client_id: dWcDz6ZYNuevquzzvAgRYOgBZLxY0ucx
     display: false
     logo: auth0.png
@@ -2213,18 +2090,6 @@ apps:
     - team_moco
     - team_mofo
 #    - team_mzla
-    authorized_users: []
-    client_id: N3GRGrtTfNehZYvC3vWVUgd7Rk9F2Opb
-    display: false
-    logo: auth0.png
-    name: panorama.mdc1.mozilla.net
-    op: auth0
-    url: https://panorama.mdc1.mozilla.net:443/SAML20/SP/ACS
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
     - mozilliansorg_nda
     authorized_users: []
     client_id: 725CWQLZ1oOt8XEnjsMvjYkZMZna2Y1V
@@ -2440,18 +2305,6 @@ apps:
     name: Snippets Stage
     op: auth0
     url: https://snippets.allizom.org/oidc/callback/
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    authorized_users: []
-    client_id: M4TY5gZQ6nUyMIjWpXWFffRJ9pD3qPb2
-    display: false
-    logo: auth0.png
-    name: https://nhobot.ngrok.io
-    op: auth0
-    url: https://nhobot.ngrok.io/callback/auth
 - application:
     authorized_groups:
     - team_moco
@@ -2741,19 +2594,6 @@ apps:
     name: Logging 2.0 CEP Prod
     op: auth0
     url: https://logging-cep.prod.mozaws.net/dashboard_output/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-#    - team_mzla
-    - mozilliansorg_nda
-    authorized_users: []
-    client_id: y2cZ14lTdsMjJdjmUNQ3PaLDrBCNJUZl
-    display: false
-    logo: auth0.png
-    name: localhost:5000 - Marty Ballard
-    op: auth0
-    url: http://localhost:5000/redirect_uri
 - application:
     authorized_groups:
     - team_moco
@@ -4182,18 +4022,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/KSROA68IeJtrXlQphAnmktIcljbSqLiu
     vanity_url:
     - /hireez
-- application:
-    authorized_groups:
-    - mozilliansorg_auth0-user-mgmt
-    authorized_users: []
-    client_id: Qp9pcGMMRqJYS0LBH23JvpaX66D0X3w9
-    display: false
-    logo: auth0.png
-    name: Auth0 Management App (dev)
-    op: auth0
-    url: https://mgmt.sso.allizom.org
-    vanity_url:
-    - /auth0-mgmt-dev
 - application:
     authorized_groups:
     - mozilliansorg_auth0-user-mgmt
