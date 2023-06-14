@@ -1322,7 +1322,7 @@ apps:
     - everyone
     authorized_users: []
     client_id: cav8o4za5QGMXilUEjglH9cgJpQl33Ck
-    display: false
+    display: true
     logo: auth0.png
     name: moderator.mozilla.org
     op: auth0
