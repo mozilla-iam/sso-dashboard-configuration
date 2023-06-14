@@ -3512,12 +3512,12 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: QEM7xyeM5Bqxo5zfxvrQDWyL4Hx3F11a
+    client_id: oAm19NujSERGPVL76RXh31wW5J6KnLRw
     display: false
     logo: auth0.png
     name: connect.allizom.org
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/QEM7xyeM5Bqxo5zfxvrQDWyL4Hx3F11a
+    url: https://auth.mozilla.auth0.com/samlp/oAm19NujSERGPVL76RXh31wW5J6KnLRw
     vanity_url:
     - /connect-stage
 - application:
@@ -3525,12 +3525,12 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: oAm19NujSERGPVL76RXh31wW5J6KnLRw
+    client_id: QEM7xyeM5Bqxo5zfxvrQDWyL4Hx3F11a
     display: false
     logo: auth0.png
     name: connect.mozilla.org
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/oAm19NujSERGPVL76RXh31wW5J6KnLRw
+    url: https://auth.mozilla.auth0.com/samlp/QEM7xyeM5Bqxo5zfxvrQDWyL4Hx3F11a
     vanity_url:
     - /connect
 - application:
