@@ -1019,7 +1019,6 @@ apps:
     authorized_groups:
     - mozilliansorg_boxcom-access
     - team_office_support
-#    - team_mzla
     authorized_users:
     - mozboxadmin@mozilla.com
     - servicedesk@mozilla.com
