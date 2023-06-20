@@ -4088,3 +4088,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/Pp7UB7N0Jb5B3S5EB37mrkX0bW4w1ogu
     vanity_url:
     - /modepocket
+- application:
+    authorized_groups:
+    - mozilliansorg_mdn-supabase-access
+    authorized_users: []
+    client_id: vcqV8RiQwMrATd7crKEGq9pgeARTcUxn
+    display: false
+    logo: auth0.png
+    name: Supabase
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/vcqV8RiQwMrATd7crKEGq9pgeARTcUxn
+    vanity_url:
+    - /supabase
