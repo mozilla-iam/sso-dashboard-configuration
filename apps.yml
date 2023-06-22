@@ -1436,7 +1436,7 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: aDL5o9SZRaYTH5zzkGntT4l76qydMbZe
+    client_id: 2KNOUCxN8AFnGGjDCGtqiDIzq8MKXi2h
     display: false
     logo: auth0.png
     name: sso.allizom.org
