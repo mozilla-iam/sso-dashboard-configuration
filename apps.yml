@@ -3368,8 +3368,8 @@ apps:
     - /everfi
 - application:
       authorized_groups:
-          - team_opsec
-          - team_secops
+          - mozilliansorg_bitsight-users
+          - mozilliansorg_bitsight-admins
       authorized_users: []
       client_id: eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
       display: true
