@@ -1613,7 +1613,7 @@ apps:
     logo: balrog.png
     name: Balrog (Stage)
     op: auth0
-    url: https://balrog-admin.stage.mozaws.net
+    url: https://balrog-admin-static-stage.stage.mozaws.net/
 - application:
     authorized_groups:
     - team_services_ops
