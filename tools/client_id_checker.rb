@@ -5,7 +5,7 @@ spanning_client_ids = []
 
 apps["apps"].each do |app|
 	begin
-		
+
 		client_id = app["application"]["client_id"]
 		unless client_id.nil?
 			client_ids.append(client_id)

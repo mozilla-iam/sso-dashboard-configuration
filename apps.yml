@@ -1,6 +1,6 @@
 # Data Classification : Public
 # The contents of this file are meant to be publicly accessible and this file contains no private data
-# 
+#
 # NOTE: authorized_groups and authorized_users control two things independently:
 #
 # 1. Does the SSO Dashboard display a tile to the user for this application?
@@ -4052,7 +4052,7 @@ apps:
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/NdaW4gufg0LfVCXCiOXqbV9mn6nou0Qp
 - application:
-    authorized_groups: 
+    authorized_groups:
     - mozilliansorg_notion-access
     authorized_users: []
     client_id: VezzSFjr5YxbFicOqhLmnL8UfUGALQtl
@@ -4110,4 +4110,3 @@ apps:
     name: Dualo
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/lREe0wwQvrFGwjIaSfrYLBuwAUUF8BOt
-   
