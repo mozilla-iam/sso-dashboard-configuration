@@ -4100,3 +4100,14 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/vcqV8RiQwMrATd7crKEGq9pgeARTcUxn
     vanity_url:
     - /supabase
+- application:
+    authorized_groups:
+    - mozilliansorg_dualo-access
+    authorized_users: []
+    client_id: lREe0wwQvrFGwjIaSfrYLBuwAUUF8BOt
+    display: true
+    logo: dualo.png
+    name: Dualo
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/lREe0wwQvrFGwjIaSfrYLBuwAUUF8BOt
+   
