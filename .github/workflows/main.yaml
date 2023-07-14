@@ -14,7 +14,7 @@ jobs:
   call-deploy-configuration-to-dev:
     name: Deploy to Development
     if: github.event_name == 'push' && github.ref_name == 'master'
-    needs: call-test-configuration 
+    needs: call-test-configuration
     uses: ./.github/workflows/google-deploy.yaml
     with:
       environment: development
