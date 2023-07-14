@@ -4110,3 +4110,13 @@ apps:
     name: Dualo
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/lREe0wwQvrFGwjIaSfrYLBuwAUUF8BOt
+- application:
+    authorized_groups:
+    - mozilliansorg_security_threat_intel
+    authorized_users: []
+    client_id: PskxC2pfs6mAWBYXOumcBuxdb8SUIvjd
+    display: false
+    logo: auth0.png
+    name: Recorded Future Sandbox
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/PskxC2pfs6mAWBYXOumcBuxdb8SUIvjd
