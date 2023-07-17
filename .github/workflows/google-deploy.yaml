@@ -9,7 +9,7 @@ on:
 
 env:
   BUCKET_NAME: sso-dashboard-${{ inputs.environment }}
-  CHANNEL_IDS: C05AMLCL4JX
+  CHANNEL_IDS: C05AMLCL4JX #iam-notifications slack channel
   SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN}}
 
 jobs:
