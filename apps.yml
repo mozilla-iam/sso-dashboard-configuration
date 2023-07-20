@@ -4119,6 +4119,6 @@ apps:
     logo: recordedfuture.png
     name: Recorded Future Sandbox
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/PskxC2pfs6mAWBYXOumcBuxdb8SUIvjd
+    url: https://private.tria.ge/login/saml/mozilla
     vanity_url:
     - /recordedfuture
