@@ -9,6 +9,8 @@ on:
 
 env:
   BUCKET_NAME: sso-dashboard-${{ inputs.environment }}
+  CHANNEL_IDS: C05AMLCL4JX #iam-notifications slack channel
+  SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN}}
 
 jobs:
   deployment:
@@ -30,9 +32,44 @@ jobs:
           workload_identity_provider: '${{ secrets.WIF_PROVIDER }}'
           service_account: '${{ secrets.WIF_SERVICE_ACCOUNT }}'
 
+      - name: Send initial slack notification
+        uses: slackapi/slack-github-action@v1.24.0
+        id: slack
+        with:
+          channel-id: ${{ env.CHANNEL_IDS }}
+          payload-file-path: ".github/workflows/payload-slack-content.json"
+        env:
+          STATUS_COLOR: dbab09
+          STATUS_TITLE: "${{ env.BUCKET_NAME }} Deployment"
+          STATUS_VALUE: ':link-run: *Running*'
+
       - name: 'Upload to CDN bucket'
         id: 'upload-to-bucket'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: './'
           destination: '${{ env.BUCKET_NAME }}'
+
+      - name: Update slack deployment complete
+        if: success()
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          update-ts: ${{ steps.slack.outputs.ts }}
+          channel-id: ${{ env.CHANNEL_IDS }}
+          payload-file-path: ".github/workflows/payload-slack-content.json"
+        env:
+          STATUS_COLOR: 28a745
+          STATUS_TITLE: "${{ env.BUCKET_NAME }} Deployment"
+          STATUS_VALUE: ':link-zelda: *Completed*'
+
+      - name: Update slack deployment failed
+        if: failure()
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          update-ts: ${{ steps.slack.outputs.ts }}
+          channel-id: ${{ env.CHANNEL_IDS }}
+          payload-file-path: ".github/workflows/payload-slack-content.json"
+        env:
+          STATUS_COLOR: d81313
+          STATUS_TITLE: "${{ env.BUCKET_NAME }} Deployment"
+          STATUS_VALUE: ':skull_and_crossbones: *Failed*'
