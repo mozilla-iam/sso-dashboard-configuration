@@ -4082,3 +4082,13 @@ apps:
     url: https://private.tria.ge/login/saml/mozilla
     vanity_url:
     - /recordedfuture
+- application:
+    authorized_groups:
+    - mozilliansorg_birdbox-development
+    authorized_users: []
+    client_id: rg1EGnekLHA8cMA8bsJvzMZD8rCCLjCp
+    display: false
+    logo: auth0.png
+    name: Birdbox - Development
+    op: auth0
+    url: http://127.0.0.1:8000/oidc/callback/
