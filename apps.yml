@@ -4097,3 +4097,92 @@ apps:
     url: https://private.tria.ge/login/saml/mozilla
     vanity_url:
     - /recordedfuture
+- application:
+    authorized_groups:
+    - aws_095732026120_poweruser
+    - aws_104923852476_admin
+    - aws_320464205386_admin
+    - aws_320464205386_read_only
+    - aws_359555865025_admin
+    - aws_558986605633_admin
+    - aws_622567216674_admin
+    - aws_839739216564_admin
+    - aws_consolidatedbilling_admin
+    - aws_consolidatedbilling_read_only
+    - aws_discourse_dev
+    - fuzzing_team
+    - mozilliansorg_aws_billing_access
+    - mozilliansorg_cia-aws
+    - mozilliansorg_consolidated-billing-aws
+    - mozilliansorg_devtools-code-origin-access
+    - mozilliansorg_iam-in-transition
+    - mozilliansorg_iam-in-transition-admin
+    - mozilliansorg_meao-admins
+    - mozilliansorg_mozilla-moderator-devs
+    - mozilliansorg_partinfra-aws
+    - mozilliansorg_pdfjs-testers
+    - mozilliansorg_pocket_cloudtrail_readers
+    - mozilliansorg_searchfox-aws
+    - mozilliansorg_secops-aws-admins
+    - mozilliansorg_voice_aws_admin_access
+    - mozilliansorg_web-sre-aws-access
+    - team_infra
+    - team_mdn
+    - team_netops
+    - team_opsec
+    - team_se
+    - team_secops
+    - voice-dev
+    - vpn_sumo_aws_devs
+    authorized_users: []
+    client_id: JR8HkyiM2i00ma2d1X2xfgdbEHzEYZbS
+    display: true
+    logo: aws.png
+    name: AWS (IT)
+    op: auth0
+    url: https://mozilla-aws.awsapps.com/start
+    vanity_url:
+    - /aws-it
+- application:
+    authorized_groups:
+    - mozilliansorg_pocket_admin
+    - mozilliansorg_pocket_backend
+    - mozilliansorg_pocket_backup_admin
+    - mozilliansorg_pocket_backup_readonly
+    - mozilliansorg_pocket_cloudtrail_readers
+    - mozilliansorg_pocket_dataanalytics
+    - mozilliansorg_pocket_datalearning
+    - mozilliansorg_pocket_developer
+    - mozilliansorg_pocket_frontend
+    - mozilliansorg_pocket_marketing
+    - mozilliansorg_pocket_mozilla_sre
+    - mozilliansorg_pocket_qa
+    - mozilliansorg_pocket_readonly
+    - mozilliansorg_pocket_sales
+    authorized_users: []
+    client_id: pQ0eb5tzwfYHnAtzGuk88pzxZ68szQtk
+    display: true
+    logo: aws.png
+    name: AWS (Pocket)
+    op: auth0
+    url: https://mozilla-pocket.awsapps.com/start
+    vanity_url:
+    - /aws-pocket
+- application:
+    authorized_groups:
+    - mozilliansorg_mofo_aws_admins
+    - mozilliansorg_mofo_aws_community
+    - mozilliansorg_mofo_aws_everything
+    - mozilliansorg_mofo_aws_labs
+    - mozilliansorg_mofo_aws_projects
+    - mozilliansorg_mofo_aws_sandbox
+    - mozilliansorg_mofo_aws_secure
+    authorized_users: []
+    client_id: jU8r4uSEF3fUCjuJ63s46dBnHAfYMYfj
+    display: true
+    logo: aws.png
+    name: AWS (MoFo)
+    op: auth0
+    url: https://mofo-aws.awsapps.com/start
+    vanity_url:
+    - /aws-mofo
