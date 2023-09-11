@@ -4069,7 +4069,7 @@ apps:
     logo: dualo.png
     name: Dualo
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/lREe0wwQvrFGwjIaSfrYLBuwAUUF8BOt
+    url: https://app.dualo.io/organizations/mozilla
 - application:
     authorized_groups:
     - mozilliansorg_security_threat_intel
