@@ -3794,7 +3794,7 @@ apps:
     vanity_url:
     - /netsuite
 - application:
-    authorized_gropus:
+    authorized_groups:
     - mozilliansorg_celigo-access
     authorized_users: []
     client_id: hMalqNlBk7EksTodXwlb5odn2kFHlH5Q
