@@ -3795,6 +3795,18 @@ apps:
     - /netsuite
 - application:
     authorized_groups:
+    - mozilliansorg_celigo-access
+    authorized_users: []
+    client_id: hMalqNlBk7EksTodXwlb5odn2kFHlH5Q
+    display: true
+    logo: celigo.png
+    name: Celigo
+    op: auth0
+    url: https://integrator.io/sso/mozilla
+    vanity_url:
+    - /celigo
+- application:
+    authorized_groups:
     - team_moco
     - team_mofo
 #    - team_mzla
