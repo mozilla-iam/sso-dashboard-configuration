@@ -4200,7 +4200,7 @@ apps:
     client_id: be0nN1NCKzKE20n2vJ5SWv2xTgy6LYFq
     display: false
     logo: auth0.png
-    name: Birdbox - Development
+    name: Birdbox - Innovation Production
     op: auth0
     url: https://prod.innovations.prod.webservices.mozgcp.net/oidc/callback/
 - application:
@@ -4210,7 +4210,7 @@ apps:
     client_id: e4SIueOhttjusYo8QsJCkytksb5SAZxC
     display: false
     logo: auth0.png
-    name: Birdbox - Development
+    name: Birdbox - Innovation Staging
     op: auth0
     url: https://stage.innovations.prod.webservices.mozgcp.net/oidc/callback/
 - application:
@@ -4220,6 +4220,6 @@ apps:
     client_id: 8VCDnPIPcxzZDFlKePQzuTV7pnIIEylW
     display: false
     logo: auth0.png
-    name: Birdbox - Development
+    name: Birdbox - Innovation Development
     op: auth0
     url: https://dev.innovations.prod.webservices.mozgcp.net/oidc/callback/
