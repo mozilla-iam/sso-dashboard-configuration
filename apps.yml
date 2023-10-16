@@ -3935,6 +3935,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_security_threat_intel
+    - mozilliansorg_rapid7_access
     authorized_users: []
     client_id: iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
     display: true
