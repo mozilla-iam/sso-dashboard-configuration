@@ -4216,7 +4216,7 @@ apps:
     authorized_groups:
     - mozilliansorg_moso_invite_dashboard_stage-access
     authorized_users: []
-    client_id: 4lgABkbb89J4OycvfsqkmzQTZCdsjyOt
+    client_id: 10SMTZkVHFSJRdddT43Uvyhi87dHY3MQ
     display: false
     logo: auth0.png
     name: MoSo Invite Dashboard - Stage
@@ -4227,7 +4227,7 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: 10SMTZkVHFSJRdddT43Uvyhi87dHY3MQ
+    client_id: 4lgABkbb89J4OycvfsqkmzQTZCdsjyOt
     display: false
     logo: auth0.png
     name: MoSo Invite Dashboard - Local Dev
