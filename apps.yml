@@ -4202,3 +4202,34 @@ apps:
     name: Birdbox - Innovation Development
     op: auth0
     url: https://dev.innovations.prod.webservices.mozgcp.net/oidc/callback/
+- application:
+    authorized_groups:
+    - mozilliansorg_moso_invite_dashboard_prod-access
+    authorized_users: []
+    client_id: dztaqLyAW2XUQR7iaoVd0ToIjePw0gZB
+    display: false
+    logo: auth0.png
+    name: MoSo Invite Dashboard - Prod
+    op: auth0
+    url: https://prod.mozsoc-accts.prod.webservices.mozgcp.net/auth/callback
+- application:
+    authorized_groups:
+    - mozilliansorg_moso_invite_dashboard_stage-access
+    authorized_users: []
+    client_id: 10SMTZkVHFSJRdddT43Uvyhi87dHY3MQ
+    display: false
+    logo: auth0.png
+    name: MoSo Invite Dashboard - Stage
+    op: auth0
+    url: https://stage.mozsoc-accts.nonprod.webservices.mozgcp.net/auth/callback
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: 4lgABkbb89J4OycvfsqkmzQTZCdsjyOt
+    display: false
+    logo: auth0.png
+    name: MoSo Invite Dashboard - Local Dev
+    op: auth0
+    url: https://accounts.mozsoc.local/auth/callback
