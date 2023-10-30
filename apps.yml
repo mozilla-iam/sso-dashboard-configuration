@@ -4233,3 +4233,15 @@ apps:
     name: MoSo Invite Dashboard - Local Dev
     op: auth0
     url: https://accounts.mozsoc.local/auth/callback
+- application:
+    authorized_groups:
+    - mozilliansorg_pigment-access
+    authorized_users: []
+    client_id: YqndwUFJ6hXGuEOmwv9e40vwmXUHiHHX
+    display: false
+    logo: auth0.png
+    name: Pigment
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/YqndwUFJ6hXGuEOmwv9e40vwmXUHiHHX
+    vanity_url:
+    - /pigment
