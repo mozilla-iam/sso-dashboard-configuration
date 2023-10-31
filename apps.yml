@@ -4238,8 +4238,8 @@ apps:
     - mozilliansorg_pigment-access
     authorized_users: []
     client_id: YqndwUFJ6hXGuEOmwv9e40vwmXUHiHHX
-    display: false
-    logo: auth0.png
+    display: true
+    logo: pigment.png
     name: Pigment
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/YqndwUFJ6hXGuEOmwv9e40vwmXUHiHHX
