@@ -1,5 +1,4 @@
 {
-  "text": "",
   "attachments": [
     {
       "color": "{{ env.STATUS_COLOR }}",
