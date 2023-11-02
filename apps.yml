@@ -3409,7 +3409,8 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_bitrise_access
-    authorized_users: []
+    authorized_users:
+    - bitriseapi.mobile@mozilla.com
     client_id: SgKK7ZZcUT8gLcZPYq229gCHBIyWV2kq
     display: true
     logo: bitrise.png
