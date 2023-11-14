@@ -4135,7 +4135,7 @@ apps:
     - mozilliansorg_pocket_readonly
     - mozilliansorg_pocket_sales
     - mozilliansorg_pocket_ads
-    - mozilliansorg_aws_billing_access
+    - mozilliansorg_pocket_aws_billing
     authorized_users: []
     client_id: pQ0eb5tzwfYHnAtzGuk88pzxZ68szQtk
     display: true
