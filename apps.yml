@@ -4236,3 +4236,23 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/YqndwUFJ6hXGuEOmwv9e40vwmXUHiHHX
     vanity_url:
     - /pigment
+- application:
+    authorized_groups:
+    - mozilliansorg_cinder_stage_access
+    authorized_users: []
+    client_id: V4OPJXyVtfAJJI4IH2fYKOy3SD2kMnxr
+    display: false
+    logo: auth0.png
+    name: Cinder - Stage
+    op: auth0
+    url: https://stage.cinder.nonprod.webservices.mozgcp.net/complete/okta-oauth2/
+- application:
+    authorized_groups:
+    - mozilliansorg_cinder_production_access
+    authorized_users: []
+    client_id: hHrX9b8DhFWN01y3qsAbw9tWc5vHeL7Q
+    display: false
+    logo: auth0.png
+    name: Cinder - Prod
+    op: auth0
+    url: https://prod.cinder.prod.webservices.mozgcp.net/complete/okta-oauth2/
