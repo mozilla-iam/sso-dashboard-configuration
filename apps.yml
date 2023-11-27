@@ -79,7 +79,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: el46s4SPK4ZOhQBsAjtiDYKFQkXK76xm
     display: false
@@ -93,7 +92,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 9F55B8e5VmFl4lCgYObnA1TkyRFTxQ9M
     display: false
@@ -178,7 +176,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users:
     - casa-fivetran@mozilla.com
     client_id: IU80mVpKPtIZyUZtya9ZnSTs6fKLt3JO
@@ -234,7 +231,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 72Q4MlsbMzRo5Sij6y5JPDAiyGcyDKB2
     display: false
@@ -248,7 +244,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users:
     - calendars@mozilla.com
     client_id: DhBV04HLs6H8OeTHOlodz0LtkyY7VTU0
@@ -275,7 +270,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillajapan
     - team_mozillaonline
     authorized_users: []
@@ -291,7 +285,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: eaiAVdOLtf2KXZvexyCCViw0154E0U6x
@@ -420,7 +413,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: f4SlPDVeVcWBChrAvH8uLuEYyt0aW916
@@ -434,7 +426,6 @@ apps:
     - service_lucidchart
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 80JNexePA737rSLhBAABqIvMJTEAn11u
     display: false
@@ -509,7 +500,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
@@ -591,7 +581,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 4HNLHcA7ZSNVWSJVBk9yVxq06WRquN2L
     display: false
@@ -605,7 +594,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: Gav1XmmrpBxts0zeDPOSfGesVrTt044k
@@ -630,7 +618,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: DBRlLjVEUbw1yWrUYAHNYl22KBkKAjql
     display: true
@@ -656,7 +643,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 3rbiX5U5EZZFf9tvYpOdoUxJ6A2TnH2q
     display: false
@@ -680,7 +666,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: ByW5ChOPpsQaQFLcAuZBbtjFrh67uBgt
@@ -694,7 +679,6 @@ apps:
 - application:
     authorized_groups:
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
     display: true
@@ -708,7 +692,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: 54KBW3ESzKFfQws77PCXziJnPt0dYHE0
@@ -752,7 +735,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: Wz5oO6y8oJ35Yq1B91aC4pkwlXdes7jR
@@ -885,7 +867,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: meBoR5vlD0kK0qeUXshNjOB1PbGKjsro
     display: false
@@ -899,7 +880,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: j8FN0DB6RwrlfLhX4opVAZ2tDYbBiMMU
     display: false
@@ -913,7 +893,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: i55sTCbmgUTkvHPW3SDueKlKbtPj5iRF
@@ -942,7 +921,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - cloudops_atmo_access
     authorized_users: []
     client_id: 6GDrRrIYZuRRKLXXbucm4bO0eafK0AKN
@@ -968,7 +946,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - everyone
     authorized_users: []
     client_id: VjJFa4EeFWd29pMnhyAk7AkGW2ids5UX
@@ -983,7 +960,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: t1KWNQt71oskeip2KCu9j0KhwJJbBkig
     display: false
@@ -995,7 +971,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: uMkOuQX8LGTxAyYIiX4eLoc4hl0pWSJt
     display: false
@@ -1046,7 +1021,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: ChKEapjEYTPx0T1b5QP01WhAeP8ymRJ7
     display: false
@@ -1151,7 +1125,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: tU9fTz20E17hlFVo2DViKtDLABzVxrir
     display: true
@@ -1165,7 +1138,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 64Ud5s4qJ3GgFZQ2rUG2D4Fod0lYoUu0
     display: true
@@ -1179,7 +1151,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: iz2qSHo0lSv2nRZ8V3JnOESX5UR4dcpX
@@ -1271,7 +1242,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: mC9OzwCHicAsokpRyJt468BTlO8bl5C4
     display: false
@@ -1407,7 +1377,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_nda
     - mozilliansorg_dinopark-dev
     authorized_users: []
@@ -1546,7 +1515,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: P5kUBn21KQ5m8IRMdNFONg17dJ9qTrlP
     display: false
@@ -1558,7 +1526,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_nda
     authorized_users: []
     client_id: AJBSCa58Vu3bi1OiL30s2yCTXUkBj6KR
@@ -1573,7 +1540,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: DGloMN2BXb0AC7lF5eRyOe1GXweqBAiI
     display: false
@@ -1618,7 +1584,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: zk9N7LU2ihMIy0bwlGd7GfRVXDKsGQjI
     display: false
@@ -1642,7 +1607,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 31dwqlImDXaTqW7m8E0YY5CN16ZLf72Q
     display: false
@@ -1656,7 +1620,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: 2dbkrvUJa5gnxGSnMLZ1jflbtrahhrEi
@@ -1671,7 +1634,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: WuFEV87Q4or1WlncXR3WRgcbD1oceeme
     display: false
@@ -1683,7 +1645,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Lh20PL4WfuZRoZ45dCW0PbnTN8wqN8fd
     display: false
@@ -1695,7 +1656,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_non-moco-sheriffs-basic
     authorized_users: []
     client_id: jGx4Z2JTWsgQWiBmvrCNbe5WXAfMivzb
@@ -1708,7 +1668,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: dWcDz6ZYNuevquzzvAgRYOgBZLxY0ucx
     display: false
@@ -1720,7 +1679,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: k3JF93rR1HI7O2HEndhCI0p1ZyBhhMCr
     display: false
@@ -1732,7 +1690,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: OlwWsXslbA9wk5lQOHUDIUSrtIFTauTy
@@ -1745,7 +1702,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: m6x0phAu4rq4imC6f6gRYaGmQgStCdlG
     display: false
@@ -1757,7 +1713,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: 7YTXsNQhLSiNsXPtDdXdvryD5dN30DEb
@@ -1770,7 +1725,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: UR9C6jNpAxXBv0bEnzDsHGUQAEyasre2
     display: false
@@ -1782,7 +1736,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: wC5AsSzi8BbDHHDDieRjU3mcpEeTVcwj
     display: false
@@ -1794,7 +1747,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: dVL10G8KVJymQ6Tx6naRZRbX6L8rhO1E
     display: false
@@ -1806,7 +1758,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 7jfouvibRlddw49I8prbSl2xrxKXwwoh
     display: false
@@ -1818,7 +1769,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: R04ouRZsRnbVXztgFEA0ZdNUia6WMFa1
     display: false
@@ -1830,7 +1780,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 8udOeshOuK7LREPL0G5Z9n2mY4expDLx
     display: false
@@ -1842,7 +1791,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 33XOsgKlENOSLXLtRv7Vb65v38plFwlg
     display: false
@@ -1854,7 +1802,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: l7kCqo8U1Ka2ZtlE85Dmy2a8Ic1I8y7H
     display: false
@@ -1866,7 +1813,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: EtCJe9m2NFGF4TO0kIfPoT7gQqTKU0DE
     display: false
@@ -1878,7 +1824,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: MmT719PU6y84GsRkym00nVvVHi2y5hPa
     display: false
@@ -1890,7 +1835,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Hi9rqHLPlnpRfMkc7dtkToFc3DHtcf4Z
     display: false
@@ -1902,7 +1846,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: hIjZmDmmtkKuaOjmhd5HUzn0ResPDeqX
     display: false
@@ -1914,7 +1857,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 1QcjRY2UEYySI79IqorH94Td590oqXSA
     display: false
@@ -1926,7 +1868,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - vpn_cloudops_shipit
     authorized_users: []
     client_id: 4u5EiGAICaWFmsyWamVaN1D4f4P6MlR0
@@ -1939,7 +1880,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: XwWBobhe6XlQrngdct8sEdLFAgsW89yB
     display: false
@@ -1951,7 +1891,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_nda
     authorized_users: []
     client_id: 462AVvm5b1GOLD0z7Gao0Eje24aF3Kz0
@@ -1964,7 +1903,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: xTQ9ithTGuqzB0MaPkafbj3Q6HTE2vM0
     display: false
@@ -1976,7 +1914,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: bSCGkqkGbQPAuIDt0kYqmnhimlkh2kwH
     display: false
@@ -1988,7 +1925,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: m772guBT5bEt60OCg4l11NbwDbOX2SLm
     display: false
@@ -2000,7 +1936,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_project-link-aws-admin
     - mozilliansorg_searchfox-aws  # https://bugzilla.mozilla.org/show_bug.cgi?id=1677158
     authorized_users: []
@@ -2014,7 +1949,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: hGFkZoxf7dzKy3PIsT7w2XTBQOhb3ZK0
     display: false
@@ -2026,7 +1960,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: IVq10RLJgYIQX9Mzzr0hPhDkyix6kZQb
     display: false
@@ -2038,7 +1971,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Zs6FFIXPUstFKpzBau4cRQ1aFBx4dKBR
     display: false
@@ -2050,7 +1982,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: iQwPHkpTw1RmbYe6ov2qFMfxbVN7DOB7
     display: false
@@ -2062,7 +1993,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: albdy7m1X0YqdKEYx6qiJ9dKfg4ousn0
     display: false
@@ -2074,7 +2004,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_nda
     authorized_users: []
     client_id: 725CWQLZ1oOt8XEnjsMvjYkZMZna2Y1V
@@ -2087,7 +2016,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 0igrKwGTBpqNHUhPMikxMwjOrZfmzaRh
     display: false
@@ -2099,7 +2027,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 29t2n3LKKnyTbGtWmfTkQpau0mp7QmMH
     display: false
@@ -2111,7 +2038,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: n0L5J2H8fk5T4G7Ma4Ke75Hc6Be5hsRV
     display: false
@@ -2123,7 +2049,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 3a6sbM3CfbTQ8YkZ4wW7YpOdNN5NX4Hb
     display: false
@@ -2135,7 +2060,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 47BCiKGMwpCH5K7IzmJ1DjrHSo82krNs
     display: false
@@ -2147,7 +2071,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: XMAlQpd3P8y34lZF2EvgdNkNxWIP3KD2
     display: false
@@ -2159,7 +2082,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: VEVkmAppSLa3zc9VRhjkDJPwNSs6Zy7B
     display: false
@@ -2174,7 +2096,6 @@ apps:
     - stmo_nda
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: rgE6x7G6X1i3TjOy43qYG8vbcyKtcN6E
     display: false
@@ -2186,7 +2107,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: LNPKbJGoCqEBuCtIZIoJg08V4QtNzfYJ
     display: false
@@ -2198,7 +2118,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: a8153qZo1lnReZ3hj3ZCmP8YMzArrHqU
     display: false
@@ -2210,7 +2129,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 1KN7o6GO88DyTLHW5WlsMm5V3qNRv7Ac
     display: false
@@ -2222,7 +2140,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: nIqcS6cAGY2WRA5466YngH44T4xrrvCt
     display: false
@@ -2234,7 +2151,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_shipit_devs
     authorized_users: []
     client_id: FK1mJkHhwjulTYBGklxn8W4Fhd1pgT4t
@@ -2247,7 +2163,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: btcSD131nsA7Mv1g01U535XPRG3qdNFp
     display: false
@@ -2259,7 +2174,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - vpn_cloudops_shipit
     authorized_users: []
     client_id: 2dXygwTNP3p7iLTSaEWbdoiJFkjSBqm4
@@ -2272,7 +2186,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 5tkbwIFZqYLtZtFIDki6Nqpt8GHUzZ2J
     display: false
@@ -2306,7 +2219,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: rrXGZ6x7J4MIWWlQ6zhTzgED2GxIsHCv
     display: false
@@ -2318,7 +2230,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: AmqnIoKbdd59LaI4wt0pOPkuUHeMchJf
     display: false
@@ -2330,7 +2241,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 6BFjR5hArHbV7dzyUy2VYmnXCV5B0pdo
     display: false
@@ -2342,7 +2252,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: amWBDrIIzlk2pyjgCyLruw0n9wplzUlm
     display: false
@@ -2354,7 +2263,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Ef6czTFBKvTUR3FW08tYobaMGEnk9bzB
     display: false
@@ -2366,7 +2274,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: ov4iTFaVzWnvGme0x7FmRarIvu10I08M
     display: false
@@ -2378,7 +2285,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: rvidaekCvn75vjMcDiBGz2lsmQLDuoou
     display: false
@@ -2390,7 +2296,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: xZWh7NZy5TB6IZ7hFPTIfL0Q0XqAW7st
     display: false
@@ -2402,7 +2307,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 5Z2yOkD1vAU6wAKX3mkFEwBWK8kBBpJD
     display: false
@@ -2414,7 +2318,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: K3ZolIlVbVH41tI9czWdQaPAHWriGx92
     display: false
@@ -2426,7 +2329,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: F1VVD6nRTckSVrviMRaOdLBWIk1AvHYo
     display: false
@@ -2438,7 +2340,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: dXTkbChUpSCKkj3YpY4KxpZ0iYg0tkNy
     display: false
@@ -2450,7 +2351,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: saSz4srpJGtdSMS62v47Xb2FOQtT2xBF
     display: false
@@ -2462,7 +2362,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: hU1YpGcL82wL04vTPsaPAQmkilrSE7wr
     display: false
@@ -2474,7 +2373,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: teqIfOHtaidNWTa79bt7VJwf2Trr3ALQ
     display: false
@@ -2486,7 +2384,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: e1g4q4s7Q2Jos5XOt6pyHVA9JH4G3xjJ
     display: false
@@ -2498,7 +2395,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: zw5M6MyDDixeSXQR2XiDZz46hSOKIHhr
     display: false
@@ -2522,7 +2418,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: vgDriXO3k0LThShbbJUfgl23uAT2MKBp
     display: false
@@ -2534,7 +2429,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: ZWzknyhzi1drDmC1zIQLomiYDX8IsJIk
     display: false
@@ -2546,7 +2440,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: m35Bq2g6bRV37rs3cGa4UBR0qNI3IBKR
     display: false
@@ -2558,7 +2451,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users:
     - iris-testing@mozilla.com
     client_id: 383wZyKOqULjvIJnA4Njz04lztkmxKjf
@@ -2571,7 +2463,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: TTPiEfB9nU0DxzvFxCrj2HYmCtLP1NR3
     display: false
@@ -2583,7 +2474,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: BDRmLMBwmCqyBsL52IuQW8wLBLoLSBWo
     display: false
@@ -2595,7 +2485,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: LdGd1MOIwHD7flZjj5OuQlzGVAyakGvj
     display: false
@@ -2607,7 +2496,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_nda
     authorized_users: []
     client_id: a9d4XdRa07eZxC6GoPUI6WDFjvfyE9sY
@@ -2620,7 +2508,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: wP33JOFmHQEd2TOHftxIppprqCnJzo3m
     display: false
@@ -2632,7 +2519,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Scha3pS5Y3vITvnhnbLxSla2MBMPdo3M
     display: false
@@ -2644,7 +2530,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Ury9HCvBS4B1SzAH8f3YASbbcGf5QlQf
     display: false
@@ -2656,7 +2541,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: sAwFfYrOicxvNjkA75pdZUvkPcJqUPl3
     display: false
@@ -2668,7 +2552,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
     display: false
@@ -2682,7 +2565,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: SJmdyaeuz4SkdoWgOXZxVFeQukpt5SMo
     display: false
@@ -2694,7 +2576,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: pKXyeYwf5sIG6vImQ0HLvPpfzbZObhX0
     display: false
@@ -2717,7 +2598,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - mozilliansorg_nda
     authorized_users: []
     client_id: JW5noOxn5yRl3HbThBAqet7yLqu5uoTm
@@ -2730,7 +2610,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: nJkH6xvVNwogpLjkrTePAKwjB4NpE74h
     display: false
@@ -2754,7 +2633,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: pTTMCxf9YNo4zPOE2l81JqIGHbxkotuJ
     display: false
@@ -2766,7 +2644,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: m3UJJU40O2T6awdbhoA8V6onp3AbzU3Q
@@ -2795,7 +2672,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: uqaHX7JDz335eg0A89725t4GH5dLCUoW
     display: false
@@ -2807,7 +2683,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: NKhaOVehPM0VNljIiENTEP8jvaEUjYV3
     display: false
@@ -2961,7 +2836,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: uGQC74llWoyAedpixUDpu8OLCf6GmqlC
     display: false
@@ -2987,7 +2861,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 7i1G4gM7zGuIE4h9T6s1Mho1e9P0cxk1
     display: false
@@ -3001,7 +2874,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: wgh8S9GaE7sJ4i0QrAzeMxFXgWZYtB0l
     display: false
@@ -3015,7 +2887,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: cEWzoPzUcDwk3JhpD9ENtPKMmE7T5QWv
     display: false
@@ -3027,7 +2898,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: WlWmEUQ2dmQFQJfKxNx1ZNkAJRKueaR1
@@ -3040,7 +2910,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: kfax6JBFqyXQcfEEQmEa56np04rm3uYX
@@ -3069,7 +2938,6 @@ apps:
     authorized_groups:
     - team_moco_benefited
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     - team_elance
     authorized_users: []
@@ -3106,7 +2974,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: HNCCtcr6z8ZpFX3rT0K3SyDcNonByaUG
     display: false
@@ -3118,7 +2985,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: GYCcYQfcwVU9lwKF8WT4AvYufBvtp7yx
     display: false
@@ -3130,7 +2996,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: uSpi6gd7ZqdjA3PwtJ4CavG29DQJla4Y
     display: false
@@ -3170,7 +3035,6 @@ apps:
 - application:
     authorized_groups:
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
     display: true
@@ -3184,7 +3048,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: HrdSoUsSJiJOKH2MICEXRXGMxTxUK5fa
     display: false
@@ -3196,7 +3059,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: pozwk4HuT6AELY5Mf1oZPDdIDUo6VId4
@@ -3209,7 +3071,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Nqo9YvvVxjpLDLPv7YGmpJXv2JNraUtH
     display: true
@@ -3238,7 +3099,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: XCRyDou6ETr873QKnjaFgNsuiLKl6Oj2  # https://bugzilla.mozilla.org/show_bug.cgi?id=1681831
     display: false
@@ -3250,7 +3110,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: K1fsiDh5Ta7pc7BrEECi2VLhPyqHwy4r
     display: false
@@ -3434,7 +3293,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 7M49iYODCiCGdldu4awmF2Pr6pHsRZDe
     display: false
@@ -3446,7 +3304,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 12lnezLro7iC57ooPPPpVeGHXf8MhaRV
     display: true
@@ -3509,7 +3366,6 @@ apps:
     - team_mozillaonline
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: 94A5PWkgKK2sJKxUnF8O8k5rNtEMdngk
     display: true
@@ -3594,7 +3450,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users: []
     client_id: yw8rP8c7Qir1SHybR6xUg7lZixz8FbVy
@@ -3787,7 +3642,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     display: true
     logo: statuspage.png
@@ -3800,7 +3654,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - statuspage_service_accounts
     authorized_users: []
     client_id: KqlGE124Mr21HFF3GwSlxEkOHlrX9EG6
@@ -3813,7 +3666,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - statuspage_service_accounts
     authorized_users: []
     client_id: qpmqtLlYhXKdezJK22j1zmML6cCLuvUg
@@ -3852,7 +3704,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
     display: false
@@ -3866,7 +3717,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
     display: false
@@ -3880,7 +3730,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users: []
     client_id: rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
     display: false
@@ -3894,7 +3743,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     - team_mozillaonline
     authorized_users:
     - billing@mozilla.com
@@ -3910,7 +3758,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users:
     - billing@mozilla.com
     client_id: 6BLpfXP845A8yris7DaPST25HycC7l2u
@@ -3923,7 +3770,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-#    - team_mzla
     authorized_users:
     - billing@mozilla.com
     client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
