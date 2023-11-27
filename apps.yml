@@ -1385,6 +1385,17 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
+    client_id: 2KNOUCxN8AFnGGjDCGtqiDIzq8MKXi2h
+    display: false
+    logo: auth0.png
+    name: sso.mozilla.com
+    op: auth0
+    url: https://sso.allizom.org/redirect_uri
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
     client_id: YwL6bJ8mXFiCplWbMLaX2fqu715rKP8u
     display: false
     logo: auth0.png
