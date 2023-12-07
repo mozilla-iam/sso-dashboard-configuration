@@ -1319,10 +1319,10 @@ apps:
     authorized_users: []
     client_id: cav8o4za5QGMXilUEjglH9cgJpQl33Ck
     display: true
-    logo: auth0.png
+    logo: mozillamoderator.png
     name: moderator.mozilla.org
     op: auth0
-    url: https://moderator.mozilla.org/oidc/callback/
+    url: https://moderator.mozilla.org/oidc/authenticate/
     vanity_url:
     - /moderator
 - application:
