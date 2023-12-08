@@ -1320,7 +1320,7 @@ apps:
     client_id: cav8o4za5QGMXilUEjglH9cgJpQl33Ck
     display: true
     logo: mozillamoderator.png
-    name: moderator.mozilla.org
+    name: Moderator
     op: auth0
     url: https://moderator.mozilla.org/oidc/authenticate/
     vanity_url:
