@@ -3826,6 +3826,7 @@ apps:
     authorized_groups:
     - mozilliansorg_web-sre-aws-access
     - mozilliansorg_pocket_backend
+    - mozilliansorg_iam-project
     authorized_users: []
     client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
     display: true
