@@ -107,6 +107,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_mozillaonline
     - mozilliansorg_nda
     authorized_users: []
@@ -300,6 +302,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
@@ -324,6 +328,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
@@ -346,6 +352,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_mozillajapan
     - team_mozillaonline
     - travelling_accounts
@@ -469,6 +477,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_mozillaonline
     - team_office_support
     authorized_users: []
@@ -796,6 +806,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     authorized_users: []
     client_id: Hypn042D0cqtqET33nRrnqOwAcIXOqx6
     display: true
@@ -837,6 +849,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_mozillaonline
     - travelling_accounts
     - team_office_support
@@ -1063,6 +1077,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_mozillaonline
     - travelling_accounts
     - team_office_support
