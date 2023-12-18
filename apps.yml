@@ -4130,3 +4130,33 @@ apps:
     name: Cinder - Prod
     op: auth0
     url: https://prod.cinder.prod.webservices.mozgcp.net/complete/okta-oauth2/
+- application:
+    authorized_groups:
+    - mozilliansorg_birdbox-demo-development
+    authorized_users: []
+    client_id: 78re5gBn30rv3ticnKEzRAySajJAOWlm
+    display: false
+    logo: auth0.png
+    name: Birdbox Demo - Dev
+    op: auth0
+    url: https://dev.birdbox.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - mozilliansorg_birdbox-demo-staging
+    authorized_users: []
+    client_id: yWIIMRIRuBsCubL6oVbI4DvrJdMrD87g
+    display: false
+    logo: auth0.png
+    name: Birdbox Demo - Staging
+    op: auth0
+    url: https://stage.birdbox.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - mozilliansorg_birdbox-demo-production
+    authorized_users: []
+    cliend_id: x1eH5sbQE0SqJKMzl8HZ3xHIhUCxSbvt
+    display: false
+    logo: auth0.png
+    name: Birdbox Demo - Production
+    op: auth0
+    url: https://birdbox.mozilla.com/
