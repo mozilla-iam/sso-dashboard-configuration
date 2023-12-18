@@ -865,20 +865,6 @@ apps:
     - /slack
 - application:
     authorized_groups:
-    - team_pocket
-    - travelling_accounts
-    - mozilliansorg_slack_pocket_access
-    authorized_users: []
-    client_id: sZlNsFIG9f3vKrq9649Y7UxIyrmr8L7v
-    display: true
-    logo: slack.png
-    name: Pocket Slack
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/sZlNsFIG9f3vKrq9649Y7UxIyrmr8L7v
-    vanity_url:
-    - /pocket-slack
-- application:
-    authorized_groups:
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1607,18 +1593,6 @@ apps:
     name: Zendesk - mozilladev
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/zk9N7LU2ihMIy0bwlGd7GfRVXDKsGQjI
-- application:
-    authorized_groups:
-    - team_pocket
-    authorized_users: []
-    client_id: IJfd6g73V42fh6LHW6leFdQO7jR0A8of
-    display: true
-    logo: jira.png
-    name: getpocket.atlassian.net
-    op: auth0
-    url: https://getpocket.atlassian.net/
-    vanity_url:
-    - /pocket-jira
 - application:
     authorized_groups:
     - team_moco
