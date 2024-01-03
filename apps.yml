@@ -674,20 +674,6 @@ apps:
     url: https://riskheatmap.security.allizom.org/
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - everyone
-    authorized_users: []
-    client_id: ByW5ChOPpsQaQFLcAuZBbtjFrh67uBgt
-    display: false
-    logo: salescloud.png
-    name: SalesCloud
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/ByW5ChOPpsQaQFLcAuZBbtjFrh67uBgt
-    vanity_url:
-    - /salescloud
-- application:
-    authorized_groups:
     - team_mofo
     authorized_users: []
     client_id: Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
@@ -698,18 +684,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
     vanity_url:
     - /salesforcenonprofit
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    - everyone
-    authorized_users: []
-    client_id: 54KBW3ESzKFfQws77PCXziJnPt0dYHE0
-    display: false
-    logo: salescloud.png
-    name: Salesforce.com Dev Sandbox
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/54KBW3ESzKFfQws77PCXziJnPt0dYHE0
 - application:
     authorized_groups:
     - team_moco
@@ -2381,17 +2355,6 @@ apps:
     name: Nagios
     op: auth0
     url: https://nagios3.private.scl3.mozilla.com/scl3
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: zw5M6MyDDixeSXQR2XiDZz46hSOKIHhr
-    display: false
-    logo: auth0.png
-    name: Salesforce Marketing Cloud (test)
-    op: auth0
-    url: https://auth.test.exacttarget.com/Shibboleth.sso/SAML2/POST
 - application:
     authorized_groups:
     - team_moco
