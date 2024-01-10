@@ -4097,3 +4097,13 @@ apps:
     name: Birdbox Demo - Production
     op: auth0
     url: https://birdbox.mozilla.com/
+- application:
+    authorized_groups:
+    - mozilliansorg_remote-access
+    authorized_users: []
+    cliend_id: 8kBFdSJ7MgTkqTdNQFUDzgbVK5eViSlo
+    display: true
+    logo: remote.png
+    name: Remote
+    op: auth0
+    url: https://remote-com.us.auth0.com/login/callback?connection=ba2d0fae-8ae4-488c-a2c0-85c8d5517855
