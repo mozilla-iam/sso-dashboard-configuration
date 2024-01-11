@@ -4091,7 +4091,7 @@ apps:
     authorized_groups:
     - mozilliansorg_birdbox-demo-production
     authorized_users: []
-    cliend_id: x1eH5sbQE0SqJKMzl8HZ3xHIhUCxSbvt
+    client_id: x1eH5sbQE0SqJKMzl8HZ3xHIhUCxSbvt
     display: false
     logo: auth0.png
     name: Birdbox Demo - Production
@@ -4101,9 +4101,9 @@ apps:
     authorized_groups:
     - mozilliansorg_remote-access
     authorized_users: []
-    cliend_id: 8kBFdSJ7MgTkqTdNQFUDzgbVK5eViSlo
+    client_id: 8kBFdSJ7MgTkqTdNQFUDzgbVK5eViSlo
     display: true
     logo: remote.png
-    name: Remote
+    name: Remote.com
     op: auth0
     url: https://remote-com.us.auth0.com/login/callback?connection=ba2d0fae-8ae4-488c-a2c0-85c8d5517855
