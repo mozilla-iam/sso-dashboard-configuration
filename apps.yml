@@ -4099,7 +4099,7 @@ apps:
     url: https://birdbox.mozilla.com/
 - application:
     authorized_groups:
-    - mozilliansorg_remote-access
+    - mozilliansorg_remote-dot-com-access
     authorized_users: []
     client_id: 8kBFdSJ7MgTkqTdNQFUDzgbVK5eViSlo
     display: true
