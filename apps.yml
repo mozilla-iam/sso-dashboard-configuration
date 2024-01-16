@@ -4082,4 +4082,6 @@ apps:
     logo: remote.png
     name: Remote.com
     op: auth0
-    url: https://remote-com.us.auth0.com/login/callback?connection=ba2d0fae-8ae4-488c-a2c0-85c8d5517855
+    url: https://auth.mozilla.auth0.com/samlp/8kBFdSJ7MgTkqTdNQFUDzgbVK5eViSlo
+    vanity_url:
+    - /remote
