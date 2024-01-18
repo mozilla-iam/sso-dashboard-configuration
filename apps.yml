@@ -4085,3 +4085,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/8kBFdSJ7MgTkqTdNQFUDzgbVK5eViSlo
     vanity_url:
     - /remote
+- application:
+    authorized_groups:
+    - mozilliansorg_small-improvements-access
+    authorized_users: []
+    client_id: t1FpfVDNd5dg8T6xuxZ9vDVKo39gJxuS
+    display: true
+    logo: small-improvements.png
+    name: small-improvements
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/t1FpfVDNd5dg8T6xuxZ9vDVKo39gJxuS
+    vanity_url:
+    - /small-improvements
