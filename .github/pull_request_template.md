@@ -1,1 +1,2 @@
-# All PRs are assigned reviewers by default; selecting your own is optional.
+- [x] All PRs are assigned to the review team automatically.
+- [ ] **New integrations:** Legal _and_ Security reviews confirmed. `authorized_groups` and Auth0 `client_id` are defined. If `display: true`, the logo's image is attached.
