@@ -1,6 +1,6 @@
 # Data Classification : Public
 # The contents of this file are meant to be publicly accessible and this file contains no private data
-#
+
 # NOTE: authorized_groups and authorized_users control two things independently:
 #
 # 1. Does the SSO Dashboard display a tile to the user for this application?
@@ -24,6 +24,28 @@
 #                The user must be a member of them to access the application.
 #            Otherwise,
 #                All SSO users (including the general public) can access the app.
+
+# NOTE: MFA is generally required, following these rules:
+#
+# 1. If the client_id is missing, MFA is not required. (This is uncommon.)
+#
+# 2. If `AAL: LOW` is present, MFA is not required. (This is uncommon.)
+#
+# 3. Otherwise, MFA is required.
+#
+#    After a user logs in with one of the supported methods (ldap, fxa, etc);
+#    the auth method will inform us if the user's account has MFA set up.
+#
+#    Access will be denied if the user doesn't have MFA configured.
+#
+#    Users need to configure MFA using the appropriate process for their
+#    chosen auth method. LDAP is well-understood; for other methods, enabling
+#    passkeys, authenticators, and/or other MFA methods can be done at:
+#
+#    FxA/MzA: https://accounts.firefox.com/settings#two-step-authentication
+#    GitHub: https://github.com/settings/security
+#    Google: https://myaccount.google.com/security#recovery
+#    Email: (not supported)
 
 apps:
 - application:
