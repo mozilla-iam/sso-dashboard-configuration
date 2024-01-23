@@ -4130,4 +4130,4 @@ apps:
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Xf38rDCbMQ7XH26JkqHDcpRRHaaFkoyM
     vanity_url:
-    - /pocket-prefect
+    - /prefect-pocket
