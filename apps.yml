@@ -3403,8 +3403,8 @@ apps:
     authorized_users: []
     client_id: FoeZGnqq0X9fQXQQ9Ve5kdSdPN4eedlG
     display: true
-    logo: prefect-cloud.png
-    name: Prefect Cloud (Pocket)
+    logo: prefect-cloud-v1-legacy.png
+    name: Prefect Cloud (Pocket) - Legacy
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/FoeZGnqq0X9fQXQQ9Ve5kdSdPN4eedlG
     vanity_url:
@@ -4125,8 +4125,8 @@ apps:
     authorized_users: []
     client_id: Xf38rDCbMQ7XH26JkqHDcpRRHaaFkoyM
     display: true
-    logo: prefectv2.png
-    name: Pocket - Prefect v2
+    logo: prefect-cloud.png
+    name: Prefect - Cloud (Pocket)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Xf38rDCbMQ7XH26JkqHDcpRRHaaFkoyM
     vanity_url:
