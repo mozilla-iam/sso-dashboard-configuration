@@ -1,3 +1,5 @@
+#!ruby
+
 require 'yaml'
 apps = YAML.load(File.read("apps.yml"))
 client_ids = []
