@@ -23,6 +23,11 @@ apps["apps"].each do |app|
 	end
 end
 
+if client_ids.count > 0
+        puts "# client_ids associated with two or more entries:"
+else
+        puts "# no client_ids are associated with two or more entries."
+end
 
 client_ids.each do |client_id|
 	count = 0
