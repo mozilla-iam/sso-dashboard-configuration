@@ -3408,7 +3408,7 @@ apps:
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/FoeZGnqq0X9fQXQQ9Ve5kdSdPN4eedlG
     vanity_url:
-    - /prefect-pocket
+    - /prefect-pocket-v1
 - application:
     authorized_groups:
     - mozilliansorg_logikcull-access
@@ -4130,4 +4130,4 @@ apps:
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Xf38rDCbMQ7XH26JkqHDcpRRHaaFkoyM
     vanity_url:
-    - /pocket-prefectv2
+    - /pocket-prefect
