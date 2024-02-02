@@ -3885,6 +3885,16 @@ apps:
     - /recordedfuture
 - application:
     authorized_groups:
+    - mozilliansorg_security_threat_intel
+    authorized_users: []
+    client_id: sklTdHH9Pr9zdhLKqIaWlr9Ue0Kt73YX
+    display: true
+    logo: recordedfuture.png
+    name: Recorded Future Threat Intel
+    op: auth0
+    url: https://tbd.with.vendor
+- application:
+    authorized_groups:
     - mozilliansorg_birdbox-development
     authorized_users: []
     client_id: rg1EGnekLHA8cMA8bsJvzMZD8rCCLjCp
