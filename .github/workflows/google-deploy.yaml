@@ -47,7 +47,7 @@ jobs:
         id: 'upload-to-bucket'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
-          path: '/apps.yml'
+          path: './apps.yml'
           destination: '${{ env.BUCKET_NAME }}'
           headers: |-
             cache-control: no-cache
