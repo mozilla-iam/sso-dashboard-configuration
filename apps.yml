@@ -1934,19 +1934,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - mozilliansorg_project-link-aws-admin
-    - mozilliansorg_searchfox-aws  # https://bugzilla.mozilla.org/show_bug.cgi?id=1677158
-    authorized_users: []
-    client_id: N7lULzWtfVUDGymwDs0yDEq6ZcwmFazj
-    display: false
-    logo: auth0.png
-    name: AWS Federated CLI
-    op: auth0
-    url: http://localhost:10800/redirect_uri
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
     authorized_users: []
     client_id: hGFkZoxf7dzKy3PIsT7w2XTBQOhb3ZK0
     display: false
