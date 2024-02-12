@@ -3892,7 +3892,7 @@ apps:
     logo: recordedfuture.png
     name: Recorded Future Threat Intel
     op: auth0
-    url: https://tbd.with.vendor
+    url: https://app.recordedfuture.com
 - application:
     authorized_groups:
     - mozilliansorg_birdbox-development
