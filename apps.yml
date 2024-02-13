@@ -3864,7 +3864,7 @@ apps:
     authorized_users: []
     client_id: PskxC2pfs6mAWBYXOumcBuxdb8SUIvjd
     display: true
-    logo: recordedfuture.png
+    logo: recfuturesandbox.png
     name: Recorded Future Sandbox
     op: auth0
     url: https://private.tria.ge/login/saml/mozilla
@@ -3876,7 +3876,7 @@ apps:
     authorized_users: []
     client_id: sklTdHH9Pr9zdhLKqIaWlr9Ue0Kt73YX
     display: true
-    logo: recordedfuture.png
+    logo: recfutureti.png
     name: Recorded Future Threat Intel
     op: auth0
     url: https://app.recordedfuture.com
