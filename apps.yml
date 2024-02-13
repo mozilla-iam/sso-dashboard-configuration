@@ -4137,6 +4137,6 @@ apps:
     logo: prefect-cloud.png
     name: Prefect Cloud (Pocket)
     op: auth0
-    url: https://auth.workos.com/sso/oidc/p5eKA2jvgNK3yXAvBRfv3NBqT/callback
+    url: https://api.workos.com/sso/authorize?client_id=client_01GBBFMN6NWC8CQWRJTYS9TKTH&redirect_uri=https%3A%2F%2Fapp.prefect.cloud%2Fauth%2Fcallback&response_type=code&connection=conn_01HMW07E8GPGHH8YXQA64DJ4G2
     vanity_url:
     - /prefect-pocket
