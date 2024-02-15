@@ -243,11 +243,11 @@ apps:
     - mozilliansorg_deleteme-access
     authorized_users: []
     client_id: cAUw8lgIoNdVi2omJphonywOXpiasAbu
-    display: true
-    logo: deleteme.png
+    display: false
+    logo: auth0.png
     name: DeleteMe
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/cAUw8lgIoNdVi2omJphonywOXpiasAbu
+    url: https://mozilla.joindeleteme.com/
     vanity_url:
     - /deleteme
 - application:
