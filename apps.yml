@@ -4140,3 +4140,15 @@ apps:
     url: https://api.workos.com/sso/authorize?client_id=client_01GBBFMN6NWC8CQWRJTYS9TKTH&redirect_uri=https%3A%2F%2Fapp.prefect.cloud%2Fauth%2Fcallback&response_type=code&connection=conn_01HMW07E8GPGHH8YXQA64DJ4G2
     vanity_url:
     - /prefect-pocket
+- application:
+    authorized_groups:
+    - mozilliansorg_cloudpay-access
+    authorized_users: []
+    client_id: TpxQWvotVNuSoFSm1Dd5FAoIn6PsSQPe
+    display: false
+    logo: auth0.png
+    name: CloudPay
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/TpxQWvotVNuSoFSm1Dd5FAoIn6PsSQPe
+    vanity_url:
+    - /cloudpay
