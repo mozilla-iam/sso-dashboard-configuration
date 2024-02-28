@@ -44,7 +44,7 @@ jobs:
           STATUS_VALUE: ':link-run: *Running*'
 
       - name: 'Upload apps.yml to CDN bucket'
-        id: 'upload-to-bucket'
+        id: 'upload-apps-to-bucket'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: './apps.yml'
@@ -53,7 +53,7 @@ jobs:
             cache-control: no-cache
 
       - name: 'Upload images to CDN bucket'
-        id: 'upload-to-bucket'
+        id: 'upload-images-to-bucket'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: './images'
