@@ -43,14 +43,21 @@ jobs:
           STATUS_TITLE: "${{ env.BUCKET_NAME }} Deployment"
           STATUS_VALUE: ':link-run: *Running*'
 
-      - name: 'Upload to CDN bucket'
-        id: 'upload-to-bucket'
+      - name: 'Upload apps.yml to CDN bucket'
+        id: 'upload-apps-to-bucket'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: './apps.yml'
           destination: '${{ env.BUCKET_NAME }}'
           headers: |-
             cache-control: no-cache
+
+      - name: 'Upload images to CDN bucket'
+        id: 'upload-images-to-bucket'
+        uses: 'google-github-actions/upload-cloud-storage@v1'
+        with:
+          path: './images'
+          destination: '${{ env.BUCKET_NAME }}'
 
       - name: Update slack deployment complete
         if: success()
