@@ -3850,7 +3850,7 @@ apps:
     - /supabase
 - application:
     authorized_groups:
-    - mozilliansorg_dualo-access
+    - team_moco
     authorized_users: []
     client_id: lREe0wwQvrFGwjIaSfrYLBuwAUUF8BOt
     display: true
