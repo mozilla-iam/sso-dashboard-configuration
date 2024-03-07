@@ -3393,6 +3393,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/NEb0WzLMyVPdZZHby2nPjfV2EPUiGkik
     vanity_url:
     - /braze
+    - /braze-pocket
 - application:
     authorized_groups:
     - mozilliansorg_prefect-cloud-pocket-access
