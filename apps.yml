@@ -3189,10 +3189,9 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_sec_splunk_admin
-    - mozilliansorg_sec_splunk_power
-    - mozilliansorg_sec_splunk_normal
-    - mozilliansorg_sec_splunk_temp
     - mozilliansorg_sec_splunk_netops
+    - mozilliansorg_sec_splunk_ir
+    - mozilliansorg_sec_splunk_infrasec
     authorized_users: []
     client_id: oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
     display: true
@@ -3203,10 +3202,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_sec_splunk_admin
-    - mozilliansorg_sec_splunk_power
-    - mozilliansorg_sec_splunk_normal
-    - mozilliansorg_sec_splunk_temp
-    - mozilliansorg_sec_splunk_netops
+    - mozilliansorg_sec_splunk_ir
     authorized_users: []
     client_id: vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
     display: true
