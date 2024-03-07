@@ -1,3 +1,5 @@
+#!ruby
+
 require 'yaml'
 apps = YAML.load(File.read("apps.yml"))
 client_ids = []
@@ -7,7 +9,15 @@ apps["apps"].each do |app|
 	begin
 
 		client_id = app["application"]["client_id"]
-		unless client_id.nil?
+		if client_id.nil?
+                        url = app["application"]["url"]
+                        aal = app["application"]["AAL"]
+                        if aal.nil? or aal != "LOW"
+                                puts "no client_id and no AAL: LOW for #{url}"
+                        else
+                                puts "no client_id for #{url}"
+                        end
+                else
 			client_ids.append(client_id)
 		end
 	rescue
@@ -15,6 +25,11 @@ apps["apps"].each do |app|
 	end
 end
 
+if client_ids.count > 0
+        puts "# client_ids associated with two or more entries:"
+else
+        puts "# no client_ids are associated with two or more entries."
+end
 
 client_ids.each do |client_id|
 	count = 0
