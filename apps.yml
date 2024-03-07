@@ -3383,15 +3383,16 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_braze-pocket-access
+    - mozilliansorg_braze-access
     authorized_users: []
     client_id: NEb0WzLMyVPdZZHby2nPjfV2EPUiGkik
     display: true
     logo: braze.png
-    name: Braze (Pocket)
+    name: Braze
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/NEb0WzLMyVPdZZHby2nPjfV2EPUiGkik
     vanity_url:
-    - /braze-pocket
+    - /braze
 - application:
     authorized_groups:
     - mozilliansorg_prefect-cloud-pocket-access
