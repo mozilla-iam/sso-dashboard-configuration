@@ -9,4 +9,4 @@ test:
 .PHONY: deploy
 deploy: test
 	aws s3 cp ./apps.yml s3://$(S3_BUCKET) --acl public-read --cache-control "no-cache"
-	aws s3 cp ./images s3://$(S3_BUCKET) --acl public-read --recursive
+	aws s3 sync ./images s3://$(S3_BUCKET)/images --acl public-read --exclude "*" --include "*.png" --delete
