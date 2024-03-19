@@ -3858,7 +3858,7 @@ apps:
     url: https://app.dualo.io/organizations/mozilla
 - application:
     authorized_groups:
-    - mozilliansorg_security_threat_intel
+    - mozilliansorg_sec_malware_sandbox
     authorized_users: []
     client_id: PskxC2pfs6mAWBYXOumcBuxdb8SUIvjd
     display: true
@@ -3870,7 +3870,7 @@ apps:
     - /recordedfuture
 - application:
     authorized_groups:
-    - mozilliansorg_security_threat_intel
+    - mozilliansorg_sec_threat_intelligence
     authorized_users: []
     client_id: sklTdHH9Pr9zdhLKqIaWlr9Ue0Kt73YX
     display: true
