@@ -1653,6 +1653,16 @@ apps:
 - application:
     authorized_groups:
     - team_moco
+    authorized_users: []
+    client_id: pViyy2GZD7AC9T7khbJnSt1cPbo4R0Ka
+    display: false
+    logo: auth0.png
+    name: Webcompat Dashboard (dev)
+    op: auth0
+    url: https://dev.webcompat.nonprod.webservices.mozgcp.net/login
+- application:
+    authorized_groups:
+    - team_moco
     - team_mofo
     - mozilliansorg_non-moco-sheriffs-basic
     authorized_users: []
