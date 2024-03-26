@@ -3392,7 +3392,6 @@ apps:
     - /sentry-pocket
 - application:
     authorized_groups:
-    - mozilliansorg_braze-pocket-access
     - mozilliansorg_braze-access
     authorized_users: []
     client_id: NEb0WzLMyVPdZZHby2nPjfV2EPUiGkik
