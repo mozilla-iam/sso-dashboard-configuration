@@ -4159,3 +4159,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/TpxQWvotVNuSoFSm1Dd5FAoIn6PsSQPe
     vanity_url:
     - /cloudpay
+- application:
+    authorized_groups:
+    - mozilliansorg_chatgpt-access
+    authorized_users: []
+    client_id: LiLlFN0EmDJvMdhGKkOJT4f1w8TN8OYF
+    display: true
+    logo: chatgpt.png
+    name: ChatGPT
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/LiLlFN0EmDJvMdhGKkOJT4f1w8TN8OYF
+    vanity_url:
+    - /chatgpt
