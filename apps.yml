@@ -3793,7 +3793,7 @@ apps:
     client_id: KEEkMrAaqwh1H3TgnWQmFmSg1dHl7GC8
     display: false
     logo: auth0.png
-    name: Swoogo
+    name: Swoogo 2023
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/KEEkMrAaqwh1H3TgnWQmFmSg1dHl7GC8
 - application:
@@ -4171,3 +4171,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/LiLlFN0EmDJvMdhGKkOJT4f1w8TN8OYF
     vanity_url:
     - /chatgpt
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: bGAXasmlyz1xnBeZXHbUrUSyUI7dTnLA
+    display: false
+    logo: auth0.png
+    name: Swoogo 2024
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/bGAXasmlyz1xnBeZXHbUrUSyUI7dTnLA
+    vanity_url:
+    - /swoogo
