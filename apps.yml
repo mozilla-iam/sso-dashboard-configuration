@@ -779,6 +779,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_mozillajapan
     - team_mozillaonline
     - team_office_support
@@ -3067,6 +3069,8 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
+    - team_mzai
+    - team_mzvc
     - team_pocket
     - team_mozillaonline
     authorized_users: []
