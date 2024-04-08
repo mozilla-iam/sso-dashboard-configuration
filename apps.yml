@@ -4188,3 +4188,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/bGAXasmlyz1xnBeZXHbUrUSyUI7dTnLA
     vanity_url:
     - /swoogo
+- application:
+    authorized_groups:
+    - mozilliansorg_miniorange_mozilladev-access
+    authorized_users: []
+    client_id: ePHcxBFOM9SwXhIS0kKdB5zs7vbDVled
+    display: false
+    logo: auth0.png
+    name: miniOrange - MozillaDev
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/ePHcxBFOM9SwXhIS0kKdB5zs7vbDVled
+    vanity_url:
+    - /miniorange
