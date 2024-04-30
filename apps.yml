@@ -4224,3 +4224,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/oaQIlUTAW4g9DUIXrRMs4QIUE8ZLPrFH
     vanity_url:
     - /miniorange-prod
+- application:
+    authorized_groups:
+    - mozilliansorg_commonroom-access
+    authorized_users: []
+    client_id: vUaqPKO80tbdM5jKACsOK8SMVMvXoviy
+    display: false
+    logo: auth0.png
+    name: Common Room
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/vUaqPKO80tbdM5jKACsOK8SMVMvXoviy
+    vanity_url:
+    - /commonroom
