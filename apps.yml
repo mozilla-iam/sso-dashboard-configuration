@@ -4218,8 +4218,8 @@ apps:
     - mozilliansorg_commonroom-access
     authorized_users: []
     client_id: vUaqPKO80tbdM5jKACsOK8SMVMvXoviy
-    display: false
-    logo: auth0.png
+    display: true
+    logo: commonroom.png
     name: Common Room
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/vUaqPKO80tbdM5jKACsOK8SMVMvXoviy
