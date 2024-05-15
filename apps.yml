@@ -4145,7 +4145,7 @@ apps:
     logo: chatgpt.png
     name: ChatGPT
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/LiLlFN0EmDJvMdhGKkOJT4f1w8TN8OYF
+    url: https://chatgpt.com/auth/login?sso=true&connection=org-sLqTjCQdQnlUB9bQLXw9KxNE
     vanity_url:
     - /chatgpt
 - application:
