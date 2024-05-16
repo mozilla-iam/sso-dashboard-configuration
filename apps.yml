@@ -365,6 +365,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://calendar.google.com/
     vanity_url:
     - /gcalendar
+    - /gcal
 - application:
     authorized_groups:
     - team_moco
@@ -782,6 +783,7 @@ apps:
     vanity_url:
     - /thehub
     - /servicenow
+    - /jsm
 - application:
     AAL: LOW
     authorized_groups:
