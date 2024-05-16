@@ -4211,7 +4211,7 @@ apps:
     - /commonroom
 - application:
     authorized_groups:
-    - mozilliansorg_skylight_prod-access
+    - team_moco
     authorized_users: []
     client_id: EdXwLrak94Z5f5x54XWUa1fGCzL1858X
     display: false
