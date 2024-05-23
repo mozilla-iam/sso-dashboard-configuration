@@ -4220,7 +4220,7 @@ apps:
     logo: auth0.png
     name: Skylight - Prod
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/EdXwLrak94Z5f5x54XWUa1fGCzL1858X
+    url: https://fxms-skylight.netlify.app
     vanity_url:
     - /skylight-prod
 - application:
