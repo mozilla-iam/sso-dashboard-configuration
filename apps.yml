@@ -516,6 +516,7 @@ apps:
     - GuestWiki
     - moc_service_accounts
     authorized_users:
+    - t_mmucci@mozilla.com
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
@@ -772,6 +773,7 @@ apps:
     - team_office_support
     - moc_service_accounts
     authorized_users:
+    - t_mmucci@mozilla.com
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     - zoomadmin@mozilla.com
