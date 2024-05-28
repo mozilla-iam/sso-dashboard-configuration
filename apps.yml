@@ -308,8 +308,8 @@ apps:
     - team_mozillaonline
     authorized_users: []
     client_id: eaiAVdOLtf2KXZvexyCCViw0154E0U6x
-    display: false
-    logo: auth0.png
+    display: true
+    logo: figma.png
     name: Figma
     op: auth0
     url: https://www.figma.com/saml/887474606069541975/start
@@ -500,7 +500,7 @@ apps:
     - team_mzvc
     - team_mozillaonline
     - team_office_support
-    authorized_users: 
+    authorized_users:
     - t_mmucci@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
