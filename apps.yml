@@ -4238,3 +4238,43 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/iq2rsgonYgHboOhno3rpiAfQkZZsJP0f
     vanity_url:
     - /skylight-dev
+- application:
+    authorized_groups:
+    - mozilliansorg_bedrock_cms_production-access
+    authorized_users: []
+    client_id: Y95WuEhdPHIESqkzsDtdtDj9PviViopt
+    display: false
+    logo: auth0.png
+    name: Bedrock CMS - Prod
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Y95WuEhdPHIESqkzsDtdtDj9PviViopt
+- application:
+    authorized_groups:
+    - mozilliansorg_bedrock_cms_staging-access
+    authorized_users: []
+    client_id: 5LoaSUmcuJ5nx5tWNjAULTTX6yCUsqF6
+    display: false
+    logo: auth0.png
+    name: Bedrock CMS - Stage
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/5LoaSUmcuJ5nx5tWNjAULTTX6yCUsqF6
+- application:
+    authorized_groups:
+    - mozilliansorg_bedrock_cms_dev-access
+    authorized_users: []
+    client_id: fRwAC7Xem142cfNw0VhpEKeheCuqXR3k
+    display: false
+    logo: auth0.png
+    name: Bedrock CMS - Dev
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/fRwAC7Xem142cfNw0VhpEKeheCuqXR3k
+- application:
+    authorized_groups:
+    - mozilliansorg_bedrock_cms_local_dev-access
+    authorized_users: []
+    client_id: gQPwkkE408b5aQRI4we82zyEt4TIj5dV
+    display: false
+    logo: auth0.png
+    name: Bedrock CMS - Local Dev
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/gQPwkkE408b5aQRI4we82zyEt4TIj5dV
