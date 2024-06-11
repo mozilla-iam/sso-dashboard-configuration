@@ -4279,3 +4279,15 @@ apps:
     name: Bedrock CMS - Local Dev
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/gQPwkkE408b5aQRI4we82zyEt4TIj5dV
+- application:
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: PSz60Psx4kv7UvQIkTKjcgYiHyI9yI7J
+    display: true
+    logo: frontify.png
+    name: Frontify - brand.mozilla.com
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/PSz60Psx4kv7UvQIkTKjcgYiHyI9yI7J
+    vanity_url:
+    - /frontify
