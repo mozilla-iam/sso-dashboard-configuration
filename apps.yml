@@ -1558,7 +1558,7 @@ apps:
     logo: balrog.png
     name: Balrog (Prod)
     op: auth0
-    url: https://aus4-admin.mozilla.org
+    url: https://balrog.services.mozilla.com
 - application:
     authorized_groups:
     - team_services_ops
@@ -1570,17 +1570,6 @@ apps:
     name: Balrog (Stage)
     op: auth0
     url: https://balrog-admin-static-stage.stage.mozaws.net/
-- application:
-    authorized_groups:
-    - team_services_ops
-    - balrog
-    authorized_users: []
-    client_id: MiCmQACl7ZMdn1lTtYnazMYUFiAYAqbF
-    display: true
-    logo: balrog.png
-    name: Balrog (Dev)
-    op: auth0
-    url: https://balrog-admin.dev.mozaws.net
 - application:
     authorized_groups:
     - team_moco
