@@ -3,7 +3,7 @@ S3_BUCKET	:= ${S3_BUCKET}
 
 .PHONY: test
 test:
-	pip install pyyaml==5.4.1
+	pip install pyyaml==6.0.1
 	python -m unittest discover tests
 
 .PHONY: deploy
