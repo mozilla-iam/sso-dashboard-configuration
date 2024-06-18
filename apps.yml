@@ -4280,3 +4280,15 @@ apps:
     url: https://brand.mozilla.com/auth
     vanity_url:
     - /frontify
+- application:
+    authorized_groups:
+    - mozilliansorg_cloudservices_aws_admin
+    authorized_users: []
+    client_id: c0x6EoLdp55H2g2OXZTIUuaQ4v8U4xf9
+    display: true
+    logo: aws.png
+    name: AWS (CloudServices)
+    op: auth0
+    url: https://mozilla-cloudservices.awsapps.com/start
+    vanity_url:
+    - /aws-cloudservices
