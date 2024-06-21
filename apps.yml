@@ -4284,6 +4284,8 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_cloudservices_aws_admin
+    - mozilliansorg_cloudservices_aws_autograph_admin
+    - mozilliansorg_cloudservices_aws_autograph_dev
     authorized_users: []
     client_id: c0x6EoLdp55H2g2OXZTIUuaQ4v8U4xf9
     display: true
