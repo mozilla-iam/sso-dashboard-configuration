@@ -3517,6 +3517,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/rgXXV7kQDg7hfD2oKzGVdKOdcDiIEyTX
     vanity_url:
     - /asana-marketing
+    - /asana
 - application:
     authorized_groups:
     - mozilliansorg_shepherd-access
