@@ -479,7 +479,6 @@ apps:
 - application:
     authorized_groups:
     - IntranetWiki
-    - GuestWiki
     - moc_service_accounts
     - travelling_accounts_jira
     authorized_users:
