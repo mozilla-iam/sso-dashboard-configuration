@@ -1644,8 +1644,8 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - mozilliansorg_grafana_admin-access
-    - mozilliansorg_grafana_editor-access
+    - mozilliansorg_obs_grafana_admin-access
+    - mozilliansorg_obs_grafana_editor-access
     authorized_users: []
     client_id: jGx4Z2JTWsgQWiBmvrCNbe5WXAfMivzb
     display: false
