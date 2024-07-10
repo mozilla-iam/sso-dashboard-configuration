@@ -3881,6 +3881,7 @@ apps:
     - mozilliansorg_mofo_aws_projects
     - mozilliansorg_mofo_aws_sandbox
     - mozilliansorg_mofo_aws_secure
+    - mozilliansorg_infrasec
     authorized_users: []
     client_id: jU8r4uSEF3fUCjuJ63s46dBnHAfYMYfj
     display: true
