@@ -17,22 +17,22 @@
           "fields": [
             {
               "type": "plain_text",
-              "text": "By: *{{ env.GITHUB_ACTOR }}*",
+              "text": "{{ env.GITHUB_REPOSITORY }}",
               "emoji": true
             },
             {
               "type": "plain_text",
-              "text": "Repo: *{{ env.GITHUB_REPOSITORY }}*",
+              "text": "{{ env.GITHUB_ACTOR }}",
               "emoji": true
             },
             {
-              "type": "plain_text",
+              "type": "mrkdwn",
               "text": "Tag: *{{ env.GITHUB_REF_NAME }}*",
               "emoji": true
             },
             {
               "type": "plain_text",
-              "text": "Workflow: *{{ github.workflow }}*",
+              "text": "{{ github.workflow }}",
               "emoji": true
             }
           ]
