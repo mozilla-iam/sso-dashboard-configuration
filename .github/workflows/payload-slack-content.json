@@ -27,8 +27,7 @@
             },
             {
               "type": "mrkdwn",
-              "text": "Tag: *{{ env.GITHUB_REF_NAME }}*",
-              "emoji": true
+              "text": "Tag: *{{ env.GITHUB_REF_NAME }}*"
             },
             {
               "type": "plain_text",
