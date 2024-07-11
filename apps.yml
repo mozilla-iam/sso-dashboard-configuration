@@ -4235,7 +4235,7 @@ apps:
     logo: lifelabs.png
     name: Mozilla Learning Program
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/OWmWq6YwMvc8TwIrMlWzK81KaLZDkOYw
+    url: https://app.lifelabslearning.com/training?sso=Mozilla
     vanity_url:
     - /lifelabs
     - /mlp
