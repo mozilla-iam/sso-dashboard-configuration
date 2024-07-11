@@ -1,5 +1,5 @@
 {
-  "text": ":link-run:",
+  "text": ":triforce:",
   "attachments": [
     {
       "color": "{{ env.STATUS_COLOR }}",
@@ -8,7 +8,7 @@
           "type": "header",
           "text": {
             "type": "plain_text",
-            "text": ":link-wut: Github Action Notification :link-wut:\n{{ github.workflow }}",
+            "text": "Github Action Notification :navi: :link-wut:",
             "emoji": true
           }
         },
@@ -17,22 +17,22 @@
           "fields": [
             {
               "type": "plain_text",
-              "text": "{{ env.RELEASE_NAME }}",
+              "text": "By: *{{ env.GITHUB_ACTOR }}*",
               "emoji": true
             },
             {
               "type": "plain_text",
-              "text": "{{ env.GITHUB_ACTOR }}",
+              "text": "Repo: *{{ env.GITHUB_REPOSITORY }}*",
               "emoji": true
             },
             {
               "type": "plain_text",
-              "text": "{{ env.GITHUB_REPOSITORY }}",
+              "text": "Tag: *{{ env.GITHUB_REF_NAME }}*",
               "emoji": true
             },
             {
               "type": "plain_text",
-              "text": "{{ env.GITHUB_REF_NAME }}",
+              "text": "Workflow: *{{ github.workflow }}*",
               "emoji": true
             }
           ]
