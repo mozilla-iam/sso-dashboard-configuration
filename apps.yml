@@ -4217,6 +4217,7 @@ apps:
     - mozilliansorg_cloudservices_aws_autograph_admin
     - mozilliansorg_cloudservices_aws_autograph_dev
     - mozilliansorg_cloudservices_aws_developer_services_dev
+    - mozilliansorg_infrasec
     authorized_users: []
     client_id: c0x6EoLdp55H2g2OXZTIUuaQ4v8U4xf9
     display: true
