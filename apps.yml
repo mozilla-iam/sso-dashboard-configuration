@@ -4242,3 +4242,15 @@ apps:
     vanity_url:
     - /lifelabs
     - /mlp
+- application:
+    authorized_groups:
+    - mozilliansorg_azure-access
+    authorized_users: []
+    client_id: cg5g2Q48SzDjVHjqfmcXJIm8YTg40nTO
+    display: true
+    logo: azure.svg
+    name: Azure
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/cg5g2Q48SzDjVHjqfmcXJIm8YTg40nTO
+    vanity_url:
+    - /azure
