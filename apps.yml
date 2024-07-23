@@ -4254,3 +4254,13 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/cg5g2Q48SzDjVHjqfmcXJIm8YTg40nTO
     vanity_url:
     - /azure
+- application:
+    authorized_groups:
+    - mozilliansorg_nemo-access
+    authorized_users: []
+    client_id: cu1yFaGxa5mp0icMnPF6Oh8MBY2r1arO
+    display: false
+    logo: auth0.png
+    name: Nemo Grafana
+    op: auth0
+    url: https://nemo.mozilla.net/grafana/
