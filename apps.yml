@@ -4264,15 +4264,3 @@ apps:
     name: Nemo Grafana
     op: auth0
     url: https://nemo.mozilla.net/grafana/
-- application:
-    authorized_groups: []
-    authorized_users:
-    - cbrentano@mozilla.com
-    - mrudland@mozilla.com
-    client_id: htnpYVQ6jsBnxstKeETNerYgVUjvE7SB
-    display: false
-    logo: slack.png
-    name: Slack Enterprise
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/htnpYVQ6jsBnxstKeETNerYgVUjvE7SB
-    vanity_url:
