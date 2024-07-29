@@ -1,6 +1,7 @@
 "Test the YAML file is loadable and valid"
 import logging
 import unittest
+import re
 import yaml
 
 
@@ -38,3 +39,12 @@ class YAMLTest(unittest.TestCase):
             assert app['application']['display'] is not None
             if app['application'].get('expire_access_when_unused_after') is not None:
                 assert isinstance(app['application']['expire_access_when_unused_after'], int)
+            if 'vanity_url' in app['application']:
+                # deliberate 'test-then-get' to detect a case of "key but no value" as
+                # opposed to .get() returning a None.
+                vanity_urls_raw = app['application']['vanity_url']
+                assert isinstance(vanity_urls_raw, list)
+                assert len(vanity_urls_raw) > 0
+                for vanity_url_raw in vanity_urls_raw:
+                    assert isinstance(vanity_url_raw, str)
+                    assert re.match(r'^/', vanity_url_raw)
