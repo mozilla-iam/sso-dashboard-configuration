@@ -4243,7 +4243,7 @@ apps:
     client_id: OWmWq6YwMvc8TwIrMlWzK81KaLZDkOYw
     display: true
     logo: lifelabs.png
-    name: Mozilla Learning Program
+    name: LifeLabs Learning
     op: auth0
     url: https://app.lifelabslearning.com/training?sso=mozilla
     vanity_url:
