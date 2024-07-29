@@ -10,10 +10,10 @@ logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
 
 class YAMLTest(unittest.TestCase):
     def get_yaml_file(self):
-        apps_yml = open('apps.yml')
-        contents = apps_yml.read()
-        apps_yml.close()
-        return contents
+        with open('apps.yml', encoding='utf-8') as apps_yml:
+            contents = apps_yml.read()
+            apps_yml.close()
+            return contents
 
     def test_output_exists(self):
         assert self.get_yaml_file() is not None
@@ -27,7 +27,7 @@ class YAMLTest(unittest.TestCase):
         assert yaml_content is not None
 
         for app in yaml_content['apps']:
-            logger.info('Validating keys for {}'.format(app['application']))
+            logger.info('Validating keys for %s', app['application'])
             assert app['application']['name'] is not None
             # assert app['application']['client_id'] is not None # Client ID not required
             assert app['application']['op'] is not None
