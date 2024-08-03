@@ -805,26 +805,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/pRwf1AWvIO5t4zyMsF8R18wtt1jfLp5o
 - application:
     authorized_groups:
-    - mozilliansorg_slack-access
-    - team_moco
-    - team_mofo
-    - team_mzla
-    - team_mzai
-    - team_mzvc
-    - team_mozillaonline
-    - travelling_accounts
-    - team_office_support
-    authorized_users: []
-    client_id: WXVdgVoCca11OtpGlK8Ir3pR9CBAlSA5
-    display: true
-    logo: slack.png
-    name: Slack
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/WXVdgVoCca11OtpGlK8Ir3pR9CBAlSA5
-    vanity_url:
-    - /slack
-- application:
-    authorized_groups:
     - team_moco
     - team_mofo
     authorized_users: []
@@ -4286,11 +4266,13 @@ apps:
     #- team_office_support
     authorized_users: []
     client_id: htnpYVQ6jsBnxstKeETNerYgVUjvE7SB
-    display: false
+    display: true
     logo: slack.png
     name: Slack Enterprise
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/htnpYVQ6jsBnxstKeETNerYgVUjvE7SB
+    vanity_url:
+    - /slack
 - application:
     authorized_groups:
     - team_moco
