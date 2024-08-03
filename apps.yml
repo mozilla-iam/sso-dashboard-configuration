@@ -4254,16 +4254,15 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_slackeg-access
-    # These will be enabled when we're ready to switch over:
-    #- mozilliansorg_slack-access
-    #- team_moco
-    #- team_mofo
-    #- team_mzla
-    #- team_mzai
-    #- team_mzvc
-    #- team_mozillaonline
-    #- travelling_accounts
-    #- team_office_support
+    - mozilliansorg_slack-access
+    - team_moco
+    - team_mofo
+    - team_mzla
+    - team_mzai
+    - team_mzvc
+    - team_mozillaonline
+    - travelling_accounts
+    - team_office_support
     authorized_users: []
     client_id: htnpYVQ6jsBnxstKeETNerYgVUjvE7SB
     display: true
