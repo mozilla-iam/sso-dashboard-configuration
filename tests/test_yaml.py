@@ -27,24 +27,72 @@ class YAMLTest(unittest.TestCase):
         yaml_content = yaml.load(self.get_yaml_file(), Loader=yaml.SafeLoader)
         assert yaml_content is not None
 
-        for app in yaml_content['apps']:
-            logger.info('Validating keys for %s', app['application'])
-            assert app['application']['name'] is not None
-            # assert app['application']['client_id'] is not None # Client ID not required
-            assert app['application']['op'] is not None
-            assert app['application']['url'] is not None
-            assert app['application']['logo'] is not None
-            assert app['application']['authorized_users'] is not None
-            assert app['application']['authorized_groups'] is not None
-            assert app['application']['display'] is not None
-            if app['application'].get('expire_access_when_unused_after') is not None:
-                assert isinstance(app['application']['expire_access_when_unused_after'], int)
-            if 'vanity_url' in app['application']:
+        for app_entry in yaml_content['apps']:
+            ####################################################################################
+            # Every app_entry is a (key) literal 'application' string ...
+            assert 'application' in app_entry
+            app = app_entry['application']
+            logger.info('Validating keys for %s', app)
+            ####################################################################################
+            # ... whose value is a dict ...
+            assert isinstance(app, dict)
+            # ... the values of which also need validating.
+            ####################################################################################
+            assert app['name'] is not None
+            assert isinstance(app['name'], str)
+            # This regex is fair game for modifications, it's just to require thoughtful adds
+            assert re.match(r'^[- A-Za-z0-9.():@/]+$', app['name'])
+            ####################################################################################
+            if 'AAL' in app:
+                assert isinstance(app['AAL'], str)
+                assert re.match(r'^(LOW|MEDIUM)$', app['AAL'])
+            ####################################################################################
+            # Client ID not required, but is validated if present
+            if 'client_id' in app:
+                assert isinstance(app['client_id'], str)
+                assert re.match(r'^[A-Za-z0-9]{32}$', app['client_id'])
+            ####################################################################################
+            assert app['op'] is not None
+            assert isinstance(app['op'], str)
+            assert len(app['op']) > 0
+            # They are all 'auth0' currently but that might change someday.
+            assert re.match(r'^auth0$', app['op'])
+            ####################################################################################
+            assert app['url'] is not None
+            assert isinstance(app['url'], str)
+            assert re.match(r'^https?://', app['url'])
+            ####################################################################################
+            assert app['logo'] is not None
+            assert isinstance(app['logo'], str)
+            assert re.match(r'^[-_A-Za-z0-9.]+$', app['logo'])
+            # IMPROVEME: test that the logo is actually there
+            ####################################################################################
+            assert app['authorized_users'] is not None
+            assert isinstance(app['authorized_users'], list)
+            for auth_user_raw in app['authorized_users']:
+                assert isinstance(auth_user_raw, str)
+                assert re.match(r'^[-_A-Za-z0-9.@+]+$', auth_user_raw)
+            ####################################################################################
+            assert app['authorized_groups'] is not None
+            assert isinstance(app['authorized_groups'], list)
+            for auth_group_raw in app['authorized_groups']:
+                assert isinstance(auth_group_raw, str)
+                assert re.match(r'^[-_A-Za-z0-9]+$', auth_group_raw)
+            ####################################################################################
+            assert app['display'] is not None
+            assert isinstance(app['display'], bool)
+            ####################################################################################
+            if 'expire_access_when_unused_after' in app:
+                assert isinstance(app['expire_access_when_unused_after'], int)
+                assert app['expire_access_when_unused_after'] > 0
+            ####################################################################################
+            if 'vanity_url' in app:
                 # deliberate 'test-then-get' to detect a case of "key but no value" as
                 # opposed to .get() returning a None.
-                vanity_urls_raw = app['application']['vanity_url']
+                vanity_urls_raw = app['vanity_url']
                 assert isinstance(vanity_urls_raw, list)
                 assert len(vanity_urls_raw) > 0
                 for vanity_url_raw in vanity_urls_raw:
                     assert isinstance(vanity_url_raw, str)
-                    assert re.match(r'^/', vanity_url_raw)
+                    assert re.match(r'^/[-_A-Za-z0-9]+$', vanity_url_raw)
+            ####################################################################################
