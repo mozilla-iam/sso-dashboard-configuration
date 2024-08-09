@@ -4282,3 +4282,15 @@ apps:
     name: testrail.io
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/pQei6Ff5qKo40KJuCaR3BV3IbydschsA
+- application:
+    authorized_groups:
+    - mozilliansorg_fundraiseup-access
+    authorized_users: []
+    client_id: SS4Kdjkp6mHdlIQi6YxdGmvQEMuYr1nI
+    display: true
+    logo: fundraiseup.jpg
+    name: FundraiseUp
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/SS4Kdjkp6mHdlIQi6YxdGmvQEMuYr1nI
+    vanity_url:
+    - /fundraiseup
