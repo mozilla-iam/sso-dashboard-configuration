@@ -2800,7 +2800,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco_benefited
-    - team_mofo
     - team_mzla
     - team_mozillaonline
     - team_elance
@@ -4294,3 +4293,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/SS4Kdjkp6mHdlIQi6YxdGmvQEMuYr1nI
     vanity_url:
     - /fundraiseup
+- application:
+    authorized_groups:
+    - team_mofo
+    authorized_users: []
+    client_id: 6h658FkrhSOuB5eKgFyfA5hgHyzvCWqX
+    display: true
+    logo: udemy-mofo.png
+    name: Udemy - MoFo
+    op: auth0
+    url: https://mozillafoundation.udemy.com/organization/init-sso-login/
+    vanity_url:
+    - /udemy-mofo
