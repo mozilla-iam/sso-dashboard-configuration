@@ -4296,6 +4296,7 @@ apps:
 - application:
     authorized_groups:
     - team_mofo
+    - mozilliansorg_udemy-mofo-temp
     authorized_users: []
     client_id: 6h658FkrhSOuB5eKgFyfA5hgHyzvCWqX
     display: true
