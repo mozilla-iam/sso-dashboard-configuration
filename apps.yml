@@ -418,18 +418,6 @@ apps:
     - /heroku
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - everyone
-    authorized_users: []
-    client_id: f4SlPDVeVcWBChrAvH8uLuEYyt0aW916
-    display: false
-    logo: auth0.png
-    name: iplimitirc
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/f4SlPDVeVcWBChrAvH8uLuEYyt0aW916
-- application:
-    authorized_groups:
     - service_lucidchart
     - team_moco
     - team_mofo
@@ -549,17 +537,6 @@ apps:
     url: https://developer.mozilla.org/
     vanity_url:
     - /mdn
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: HC1FeMf3dVCTnAZbQR08quMylQEUcu60
-    display: false
-    name: vouches.mozillians.org
-    logo: mozillians.png
-    op: auth0
-    url: https://vouches.mozillians.org/oidc/authenticate/
 - application:
     authorized_groups:
     - mozilliansorg_nucleus_admin
@@ -861,31 +838,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - cloudops_atmo_access
-    authorized_users: []
-    client_id: 6GDrRrIYZuRRKLXXbucm4bO0eafK0AKN
-    display: false
-    logo: auth0.png
-    name: Analysis Telemetry
-    op: auth0
-    url: https://analysis.telemetry.mozilla.org/
-- application:
-    authorized_groups:
-    - netops
-    - relops
-    - team_opsec
-    - team_moc
-    authorized_users: []
-    client_id: GWhjnB7egp5hDryXeoD7OJRjHshWWQap
-    display: false
-    logo: auth0.png
-    name: Netops Gitlab
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/GWhjnB7egp5hDryXeoD7OJRjHshWWQap
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
     - everyone
     authorized_users: []
     client_id: VjJFa4EeFWd29pMnhyAk7AkGW2ids5UX
@@ -1041,28 +993,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/LS57OeRbl164EPk39as1TQJ3QbiMuX5M
     vanity_url:
     - /surveymonkey
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: jijaIzcZmFCDRtV74scMb9lI87MtYNTA
-    display: false
-    logo: auth0.png
-    name: mozillians.org Verification Client
-    op: auth0
-    url: https://mozillians.org/verify/identity/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: t9bMi4eTCPpMp5Y6E1Lu92iVcqU0r1P1
-    display: false
-    logo: auth0.png
-    name: mozillians.org Verification Client Staging
-    op: auth0
-    url: https://web-mozillians-staging.production.paas.mozilla.community/verify/identity/callback/
 - application:
     authorized_groups:
     - team_moco
@@ -1733,45 +1663,12 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: l7kCqo8U1Ka2ZtlE85Dmy2a8Ic1I8y7H
-    display: false
-    logo: auth0.png
-    name: bacula1.private.mdc1.mozilla.com
-    op: auth0
-    url: https://bacula1.private.mdc1.mozilla.com/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: EtCJe9m2NFGF4TO0kIfPoT7gQqTKU0DE
     display: false
     logo: auth0.png
     name: Foreman
     op: auth0
     url: https://foreman.private.mdc1.mozilla.com/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: MmT719PU6y84GsRkym00nVvVHi2y5hPa
-    display: false
-    logo: auth0.png
-    name: testwebapp.private.mdc1.mozilla.com
-    op: auth0
-    url: https://testwebapp.private.mdc1.mozilla.com/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Hi9rqHLPlnpRfMkc7dtkToFc3DHtcf4Z
-    display: false
-    logo: auth0.png
-    name: rundeck1.private.scl3.mozilla.com
-    op: auth0
-    url: https://rundeck1.private.scl3.mozilla.com/callback
 - application:
     authorized_groups:
     - team_moco
@@ -1834,17 +1731,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: xTQ9ithTGuqzB0MaPkafbj3Q6HTE2vM0
-    display: false
-    logo: auth0.png
-    name: hasal-server.ateam.tpe1.mozilla.com
-    op: auth0
-    url: http://hasal-server.ateam.tpe1.mozilla.com:8080/securityRealm/finishLogin
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: bSCGkqkGbQPAuIDt0kYqmnhimlkh2kwH
     display: false
     logo: auth0.png
@@ -1884,17 +1770,6 @@ apps:
     name: wpt.dev.mozaws.net
     op: auth0
     url: https://wpt.dev.mozaws.net/redirect_uri
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Zs6FFIXPUstFKpzBau4cRQ1aFBx4dKBR
-    display: false
-    logo: auth0.png
-    name: screenshots-admin.services.mozilla.com
-    op: auth0
-    url: https://screenshots-admin.services.mozilla.com/openid/callback/login/
 - application:
     authorized_groups:
     - team_moco
@@ -1997,17 +1872,6 @@ apps:
     url: https://safarijv.auth0.com/login/callback?connection=Mozilla
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: VEVkmAppSLa3zc9VRhjkDJPwNSs6Zy7B
-    display: false
-    logo: auth0.png
-    name: screenshots-admin-default.stage.mozaws.net
-    op: auth0
-    url: https://screenshots-admin-default.stage.mozaws.net/openid/callback/login/
-- application:
-    authorized_groups:
     - team_mozillaonline
     - mozilliansorg_stmo_nda
     - stmo_nda
@@ -2020,17 +1884,6 @@ apps:
     name: sql.telemetry.mozilla.org
     op: auth0
     url: https://sql.telemetry.mozilla.org/openid/callback/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: LNPKbJGoCqEBuCtIZIoJg08V4QtNzfYJ
-    display: false
-    logo: auth0.png
-    name: graphite-mdc1.mozilla.org
-    op: auth0
-    url: https://graphite-mdc1.mozilla.org/login
 - application:
     authorized_groups:
     - team_moco
@@ -2137,17 +1990,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: rrXGZ6x7J4MIWWlQ6zhTzgED2GxIsHCv
-    display: false
-    logo: auth0.png
-    name: pentest-master.private.mdc1.mozilla.com
-    op: auth0
-    url: https://pentest-master.private.mdc1.mozilla.com/redirect_uri
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: AmqnIoKbdd59LaI4wt0pOPkuUHeMchJf
     display: false
     logo: auth0.png
@@ -2165,17 +2007,6 @@ apps:
     name: https://anb1.fuzzing.mozilla.org/
     op: auth0
     url: https://anb1.fuzzing.mozilla.org/oidc/callback/
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: amWBDrIIzlk2pyjgCyLruw0n9wplzUlm
-    display: false
-    logo: auth0.png
-    name: bacula1.private.scl3.mozilla.com
-    op: auth0
-    url: https://bacula1.private.scl3.mozilla.com/callback
 - application:
     authorized_groups:
     - team_moco
@@ -2236,17 +2067,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: K3ZolIlVbVH41tI9czWdQaPAHWriGx92
-    display: false
-    logo: auth0.png
-    name: bacula1.private.mdc2.mozilla.com
-    op: auth0
-    url: https://bacula1.private.mdc2.mozilla.com/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: F1VVD6nRTckSVrviMRaOdLBWIk1AvHYo
     display: false
     logo: auth0.png
@@ -2297,17 +2117,6 @@ apps:
     name: settings-writer.prod.mozaws.net
     op: auth0
     url: https://settings-writer.prod.mozaws.net/v1/admin/
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: e1g4q4s7Q2Jos5XOt6pyHVA9JH4G3xjJ
-    display: false
-    logo: auth0.png
-    name: Nagios
-    op: auth0
-    url: https://nagios3.private.scl3.mozilla.com/scl3
 - application:
     authorized_groups:
     - team_moco
@@ -2421,17 +2230,6 @@ apps:
     name: DAM Stage (NetX)
     op: auth0
     url: https://mozillatest.netx.net/SSO
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Scha3pS5Y3vITvnhnbLxSla2MBMPdo3M
-    display: false
-    logo: auth0.png
-    name: graphite-mdc2.mozilla.org
-    op: auth0
-    url: https://graphite-mdc2.mozilla.org/login
 - application:
     authorized_groups:
     - team_moco
