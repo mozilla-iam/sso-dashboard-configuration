@@ -82,10 +82,6 @@ class YAMLTest(unittest.TestCase):
             assert app['display'] is not None
             assert isinstance(app['display'], bool)
             ####################################################################################
-            if 'expire_access_when_unused_after' in app:
-                assert isinstance(app['expire_access_when_unused_after'], int)
-                assert app['expire_access_when_unused_after'] > 0
-            ####################################################################################
             if 'vanity_url' in app:
                 # deliberate 'test-then-get' to detect a case of "key but no value" as
                 # opposed to .get() returning a None.

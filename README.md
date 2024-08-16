@@ -55,11 +55,6 @@ This is a list of available fields.
       authorized_users: []
       authorized_groups: []
 
-      # How many seconds before a user who has logged into this RP is denied access. The timer reset for each login,
-      # thus access is only denied if you haven't logged in at all for this period of time. Is it enforced by the Access
-      # Provider
-      expire_access_when_unused_after: 7776000
-
       ## Mappings to standard levels (https://infosec.mozilla.org/guidelines/risk/standard_levels) AAL
       ## values below are available at the IAM well-known endpoint
       ## (https://auth.mozilla.org/.well-known/mozilla-iam)
