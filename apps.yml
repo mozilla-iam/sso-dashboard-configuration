@@ -2121,6 +2121,17 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    authorized_users: []
+    client_id: fQlywUnbUKlGm7zZi13pVbtCxhBdmeep
+    display: false
+    logo: auth0.png
+    name: Nagios
+    op: auth0
+    url: https://nagios1.private.mdc1.mozilla.com/
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
     - team_mzla
     authorized_users: []
     client_id: q0tFB9QyFIKqPOOKvkFnHMj2VwrLjX46
