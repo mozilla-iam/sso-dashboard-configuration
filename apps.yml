@@ -4124,3 +4124,13 @@ apps:
     name: Elastic SSO Validation
     op: auth0
     url: https://amitchell-sso-test-20240807.kb.us-central1.gcp.cloud.es.io:9243/
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: xZLJSlCh2O9ZuJxj7Gpn3lSXiBG8I6Fw
+    display: false
+    logo: auth0.png
+    name: Bigeye
+    op: auth0
+    url: https://app.bigeye.com/sso/oidcLogin/mozilla.com
