@@ -4134,3 +4134,15 @@ apps:
     name: Bigeye
     op: auth0
     url: https://app.bigeye.com/sso/oidcLogin/mozilla.com
+- application:
+    authorized_groups:
+    - mozilliansorg_otter-access
+    authorized_users: []
+    client_id: py4QBPIk9R790dXMBmNx0hcRVS5RMc1z
+    display: true
+    logo: otter.png
+    name: Otter.ai
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/py4QBPIk9R790dXMBmNx0hcRVS5RMc1z
+    vanity_url:
+    - /otter
