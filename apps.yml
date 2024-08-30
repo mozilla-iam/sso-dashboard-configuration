@@ -4158,4 +4158,4 @@ apps:
     logo: auth0.png
     name: Fakespot Elastic
     op: auth0
-    url: https://fakespot-*.kb.us-west1.gcp.cloud.es.io:9243/
+    url: https://localhost/
