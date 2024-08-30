@@ -3229,7 +3229,6 @@ apps:
     - /digicert
 - application:
     authorized_groups:
-    - mozilliansorg_asana-marketing-access
     - mozilliansorg_asana-access
     authorized_users: []
     client_id: rgXXV7kQDg7hfD2oKzGVdKOdcDiIEyTX
