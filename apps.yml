@@ -4147,3 +4147,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/py4QBPIk9R790dXMBmNx0hcRVS5RMc1z
     vanity_url:
     - /otter
+- application:
+    authorized_groups:
+    - mozilliansorg_fakespot-elastic-viewer
+    - mozilliansorg_fakespot-elastic-editor
+    - mozilliansorg_fakespot-elastic-admin
+    authorized_users: []
+    client_id: 49Xh3NECNniQVMqkZ9mGd9IblxKHeTw1
+    display: false
+    logo: auth0.png
+    name: Fakespot Elastic
+    op: auth0
+    url: https://fakespot-*.kb.us-west1.gcp.cloud.es.io:9243/
