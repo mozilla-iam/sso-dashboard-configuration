@@ -4099,7 +4099,7 @@ apps:
     logo: fundraiseup.jpg
     name: FundraiseUp
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/SS4Kdjkp6mHdlIQi6YxdGmvQEMuYr1nI
+    url: https://dashboard.fundraiseup.com/user/login
     vanity_url:
     - /fundraiseup
 - application:
