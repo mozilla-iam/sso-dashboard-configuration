@@ -4096,7 +4096,7 @@ apps:
     authorized_users: []
     client_id: SS4Kdjkp6mHdlIQi6YxdGmvQEMuYr1nI
     display: true
-    logo: fundraiseup.jpg
+    logo: fundraiseup.png
     name: FundraiseUp
     op: auth0
     url: https://dashboard.fundraiseup.com/user/login
