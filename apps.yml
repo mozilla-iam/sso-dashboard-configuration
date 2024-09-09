@@ -4083,6 +4083,8 @@ apps:
 - application:
     authorized_groups:
     - team_moco
+    - team_mzla
+    - mozilliansorg_testrail-access
     authorized_users: []
     client_id: pQei6Ff5qKo40KJuCaR3BV3IbydschsA
     display: true
