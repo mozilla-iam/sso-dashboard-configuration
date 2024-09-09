@@ -4027,6 +4027,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_elance
+    - mozilliansorg_lifelabs-access
     authorized_users: []
     client_id: OWmWq6YwMvc8TwIrMlWzK81KaLZDkOYw
     display: true
