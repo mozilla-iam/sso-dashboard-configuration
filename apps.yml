@@ -4161,3 +4161,13 @@ apps:
     name: Fakespot Elastic
     op: auth0
     url: https://localhost/
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: eImHUTzbUnCYiM3gtkA4aeSPo5kJ12rO
+    display: false
+    logo: auth0.png
+    name: webcompat.fuzzing.mozilla.org
+    op: auth0
+    url: https://webcompat.fuzzing.mozilla.org/oidc/callback/
