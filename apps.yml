@@ -2067,17 +2067,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: F1VVD6nRTckSVrviMRaOdLBWIk1AvHYo
-    display: false
-    logo: auth0.png
-    name: sccache native PKCE
-    op: auth0
-    url: http://localhost:12731/redirect
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: dXTkbChUpSCKkj3YpY4KxpZ0iYg0tkNy
     display: false
     logo: auth0.png
