@@ -1878,6 +1878,7 @@ apps:
     - stmo_nda
     - team_moco
     - team_mofo
+    - team_mzla
     authorized_users: []
     client_id: rgE6x7G6X1i3TjOy43qYG8vbcyKtcN6E
     display: false
