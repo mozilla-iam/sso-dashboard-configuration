@@ -492,6 +492,7 @@ apps:
     - team_moco
     - team_mofo
     - team_mozillaonline
+    - team_mzla
     authorized_users: []
     client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
     display: true
