@@ -492,6 +492,7 @@ apps:
     - team_moco
     - team_mofo
     - team_mozillaonline
+    - team_mzla
     authorized_users: []
     client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
     display: true
@@ -1877,6 +1878,7 @@ apps:
     - stmo_nda
     - team_moco
     - team_mofo
+    - team_mzla
     authorized_users: []
     client_id: rgE6x7G6X1i3TjOy43qYG8vbcyKtcN6E
     display: false
