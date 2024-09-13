@@ -4162,3 +4162,15 @@ apps:
     name: webcompat.fuzzing.mozilla.org
     op: auth0
     url: https://webcompat.fuzzing.mozilla.org/oidc/callback/
+- application:
+    authorized_groups:
+    - mozilliansorg_tropic-access
+    authorized_users: []
+    client_id: IJeiyM5sn67r3OpEcAHsp0MWN9APLoMQ
+    display: true
+    logo: tropic.png
+    name: Tropic
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/IJeiyM5sn67r3OpEcAHsp0MWN9APLoMQ
+    vanity_url:
+    - /tropic
