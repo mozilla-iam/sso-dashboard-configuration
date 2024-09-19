@@ -657,16 +657,6 @@ apps:
     - /salesforcenonprofit
 - application:
     authorized_groups:
-    - mozilliansorg_snippets_admin
-    authorized_users: []
-    client_id: A7GAcuN9gE9x3H186dKQgzS3jsV9Qmgp
-    display: true
-    logo: snippets.png
-    name: Snippets
-    op: auth0
-    url: https://snippets-admin.mozilla.org/oidc/authenticate/
-- application:
-    authorized_groups:
     - mozilliansorg_pocket_dataanalytics
     authorized_users: []
     client_id: fTJMnRKzzEzw0nnfkLMv8lN1BaIrWBoz
@@ -1932,16 +1922,6 @@ apps:
     name: peaceful-stream-36350.herokuapp.com
     op: auth0
     url: https://peaceful-stream-36350.herokuapp.com/redirect_url
-- application:
-    authorized_groups:
-    - mozilliansorg_snippets_admin
-    authorized_users: []
-    client_id: a6jCoSzt99DFySdC3qvP5oSpYcEEOsvT
-    display: false
-    logo: auth0.png
-    name: Snippets Stage
-    op: auth0
-    url: https://snippets.allizom.org/oidc/callback/
 - application:
     authorized_groups:
     - team_moco
