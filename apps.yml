@@ -1754,17 +1754,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: IVq10RLJgYIQX9Mzzr0hPhDkyix6kZQb
-    display: false
-    logo: auth0.png
-    name: wpt.dev.mozaws.net
-    op: auth0
-    url: https://wpt.dev.mozaws.net/redirect_uri
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: iQwPHkpTw1RmbYe6ov2qFMfxbVN7DOB7
     display: false
     logo: auth0.png
