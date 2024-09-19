@@ -1300,17 +1300,6 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: c4j1TRdnJPdkFGJoEsU5LtL3ltPC5QyU
-    display: false
-    logo: auth0.png
-    name: www.standu.ps
-    op: auth0
-    url: https://www.standu.ps/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
     client_id: lDyt2V0UvWdXsWj4lgcENLZ10E6TJ0Yt
     display: false
     logo: auth0.png
