@@ -1552,17 +1552,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: m6x0phAu4rq4imC6f6gRYaGmQgStCdlG
-    display: false
-    logo: auth0.png
-    name: strategy-and-insights.mozilla.com
-    op: auth0
-    url: https://strategy-and-insights.mozilla.com/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
     - team_mozillaonline
     authorized_users: []
     client_id: 7YTXsNQhLSiNsXPtDdXdvryD5dN30DEb
