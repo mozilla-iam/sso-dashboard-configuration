@@ -3591,9 +3591,6 @@ apps:
     - aws_320464205386_admin
     - aws_320464205386_read_only
     - aws_359555865025_admin
-    - aws_558986605633_admin
-    - aws_622567216674_admin
-    - aws_839739216564_admin
     - aws_consolidatedbilling_admin
     - aws_consolidatedbilling_read_only
     - aws_discourse_dev
