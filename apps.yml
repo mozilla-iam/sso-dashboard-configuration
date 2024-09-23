@@ -657,16 +657,6 @@ apps:
     - /salesforcenonprofit
 - application:
     authorized_groups:
-    - mozilliansorg_snippets_admin
-    authorized_users: []
-    client_id: A7GAcuN9gE9x3H186dKQgzS3jsV9Qmgp
-    display: true
-    logo: snippets.png
-    name: Snippets
-    op: auth0
-    url: https://snippets-admin.mozilla.org/oidc/authenticate/
-- application:
-    authorized_groups:
     - mozilliansorg_pocket_dataanalytics
     authorized_users: []
     client_id: fTJMnRKzzEzw0nnfkLMv8lN1BaIrWBoz
@@ -1300,17 +1290,6 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: c4j1TRdnJPdkFGJoEsU5LtL3ltPC5QyU
-    display: false
-    logo: auth0.png
-    name: www.standu.ps
-    op: auth0
-    url: https://www.standu.ps/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
     client_id: lDyt2V0UvWdXsWj4lgcENLZ10E6TJ0Yt
     display: false
     logo: auth0.png
@@ -1564,17 +1543,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: m6x0phAu4rq4imC6f6gRYaGmQgStCdlG
-    display: false
-    logo: auth0.png
-    name: strategy-and-insights.mozilla.com
-    op: auth0
-    url: https://strategy-and-insights.mozilla.com/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
     - team_mozillaonline
     authorized_users: []
     client_id: 7YTXsNQhLSiNsXPtDdXdvryD5dN30DEb
@@ -1761,17 +1729,6 @@ apps:
     name: testwebapp.allizom.org
     op: auth0
     url: https://testwebapp.allizom.org/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: IVq10RLJgYIQX9Mzzr0hPhDkyix6kZQb
-    display: false
-    logo: auth0.png
-    name: wpt.dev.mozaws.net
-    op: auth0
-    url: https://wpt.dev.mozaws.net/redirect_uri
 - application:
     authorized_groups:
     - team_moco
@@ -1966,16 +1923,6 @@ apps:
     name: peaceful-stream-36350.herokuapp.com
     op: auth0
     url: https://peaceful-stream-36350.herokuapp.com/redirect_url
-- application:
-    authorized_groups:
-    - mozilliansorg_snippets_admin
-    authorized_users: []
-    client_id: a6jCoSzt99DFySdC3qvP5oSpYcEEOsvT
-    display: false
-    logo: auth0.png
-    name: Snippets Stage
-    op: auth0
-    url: https://snippets.allizom.org/oidc/callback/
 - application:
     authorized_groups:
     - team_moco
