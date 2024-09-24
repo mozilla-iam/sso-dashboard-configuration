@@ -3547,7 +3547,6 @@ apps:
     - mozilliansorg_devtools-code-origin-access
     - mozilliansorg_iam-in-transition
     - mozilliansorg_iam-in-transition-admin
-    - mozilliansorg_infrasec
     - mozilliansorg_meao-admins
     - mozilliansorg_mozilla-moderator-devs
     - mozilliansorg_partinfra-aws
