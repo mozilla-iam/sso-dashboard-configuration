@@ -1425,7 +1425,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mzla
     authorized_users: []
     client_id: zk9N7LU2ihMIy0bwlGd7GfRVXDKsGQjI
     display: false
