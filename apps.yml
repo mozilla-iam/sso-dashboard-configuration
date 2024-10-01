@@ -2226,17 +2226,6 @@ apps:
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/SJmdyaeuz4SkdoWgOXZxVFeQukpt5SMo
 - application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: TSYr6tZcybHxtOlYznB1fslCvCInnKw3
-    display: false
-    logo: auth0.png
-    name: pad.mozilla.org
-    op: auth0
-    url: https://pad.mozilla.org/openid/callback/login
-- application:
     authorized_groups:
     - team_moco
     - team_mofo
