@@ -3899,6 +3899,7 @@ apps:
     - /frontify
 - application:
     authorized_groups:
+    - mozilliansorg_aws_billing_access
     - mozilliansorg_cloudservices_aws_admin
     - mozilliansorg_cloudservices_aws_autograph_admin
     - mozilliansorg_cloudservices_aws_autograph_dev
