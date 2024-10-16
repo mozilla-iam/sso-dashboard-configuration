@@ -4086,3 +4086,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/3wvupznpjbLkUNF1HLzb6gygR9y1jAwO
     vanity_url:
     - /fastly
+- application:
+    authorized_groups:
+    - mozilliansorg_fable-access
+    authorized_users: []
+    client_id: DlyjWdZjRtd3bRTplD2akcW5xOEWRqTI
+    display: false
+    logo: auth0.png
+    name: Fable
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/DlyjWdZjRtd3bRTplD2akcW5xOEWRqTI
+    vanity_url:
+    - /fable
