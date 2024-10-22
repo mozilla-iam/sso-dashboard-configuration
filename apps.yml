@@ -3532,7 +3532,6 @@ apps:
     - mozilliansorg_aws_billing_access
     - mozilliansorg_cia-aws
     - mozilliansorg_consolidated-billing-aws
-    - mozilliansorg_devtools-code-origin-access
     - mozilliansorg_iam-in-transition
     - mozilliansorg_iam-in-transition-admin
     - mozilliansorg_meao-admins
@@ -3545,7 +3544,6 @@ apps:
     - mozilliansorg_sre
     - mozilliansorg_voice_aws_admin_access
     - mozilliansorg_web-sre-aws-access
-    - team_infra
     - team_mdn
     - team_netops
     - team_opsec
