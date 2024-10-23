@@ -2692,6 +2692,8 @@ apps:
     name: Smartling
     op: auth0
     url: https://sso.smartling.com/sso-apps/dashboard/accounts/3f16c2f8
+    vanity_url:
+    - /smartling
 - application:
     authorized_groups:
     - team_moco
