@@ -3522,6 +3522,7 @@ apps:
     url: http://127.0.0.1:8000/oidc/callback/
 - application:
     authorized_groups:
+    # TODO(bhee): delete as a part of https://mozilla-hub.atlassian.net/browse/IAM-1474
     - aws_095732026120_poweruser
     - aws_104923852476_admin
     - aws_320464205386_admin
@@ -3544,6 +3545,8 @@ apps:
     - mozilliansorg_searchfox-aws
     - mozilliansorg_secops-aws-admins
     - mozilliansorg_sre
+    - mozilliansorg_sumo-admins
+    - mozilliansorg_sumo-devs
     - mozilliansorg_voice_aws_admin_access
     - mozilliansorg_web-sre-aws-access
     - team_mdn
