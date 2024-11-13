@@ -4104,3 +4104,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/DlyjWdZjRtd3bRTplD2akcW5xOEWRqTI
     vanity_url:
     - /fable
+- application:
+    authorized_groups:
+    - mozilliansorg_sec_tines-access
+    - mozilliansorg_sec_tines-admin
+    authorized_users: []
+    client_id: cPH0znP4n74JvPf9Efc1w6O8KQWwT634
+    display: true
+    logo: tines.png
+    name: Tines
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/cPH0znP4n74JvPf9Efc1w6O8KQWwT634
+    vanity_url:
+    - /tines
