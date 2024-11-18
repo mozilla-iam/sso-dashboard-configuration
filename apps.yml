@@ -4117,3 +4117,18 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/cPH0znP4n74JvPf9Efc1w6O8KQWwT634
     vanity_url:
     - /tines
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_mzai
+    - team_mzla
+    - team_mzvc
+    authorized_users: []
+    display: true
+    logo: adp.png
+    name: ADP
+    op: auth0
+    url: https://www.adp.com/logins.aspx
+    vanity_url:
+    - /adp
