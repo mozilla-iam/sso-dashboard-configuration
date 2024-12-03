@@ -4113,6 +4113,7 @@ apps:
     - /fastly
 - application:
     authorized_groups:
+    - team_moco
     - mozilliansorg_fable-access
     authorized_users: []
     client_id: DlyjWdZjRtd3bRTplD2akcW5xOEWRqTI
