@@ -4107,9 +4107,14 @@ apps:
     authorized_groups:
     - mozilliansorg_sec_tines-access
     - mozilliansorg_sec_tines-admin
+    - team_moco
+    - team_mofo
+    - team_mzla
+    - team_mzai
+    - team_mzvc
     authorized_users: []
     client_id: cPH0znP4n74JvPf9Efc1w6O8KQWwT634
-    display: true
+    display: false
     logo: tines.png
     name: Tines
     op: auth0
