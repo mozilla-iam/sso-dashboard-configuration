@@ -223,18 +223,6 @@ apps:
     vanity_url:
     - /contentful
 - application:
-    authorized_groups:
-    - mozilliansorg_deleteme-access
-    authorized_users: []
-    client_id: cAUw8lgIoNdVi2omJphonywOXpiasAbu
-    display: false
-    logo: auth0.png
-    name: DeleteMe
-    op: auth0
-    url: https://mozilla.joindeleteme.com/
-    vanity_url:
-    - /deleteme
-- application:
     AAL: LOW
     authorized_groups:
     - everyone
