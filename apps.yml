@@ -3976,7 +3976,7 @@ apps:
     logo: testrail.png
     name: testrail.io
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/pQei6Ff5qKo40KJuCaR3BV3IbydschsA
+    url: https://mozilla.testrail.io/
 - application:
     authorized_groups:
     - mozilliansorg_fundraiseup-access
