@@ -3694,6 +3694,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_remote-dot-com-access
+    - team_mzla
     authorized_users: []
     client_id: 8kBFdSJ7MgTkqTdNQFUDzgbVK5eViSlo
     display: true
@@ -3706,6 +3707,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_small-improvements-access
+    - team_mzla
     authorized_users: []
     client_id: t1FpfVDNd5dg8T6xuxZ9vDVKo39gJxuS
     display: true
