@@ -4125,3 +4125,15 @@ apps:
     url: https://www.adp.com/logins.aspx
     vanity_url:
     - /adp
+- application:
+    authorized_groups:
+    - team_mzla
+    authorized_users: []
+    client_id: 703MNDVnbgrw2yGGk2ZLliNCKalgMmiA
+    display: true
+    logo: sequoia.png
+    name: Sequoia
+    op: auth0
+    url: https://login.sequoia.com/azure-sso?orgId=66ea47c0aa9d029b9bbf4f38
+    vanity_url:
+    - /sequoia
