@@ -4139,3 +4139,15 @@ apps:
     url: https://login.sequoia.com/azure-sso?orgId=66ea47c0aa9d029b9bbf4f38
     vanity_url:
     - /sequoia
+- application:
+    authorized_groups:
+    - mozilliansorg_fleet-access
+    authorized_users: []
+    client_id: y2IUqDvVuid2x8r6I6XVlLFb55empXSW
+    display: false
+    logo: auth0.png
+    name: Fleet
+    op: auth0
+    url: https://mozilla.cloud.fleetdm.com
+    vanity_url:
+    - /fleet
