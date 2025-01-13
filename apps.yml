@@ -4148,6 +4148,6 @@ apps:
     logo: auth0.png
     name: Fleet
     op: auth0
-    url: https://mozilla.cloud.fleetdm.com
+    url: https://auth.mozilla.auth0.com/samlp/y2IUqDvVuid2x8r6I6XVlLFb55empXSW
     vanity_url:
     - /fleet
