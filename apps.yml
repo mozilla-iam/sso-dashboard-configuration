@@ -4151,3 +4151,18 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/y2IUqDvVuid2x8r6I6XVlLFb55empXSW
     vanity_url:
     - /fleet
+- application:
+    authorized_groups:
+    - mozilliansorg_wiz_global_admins
+    - mozilliansorg_wiz_readonly
+    - mozilliansorg_wiz_sirt
+    - mozilliansorg_wiz_sre
+    authorized_users: []
+    client_id: aKoiZu74J3ktlnzeq66ZaEbvxc9hzGlp
+    display: true
+    logo: wiz.png
+    name: Wiz
+    op: auth0
+    url: https://app.wiz.io/idp-login?clientId=7m49eps51kha70jq50ttu43jv4&idp=Auth0
+    vanity_url:
+    - /wiz
