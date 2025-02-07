@@ -4162,7 +4162,7 @@ apps:
         client_id: ehOSC2bkHR3KbQns4ZHhuVnDN1CPvUKT
         display: false
         logo: bitly.png
-        name: Bit.ly
+        name: Bitly
         op: auth0
         url: https://auth.mozilla.auth0.com/samlp/ehOSC2bkHR3KbQns4ZHhuVnDN1CPvUKT
         vanity_url:
