@@ -4155,3 +4155,15 @@ apps:
     url: https://app.wiz.io/idp-login?clientId=7m49eps51kha70jq50ttu43jv4&idp=Auth0
     vanity_url:
     - /wiz
+- application:
+    authorized_groups:
+    - mozilliansorg_bitly-access
+    authorized_users: []
+    client_id: ehOSC2bkHR3KbQns4ZHhuVnDN1CPvUKT
+    display: false
+    logo: bitly.png
+    name: Bitly
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/ehOSC2bkHR3KbQns4ZHhuVnDN1CPvUKT
+    vanity_url:
+    - /bitly
