@@ -4132,7 +4132,7 @@ apps:
     - mozilliansorg_fleet-access
     authorized_users: []
     client_id: y2IUqDvVuid2x8r6I6XVlLFb55empXSW
-    display: false
+    display: true
     logo: fleet.png
     name: Fleet
     op: auth0
@@ -4179,3 +4179,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/oxgRieN19Sa2b4qguZ5lGf4Mkes08ruW
     vanity_url:
     - /fastlywaf
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: TPQCZqfr6LRxU5lD1X6RENBSe421ORiu
+    display: false
+    logo: auth0.png
+    name: FleetDM
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/TPQCZqfr6LRxU5lD1X6RENBSe421ORiu
+    vanity_url:
+    - /fleetdm
