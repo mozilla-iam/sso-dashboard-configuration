@@ -4191,3 +4191,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/TPQCZqfr6LRxU5lD1X6RENBSe421ORiu
     vanity_url:
     - /fleetdm
+- application:
+    authorized_groups:
+    - mozilliansorg_miro-access
+    authorized_users: []
+    client_id: wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
+    display: true
+    logo: miro.png
+    name: Miro
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/wwJwws9XZ6AVA48QOUU2FCGa6XP4U3aQ
+    vanity_url:
+    - /miro
