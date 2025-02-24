@@ -638,7 +638,7 @@ apps:
     client_id: Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
     display: true
     logo: salescloud.png
-    name: MoFo Salesforce
+    name: Salesforce CRM (MoFo)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Vnj9iPj1FJz4xTlco6XHLwM3oyRUO9iQ
     vanity_url:
@@ -2628,7 +2628,7 @@ apps:
     client_id: 4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
     display: true
     logo: cultureamp.png
-    name: Mozilla Foundation Culture Amp
+    name: Culture Amp (MoFo)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
     vanity_url:
@@ -3986,7 +3986,7 @@ apps:
     client_id: 6h658FkrhSOuB5eKgFyfA5hgHyzvCWqX
     display: true
     logo: udemy-mofo.png
-    name: Udemy - MoFo
+    name: Udemy (MoFo)
     op: auth0
     url: https://mozillafoundation.udemy.com/organization/init-sso-login/
     vanity_url:
