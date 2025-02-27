@@ -4072,6 +4072,7 @@ apps:
 - application:
     authorized_groups:
     - team_moco
+    - team_mofo
     - mozilliansorg_fable-access
     authorized_users: []
     client_id: DlyjWdZjRtd3bRTplD2akcW5xOEWRqTI
