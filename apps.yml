@@ -1875,17 +1875,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: 5tkbwIFZqYLtZtFIDki6Nqpt8GHUzZ2J
-    display: false
-    logo: auth0.png
-    name: peaceful-stream-36350.herokuapp.com
-    op: auth0
-    url: https://peaceful-stream-36350.herokuapp.com/redirect_url
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
     - team_mzla
     authorized_users: []
     client_id: d8fRO14gY7fhl54HU1yDemdJxJMTIV5Q
