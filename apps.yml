@@ -2324,7 +2324,7 @@ apps:
     client_id: pFf6sBIfp4n3Wcs3F9Q7a9ry8MTrbi2F
     display: true
     logo: matrix.png
-    name: Matrix IM
+    name: Element Matrix IM
     op: auth0
     url: https://chat.mozilla.org/#/start_sso
     vanity_url:
