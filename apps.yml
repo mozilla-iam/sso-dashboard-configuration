@@ -2321,7 +2321,7 @@ apps:
     authorized_groups:
     - everyone
     authorized_users: []
-    client_id: LGK34V7wTjZ8tkMSCQhxI0ynfiMcAsvg
+    client_id: pFf6sBIfp4n3Wcs3F9Q7a9ry8MTrbi2F
     display: true
     logo: matrix.png
     name: Matrix IM
