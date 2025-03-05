@@ -4166,3 +4166,23 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/TPQCZqfr6LRxU5lD1X6RENBSe421ORiu
     vanity_url:
     - /fleetdm
+- application:
+    authorized_groups:
+    - mozilliansorg_everbridge_manager-access
+    authorized_users: []
+    client_id: Gbtjm1c0NJmT7fYAGnM2COgO3ndbW18Y
+    display: true
+    logo: everbridge_manager.png
+    name: Everbridge Manager
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Gbtjm1c0NJmT7fYAGnM2COgO3ndbW18Y
+- application:
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: Al7xqRSbP8w0MgjDTWWXT2ohEQMkaOMy
+    display: true
+    logo: everbridge_member.png
+    name: Everbridge Member
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Al7xqRSbP8w0MgjDTWWXT2ohEQMkaOMy
