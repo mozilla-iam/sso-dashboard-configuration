@@ -427,6 +427,7 @@ apps:
     - team_mzvc
     - team_mozillaonline
     - team_office_support
+    - service_jira
     - travelling_accounts_jira
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
@@ -448,6 +449,7 @@ apps:
     - team_mozillaonline
     - team_office_support
     - moc_service_accounts
+    - service_jira
     - travelling_accounts_jira
     authorized_users:
     - moc+servicenow@mozilla.com
@@ -673,6 +675,7 @@ apps:
     - team_mozillajapan
     - team_mozillaonline
     - team_office_support
+    - service_jira
     - travelling_accounts_jira
     - moc_service_accounts
     authorized_users:
