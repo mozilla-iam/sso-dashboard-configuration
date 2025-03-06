@@ -4124,6 +4124,8 @@ apps:
     - mozilliansorg_wiz_sirt
     - mozilliansorg_wiz_sre
     - mozilliansorg_wiz_product_owners
+    - mozilliansorg_bots_wiz_product_owners
+    - mozilliansorg_bots_wiz_readonly
     authorized_users: []
     client_id: aKoiZu74J3ktlnzeq66ZaEbvxc9hzGlp
     display: true
