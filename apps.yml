@@ -4191,3 +4191,33 @@ apps:
     name: Everbridge Member
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Al7xqRSbP8w0MgjDTWWXT2ohEQMkaOMy
+- application:
+    authorized_groups:
+    - mozilliansorg_springfield-development
+    authorized_users: []
+    client_id: MB8SrVwSivv1aYDHXxPNrA3oAAOwyqt9
+    display: false
+    logo: auth0.png
+    name: Springfield (Development)
+    op: auth0
+    url: https://dev.springfield.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - mozilliansorg_springfield-staging
+    authorized_users: []
+    client_id: CK03yfBZa2ICgnfR0wvLbygam6aKULDJ
+    display: false
+    logo: auth0.png
+    name: Springfield (Staging)
+    op: auth0
+    url: https://stage.springfield.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - mozilliansorg_springfield-production
+    authorized_users: []
+    client_id: WKHPy2sR6JbmxFt2DqZacobSm7asNnNO
+    display: false
+    logo: auth0.png
+    name: Springfield (Production)
+    op: auth0
+    url: https://prod.springfield.prod.webservices.mozgcp.net/
