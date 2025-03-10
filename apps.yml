@@ -4186,7 +4186,7 @@ apps:
     - everyone
     authorized_users: []
     client_id: Al7xqRSbP8w0MgjDTWWXT2ohEQMkaOMy
-    display: true
+    display: false
     logo: everbridge_member.png
     name: Everbridge Member
     op: auth0
