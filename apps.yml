@@ -4221,3 +4221,13 @@ apps:
     name: Springfield (Production)
     op: auth0
     url: https://prod.springfield.prod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - mozilliansorg_knowbe4-access
+    authorized_users: []
+    client_id: fKw3PglwPhB3FWBh2glWpYAKowBZMaIO
+    display: true
+    logo: knowbe4.png
+    name: KnowBe4
+    op: auth0
+    url: https://training.knowbe4.com/auth/saml/1a0093e45044f
