@@ -3328,8 +3328,8 @@ apps:
     - mozilliansorg_rapid7_access
     authorized_users: []
     client_id: iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
-    display: true
-    logo: rapid7.png
+    display: false
+    logo: auth0.png
     name: Rapid7 Insight
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
