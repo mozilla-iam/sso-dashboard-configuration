@@ -3328,7 +3328,7 @@ apps:
     - mozilliansorg_rapid7_access
     authorized_users: []
     client_id: iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
-    display: true
+    display: false
     logo: rapid7.png
     name: Rapid7 Insight
     op: auth0
