@@ -3737,7 +3737,7 @@ apps:
     authorized_users: []
     client_id: RJIpTfQhXbF9pKGJwBJgOmKEbe8QWHQu
     display: false
-    logo: auth0.png
+    logo: swoogo.png
     name: Swoogo - MozWeek 2025
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/RJIpTfQhXbF9pKGJwBJgOmKEbe8QWHQu
