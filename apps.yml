@@ -3741,8 +3741,8 @@ apps:
     name: Swoogo - MozWeek 2025
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/RJIpTfQhXbF9pKGJwBJgOmKEbe8QWHQu
-    #vanity_url:
-    #- /swoogo
+    vanity_url:
+    - /swoogo
 - application:
     authorized_groups:
     - mozilliansorg_miniorange_mozilladev-access
