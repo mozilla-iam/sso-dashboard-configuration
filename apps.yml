@@ -1188,17 +1188,6 @@ apps:
     op: auth0
     url: https://sso.allizom.org/redirect_uri
 - application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: YwL6bJ8mXFiCplWbMLaX2fqu715rKP8u
-    display: false
-    logo: auth0.png
-    name: voice.mozilla.org
-    op: auth0
-    url: https://voice.mozilla.org/callback
-- application:
     AAL: MEDIUM
     authorized_groups:
     - team_moco
@@ -1270,17 +1259,6 @@ apps:
     name: moderator-stage.itsre-apps.mozit.cloud
     op: auth0
     url: https://moderator-stage.itsre-apps.mozit.cloud/oidc/callback/
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: t6K0dg86KPvhkIgFAFz1CyC6reG8UV21
-    display: false
-    logo: auth0.png
-    name: voice.allizom.org
-    op: auth0
-    url: http://localhost:9000/callback
 - application:
     AAL: LOW
     authorized_groups:
@@ -2560,17 +2538,6 @@ apps:
     url: https://fxa-admin-panel.prod.mozaws.net/openid/callback/login
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: uSpi6gd7ZqdjA3PwtJ4CavG29DQJla4Y
-    display: false
-    logo: auth0.png
-    name: stats.voice.mozit.cloud
-    op: auth0
-    url: https://stats.voice.mozit.cloud/
-- application:
-    authorized_groups:
     - stripe_subplat_admin
     - stripe_subplat_analyst
     - stripe_subplat_developer
@@ -3295,19 +3262,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
     vanity_url:
     - /new-relic-subhub
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
-    display: false
-    logo: newrelic.png
-    name: New Relic Voice
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/rCUnlF5BH5z603b8eZ17Xb4SPnHaY4Zm
-    vanity_url:
-    - /new-relic-voice
 - application:
     authorized_groups:
     - team_moco
