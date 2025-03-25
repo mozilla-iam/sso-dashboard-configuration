@@ -4199,3 +4199,31 @@ apps:
     name: KnowBe4
     op: auth0
     url: https://training.knowbe4.com/auth/saml/1a0093e45044f
+- application:
+    authorized_groups:
+    - mozilliansorg_ethyca-admin
+    - mozilliansorg_ethyca-read_only
+    - mozilliansorg_ethyca-read_write
+    authorized_users: []
+    client_id: Srz40XLXdhWmWENTBpy6u7D9TegdUj2G
+    display: false
+    logo: auth0.png
+    name: Ethyca-Stage
+    op: auth0
+    url: https://stage.data-privacy-mapping.nonprod.dataservices.mozgcp.net/
+    vanity_url:
+    - /ethyca-stage
+- application:
+    authorized_groups:
+    - mozilliansorg_ethyca-admin
+    - mozilliansorg_ethyca-read_only
+    - mozilliansorg_ethyca-read_write
+    authorized_users: []
+    client_id: TgZwF1000R019aCR7ruJuBfnPGC9x9jf
+    display: false
+    logo: auth0.png
+    name: Ethyca-Prod
+    op: auth0
+    url: https://prod.data-privacy-mapping.prod.dataservices.mozgcp.net/
+    vanity_url:
+    - /ethyca-prod
