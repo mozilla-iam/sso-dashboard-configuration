@@ -4206,8 +4206,8 @@ apps:
     - mozilliansorg_ethyca-read_write
     authorized_users: []
     client_id: Srz40XLXdhWmWENTBpy6u7D9TegdUj2G
-    display: false
-    logo: auth0.png
+    display: true
+    logo: ethyca_stage.png
     name: Ethyca-Stage
     op: auth0
     url: https://stage.data-privacy-mapping.nonprod.dataservices.mozgcp.net/
@@ -4220,8 +4220,8 @@ apps:
     - mozilliansorg_ethyca-read_write
     authorized_users: []
     client_id: TgZwF1000R019aCR7ruJuBfnPGC9x9jf
-    display: false
-    logo: auth0.png
+    display: true
+    logo: ethyca_prod.png
     name: Ethyca-Prod
     op: auth0
     url: https://prod.data-privacy-mapping.prod.dataservices.mozgcp.net/
