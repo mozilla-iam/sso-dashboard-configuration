@@ -4227,3 +4227,23 @@ apps:
     url: https://prod.data-privacy-mapping.prod.dataservices.mozgcp.net/
     vanity_url:
     - /ethyca-prod
+- application:
+    authorized_groups:
+    - mozilliansorg_birdbox-language-portal-staging
+    authorized_users: []
+    client_id: mcCadQWqSGZMB4Sj0Fu3KJHkAqQZK4IF
+    display: false
+    logo: auth0.png
+    name: Mozilla Language Portal Staging
+    op: auth0
+    url: http://stage.moz-language-portal.nonprod.webservices.mozgcp.net/oidc/callback/
+- application:
+    authorized_groups:
+    - mozilliansorg_birdbox-language-portal-production
+    authorized_users: []
+    client_id: Z1WHQljvCDSDNhYuIwoy9FCmJSJsFUFU
+    display: false
+    logo: auth0.png
+    name: Mozilla Language Portal Production
+    op: auth0
+    url: http://prod.moz-language-portal.prod.webservices.mozgcp.net/oidc/callback/
