@@ -130,7 +130,6 @@ apps:
     - team_mofo
     - team_mzla
     - team_mzai
-    - team_mzvc
     - team_mozillaonline
     - mozilliansorg_nda
     authorized_users: []
