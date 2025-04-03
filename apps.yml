@@ -4234,3 +4234,13 @@ apps:
     name: Mozilla Language Portal Production
     op: auth0
     url: http://prod.moz-language-portal.prod.webservices.mozgcp.net/oidc/callback/
+- application:
+    authorized_groups:
+    - mozilliansorg_foundation_website_editors
+    authorized_users: []
+    client_id: nr7byLWkDnxRFS8aQyxIMWlSYY2eD941
+    display: true
+    logo: wagtail.png
+    name: Website CMS (MoFo)
+    op: auth0
+    url: https://foundation.mozilla.org/soc/login/auth0/
