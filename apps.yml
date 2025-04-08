@@ -4209,3 +4209,16 @@ apps:
     name: Website CMS (MoFo)
     op: auth0
     url: https://foundation.mozilla.org/soc/login/auth0/
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - mozilliansorg_obs_grafana_admin-access
+    - mozilliansorg_obs_grafana_editor-access
+    authorized_users: []
+    client_id: rbH2lgiwsLN3A9QD9h4zv0mWtxP85UwE
+    display: false
+    logo: auth0.png
+    name: Yardstick
+    op: auth0
+    url: https://yardstick.mozilla.org/login/generic_oauth
