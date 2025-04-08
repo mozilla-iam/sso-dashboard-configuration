@@ -4208,7 +4208,7 @@ apps:
     logo: wagtail.png
     name: Website CMS (MoFo)
     op: auth0
-    url: https://foundation.mozilla.org/soc/login/auth0/
+    url: https://foundation.mozilla.org/soc/login/auth0/?next=/cms
 - application:
     authorized_groups:
     - team_moco
