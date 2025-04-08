@@ -1307,17 +1307,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    authorized_users: []
-    client_id: P5kUBn21KQ5m8IRMdNFONg17dJ9qTrlP
-    display: false
-    logo: auth0.png
-    name: InfluxData
-    op: auth0
-    url: https://hillvalley-b40313e5.influxcloud.net
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
     - mozilliansorg_nda
     authorized_users: []
     client_id: AJBSCa58Vu3bi1OiL30s2yCTXUkBj6KR
@@ -1431,19 +1420,6 @@ apps:
     name: Webcompat Dashboard (dev)
     op: auth0
     url: https://dev.webcompat.nonprod.webservices.mozgcp.net/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    - mozilliansorg_obs_grafana_admin-access
-    - mozilliansorg_obs_grafana_editor-access
-    authorized_users: []
-    client_id: jGx4Z2JTWsgQWiBmvrCNbe5WXAfMivzb
-    display: false
-    logo: auth0.png
-    name: earthangel-b40313e5.influxcloud.net
-    op: auth0
-    url: https://earthangel-b40313e5.influxcloud.net
 - application:
     authorized_groups:
     - team_moco
@@ -2212,17 +2188,6 @@ apps:
     name: iodide.telemetry.mozilla.org
     op: auth0
     url: https://iodide.telemetry.mozilla.org/oidc/callback
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: uqaHX7JDz335eg0A89725t4GH5dLCUoW
-    display: false
-    logo: auth0.png
-    name: biff-5adb6e55.influxcloud.net
-    op: auth0
-    url: https://biff-5adb6e55.influxcloud.net/login/generic_oauth
 - application:
     authorized_groups:
     - team_moco
