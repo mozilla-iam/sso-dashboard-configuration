@@ -3625,32 +3625,6 @@ apps:
     vanity_url:
     - /chatgpt
 - application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: bGAXasmlyz1xnBeZXHbUrUSyUI7dTnLA
-    display: false
-    logo: auth0.png
-    name: Swoogo - MozWeek 2024
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/bGAXasmlyz1xnBeZXHbUrUSyUI7dTnLA
-    vanity_url:
-    - /swoogo-2024
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: RJIpTfQhXbF9pKGJwBJgOmKEbe8QWHQu
-    display: false
-    logo: swoogo.png
-    name: Swoogo - MozWeek 2025
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/RJIpTfQhXbF9pKGJwBJgOmKEbe8QWHQu
-    vanity_url:
-    - /swoogo
-- application:
     authorized_groups:
     - mozilliansorg_miniorange_mozilladev-access
     authorized_users: []
