@@ -4196,3 +4196,15 @@ apps:
     name: Yardstick
     op: auth0
     url: https://yardstick.mozilla.org/login/generic_oauth
+- application:
+    authorized_groups:
+    - mozilliansorg_vevox-poc
+    authorized_users: []
+    client_id: nODO1rseR6KeImLTrjRm9oQu8L1H7fIp
+    display: true
+    logo: vevox.png
+    name: Vevox
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/nODO1rseR6KeImLTrjRm9oQu8L1H7fIp
+    vanity_url:
+    - /vevox-poc
