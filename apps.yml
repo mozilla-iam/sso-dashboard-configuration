@@ -4573,7 +4573,7 @@ apps:
     display: false
     op: auth0
     client_id: 2MVzcGFtl2rbdEx97rpC98urD6ZMqUcf
-    name: GitHub Enterprise - mozilla-it
+    name: GitHub Enterprise - mozilla-it
 - application:
     AAL: LOW
     authorized_groups:
@@ -4627,7 +4627,7 @@ apps:
     display: false
     op: auth0
     client_id: 2mw77kvVsYBwlvZFay45S0e7dJ9Cd6z5
-    name: GitHub Enterprise - mozilla-b2g
+    name: GitHub Enterprise - mozilla-b2g
 - application:
     AAL: LOW
     authorized_groups:
