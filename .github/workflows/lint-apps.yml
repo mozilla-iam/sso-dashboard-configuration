@@ -1,0 +1,45 @@
+name: Lint apps.yml
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 13 * * *"   # 9AM EST, 6AM PST, 1PM UTC
+
+jobs:
+  lint:
+    name: Lint against Auth0
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install -r requirements.txt
+      - name: Generate apps.new.yml
+        env:
+          AUTH0_DOMAIN: ${{ secrets.AUTH0_DOMAIN }}
+          AUTH0_CLIENT_ID: ${{ secrets.AUTH0_CLIENT_ID }}
+          AUTH0_CLIENT_SECRET: ${{ secrets.AUTH0_CLIENT_SECRET }}
+        run: |
+          python tools/lint-apps
+      - name: Generate diff
+        run: |
+          if ! diff -Naru apps.yml apps.new.yml > proposed.patch; then
+            echo ===========================
+            echo There are changes required!
+            echo ===========================
+            echo
+            echo Consider running ./tools/lint-apps. Or, apply the following patch
+            echo using:
+            echo
+            printf "    patch -p1 apps.yml < proposed.patch # if you've downloaded it to a file\n"
+            echo or
+            printf "    pbpaste | patch -p1 apps.yml # if you've copied it to your clipboard\n"
+            echo
+            echo ===========================
+            cat proposed.patch
+            exit 1
+          fi

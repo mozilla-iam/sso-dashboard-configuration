@@ -285,7 +285,8 @@ apps:
     logo: exacttarget.png
     name: Marketing Cloud
     op: auth0
-    url: https://auth.s1.exacttarget.com/sso/f56e153c30265a772451342d7a59223f4d2c29351a2c305028757a572228
+    url:
+      https://auth.s1.exacttarget.com/sso/f56e153c30265a772451342d7a59223f4d2c29351a2c305028757a572228
     vanity_url:
     - /marketingcloud
 - application:
@@ -325,7 +326,8 @@ apps:
     logo: gmail.png
     name: Gmail
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://mail.google.com/
+    url:
+      https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://mail.google.com/
     vanity_url:
     - /gmail
 - application:
@@ -349,7 +351,8 @@ apps:
     logo: gcal.png
     name: Google Calendar
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://calendar.google.com/
+    url:
+      https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://calendar.google.com/
     vanity_url:
     - /gcalendar
     - /gcal
@@ -374,7 +377,8 @@ apps:
     logo: gdrive.png
     name: Google Drive
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://drive.google.com/
+    url:
+      https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://drive.google.com/
     vanity_url:
     - /gdrive
 - application:
@@ -579,7 +583,8 @@ apps:
     logo: plansource.png
     name: PlanSource Benefits
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/DBRlLjVEUbw1yWrUYAHNYl22KBkKAjql?RelayState=https://benefits.plansource.com/sso/employee/saml2/post/d4f3574247aa2707
+    url:
+      https://auth.mozilla.auth0.com/samlp/DBRlLjVEUbw1yWrUYAHNYl22KBkKAjql?RelayState=https://benefits.plansource.com/sso/employee/saml2/post/d4f3574247aa2707
     vanity_url:
     - /plansource
 - application:
@@ -591,7 +596,8 @@ apps:
     logo: productplan.png
     name: ProductPlan
     op: auth0
-    url: https://desktop.pingone.com/mozilla/url?source=application&url=https%3A%2F%2Fsso.connect.pingidentity.com%2Fsso%2Fsp%2Finitsso%3Fsaasid%3D72a035e2-0939-4685-aa8a-8c731729298b%26idpid%3Dmozilla.com&title=IDP%20Connection&applicationtype=APPLICATION_DEFAULT&saasid=72a035e2-0939-4685-aa8a-8c731729298b&newDock=true
+    url:
+      https://desktop.pingone.com/mozilla/url?source=application&url=https%3A%2F%2Fsso.connect.pingidentity.com%2Fsso%2Fsp%2Finitsso%3Fsaasid%3D72a035e2-0939-4685-aa8a-8c731729298b%26idpid%3Dmozilla.com&title=IDP%20Connection&applicationtype=APPLICATION_DEFAULT&saasid=72a035e2-0939-4685-aa8a-8c731729298b&newDock=true
     vanity_url:
     - /productplan
 - application:
@@ -756,7 +762,8 @@ apps:
     logo: auth0.png
     name: Convercent
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/meBoR5vlD0kK0qeUXshNjOB1PbGKjsro?RelayState=https://app.convercent.com/
+    url:
+      https://auth.mozilla.auth0.com/samlp/meBoR5vlD0kK0qeUXshNjOB1PbGKjsro?RelayState=https://app.convercent.com/
     vanity_url:
     - /convercent
 - application:
@@ -769,7 +776,8 @@ apps:
     logo: auth0.png
     name: Convercent - Community
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/j8FN0DB6RwrlfLhX4opVAZ2tDYbBiMMU?RelayState=https://app.convercent.com/
+    url:
+      https://auth.mozilla.auth0.com/samlp/j8FN0DB6RwrlfLhX4opVAZ2tDYbBiMMU?RelayState=https://app.convercent.com/
     vanity_url:
     - /convercentcommunity
 - application:
@@ -839,7 +847,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_iam-admins
-    authorized_users: ['hcondei@mozilla.com']
+    authorized_users: [hcondei@mozilla.com]
     client_id: nlE73wPPuOaN0wAYKWY6QD3VcjUStehZ
     display: false
     logo: auth0.png
@@ -1610,7 +1618,8 @@ apps:
     logo: auth0.png
     name: mozilla-dev.metricinsights.com
     op: auth0
-    url: https://mozilla-dev.metricinsights.com/simplesaml/module.php/saml/sp/saml2-acs.php/default-sp
+    url:
+      https://mozilla-dev.metricinsights.com/simplesaml/module.php/saml/sp/saml2-acs.php/default-sp
 - application:
     authorized_groups:
     - team_moco
@@ -1677,7 +1686,8 @@ apps:
     logo: auth0.png
     name: mozilla-stg.metricinsights.com
     op: auth0
-    url: https://mozilla-stg.metricinsights.com/simplesaml/module.php/saml/sp/saml2-acs.php/default-sp
+    url:
+      https://mozilla-stg.metricinsights.com/simplesaml/module.php/saml/sp/saml2-acs.php/default-sp
 - application:
     authorized_groups:
     - team_moco
@@ -1838,7 +1848,8 @@ apps:
     logo: auth0.png
     name: Atlassian Access
     op: auth0
-    url: https://auth.atlassian.com/login/callback?connection=saml-094a4f90-c6c4-4741-bfb1-17535bd11e28
+    url:
+      https://auth.atlassian.com/login/callback?connection=saml-094a4f90-c6c4-4741-bfb1-17535bd11e28
 - application:
     authorized_groups:
     - team_moco
@@ -2175,7 +2186,8 @@ apps:
     logo: auth0.png
     name: stage.taskcluster.nonprod.cloudops.mozgcp.net
     op: auth0
-    url: https://stage.taskcluster.nonprod.cloudops.mozgcp.net/login/mozilla-auth0/callback
+    url:
+      https://stage.taskcluster.nonprod.cloudops.mozgcp.net/login/mozilla-auth0/callback
 - application:
     authorized_groups:
     - team_moco
@@ -2689,18 +2701,18 @@ apps:
     vanity_url:
     - /everfi
 - application:
-      authorized_groups:
-          - mozilliansorg_bitsight-users
-          - mozilliansorg_bitsight-admins
-      authorized_users: []
-      client_id: eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
-      display: true
-      logo: bitsight.png
-      name: BitSight
-      op: auth0
-      url: https://service.bitsighttech.com/sso/mozilla-corporation/
-      vanity_url:
-          - /bitsight
+    authorized_groups:
+    - mozilliansorg_bitsight-users
+    - mozilliansorg_bitsight-admins
+    authorized_users: []
+    client_id: eEAeYh6BMPfRyiSDax0tejjxkWi22zkP
+    display: true
+    logo: bitsight.png
+    name: BitSight
+    op: auth0
+    url: https://service.bitsighttech.com/sso/mozilla-corporation/
+    vanity_url:
+    - /bitsight
 - application:
     authorized_groups:
     - mozilliansorg_sec_splunk_admin
@@ -3597,7 +3609,8 @@ apps:
     logo: prefect-cloud.png
     name: Prefect Cloud (Pocket)
     op: auth0
-    url: https://api.workos.com/sso/authorize?client_id=client_01GBBFMN6NWC8CQWRJTYS9TKTH&redirect_uri=https%3A%2F%2Fapp.prefect.cloud%2Fauth%2Fcallback&response_type=code&connection=conn_01HMW07E8GPGHH8YXQA64DJ4G2
+    url:
+      https://api.workos.com/sso/authorize?client_id=client_01GBBFMN6NWC8CQWRJTYS9TKTH&redirect_uri=https%3A%2F%2Fapp.prefect.cloud%2Fauth%2Fcallback&response_type=code&connection=conn_01HMW07E8GPGHH8YXQA64DJ4G2
     vanity_url:
     - /prefect-pocket
 - application:
@@ -4208,3 +4221,1578 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/nODO1rseR6KeImLTrjRm9oQu8L1H7fIp
     vanity_url:
     - /vevox-poc
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: vkoDkHlCEUhlHNhVDtewJqRLVLGVsPrZ
+    name: GitHub Enterprise - mozilla-fakespot
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: jbZ3XmAB7Zz2hvJKLASod16lvRSFzocH
+    name: argus.fuzzing.mozilla.org dev
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: WKOfTFaGTV10YKzfkMOyAl3bgi3BPFMc
+    name: GitHub Enterprise - taskcluster
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: sZHTTA4iuHgmiQGzbkS7lcXE1bbMGces
+    name: GitHub Enterprise - FirefoxGraphics
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: dlDfXM5oqapRXUvrkCarPwgTN2INIA9G
+    name: GitHub Enterprise - mozilla-metrics
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: KGfOLEDyRSILwTtIRdYEdvreE2abyEy0
+    name: Cedexis
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: sZlNsFIG9f3vKrq9649Y7UxIyrmr8L7v
+    name: pocket.slack.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: vCfZMVdiwgwXv19UHS76JIAABdn66sfC
+    name: testrail.stage.mozaws.net
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: WOQ46I55oGjnKSjbaa4o3bPf6m4I6xse
+    name: mozilla.stagingtap.thinksmart.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Cc2xFG6xS5O8UKoSzoJ4eNggo6jHnzDU
+    name: GitHub Enterprise - Mozilla-Games
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: aDL5o9SZRaYTH5zzkGntT4l76qydMbZe
+    name: sso.allizom.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 70h90psuJAkUh272vMMUGBzI6m6VisUw
+    name: ' bugzilla-dashboard-temp.herokuapp.com'
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 3agx8byruE6opXpzoAaJl1rvlS6JA8Ly
+    name: GitHub Enterprise - mozilla-commons
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: aKU0bzGLTVv53jDokaUDwNUyNfZxgT4R
+    name: GitHub Enterprise - mozilla-spidermonkey
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Doy3pSTMj7yfSP2yaVpIcCNPcXtubdDh
+    name: GLAM Web Client (MDV2)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
+    name: HackerRank
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: ZUhxQNtopRXAwdW9RBy0rfURYp85MTxy
+    name: blog.getpocket.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 1Uk5Yu7WNhR3XvD2Pv2FTLKzuuDhRaVp
+    name: mozilladev.wpengine.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: qS9xQtb7LaktpWsUW0P7rFXH2m8CwLh3
+    name: paradigmreach.com dev
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: fFyW4lP2mI87hUgqcNNPQEgWz7YlTq5f
+    name: symbols.prod.mozaws.net
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: S38Aj7GSGdxODcvm5BJAMD3VFlXweKwc
+    name: mcwsstg.wpengine.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Hon9kVjp85HXFDghzx0xV3b0gE8zZ2gF
+    name: Hristo WPEngine Test
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: TQQG7TLPt1lVYl3YMd34pzxKDtoaNSsT
+    name: Sample Fun App
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: JDiNCQVrXzw2ILureegz1T8c3OrUZCUb
+    name: GitHub Enterprise - mozilla-firefox
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: d9CYlm0r1dZHOWKQHeLR9Tz15BFT6qUh
+    name: Envoy
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 4q4U3HWKmYMJTqwxjGkwWNDi225DuO4U
+    name: sso.core.us-west-2.mozilla-data-analytics.nubis.allizom.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: jvoaoSSODhxTlTd3QEu8ik6tZl62YLx8
+    name: StatusPage - Admin
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: JEKFWjfvRz85NMqXLLRn4JaDe4eJDFx5
+    name: Sharelock
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: jTewRd1drwvDJLNuI2Rkqbocom0xd6ij
+    name: InfluxData - IT
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: jlfh4zPQ74YKqcokb5cIXMc8c6sjKDVS
+    name: Akamai - svcops
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: fqzPu0Hg17Vgx90JcWh1nWcV8TN4WkXa
+    name: GitHub Enterprise - iodide-project
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: ZemrAl9S2q9GKJNQUdjZCNsLiVmSEg1P
+    name: GitHub Enterprise - mozilla-privacy
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: HW3C8xZcM12GsAo0ZT4mIW9wAlqPhWzG
+    name: Perplexity
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: kXG2TTVKHERiM0FbB25TGCNPNxDFaVSB
+    name: New Relic - Mozilla 25 (1402187)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: IEc83wZvZzcQXMkpUmrnb9P8wztUiokl
+    name: GitHub Enterprise - MozScout
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: qz9wplbqX9XM6HVoaFL3BbhJ9eV6hcqU
+    name: soloist.ai
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: F76wjVk2c9IRBFG3BuibLlcyT06QwCJI
+    name: Cloudflare
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: nzV38DSEECYNl9toBfbVvVqXG04d2DaR
+    name: GitHub Enterprise - fxos
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 2MVzcGFtl2rbdEx97rpC98urD6ZMqUcf
+    name: GitHub Enterprise - mozilla-it
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: VK8e45Z1g7twUDVrsakw3SjkyPK95ZRR
+    name: Logging 2.0 CEP Devsvcstage
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: w9SNRsMGxbsDuZofT07QmJy88LvA4jeV
+    name: wpengine-foxtail-dev
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: EnEylt4OZW6i7yCWzZmCxyCxDRp6lOY0
+    name: Github Enterprise - Production Test
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: A5hvTaSHqMyrCVMypE3TNhW4VXQzM63d
+    name: GitHub Enterprise - nubisproject
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 5S6qao48s5MMLA1Cni9ePVcQ0ervZvy6
+    name: mozilla-releng.net
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 2mw77kvVsYBwlvZFay45S0e7dJ9Cd6z5
+    name: GitHub Enterprise - mozilla-b2g
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: RtIIKcExB2pdl5e4XNUix1qbkDOrN6ZX
+    name: Conversocial
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: IJfd6g73V42fh6LHW6leFdQO7jR0A8of
+    name: getpocket.atlassian.net
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: NT6ccNbKkH7SUF2hLs0Fz9HVyejRI7FF
+    name: https://clearpass.mozilla.net/ (Office Wifi)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: EUK1XjFHx1rs9h8kwSqB4FESuk1hv7Uz
+    name: https://argus.fuzzing.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 8Zhm4W07m9OSBlwN2h9FtQorFs6WgbQ8
+    name: GitHub Enterprise - mozilla-mobile
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: uSZCpLYeclHFxSzHtdeACrhqji01RjSe
+    name: 2020.internethealthreport.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 3IBOhIkk78t0jKq2pVWF1Wwk8BNqZhn8
+    name: auth.tchspk.rs
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: yRI1HQiw0eAiGtLvuh2y706rP5NYpdLk
+    name: New Relic - Web Predictability (1872822)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: wYVaFuSC43truUGnMP8H3Y4OVbbu9awV
+    name: mentoring.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: kkVlkyyJjjhONdxjiB4963i4cka6VBSh
+    name: GitHub Enterprise - Mozilla-TWQA
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: TvtrhXkwCEtScKxF5W4exTSWgPCSDfGQ
+    name: Firefox Relay
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 8lXCX2EGQNLixvBqONK3ceCVY2ppYiU6
+    name: GitHub Enterprise - mozilla-jetpack
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: npLk8377ceFcsXp5SIEJYwBqoXUn1zeu
+    name: GitHub Enterprise - mozilla-private
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 1tzVEXzTzSVQCkPMYi6DAVLXvk3xhchV
+    name: admin-dev.balrog.nonprod.cloudops.mozgcp.net/login
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: LqfMJIIK1WsjAUQA2PgO060XFLjRNNqU
+    name: AirTable (MoFo)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: fdGht0OM5DNTYPTWENtEhrXdGP6zmH9L
+    name: GitHub Enterprise - mozilla-lockwise
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 8bU4IhzzQ6dO8UnS4WGyoBwysl6YkPKW
+    name: l10n.mozilla.org - localhost
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 5GfQ2AMXMqibOsatSYTKh3dVSioVPhGA
+    name: Github Enterprise - MozRelOps
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: RLPUxhCQsmmRHyOmDOGkLpu1mArNH3xn
+    name: GitHub Enterprise - FirefoxUX
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: E23ddBNYsQsj89kJYK3G5IkpxQxSJVxz
+    name: Comunidad Mozilla
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: o34Ei6wNwy7hzWs54bcrX9J5FqKgBRMz
+    name: AWS IAM Identity Center  - old
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: AcnyB9st2RTC6JfqizCSdaMlzBC7notV
+    name: GitHub Enterprise - mozilla-l10n
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 3MXeqORnfou6NirpxSTYEo01YUUTexOt
+    name: Textio Sandbox
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 3iAAhN0vAavOHIzCqnaFKo9Mlqb9pBLH
+    name: GitHub Enterprise - MozillaSecurity
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Eisz30vfCy8w9ie06e9HdEgO6DICmhHA
+    name: New Relic - Primary (139239)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: OnO6rkXWARbnCp2IYeyV7qGeUnQ0GKiM
+    name: Papertrail - Releng
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: HPl9z5rJS6mjRUNqkcr2avRZvnnXW1nI
+    name: GitHub Enterprise - mozilla-archive
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 10GIORp35iivxqZRNgOUk995Z90fhvFF
+    name: Annotation Application
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 96LTwy42Sg3lSYYl2ZQi0E0pbuyhQgNo
+    name: Census (Pocket)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: qBv5vlRW7fNiIRIiuSjjZtoulwlUwo6L
+    name: Github Enterprise - MozillaDPX
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 6YyKlT63Wc0rnWSA8A0X8UeEdurfQXQL
+    name: GitHub Enterprise - mozsearch
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: rKWXC3raV98bZPN57kLeBFLzJi0Dj4Q4
+    name: Slack Sandbox
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: MNMiwDNk3zPNyddosw24Unj6b94R4Qmk
+    name: https://performance-foxfooding.herokuapp.com/report/
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: FV9Y1jz71OCIM8ixIaaa3FdB7h3JUO7J
+    name: crash-stats.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: gL08r5BRiweqf4aDQVX6xB4FHyFepFlM
+    name: Navex - Stage
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: wzgyI7Pc7V5kU6NMDdx80Fzh6eIY4F0t
+    name: symbols.stage.mozaws.net
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 0kiXOMw3eG1w6WvztCtVkTlqDJHozmgb
+    name: testrail.stage.mozaws.net - SAML
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 34SCYwATnTtTonkxTC2ZjwQxYOOTvLeG
+    name: misp.infosec.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: k2dBGcFJAhzlqOuSZH5nQhyq6L87jVaT
+    name: Github Enterprise - mozilla-svcops
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: CT6Sl3xuhFM19lh3BNS7xk3W2rczHxpx
+    name: Docker Hub
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: NyrIlf4H3ZYtMUfJLs6UmUwllOpfo23v
+    name: Github Enterprise - mozilla-iam
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: XBQy3ijpDhqnE9PQLd9fvO85o8NNroFH
+    name: GitHub Enterprise - mozilla-tw
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: s0v1r2d34lTqPtQu0jBVOKbWOKK4i1TU
+    name: GitHub Enterprise - mozmeao
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: QfJVAjXlaGzpCo5S48J9D38QvIfhlYzF
+    name: GitHub Enterprise - MozillaDataScience
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: RXTiiTCJ8wCCHklJuU9NxB1gK3GpFL4J
+    name: GitHub Enterprise - fxos-eng
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq
+    name: StatusPage
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: JP6z2Ts2VugJqGcMN3N3XAYNakRYgcNg
+    name: testmozauth0.wpengine.com/danielhartnell
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: zW2katQPkGUPwVuk6YcpStOBt6P2hdrZ
+    name: HackerOne
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Vyg4xo7d0ECLHaLD1DnLl1MYmziqv1SP
+    name: GitHub Enterprise - mozilla-lockbox
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: F7KEqlRIgdC5yUAAq0zm4voJZFk9IlS4
+    name: GitHub Enterprise - mozilla-outreachy-datascience
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Cgtx9CpbR8Z8RCjknJxDc2IazKi1BEVS
+    name: mozillapanama.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: HHb263N55HitFj5bBVFanv2AnF6E6bGf
+    name: Github Enterprise - mozilla-sre-deploy
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: BOQhQQTIEDI7giA2o6l0Sa2DIL8Rc0wf
+    name: mdmozdev.wpengine.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Z2fUVZ9UibGk2LIF6aEOT3X7jMEnv2kj
+    name: prod.dataviz.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 7hZHbgU3trE8y3UW6CoySmEa6oY3Hgln
+    name: testrail-upgrade-to-v7-20240122-1.stage.mozaws.net
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: eYly90y9UYNTd63eW51upDnlWt1fc8Cy
+    name: mozportaldev.wpengine.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: xdnPV7WTedfR17IBRBsxk6spYyVb6ET5
+    name: Logging 2.0 CEP Prod Test
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: sHrpfBXhFU2dIfsqmQu936h5d1yUcCGt
+    name: hacks.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: oU3JDtWZSeeBuUcJ0dfLKXU1S2tnTg0K
+    name: Github Enterprise - mozilla-applied-ml
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: WhSYI0qGKdtrB63gBjsdgN2qy69e79x8
+    name: Mercurial PKCE (CLI) for hg.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: PBAQp2v1A29GLurov3ybLa3WRki5niFz
+    name: https://inventory1.corpdmz.mdc1.mozilla.com/
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 0SQZJKGKaj4743G67pIK1hDaOVbepFSV
+    name: lando.services.mozilla.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Oy6exOuOGejAqExc8fZnSGdJA9t4njnG
+    name: GitHub Enterprise - MozillaReality
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: nadQHtwc6qVBRNCzBT2n0DO0Nb5ZQtoL
+    name: discourse-localhost-development-stewart-henderson
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 6mTYlbNuGlw2COlK2N1R9iJBFE9WCT3L
+    name: airmo-test1.private.mdc1.mozilla.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: SbobH1O2aplALsPffstqETIIbS831yHi
+    name: dataviz.allizom.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: vJG7CGVQutdCWpMGO9pkC5Vn4vgJzJ3I
+    name: GitHub Enterprise - Mozilla-Ocho
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: RoBRsncy7kutma2UoNuyV2ABJUOzSTHp
+    name: Snowflake
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: GuqDTg7u7kyXaR9d7IdCjdmFI8Mw8eKw
+    name: staging.mozilla-releng.net
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 8l4U7Gu4rNErp4i6Y64JigBxTggCBGDd
+    name: Bitrise.io
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: W4Cjh6joS3ugxixWy95dCbc1vWvfVqj6
+    name: Infoblox
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Qb2ZWerstBXCn5yCXQYU7vUfLuaZ1dMB
+    name: GitHub Enterprise - nss-dev
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: RzaIwPS6wfABGLrhnCmWdzlCLoKXUY84
+    name: GitHub Enterprise - Mozilla-Actions
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: bPCduBPyVFSxPEEdpG3dMdoiHXuj26Kr
+    name: GitHub Enterprise - firefox-devtools
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: VStrUcaxLXH9xQEEFX9Vkf0D5pRo5c6C
+    name: GitHub Enterprise - projectfluent
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: AgiLB9xCoW4beavY9z7UuvO36DLmdwJ1
+    name: GitHub Enterprise - mozilla-rally
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: y95j1f4Sikis9OM4OUCzw8JbBDQ3DoLr
+    name: crash-stats.allizom.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 4cK74pcWB0VU34UAWnxB25YhKPEK6ijs
+    name: https://allizom-sso-sandbox.slack.com/
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 8X192ZeMjw5GxtcW49y5iyLSL5lm4ouk
+    name: Community Blogs (MCWS)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: lJbj6OE9VFK05i2XjZEiAEljamPyOCkz
+    name: GitHub Enterprise - mozilla-platform-ops
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 6Id1VGemsM1rWFSjYrLAW6kSQNUR1hZ2
+    name: l10n.allizom.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: J2SnetKDpUmp8LjP2TAGPFByCVLwD3uw
+    name: NetApp OnCommand
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: gLnyMCclCmEc0B41O4UrNmIxGlE3cXea
+    name: localhost - Jared Kerim
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Sfpe4efQ8XsKSuVZ4ThZ96xnNJzBfeNq
+    name: HackerRank - Sandbox
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 50Mbg30k9bwwMDV79NQ2zKGeeJpGiOHD
+    name: foxtail-wpengine-stage
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: T6mjvGguOB5hkq9Aviaa58tOlwpJG5o6
+    name: GitHub Enterprise - mozilla-necko
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: p8gbcXcdd1e5aZxwOPuqji2WVUJCciwF
+    name: treeherder.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: f1MpcTzYA8J06nUUdO5LuhhA7b4JZVJi
+    name: GitHub Enterprise - mozilla
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Xa85l7wtVRetLudn1gePPRGdFB6uH1Nf
+    name: 2022.internethealthreport.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: ZTaOmWp4JZbBV2GMdUc7GAt4yiVIIeCp
+    name: mozillapanama.wpengine.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: ccpmWbDAMz1pxHIWF4vqkdr0ScdgDyyM
+    name: Lando Prod
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 1t0Ee7QGnU9grIrcpZrXbNZsLjPUmkyx
+    name: ctb Test App
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: z84RyLyrd0o28YRvUmS9xnjvFIYDR1Ur
+    name: https://securitywiki-127-0-0-1.nip.io
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: ahsxphJOkKeLqSmzxLeGmwOefrcWfK0T
+    name: Oracle NetSuite (Sandbox)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: gxsOCyA0gdqMefL9UXABS9hNRptTK73d
+    name: kolide.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 3ZZYS6kQZkqQFcZDHg1plLKrRfz0OXWt
+    name: localhost:8010/login - Rail Aliiev
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: lhAIAsdx3jSOiKe1LoHmB0zEsUrCbfhI
+    name: GitHub Enterprise - MoCo-GHE-Admin
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: aKvh80wocUI0MEpg8ki5151rdnM7WYVZ
+    name: staging.admin.readitlater.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: SAskzbPwuwnpmh7O2uEuZPRiPq30EyCz
+    name: dividehex test application
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: PDwSWsc86bDJ37ITVVfZDrFIoOb8f1ut
+    name: support.allizom.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: KMcYzqySOFXHteY1zliDlq577ARCb6gi
+    name: GitHub Enterprise - MozillaSocial
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: TAtuZwbJd4SRtWg0YznfS1YYCatOvvnX
+    name: Lando Dev
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 5KlmAh1PmCBmphvdnKbpJ4IyyQz0aE3B
+    name: Crashplan - clientbackup.mozilla.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: XDesT9WD3qDzkx4WaSgaqph0ISvS0l5G
+    name: https://puppetboard1.private.mdc2.mozilla.com/puppetboard/
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: wuUwOl2c6yrrZdDzzt34YMyPM1mQqAQV
+    name: login.mozilla.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: C3vmiNhavy4GwtOzmBgxiICN2y22KtkV
+    name: Github Org - Moco testing SAML integrations
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: FVGv1xcEwZZnkKP5xQuafWKQpSwHrLix
+    name: sumo-admin.oregon-b.moz.works
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 3E4dSjuVWlx34Q64ipi3eV2ZTJQlOehj
+    name: l10n.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: hPIcsW2TdeRVFko023kKlN0FUD7FNjKN
+    name: Cinchy - Staging
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: nErZMk6vRykYfIqNJw5bXUczeXAiZPm4
+    name: mozilla.africa
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: TeSutPsFGcieGEIl30pL35lrZ4HDEim0
+    name: GitHub Enterprise - devtools-html
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 31LbIjNcwEXrIyk8bBOYiTrfRLj8ukoQ
+    name: data-mozilla.netlify.app
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: vB6XZvdQWFfJjzVbHZ580Xihq0spBJ47
+    name: fleet-seneca.herokuapp.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: g4YPorCG3UvPrLmHNIMkFLsafLUvMi0m
+    name: https://mozamo.wpengine.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: zI0UHq9xlgl3TAMFjxzSaQRkdUp0Pbyo
+    name: dataviz.data.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: pnnvs075UmZpkL0vzQJh2KiMwjUcQ7b6
+    name: aggregates.telemetry.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: wyaM09OupZm7O6KR7g3Z1oLO7FNeyi40
+    name: crowdicity
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: wnNi9armzQyLgTY5UQDa0cfCb47tVdr5
+    name: ci.us-west-2.mdn.mozit.cloud
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: hJDCFor3jKW7D7DCt6z4WsaiBOSiIrnb
+    name: symbols.dev.mozaws.net
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: IYfS3mWjTOnCX5YJ6mMWlBWEJyAwUAZm
+    name: GitHub Enterprise - mozilla-bteam
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: mGs9HHSrAgymwKK4N22zXslPWN8RUCyP
+    name: Logging 2.0 CEP Devsvcdev
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: tflU5Bd4CAzzlJzgDPT25Ks2CNADkuhZ
+    name: GitHub Enterprise - mozilla-conduit
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: Hyd4Wuenb2SJ5dJkSfU8G8czQ7wOAa5i
+    name: Slack Sandbox (https://mozilla-sandbox-scim.slack.com)
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: pFmfC1JoiDB9DZcrqX5GpiUM0IpDwIi5
+    name: GitHub Enterprise - MozillaWiki
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 4Op3cF3IvEHBGpD6gIFHHUlAXFGLiZWq
+    name: Github Enterprise - mozilla-frontend-infra
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: SuGuGHMZHnjI0wlVVPKhSF5snZK1krCo
+    name: mozdevtest.wpengine.com
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: K9vq0kN3bBJDXyRabGqJRaNTfWmrGY02
+    name: data.mozilla.org
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: yWN5ZNpjCFfwC8lYkD8XttMq661ifPe5
+    name: JAMF
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 6unwFxavCEQMCuHPdubZ8Q3EvW0K4eB7
+    name: Leanplum
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: UwUgLsXH6YtrWLATQpTuil2iNilYGGhF
+    name: GitHub Enterprise - mozilla-services

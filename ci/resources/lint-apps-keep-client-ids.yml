@@ -1,0 +1,11 @@
+# An ignorefile for tools/lint-apps.
+
+bGAXasmlyz1xnBeZXHbUrUSyUI7dTnLA:
+    reason: Swoogo deleted from apps.yml, kept in Auth0.
+    ticket: IAM-1612
+RJIpTfQhXbF9pKGJwBJgOmKEbe8QWHQu:
+    reason: Swoogo deleted from apps.yml, kept in Auth0.
+    ticket: IAM-1612
+2KNOUCxN8AFnGGjDCGtqiDIzq8MKXi2h:
+    reason: Dev and Prod share a apps.yml file.
+    pull_request: https://github.com/mozilla-iam/sso-dashboard-configuration/pull/719
