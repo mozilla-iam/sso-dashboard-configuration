@@ -4232,6 +4232,8 @@ apps:
     op: auth0
     client_id: vkoDkHlCEUhlHNhVDtewJqRLVLGVsPrZ
     name: GitHub Enterprise - mozilla-fakespot
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4241,6 +4243,8 @@ apps:
     op: auth0
     client_id: jbZ3XmAB7Zz2hvJKLASod16lvRSFzocH
     name: argus.fuzzing.mozilla.org dev
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4250,6 +4254,8 @@ apps:
     op: auth0
     client_id: WKOfTFaGTV10YKzfkMOyAl3bgi3BPFMc
     name: GitHub Enterprise - taskcluster
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4259,6 +4265,8 @@ apps:
     op: auth0
     client_id: sZHTTA4iuHgmiQGzbkS7lcXE1bbMGces
     name: GitHub Enterprise - FirefoxGraphics
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4268,6 +4276,8 @@ apps:
     op: auth0
     client_id: dlDfXM5oqapRXUvrkCarPwgTN2INIA9G
     name: GitHub Enterprise - mozilla-metrics
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4277,6 +4287,8 @@ apps:
     op: auth0
     client_id: KGfOLEDyRSILwTtIRdYEdvreE2abyEy0
     name: Cedexis
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4286,6 +4298,8 @@ apps:
     op: auth0
     client_id: sZlNsFIG9f3vKrq9649Y7UxIyrmr8L7v
     name: pocket.slack.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4295,6 +4309,8 @@ apps:
     op: auth0
     client_id: vCfZMVdiwgwXv19UHS76JIAABdn66sfC
     name: testrail.stage.mozaws.net
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4304,6 +4320,8 @@ apps:
     op: auth0
     client_id: WOQ46I55oGjnKSjbaa4o3bPf6m4I6xse
     name: mozilla.stagingtap.thinksmart.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4313,6 +4331,8 @@ apps:
     op: auth0
     client_id: Cc2xFG6xS5O8UKoSzoJ4eNggo6jHnzDU
     name: GitHub Enterprise - Mozilla-Games
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4322,6 +4342,8 @@ apps:
     op: auth0
     client_id: aDL5o9SZRaYTH5zzkGntT4l76qydMbZe
     name: sso.allizom.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4331,6 +4353,8 @@ apps:
     op: auth0
     client_id: 70h90psuJAkUh272vMMUGBzI6m6VisUw
     name: ' bugzilla-dashboard-temp.herokuapp.com'
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4340,6 +4364,8 @@ apps:
     op: auth0
     client_id: 3agx8byruE6opXpzoAaJl1rvlS6JA8Ly
     name: GitHub Enterprise - mozilla-commons
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4349,6 +4375,8 @@ apps:
     op: auth0
     client_id: aKU0bzGLTVv53jDokaUDwNUyNfZxgT4R
     name: GitHub Enterprise - mozilla-spidermonkey
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4358,6 +4386,8 @@ apps:
     op: auth0
     client_id: Doy3pSTMj7yfSP2yaVpIcCNPcXtubdDh
     name: GLAM Web Client (MDV2)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4367,6 +4397,8 @@ apps:
     op: auth0
     client_id: 1B1ser8z1eyr4nOFtW1acz01i8GYIaBo
     name: HackerRank
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4376,6 +4408,8 @@ apps:
     op: auth0
     client_id: ZUhxQNtopRXAwdW9RBy0rfURYp85MTxy
     name: blog.getpocket.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4385,6 +4419,8 @@ apps:
     op: auth0
     client_id: 1Uk5Yu7WNhR3XvD2Pv2FTLKzuuDhRaVp
     name: mozilladev.wpengine.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4394,6 +4430,8 @@ apps:
     op: auth0
     client_id: qS9xQtb7LaktpWsUW0P7rFXH2m8CwLh3
     name: paradigmreach.com dev
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4403,6 +4441,8 @@ apps:
     op: auth0
     client_id: fFyW4lP2mI87hUgqcNNPQEgWz7YlTq5f
     name: symbols.prod.mozaws.net
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4412,6 +4452,8 @@ apps:
     op: auth0
     client_id: S38Aj7GSGdxODcvm5BJAMD3VFlXweKwc
     name: mcwsstg.wpengine.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4421,6 +4463,8 @@ apps:
     op: auth0
     client_id: Hon9kVjp85HXFDghzx0xV3b0gE8zZ2gF
     name: Hristo WPEngine Test
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4430,6 +4474,8 @@ apps:
     op: auth0
     client_id: TQQG7TLPt1lVYl3YMd34pzxKDtoaNSsT
     name: Sample Fun App
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4439,6 +4485,8 @@ apps:
     op: auth0
     client_id: JDiNCQVrXzw2ILureegz1T8c3OrUZCUb
     name: GitHub Enterprise - mozilla-firefox
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4448,6 +4496,8 @@ apps:
     op: auth0
     client_id: d9CYlm0r1dZHOWKQHeLR9Tz15BFT6qUh
     name: Envoy
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4457,6 +4507,8 @@ apps:
     op: auth0
     client_id: 4q4U3HWKmYMJTqwxjGkwWNDi225DuO4U
     name: sso.core.us-west-2.mozilla-data-analytics.nubis.allizom.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4466,6 +4518,8 @@ apps:
     op: auth0
     client_id: jvoaoSSODhxTlTd3QEu8ik6tZl62YLx8
     name: StatusPage - Admin
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4475,6 +4529,8 @@ apps:
     op: auth0
     client_id: JEKFWjfvRz85NMqXLLRn4JaDe4eJDFx5
     name: Sharelock
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4484,6 +4540,8 @@ apps:
     op: auth0
     client_id: jTewRd1drwvDJLNuI2Rkqbocom0xd6ij
     name: InfluxData - IT
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4493,6 +4551,8 @@ apps:
     op: auth0
     client_id: jlfh4zPQ74YKqcokb5cIXMc8c6sjKDVS
     name: Akamai - svcops
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4502,6 +4562,8 @@ apps:
     op: auth0
     client_id: fqzPu0Hg17Vgx90JcWh1nWcV8TN4WkXa
     name: GitHub Enterprise - iodide-project
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4511,6 +4573,8 @@ apps:
     op: auth0
     client_id: ZemrAl9S2q9GKJNQUdjZCNsLiVmSEg1P
     name: GitHub Enterprise - mozilla-privacy
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4520,6 +4584,8 @@ apps:
     op: auth0
     client_id: HW3C8xZcM12GsAo0ZT4mIW9wAlqPhWzG
     name: Perplexity
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4529,6 +4595,8 @@ apps:
     op: auth0
     client_id: kXG2TTVKHERiM0FbB25TGCNPNxDFaVSB
     name: New Relic - Mozilla 25 (1402187)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4538,6 +4606,8 @@ apps:
     op: auth0
     client_id: IEc83wZvZzcQXMkpUmrnb9P8wztUiokl
     name: GitHub Enterprise - MozScout
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4547,6 +4617,8 @@ apps:
     op: auth0
     client_id: qz9wplbqX9XM6HVoaFL3BbhJ9eV6hcqU
     name: soloist.ai
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4556,6 +4628,8 @@ apps:
     op: auth0
     client_id: F76wjVk2c9IRBFG3BuibLlcyT06QwCJI
     name: Cloudflare
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4565,6 +4639,8 @@ apps:
     op: auth0
     client_id: nzV38DSEECYNl9toBfbVvVqXG04d2DaR
     name: GitHub Enterprise - fxos
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4574,6 +4650,8 @@ apps:
     op: auth0
     client_id: 2MVzcGFtl2rbdEx97rpC98urD6ZMqUcf
     name: GitHub Enterprise - mozilla-it
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4583,6 +4661,8 @@ apps:
     op: auth0
     client_id: VK8e45Z1g7twUDVrsakw3SjkyPK95ZRR
     name: Logging 2.0 CEP Devsvcstage
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4592,6 +4672,8 @@ apps:
     op: auth0
     client_id: w9SNRsMGxbsDuZofT07QmJy88LvA4jeV
     name: wpengine-foxtail-dev
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4601,6 +4683,8 @@ apps:
     op: auth0
     client_id: EnEylt4OZW6i7yCWzZmCxyCxDRp6lOY0
     name: Github Enterprise - Production Test
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4610,6 +4694,8 @@ apps:
     op: auth0
     client_id: A5hvTaSHqMyrCVMypE3TNhW4VXQzM63d
     name: GitHub Enterprise - nubisproject
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4619,6 +4705,8 @@ apps:
     op: auth0
     client_id: 5S6qao48s5MMLA1Cni9ePVcQ0ervZvy6
     name: mozilla-releng.net
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4628,6 +4716,8 @@ apps:
     op: auth0
     client_id: 2mw77kvVsYBwlvZFay45S0e7dJ9Cd6z5
     name: GitHub Enterprise - mozilla-b2g
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4637,6 +4727,8 @@ apps:
     op: auth0
     client_id: RtIIKcExB2pdl5e4XNUix1qbkDOrN6ZX
     name: Conversocial
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4646,6 +4738,8 @@ apps:
     op: auth0
     client_id: IJfd6g73V42fh6LHW6leFdQO7jR0A8of
     name: getpocket.atlassian.net
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4655,6 +4749,8 @@ apps:
     op: auth0
     client_id: NT6ccNbKkH7SUF2hLs0Fz9HVyejRI7FF
     name: https://clearpass.mozilla.net/ (Office Wifi)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4664,6 +4760,8 @@ apps:
     op: auth0
     client_id: EUK1XjFHx1rs9h8kwSqB4FESuk1hv7Uz
     name: https://argus.fuzzing.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4673,6 +4771,8 @@ apps:
     op: auth0
     client_id: 8Zhm4W07m9OSBlwN2h9FtQorFs6WgbQ8
     name: GitHub Enterprise - mozilla-mobile
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4682,6 +4782,8 @@ apps:
     op: auth0
     client_id: uSZCpLYeclHFxSzHtdeACrhqji01RjSe
     name: 2020.internethealthreport.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4691,6 +4793,8 @@ apps:
     op: auth0
     client_id: 3IBOhIkk78t0jKq2pVWF1Wwk8BNqZhn8
     name: auth.tchspk.rs
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4700,6 +4804,8 @@ apps:
     op: auth0
     client_id: yRI1HQiw0eAiGtLvuh2y706rP5NYpdLk
     name: New Relic - Web Predictability (1872822)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4709,6 +4815,8 @@ apps:
     op: auth0
     client_id: wYVaFuSC43truUGnMP8H3Y4OVbbu9awV
     name: mentoring.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4718,6 +4826,8 @@ apps:
     op: auth0
     client_id: kkVlkyyJjjhONdxjiB4963i4cka6VBSh
     name: GitHub Enterprise - Mozilla-TWQA
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4727,6 +4837,8 @@ apps:
     op: auth0
     client_id: TvtrhXkwCEtScKxF5W4exTSWgPCSDfGQ
     name: Firefox Relay
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4736,6 +4848,8 @@ apps:
     op: auth0
     client_id: 8lXCX2EGQNLixvBqONK3ceCVY2ppYiU6
     name: GitHub Enterprise - mozilla-jetpack
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4745,6 +4859,8 @@ apps:
     op: auth0
     client_id: npLk8377ceFcsXp5SIEJYwBqoXUn1zeu
     name: GitHub Enterprise - mozilla-private
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4754,6 +4870,8 @@ apps:
     op: auth0
     client_id: 1tzVEXzTzSVQCkPMYi6DAVLXvk3xhchV
     name: admin-dev.balrog.nonprod.cloudops.mozgcp.net/login
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4763,6 +4881,8 @@ apps:
     op: auth0
     client_id: LqfMJIIK1WsjAUQA2PgO060XFLjRNNqU
     name: AirTable (MoFo)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4772,6 +4892,8 @@ apps:
     op: auth0
     client_id: fdGht0OM5DNTYPTWENtEhrXdGP6zmH9L
     name: GitHub Enterprise - mozilla-lockwise
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4781,6 +4903,8 @@ apps:
     op: auth0
     client_id: 8bU4IhzzQ6dO8UnS4WGyoBwysl6YkPKW
     name: l10n.mozilla.org - localhost
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4790,6 +4914,8 @@ apps:
     op: auth0
     client_id: 5GfQ2AMXMqibOsatSYTKh3dVSioVPhGA
     name: Github Enterprise - MozRelOps
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4799,6 +4925,8 @@ apps:
     op: auth0
     client_id: RLPUxhCQsmmRHyOmDOGkLpu1mArNH3xn
     name: GitHub Enterprise - FirefoxUX
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4808,6 +4936,8 @@ apps:
     op: auth0
     client_id: E23ddBNYsQsj89kJYK3G5IkpxQxSJVxz
     name: Comunidad Mozilla
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4817,6 +4947,8 @@ apps:
     op: auth0
     client_id: o34Ei6wNwy7hzWs54bcrX9J5FqKgBRMz
     name: AWS IAM Identity Center  - old
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4826,6 +4958,8 @@ apps:
     op: auth0
     client_id: AcnyB9st2RTC6JfqizCSdaMlzBC7notV
     name: GitHub Enterprise - mozilla-l10n
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4835,6 +4969,8 @@ apps:
     op: auth0
     client_id: 3MXeqORnfou6NirpxSTYEo01YUUTexOt
     name: Textio Sandbox
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4844,6 +4980,8 @@ apps:
     op: auth0
     client_id: 3iAAhN0vAavOHIzCqnaFKo9Mlqb9pBLH
     name: GitHub Enterprise - MozillaSecurity
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4853,6 +4991,8 @@ apps:
     op: auth0
     client_id: Eisz30vfCy8w9ie06e9HdEgO6DICmhHA
     name: New Relic - Primary (139239)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4862,6 +5002,8 @@ apps:
     op: auth0
     client_id: OnO6rkXWARbnCp2IYeyV7qGeUnQ0GKiM
     name: Papertrail - Releng
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4871,6 +5013,8 @@ apps:
     op: auth0
     client_id: HPl9z5rJS6mjRUNqkcr2avRZvnnXW1nI
     name: GitHub Enterprise - mozilla-archive
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4880,6 +5024,8 @@ apps:
     op: auth0
     client_id: 10GIORp35iivxqZRNgOUk995Z90fhvFF
     name: Annotation Application
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4889,6 +5035,8 @@ apps:
     op: auth0
     client_id: 96LTwy42Sg3lSYYl2ZQi0E0pbuyhQgNo
     name: Census (Pocket)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4898,6 +5046,8 @@ apps:
     op: auth0
     client_id: qBv5vlRW7fNiIRIiuSjjZtoulwlUwo6L
     name: Github Enterprise - MozillaDPX
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4907,6 +5057,8 @@ apps:
     op: auth0
     client_id: 6YyKlT63Wc0rnWSA8A0X8UeEdurfQXQL
     name: GitHub Enterprise - mozsearch
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4916,6 +5068,8 @@ apps:
     op: auth0
     client_id: rKWXC3raV98bZPN57kLeBFLzJi0Dj4Q4
     name: Slack Sandbox
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4925,6 +5079,8 @@ apps:
     op: auth0
     client_id: MNMiwDNk3zPNyddosw24Unj6b94R4Qmk
     name: https://performance-foxfooding.herokuapp.com/report/
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4934,6 +5090,8 @@ apps:
     op: auth0
     client_id: FV9Y1jz71OCIM8ixIaaa3FdB7h3JUO7J
     name: crash-stats.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4943,6 +5101,8 @@ apps:
     op: auth0
     client_id: gL08r5BRiweqf4aDQVX6xB4FHyFepFlM
     name: Navex - Stage
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4952,6 +5112,8 @@ apps:
     op: auth0
     client_id: wzgyI7Pc7V5kU6NMDdx80Fzh6eIY4F0t
     name: symbols.stage.mozaws.net
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4961,6 +5123,8 @@ apps:
     op: auth0
     client_id: 0kiXOMw3eG1w6WvztCtVkTlqDJHozmgb
     name: testrail.stage.mozaws.net - SAML
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4970,6 +5134,8 @@ apps:
     op: auth0
     client_id: 34SCYwATnTtTonkxTC2ZjwQxYOOTvLeG
     name: misp.infosec.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4979,6 +5145,8 @@ apps:
     op: auth0
     client_id: k2dBGcFJAhzlqOuSZH5nQhyq6L87jVaT
     name: Github Enterprise - mozilla-svcops
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4988,6 +5156,8 @@ apps:
     op: auth0
     client_id: CT6Sl3xuhFM19lh3BNS7xk3W2rczHxpx
     name: Docker Hub
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -4997,6 +5167,8 @@ apps:
     op: auth0
     client_id: NyrIlf4H3ZYtMUfJLs6UmUwllOpfo23v
     name: Github Enterprise - mozilla-iam
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5006,6 +5178,8 @@ apps:
     op: auth0
     client_id: XBQy3ijpDhqnE9PQLd9fvO85o8NNroFH
     name: GitHub Enterprise - mozilla-tw
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5015,6 +5189,8 @@ apps:
     op: auth0
     client_id: s0v1r2d34lTqPtQu0jBVOKbWOKK4i1TU
     name: GitHub Enterprise - mozmeao
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5024,6 +5200,8 @@ apps:
     op: auth0
     client_id: QfJVAjXlaGzpCo5S48J9D38QvIfhlYzF
     name: GitHub Enterprise - MozillaDataScience
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5033,6 +5211,8 @@ apps:
     op: auth0
     client_id: RXTiiTCJ8wCCHklJuU9NxB1gK3GpFL4J
     name: GitHub Enterprise - fxos-eng
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5042,6 +5222,8 @@ apps:
     op: auth0
     client_id: dc50KcxGnMPBOSlE5QLYaDRmfrO7oXhq
     name: StatusPage
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5051,6 +5233,8 @@ apps:
     op: auth0
     client_id: JP6z2Ts2VugJqGcMN3N3XAYNakRYgcNg
     name: testmozauth0.wpengine.com/danielhartnell
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5060,6 +5244,8 @@ apps:
     op: auth0
     client_id: zW2katQPkGUPwVuk6YcpStOBt6P2hdrZ
     name: HackerOne
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5069,6 +5255,8 @@ apps:
     op: auth0
     client_id: Vyg4xo7d0ECLHaLD1DnLl1MYmziqv1SP
     name: GitHub Enterprise - mozilla-lockbox
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5078,6 +5266,8 @@ apps:
     op: auth0
     client_id: F7KEqlRIgdC5yUAAq0zm4voJZFk9IlS4
     name: GitHub Enterprise - mozilla-outreachy-datascience
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5087,6 +5277,8 @@ apps:
     op: auth0
     client_id: Cgtx9CpbR8Z8RCjknJxDc2IazKi1BEVS
     name: mozillapanama.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5096,6 +5288,8 @@ apps:
     op: auth0
     client_id: HHb263N55HitFj5bBVFanv2AnF6E6bGf
     name: Github Enterprise - mozilla-sre-deploy
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5105,6 +5299,8 @@ apps:
     op: auth0
     client_id: BOQhQQTIEDI7giA2o6l0Sa2DIL8Rc0wf
     name: mdmozdev.wpengine.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5114,6 +5310,8 @@ apps:
     op: auth0
     client_id: Z2fUVZ9UibGk2LIF6aEOT3X7jMEnv2kj
     name: prod.dataviz.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5123,6 +5321,8 @@ apps:
     op: auth0
     client_id: 7hZHbgU3trE8y3UW6CoySmEa6oY3Hgln
     name: testrail-upgrade-to-v7-20240122-1.stage.mozaws.net
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5132,6 +5332,8 @@ apps:
     op: auth0
     client_id: eYly90y9UYNTd63eW51upDnlWt1fc8Cy
     name: mozportaldev.wpengine.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5141,6 +5343,8 @@ apps:
     op: auth0
     client_id: xdnPV7WTedfR17IBRBsxk6spYyVb6ET5
     name: Logging 2.0 CEP Prod Test
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5150,6 +5354,8 @@ apps:
     op: auth0
     client_id: sHrpfBXhFU2dIfsqmQu936h5d1yUcCGt
     name: hacks.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5159,6 +5365,8 @@ apps:
     op: auth0
     client_id: oU3JDtWZSeeBuUcJ0dfLKXU1S2tnTg0K
     name: Github Enterprise - mozilla-applied-ml
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5168,6 +5376,8 @@ apps:
     op: auth0
     client_id: WhSYI0qGKdtrB63gBjsdgN2qy69e79x8
     name: Mercurial PKCE (CLI) for hg.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5177,6 +5387,8 @@ apps:
     op: auth0
     client_id: PBAQp2v1A29GLurov3ybLa3WRki5niFz
     name: https://inventory1.corpdmz.mdc1.mozilla.com/
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5186,6 +5398,8 @@ apps:
     op: auth0
     client_id: 0SQZJKGKaj4743G67pIK1hDaOVbepFSV
     name: lando.services.mozilla.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5195,6 +5409,8 @@ apps:
     op: auth0
     client_id: Oy6exOuOGejAqExc8fZnSGdJA9t4njnG
     name: GitHub Enterprise - MozillaReality
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5204,6 +5420,8 @@ apps:
     op: auth0
     client_id: nadQHtwc6qVBRNCzBT2n0DO0Nb5ZQtoL
     name: discourse-localhost-development-stewart-henderson
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5213,6 +5431,8 @@ apps:
     op: auth0
     client_id: 6mTYlbNuGlw2COlK2N1R9iJBFE9WCT3L
     name: airmo-test1.private.mdc1.mozilla.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5222,6 +5442,8 @@ apps:
     op: auth0
     client_id: SbobH1O2aplALsPffstqETIIbS831yHi
     name: dataviz.allizom.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5231,6 +5453,8 @@ apps:
     op: auth0
     client_id: vJG7CGVQutdCWpMGO9pkC5Vn4vgJzJ3I
     name: GitHub Enterprise - Mozilla-Ocho
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5240,6 +5464,8 @@ apps:
     op: auth0
     client_id: RoBRsncy7kutma2UoNuyV2ABJUOzSTHp
     name: Snowflake
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5249,6 +5475,8 @@ apps:
     op: auth0
     client_id: GuqDTg7u7kyXaR9d7IdCjdmFI8Mw8eKw
     name: staging.mozilla-releng.net
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5258,6 +5486,8 @@ apps:
     op: auth0
     client_id: 8l4U7Gu4rNErp4i6Y64JigBxTggCBGDd
     name: Bitrise.io
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5267,6 +5497,8 @@ apps:
     op: auth0
     client_id: W4Cjh6joS3ugxixWy95dCbc1vWvfVqj6
     name: Infoblox
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5276,6 +5508,8 @@ apps:
     op: auth0
     client_id: Qb2ZWerstBXCn5yCXQYU7vUfLuaZ1dMB
     name: GitHub Enterprise - nss-dev
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5285,6 +5519,8 @@ apps:
     op: auth0
     client_id: RzaIwPS6wfABGLrhnCmWdzlCLoKXUY84
     name: GitHub Enterprise - Mozilla-Actions
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5294,6 +5530,8 @@ apps:
     op: auth0
     client_id: bPCduBPyVFSxPEEdpG3dMdoiHXuj26Kr
     name: GitHub Enterprise - firefox-devtools
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5303,6 +5541,8 @@ apps:
     op: auth0
     client_id: VStrUcaxLXH9xQEEFX9Vkf0D5pRo5c6C
     name: GitHub Enterprise - projectfluent
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5312,6 +5552,8 @@ apps:
     op: auth0
     client_id: AgiLB9xCoW4beavY9z7UuvO36DLmdwJ1
     name: GitHub Enterprise - mozilla-rally
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5321,6 +5563,8 @@ apps:
     op: auth0
     client_id: y95j1f4Sikis9OM4OUCzw8JbBDQ3DoLr
     name: crash-stats.allizom.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5330,6 +5574,8 @@ apps:
     op: auth0
     client_id: 4cK74pcWB0VU34UAWnxB25YhKPEK6ijs
     name: https://allizom-sso-sandbox.slack.com/
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5339,6 +5585,8 @@ apps:
     op: auth0
     client_id: 8X192ZeMjw5GxtcW49y5iyLSL5lm4ouk
     name: Community Blogs (MCWS)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5348,6 +5596,8 @@ apps:
     op: auth0
     client_id: lJbj6OE9VFK05i2XjZEiAEljamPyOCkz
     name: GitHub Enterprise - mozilla-platform-ops
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5357,6 +5607,8 @@ apps:
     op: auth0
     client_id: 6Id1VGemsM1rWFSjYrLAW6kSQNUR1hZ2
     name: l10n.allizom.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5366,6 +5618,8 @@ apps:
     op: auth0
     client_id: J2SnetKDpUmp8LjP2TAGPFByCVLwD3uw
     name: NetApp OnCommand
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5375,6 +5629,8 @@ apps:
     op: auth0
     client_id: gLnyMCclCmEc0B41O4UrNmIxGlE3cXea
     name: localhost - Jared Kerim
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5384,6 +5640,8 @@ apps:
     op: auth0
     client_id: Sfpe4efQ8XsKSuVZ4ThZ96xnNJzBfeNq
     name: HackerRank - Sandbox
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5393,6 +5651,8 @@ apps:
     op: auth0
     client_id: 50Mbg30k9bwwMDV79NQ2zKGeeJpGiOHD
     name: foxtail-wpengine-stage
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5402,6 +5662,8 @@ apps:
     op: auth0
     client_id: T6mjvGguOB5hkq9Aviaa58tOlwpJG5o6
     name: GitHub Enterprise - mozilla-necko
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5411,6 +5673,8 @@ apps:
     op: auth0
     client_id: p8gbcXcdd1e5aZxwOPuqji2WVUJCciwF
     name: treeherder.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5420,6 +5684,8 @@ apps:
     op: auth0
     client_id: f1MpcTzYA8J06nUUdO5LuhhA7b4JZVJi
     name: GitHub Enterprise - mozilla
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5429,6 +5695,8 @@ apps:
     op: auth0
     client_id: Xa85l7wtVRetLudn1gePPRGdFB6uH1Nf
     name: 2022.internethealthreport.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5438,6 +5706,8 @@ apps:
     op: auth0
     client_id: ZTaOmWp4JZbBV2GMdUc7GAt4yiVIIeCp
     name: mozillapanama.wpengine.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5447,6 +5717,8 @@ apps:
     op: auth0
     client_id: ccpmWbDAMz1pxHIWF4vqkdr0ScdgDyyM
     name: Lando Prod
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5456,6 +5728,8 @@ apps:
     op: auth0
     client_id: 1t0Ee7QGnU9grIrcpZrXbNZsLjPUmkyx
     name: ctb Test App
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5465,6 +5739,8 @@ apps:
     op: auth0
     client_id: z84RyLyrd0o28YRvUmS9xnjvFIYDR1Ur
     name: https://securitywiki-127-0-0-1.nip.io
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5474,6 +5750,8 @@ apps:
     op: auth0
     client_id: ahsxphJOkKeLqSmzxLeGmwOefrcWfK0T
     name: Oracle NetSuite (Sandbox)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5483,6 +5761,8 @@ apps:
     op: auth0
     client_id: gxsOCyA0gdqMefL9UXABS9hNRptTK73d
     name: kolide.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5492,6 +5772,8 @@ apps:
     op: auth0
     client_id: 3ZZYS6kQZkqQFcZDHg1plLKrRfz0OXWt
     name: localhost:8010/login - Rail Aliiev
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5501,6 +5783,8 @@ apps:
     op: auth0
     client_id: lhAIAsdx3jSOiKe1LoHmB0zEsUrCbfhI
     name: GitHub Enterprise - MoCo-GHE-Admin
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5510,6 +5794,8 @@ apps:
     op: auth0
     client_id: aKvh80wocUI0MEpg8ki5151rdnM7WYVZ
     name: staging.admin.readitlater.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5519,6 +5805,8 @@ apps:
     op: auth0
     client_id: SAskzbPwuwnpmh7O2uEuZPRiPq30EyCz
     name: dividehex test application
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5528,6 +5816,8 @@ apps:
     op: auth0
     client_id: PDwSWsc86bDJ37ITVVfZDrFIoOb8f1ut
     name: support.allizom.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5537,6 +5827,8 @@ apps:
     op: auth0
     client_id: KMcYzqySOFXHteY1zliDlq577ARCb6gi
     name: GitHub Enterprise - MozillaSocial
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5546,6 +5838,8 @@ apps:
     op: auth0
     client_id: TAtuZwbJd4SRtWg0YznfS1YYCatOvvnX
     name: Lando Dev
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5555,6 +5849,8 @@ apps:
     op: auth0
     client_id: 5KlmAh1PmCBmphvdnKbpJ4IyyQz0aE3B
     name: Crashplan - clientbackup.mozilla.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5564,6 +5860,8 @@ apps:
     op: auth0
     client_id: XDesT9WD3qDzkx4WaSgaqph0ISvS0l5G
     name: https://puppetboard1.private.mdc2.mozilla.com/puppetboard/
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5573,6 +5871,8 @@ apps:
     op: auth0
     client_id: wuUwOl2c6yrrZdDzzt34YMyPM1mQqAQV
     name: login.mozilla.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5582,6 +5882,8 @@ apps:
     op: auth0
     client_id: C3vmiNhavy4GwtOzmBgxiICN2y22KtkV
     name: Github Org - Moco testing SAML integrations
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5591,6 +5893,8 @@ apps:
     op: auth0
     client_id: FVGv1xcEwZZnkKP5xQuafWKQpSwHrLix
     name: sumo-admin.oregon-b.moz.works
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5600,6 +5904,8 @@ apps:
     op: auth0
     client_id: 3E4dSjuVWlx34Q64ipi3eV2ZTJQlOehj
     name: l10n.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5609,6 +5915,8 @@ apps:
     op: auth0
     client_id: hPIcsW2TdeRVFko023kKlN0FUD7FNjKN
     name: Cinchy - Staging
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5618,6 +5926,8 @@ apps:
     op: auth0
     client_id: nErZMk6vRykYfIqNJw5bXUczeXAiZPm4
     name: mozilla.africa
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5627,6 +5937,8 @@ apps:
     op: auth0
     client_id: TeSutPsFGcieGEIl30pL35lrZ4HDEim0
     name: GitHub Enterprise - devtools-html
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5636,6 +5948,8 @@ apps:
     op: auth0
     client_id: 31LbIjNcwEXrIyk8bBOYiTrfRLj8ukoQ
     name: data-mozilla.netlify.app
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5645,6 +5959,8 @@ apps:
     op: auth0
     client_id: vB6XZvdQWFfJjzVbHZ580Xihq0spBJ47
     name: fleet-seneca.herokuapp.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5654,6 +5970,8 @@ apps:
     op: auth0
     client_id: g4YPorCG3UvPrLmHNIMkFLsafLUvMi0m
     name: https://mozamo.wpengine.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5663,6 +5981,8 @@ apps:
     op: auth0
     client_id: zI0UHq9xlgl3TAMFjxzSaQRkdUp0Pbyo
     name: dataviz.data.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5672,6 +5992,8 @@ apps:
     op: auth0
     client_id: pnnvs075UmZpkL0vzQJh2KiMwjUcQ7b6
     name: aggregates.telemetry.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5681,6 +6003,8 @@ apps:
     op: auth0
     client_id: wyaM09OupZm7O6KR7g3Z1oLO7FNeyi40
     name: crowdicity
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5690,6 +6014,8 @@ apps:
     op: auth0
     client_id: wnNi9armzQyLgTY5UQDa0cfCb47tVdr5
     name: ci.us-west-2.mdn.mozit.cloud
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5699,6 +6025,8 @@ apps:
     op: auth0
     client_id: hJDCFor3jKW7D7DCt6z4WsaiBOSiIrnb
     name: symbols.dev.mozaws.net
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5708,6 +6036,8 @@ apps:
     op: auth0
     client_id: IYfS3mWjTOnCX5YJ6mMWlBWEJyAwUAZm
     name: GitHub Enterprise - mozilla-bteam
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5717,6 +6047,8 @@ apps:
     op: auth0
     client_id: mGs9HHSrAgymwKK4N22zXslPWN8RUCyP
     name: Logging 2.0 CEP Devsvcdev
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5726,6 +6058,8 @@ apps:
     op: auth0
     client_id: tflU5Bd4CAzzlJzgDPT25Ks2CNADkuhZ
     name: GitHub Enterprise - mozilla-conduit
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5735,6 +6069,8 @@ apps:
     op: auth0
     client_id: Hyd4Wuenb2SJ5dJkSfU8G8czQ7wOAa5i
     name: Slack Sandbox (https://mozilla-sandbox-scim.slack.com)
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5744,6 +6080,8 @@ apps:
     op: auth0
     client_id: pFmfC1JoiDB9DZcrqX5GpiUM0IpDwIi5
     name: GitHub Enterprise - MozillaWiki
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5753,6 +6091,8 @@ apps:
     op: auth0
     client_id: 4Op3cF3IvEHBGpD6gIFHHUlAXFGLiZWq
     name: Github Enterprise - mozilla-frontend-infra
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5762,6 +6102,8 @@ apps:
     op: auth0
     client_id: SuGuGHMZHnjI0wlVVPKhSF5snZK1krCo
     name: mozdevtest.wpengine.com
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5771,6 +6113,8 @@ apps:
     op: auth0
     client_id: K9vq0kN3bBJDXyRabGqJRaNTfWmrGY02
     name: data.mozilla.org
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5780,6 +6124,8 @@ apps:
     op: auth0
     client_id: yWN5ZNpjCFfwC8lYkD8XttMq661ifPe5
     name: JAMF
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5789,6 +6135,8 @@ apps:
     op: auth0
     client_id: 6unwFxavCEQMCuHPdubZ8Q3EvW0K4eB7
     name: Leanplum
+    url: https://sso.mozilla.com/
+    logo: auth0.png
 - application:
     AAL: LOW
     authorized_groups:
@@ -5798,3 +6146,5 @@ apps:
     op: auth0
     client_id: UwUgLsXH6YtrWLATQpTuil2iNilYGGhF
     name: GitHub Enterprise - mozilla-services
+    url: https://sso.mozilla.com/
+    logo: auth0.png

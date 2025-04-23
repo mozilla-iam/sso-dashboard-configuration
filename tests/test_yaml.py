@@ -59,14 +59,14 @@ class YAMLTest(unittest.TestCase):
             # They are all 'auth0' currently but that might change someday.
             assert re.match(r'^auth0$', app['op'])
             ####################################################################################
-            if 'url' in app:
-                assert isinstance(app['url'], str)
-                assert re.match(r'^https?://', app['url'])
+            assert 'url' in app
+            assert isinstance(app['url'], str)
+            assert re.match(r'^https?://', app['url'])
             ####################################################################################
-            if 'logo' in app:
-                assert isinstance(app['logo'], str)
-                assert re.match(r'^[-_A-Za-z0-9.]+$', app['logo'])
-                assert os.path.exists(f"images/{app['logo']}")
+            assert 'logo' in app
+            assert isinstance(app['logo'], str)
+            assert re.match(r'^[-_A-Za-z0-9.]+$', app['logo'])
+            assert os.path.exists(f"images/{app['logo']}")
             ####################################################################################
             assert app['authorized_users'] is not None
             assert isinstance(app['authorized_users'], list)
