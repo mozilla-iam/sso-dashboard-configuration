@@ -1,5 +1,6 @@
 "Test the YAML file is loadable and valid"
 import logging
+import os.path
 import unittest
 import re
 import yaml
@@ -62,10 +63,10 @@ class YAMLTest(unittest.TestCase):
                 assert isinstance(app['url'], str)
                 assert re.match(r'^https?://', app['url'])
             ####################################################################################
-            assert app['logo'] is not None
-            assert isinstance(app['logo'], str)
-            assert re.match(r'^[-_A-Za-z0-9.]+$', app['logo'])
-            # IMPROVEME: test that the logo is actually there
+            if 'logo' in app:
+                assert isinstance(app['logo'], str)
+                assert re.match(r'^[-_A-Za-z0-9.]+$', app['logo'])
+                assert os.path.exists(f"images/{app['logo']}")
             ####################################################################################
             assert app['authorized_users'] is not None
             assert isinstance(app['authorized_users'], list)
