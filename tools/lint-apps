@@ -1,0 +1,137 @@
+#!/usr/bin/env python
+# A thing to fetch Auth0 Applications' `client_id`s and ensure they've been
+# added to apps.yml.
+#
+# Adapted from mozilla-iam/iam to run in CI.
+import os
+from typing import Any
+
+from auth0.authentication import GetToken  # type: ignore
+from auth0.management import Auth0  # type: ignore
+
+# Comment-preserving YAML parser
+from ruamel.yaml import YAML
+
+
+APPS_YML = "./apps.yml"
+APPS_KEEP_YML = "./ci/resources/lint-apps-keep-client-ids.yml"
+APPS_NEW_YML = "./apps.new.yml"
+
+
+def apps_from_yml(filename) -> Any:
+    yaml = YAML(typ="rt")
+    with open(filename, "r") as handle:
+        return yaml.load(handle)
+
+
+def apps_to_yml(apps: Any) -> None:
+    yaml = YAML(typ="rt")
+    with open(APPS_NEW_YML, "w") as handle:
+        yaml.dump(apps, handle)
+
+
+def apps_from_auth0():
+    """
+    Succinctly get the apps, leaving errors to be printed by CI.
+
+    Generally similar code in [mozilla-iam/iam]'s /tools/iamctl/iamctl/auth0.py
+
+    [mozilla-iam/iam]: https://github.com/mozilla-iam/iam
+    """
+    try:
+        domain = os.environ["AUTH0_DOMAIN"]
+        client_id = os.environ["AUTH0_CLIENT_ID"]
+        client_secret = os.environ["AUTH0_CLIENT_SECRET"]
+    except KeyError as exc:
+        exc.add_note("Invalid client configuration for Auth0.")
+        raise
+    access_token = GetToken(
+        domain, client_id, client_secret=client_secret
+    ).client_credentials(f"https://{domain}/api/v2/")["access_token"]
+    mgmt = Auth0(domain, access_token)
+    per_page = 50
+    page = 0
+    while True:
+        response = mgmt.clients.all(
+            page=page,
+            per_page=per_page,
+            fields=["name", "client_id"],
+            include_fields=True,
+            extra_params={
+                # We probably don't want to list M2M credentials. Whoops :tm:.
+                "app_type": "regular_web,spa,native"
+            },
+        )
+        for client in response:
+            yield client["client_id"], client["name"]
+        if len(response) < per_page:
+            break
+        page += 1
+
+
+def app_new(client_id: str, name: str) -> dict[str, Any]:
+    """
+    Return an entry for apps.yml
+    """
+    return {
+        "application": {
+            "AAL": "LOW",
+            "authorized_groups": ["everyone"],
+            "authorized_users": [],
+            "display": False,
+            "op": "auth0",
+            "client_id": client_id,
+            "name": name,
+        }
+    }
+
+
+def main() -> None:
+    apps_yml = apps_from_yml(APPS_YML)
+    apps_keep = apps_from_yml(APPS_KEEP_YML)
+    apps_auth0 = {client_id: name for client_id, name in apps_from_auth0()}
+    tile_only = {
+        index
+        for index, app in enumerate(apps_yml["apps"])
+        if app.get("application", {}).get("client_id") is None
+    }
+    defined = {
+        app.get("application", {}).get("client_id"): index
+        for index, app in enumerate(apps_yml["apps"])
+        if app.get("application", {}).get("client_id")
+    }
+    removals = set()
+    additions = set()
+    for auth0_client_id, name in apps_auth0.items():
+        if auth0_client_id in defined:
+            continue
+        additions.add(
+            (
+                auth0_client_id,
+                name,
+            )
+        )
+    for apps_yml_client_id, index in defined.items():
+        if (
+            apps_yml_client_id in apps_auth0
+            or index in tile_only
+            or apps_yml_client_id in apps_keep
+        ):
+            continue
+        removals.add(
+            (
+                apps_yml_client_id,
+                index,
+            )
+        )
+    # Add apps.
+    for client_id, name in additions:
+        apps_yml["apps"].append(app_new(client_id, name))
+    # Delete apps.
+    for _, index in sorted(removals, reverse=True):
+        apps_yml["apps"].pop(index)
+    apps_to_yml(apps_yml)
+
+
+if __name__ == "__main__":
+    main()
