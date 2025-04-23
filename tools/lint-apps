@@ -24,10 +24,15 @@ def apps_from_yml(filename) -> Any:
         return yaml.load(handle)
 
 
+def no_trailing_spaces_for_urls(line: str) -> str:
+    """We'll fail pre-commit's yaml linting otherwise."""
+    return line.replace("  url: \n", "  url:\n")
+
+
 def apps_to_yml(apps: Any) -> None:
     yaml = YAML(typ="rt")
     with open(APPS_NEW_YML, "w") as handle:
-        yaml.dump(apps, handle)
+        yaml.dump(apps, handle, transform=no_trailing_spaces_for_urls)
 
 
 def apps_from_auth0():
