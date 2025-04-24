@@ -3,30 +3,26 @@ import logging
 import os.path
 import unittest
 import re
-import yaml
+import ruamel.yaml
 
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
 
 
-class YAMLTest(unittest.TestCase):
-    def get_yaml_file(self):
-        with open('apps.yml', encoding='utf-8') as apps_yml:
-            contents = apps_yml.read()
-            apps_yml.close()
-            return contents
+def get_yaml_file():
+    yaml = ruamel.yaml.YAML()
+    with open('apps.yml', encoding='utf-8') as apps_yml:
+        return yaml.load(apps_yml)
 
-    def test_output_exists(self):
-        assert self.get_yaml_file() is not None
+class YAMLTest(unittest.TestCase):
 
     def test_yaml_loads(self):
-        yaml_content = yaml.load(self.get_yaml_file(), Loader=yaml.SafeLoader)
+        yaml_content = get_yaml_file()
         assert yaml_content is not None
 
     def test_each_has_required_keys(self):
-        yaml_content = yaml.load(self.get_yaml_file(), Loader=yaml.SafeLoader)
-        assert yaml_content is not None
+        yaml_content = get_yaml_file()
 
         for app_entry in yaml_content['apps']:
             ####################################################################################

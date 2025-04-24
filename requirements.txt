@@ -1,3 +1,2 @@
-pyyaml
 ruamel.yaml==0.18.10
 auth0-python>=4.8.0
