@@ -20,28 +20,51 @@ This is a list of available fields.
 ```
   - application:
       ### RP Identification settings
-      # This is just a name for the RP, easier for humans when reading this file
+      # This is just a name for the RP, easier for humans when reading
+      # this file
+      #
+      # Required field.
+      # Type: str
       name: "Example RP Name"
 
       # This is the access provider's client_id for this RP
+      #
+      # Optional field.
+      # Type: str
       client_id: "xzc2030239xzxc"
 
       # This is the access provider name (OP: Open Id Connect Provider)
+      #
+      # Required field.
+      # Type: str
       op: auth0
 
       ### SSO Dashboard display settings
-      # This is the URL that a user must visit to be logged into the RP. This URL would
-      # either be the URL of the login button on the site (if it has one), or the URL
-      # that a user gets redirected to when they visit a protected page while unauthenticated.
+      # This is the URL that a user must visit to be logged into the RP.
+      # This URL would either be the URL of the login button on the site
+      # (if it has one), or the URL that a user gets redirected to when
+      # they visit a protected page while unauthenticated.
+      #
+      # Required field.
+      # Type: URL
       url: "https://rp.example.net/oidc/authenticate"
 
       # A custom logo to be displayed for this RP on the SSO Dashboard
+      #
+      # Required field.
+      # Type: Path under images/
       logo: "example.png"
 
       # If true, will be displayed on the SSO Dashboard
+      #
+      # Required field.
+      # Type: bool
       display: true
 
       # An URL that people can bookmark on the SSO Dashboard to login directly to that RP (i.e. not the RP frontpage)
+      #
+      # Optional field.
+      # Type: list[str]
       vanity_url: ['/an-easy-to-remember-url']
 
       ### Security settings
@@ -52,17 +75,43 @@ This is a list of available fields.
       # https://github.com/mozilla-iam/auth0-deploy/blob/4ac5cb4959fc93a668fcc9909ce33eac2eb8416c/rules/AccessRules.js#L173-L181
       # https://github.com/mozilla-iam/sso-dashboard/blob/a0d66f10b28654b40722f4a9e773069a8f84c629/dashboard/models/user.py#L138-L152
       # This is used by the SSO Dashboard for display purposes and for first stage access control by the Access Provider
+      #
+      # Required field.
+      # Type: list[str]
       authorized_users: []
+
+      # Required field.
+      # Type: list[str]
       authorized_groups: []
 
-      ## Mappings to standard levels (https://infosec.mozilla.org/guidelines/risk/standard_levels) AAL
-      ## values below are available at the IAM well-known endpoint
-      ## (https://auth.mozilla.org/.well-known/mozilla-iam)
-      # AAI is Authenticator Assurance Indicator: A Standard level which indicates the amount confidence in the
-      # authentication mechanism used is required to access this RP. It is enforced by the Access Provider.
+      ## Mappings to standard levels
+      # See: https://infosec.mozilla.org/guidelines/risk/standard_levels
+      #
+      # AAL values below are available at the IAM well-known endpoint
+      # See: (https://auth.mozilla.org/.well-known/mozilla-iam)
+      #
+      # AAI is Authenticator Assurance Indicator: A Standard level which
+      # indicates the amount confidence in the authentication mechanism used is
+      # required to access this RP. It is enforced by the Access Provider.
       # E.g. "MEDIUM may mean 2FA required"
+      #
+      # Optional field.
+      # Type: str
       AAL: "MAXIMUM"
 ```
+
+The require fields are (in order of appearance above):
+
+* `name`;
+* `op`;
+* `url`;
+* `logo`;
+* `display`;
+* `authorized_users`; and
+* `authorized_groups`.
+
+These are enforced in both the tests in this repository (via `make test` and
+the CI pipeline), and at runtime in the SSO Dashboard.
 
 # Git workflow
 
