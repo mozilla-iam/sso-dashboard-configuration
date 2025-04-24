@@ -131,6 +131,20 @@ In order to publish a change you must:
    way to tag and trigger a production deployment is to [create a 'release'](https://github.com/mozilla-iam/sso-dashboard-configuration/releases),
    we are using semantic versioning (0.0.1) for this repo.
 
+# Developing
+
+Install the dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+Run the tests:
+
+```
+make test
+```
+
 # CI Pipeline
 
 This GitHub repo has a webhook configured which triggers the `apps_yml` AWS
