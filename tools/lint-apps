@@ -87,6 +87,8 @@ def app_new(client_id: str, name: str) -> dict[str, Any]:
             "op": "auth0",
             "client_id": client_id,
             "name": name,
+            "logo": "auth0.png",
+            "url": "https://sso.mozilla.com/",
         }
     }
 

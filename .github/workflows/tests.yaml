@@ -16,4 +16,5 @@ jobs:
         python-version: 3.12
     - name: Run tests via Makefile
       run: |
+        pip install -r requirements.txt
         make test
