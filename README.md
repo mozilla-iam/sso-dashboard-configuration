@@ -69,9 +69,11 @@ This is a list of available fields.
 
       ### Security settings
       # The list of users and groups allowed to access this RP.
-      # If both authorize_users and authorized_groups are empty, everyone is allowed
-      # If one is empty and the other has content, only the members of the non empty one are allowed
-      # If both have content, the union of everyone in both are allowed
+      # If both authorize_users and authorized_groups are empty, everyone is
+      # allowed.
+      # If one is empty and the other has content, only the members of the non
+      # empty one are allowed.
+      # If both have content, the union of everyone in both are allowed.
       # https://github.com/mozilla-iam/auth0-deploy/blob/4ac5cb4959fc93a668fcc9909ce33eac2eb8416c/rules/AccessRules.js#L173-L181
       # https://github.com/mozilla-iam/sso-dashboard/blob/a0d66f10b28654b40722f4a9e773069a8f84c629/dashboard/models/user.py#L138-L152
       # This is used by the SSO Dashboard for display purposes and for first stage access control by the Access Provider
@@ -100,18 +102,13 @@ This is a list of available fields.
       AAL: "MAXIMUM"
 ```
 
-The require fields are (in order of appearance above):
-
-* `name`;
-* `op`;
-* `url`;
-* `logo`;
-* `display`;
-* `authorized_users`; and
-* `authorized_groups`.
-
 These are enforced in both the tests in this repository (via `make test` and
 the CI pipeline), and at runtime in the SSO Dashboard.
+
+The schema is defined in:
+
+* the tests, in this repository, for making sure we don't break the build,
+* the SSO Dashboard, used at runtime (`dashboard/models/apps.py`).
 
 # Git workflow
 
