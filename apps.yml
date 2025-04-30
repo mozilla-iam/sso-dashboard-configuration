@@ -1100,7 +1100,7 @@ apps:
     authorized_users: []
     client_id: cav8o4za5QGMXilUEjglH9cgJpQl33Ck
     display: true
-    logo: mozillamoderator.png
+    logo: mozilla_moderator.png
     name: Moderator
     op: auth0
     url: https://moderator.mozilla.org/oidc/authenticate/
