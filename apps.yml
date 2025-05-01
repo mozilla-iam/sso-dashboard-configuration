@@ -67,7 +67,7 @@ apps:
     - team_mzla
     authorized_users: []
     display: true
-    logo: accountmanager.png
+    logo: accountmanager.jpg
     name: Account Portal
     op: auth0
     url: https://login.mozilla.com/
@@ -135,7 +135,7 @@ apps:
     authorized_users: []
     client_id: y32eNslKsOw7cDhP6CCRGv23Zw3EYNAJ
     display: true
-    logo: airmo.png
+    logo: airmo.jpg
     name: Air Mozilla
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/y32eNslKsOw7cDhP6CCRGv23Zw3EYNAJ
@@ -203,7 +203,7 @@ apps:
     - casa-fivetran@mozilla.com
     client_id: IU80mVpKPtIZyUZtya9ZnSTs6fKLt3JO
     display: true
-    logo: biztera.png
+    logo: casa.jpg
     name: Casa
     op: auth0
     url: https://biztera.com/mozilla
@@ -228,7 +228,7 @@ apps:
     authorized_users: []
     client_id: rehgg9cqVmHJbHw3jPYUzoU5BYYBH6XL
     display: true
-    logo: discourse.png
+    logo: discourse.jpg
     name: Discourse
     op: auth0
     url: https://discourse.mozilla.org/auth/auth0
@@ -297,7 +297,7 @@ apps:
     authorized_users: []
     client_id: eaiAVdOLtf2KXZvexyCCViw0154E0U6x
     display: true
-    logo: figma.png
+    logo: figma.jpg
     name: Figma
     op: auth0
     url: https://www.figma.com/saml/887474606069541975/start
@@ -374,7 +374,7 @@ apps:
     authorized_users: []
     client_id: smKTjsVVxUJDEkjIftOsP0bop2NWjysa
     display: true
-    logo: gdrive.png
+    logo: gdrive.jpg
     name: Google Drive
     op: auth0
     url:
@@ -389,7 +389,7 @@ apps:
     authorized_users: []
     client_id: TGlmvMW4kvEz99CRnuGnNTfxku0QNn8e
     display: true
-    logo: greenhouse.png
+    logo: greenhouse.jpg
     name: Greenhouse
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/TGlmvMW4kvEz99CRnuGnNTfxku0QNn8e
@@ -435,7 +435,7 @@ apps:
     authorized_users: []
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
-    logo: jira.png
+    logo: jira.jpg
     name: Jira
     op: auth0
     url: https://mozilla-hub.atlassian.net/jira
@@ -459,7 +459,7 @@ apps:
     - moc-sso-monitoring@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
-    logo: confluence.png
+    logo: confluence.jpg
     name: Confluence
     op: auth0
     url: https://mozilla-hub.atlassian.net/wiki/home
@@ -474,7 +474,7 @@ apps:
     authorized_users: []
     client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
     display: true
-    logo: looker.png
+    logo: looker.jpg
     name: Looker
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
@@ -510,7 +510,7 @@ apps:
     - everyone
     authorized_users: []
     display: true
-    logo: mdn.png
+    logo: mdn.jpg
     name: MDN Web Docs
     op: auth0
     url: https://developer.mozilla.org/
@@ -904,7 +904,7 @@ apps:
     authorized_users: []
     client_id: TnqNECyCfoQYd1X7c4xwMF4PMsEfyWPj
     display: true
-    logo: zoom.png
+    logo: zoom.jpg
     name: Zoom
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/TnqNECyCfoQYd1X7c4xwMF4PMsEfyWPj
@@ -939,7 +939,7 @@ apps:
     authorized_users: []
     client_id: tU9fTz20E17hlFVo2DViKtDLABzVxrir
     display: true
-    logo: alchemer.png
+    logo: alchemer.jpg
     name: Alchemer
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/tU9fTz20E17hlFVo2DViKtDLABzVxrir
@@ -952,7 +952,7 @@ apps:
     authorized_users: []
     client_id: 64Ud5s4qJ3GgFZQ2rUG2D4Fod0lYoUu0
     display: true
-    logo: concur.png
+    logo: concur.jpg
     name: Concur
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/64Ud5s4qJ3GgFZQ2rUG2D4Fod0lYoUu0
@@ -1100,7 +1100,7 @@ apps:
     authorized_users: []
     client_id: cav8o4za5QGMXilUEjglH9cgJpQl33Ck
     display: true
-    logo: mozillamoderator.png
+    logo: mozillamoderator.jpg
     name: Moderator
     op: auth0
     url: https://moderator.mozilla.org/oidc/authenticate/
@@ -1204,7 +1204,7 @@ apps:
     authorized_users: []
     client_id: o2e391VjmnPk0115UedNTmRL8x2nySOa
     display: true
-    logo: people.png
+    logo: people.jpg
     name: Mozilla People Directory
     op: auth0
     url: https://people.mozilla.org
@@ -2199,7 +2199,7 @@ apps:
     - jeide@mozilla.com
     client_id: TB91RkOJc4eQhOuT0SIfUHm2nD6W3ipT
     display: true
-    logo: coderpad.png
+    logo: coderpad.jpg
     name: CoderPad
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/TB91RkOJc4eQhOuT0SIfUHm2nD6W3ipT
@@ -2212,7 +2212,7 @@ apps:
     authorized_users: []
     client_id: ljY6JKsFj7e8qTE4WGuEgaNCq5cc1QuE
     display: false
-    logo: discourse.png
+    logo: discourse.jpg
     name: Discourse - Dev
     op: auth0
     url: https://discourse-dev.itsre-apps.mozit.cloud/auth/auth0/callback
@@ -2258,7 +2258,7 @@ apps:
     authorized_users: []
     client_id: pFf6sBIfp4n3Wcs3F9Q7a9ry8MTrbi2F
     display: true
-    logo: matrix.png
+    logo: matrix.jpg
     name: Element Matrix IM
     op: auth0
     url: https://chat.mozilla.org/#/start_sso
@@ -2513,7 +2513,7 @@ apps:
     authorized_users: []
     client_id: axRGaXPRd5pe60fnEllluSN76MefFX1E
     display: true
-    logo: cultureamp.png
+    logo: cultureamp.jpg
     name: Culture Amp
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/axRGaXPRd5pe60fnEllluSN76MefFX1E
@@ -2525,7 +2525,7 @@ apps:
     authorized_users: []
     client_id: 4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
     display: true
-    logo: cultureamp.png
+    logo: cultureamp.jpg
     name: Culture Amp (MoFo)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/4b1qHRbxLmNLEBgXMi5eYP0sJn5p6q7l
@@ -2561,7 +2561,7 @@ apps:
     authorized_users: []
     client_id: Nqo9YvvVxjpLDLPv7YGmpJXv2JNraUtH
     display: true
-    logo: smartling.png
+    logo: smartling.jpg
     name: Smartling
     op: auth0
     url: https://sso.smartling.com/sso-apps/dashboard/accounts/3f16c2f8
@@ -2784,7 +2784,7 @@ apps:
     authorized_users: []
     client_id: 12lnezLro7iC57ooPPPpVeGHXf8MhaRV
     display: true
-    logo: textio.png
+    logo: textio.jpg
     name: Textio
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/12lnezLro7iC57ooPPPpVeGHXf8MhaRV
@@ -2796,7 +2796,7 @@ apps:
     authorized_users: []
     client_id: hYQggi94XNgMBJCuENbUA1ec7uoRLecO
     display: true
-    logo: fivetran.png
+    logo: fivetran.jpg
     name: Fivetran
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/hYQggi94XNgMBJCuENbUA1ec7uoRLecO
@@ -2858,7 +2858,7 @@ apps:
     authorized_users: []
     client_id: h0xnB8lHw5Gfapsg0AA8XH8jZvT1FEBv
     display: true
-    logo: looker.png
+    logo: looker.jpg
     name: Looker (People)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/h0xnB8lHw5Gfapsg0AA8XH8jZvT1FEBv
@@ -3025,7 +3025,7 @@ apps:
     authorized_users: []
     client_id: rgXXV7kQDg7hfD2oKzGVdKOdcDiIEyTX
     display: true
-    logo: asana.png
+    logo: asana.jpg
     name: Asana (Marketing)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/rgXXV7kQDg7hfD2oKzGVdKOdcDiIEyTX
@@ -3298,7 +3298,7 @@ apps:
     authorized_users: []
     client_id: UKiIS6wee3c6zbhxQzUWtZDEurrMM8dd
     display: true
-    logo: dbtcloud.png
+    logo: dbtcloud.jpg
     name: dbt Cloud (Pocket)
     op: auth0
     url: https://cloud.getdbt.com/enterprise-login/mozilla/
@@ -3310,7 +3310,7 @@ apps:
     authorized_users: []
     client_id: Pp7UB7N0Jb5B3S5EB37mrkX0bW4w1ogu
     display: true
-    logo: modeanalytics.png
+    logo: modeanalytics.jpg
     name: Mode Analytics (Pocket)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/Pp7UB7N0Jb5B3S5EB37mrkX0bW4w1ogu
@@ -3334,7 +3334,7 @@ apps:
     authorized_users: []
     client_id: lREe0wwQvrFGwjIaSfrYLBuwAUUF8BOt
     display: true
-    logo: dualo.png
+    logo: dualo.jpg
     name: Dualo
     op: auth0
     url: https://app.dualo.io/organizations/mozilla
@@ -3611,7 +3611,7 @@ apps:
     authorized_users: []
     client_id: LiLlFN0EmDJvMdhGKkOJT4f1w8TN8OYF
     display: true
-    logo: chatgpt.png
+    logo: chatgpt.jpg
     name: ChatGPT
     op: auth0
     url: https://chatgpt.com/auth/login?sso=true&connection=org-sLqTjCQdQnlUB9bQLXw9KxNE
@@ -3735,7 +3735,7 @@ apps:
     authorized_users: []
     client_id: PSz60Psx4kv7UvQIkTKjcgYiHyI9yI7J
     display: true
-    logo: frontify.png
+    logo: brand.jpg
     name: brand.mozilla
     op: auth0
     url: https://brand.mozilla.com/auth
@@ -3769,7 +3769,7 @@ apps:
     authorized_users: []
     client_id: OWmWq6YwMvc8TwIrMlWzK81KaLZDkOYw
     display: true
-    logo: lifelabs.png
+    logo: lifelabs.jpg
     name: LifeLabs Learning
     op: auth0
     url: https://app.lifelabslearning.com/training?sso=mozilla
@@ -3827,7 +3827,7 @@ apps:
     authorized_users: []
     client_id: pQei6Ff5qKo40KJuCaR3BV3IbydschsA
     display: true
-    logo: testrail.png
+    logo: testrail.jpg
     name: testrail.io
     op: auth0
     url: https://mozilla.testrail.io/
