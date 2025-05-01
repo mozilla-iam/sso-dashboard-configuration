@@ -3155,59 +3155,6 @@ apps:
     url: https://manage.statuspage.io/sso/saml/consume
 - application:
     authorized_groups:
-    - mozilliansorg_web-sre-aws-access
-    - mozilliansorg_pocket_backend
-    - mozilliansorg_iam-project
-    authorized_users: []
-    client_id: tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
-    display: true
-    logo: newrelic.png
-    name: New Relic IT SRE
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/tAtVU4uyJhaXdMEglSWKxMHliBm9yYtS
-    vanity_url:
-    - /new-relic-sre
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
-    display: true
-    logo: newrelic.png
-    name: New Relic EIS
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/yrtYw37UYq5gkna3j9f0P4L0oQD8Y6aQ
-    vanity_url:
-    - /new-relic-eis
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
-    display: false
-    logo: newrelic.png
-    name: New Relic Emerging Tech
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Um2rLocE3s851JXNZzTPnA5DFzWe9OhQ
-    vanity_url:
-    - /new-relic-emerging-tech
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
-    display: false
-    logo: newrelic.png
-    name: New Relic SubHub
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/VeOfYrHRjGuAauFAXRYv4z0rCFe4Ibbc
-    vanity_url:
-    - /new-relic-subhub
-- application:
-    authorized_groups:
     - team_moco
     - team_mozillaonline
     authorized_users:
@@ -4571,17 +4518,6 @@ apps:
     authorized_users: []
     display: false
     op: auth0
-    client_id: kXG2TTVKHERiM0FbB25TGCNPNxDFaVSB
-    name: New Relic - Mozilla 25 (1402187)
-    url: https://sso.mozilla.com/
-    logo: auth0.png
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    display: false
-    op: auth0
     client_id: IEc83wZvZzcQXMkpUmrnb9P8wztUiokl
     name: GitHub Enterprise - MozScout
     url: https://sso.mozilla.com/
@@ -4771,17 +4707,6 @@ apps:
     op: auth0
     client_id: 3IBOhIkk78t0jKq2pVWF1Wwk8BNqZhn8
     name: auth.tchspk.rs
-    url: https://sso.mozilla.com/
-    logo: auth0.png
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    display: false
-    op: auth0
-    client_id: yRI1HQiw0eAiGtLvuh2y706rP5NYpdLk
-    name: New Relic - Web Predictability (1872822)
     url: https://sso.mozilla.com/
     logo: auth0.png
 - application:
