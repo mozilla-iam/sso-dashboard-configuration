@@ -3157,19 +3157,6 @@ apps:
     - /expensify
 - application:
     authorized_groups:
-    - mozilliansorg_security_threat_intel
-    - mozilliansorg_rapid7_access
-    authorized_users: []
-    client_id: iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
-    display: false
-    logo: auth0.png
-    name: Rapid7 Insight
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
-    vanity_url:
-    - /rapid7
-- application:
-    authorized_groups:
     - mozilliansorg_sec_network_detection
     authorized_users: []
     client_id: RmsIEl3T3cZzpKhEmZv1XZDns0OvTzIy
