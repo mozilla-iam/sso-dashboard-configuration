@@ -2719,18 +2719,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
 - application:
     authorized_groups:
-    - team_secops
-    - team_opsec
-    - team_netops
-    authorized_users: []
-    client_id: eiyKP0duU76bZRO5r83QD9NbLu8uNx2Z
-    display: true
-    logo: splunk.png
-    name: Splunk Security SOAR
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/eiyKP0duU76bZRO5r83QD9NbLu8uNx2Z
-- application:
-    authorized_groups:
     - mozilliansorg_sendgrid-access
     authorized_users: []
     client_id: tc4KWmjurzZJpqF3HCXcWeo7xlycNLp7
@@ -3167,19 +3155,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
     vanity_url:
     - /expensify
-- application:
-    authorized_groups:
-    - mozilliansorg_security_threat_intel
-    - mozilliansorg_rapid7_access
-    authorized_users: []
-    client_id: iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
-    display: false
-    logo: auth0.png
-    name: Rapid7 Insight
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/iMdY3fgSYQAV5TyVzPbqzAkYMBed2WiV
-    vanity_url:
-    - /rapid7
 - application:
     authorized_groups:
     - mozilliansorg_sec_network_detection
