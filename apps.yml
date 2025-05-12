@@ -2719,18 +2719,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
 - application:
     authorized_groups:
-    - team_secops
-    - team_opsec
-    - team_netops
-    authorized_users: []
-    client_id: eiyKP0duU76bZRO5r83QD9NbLu8uNx2Z
-    display: true
-    logo: splunk.png
-    name: Splunk Security SOAR
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/eiyKP0duU76bZRO5r83QD9NbLu8uNx2Z
-- application:
-    authorized_groups:
     - mozilliansorg_sendgrid-access
     authorized_users: []
     client_id: tc4KWmjurzZJpqF3HCXcWeo7xlycNLp7
