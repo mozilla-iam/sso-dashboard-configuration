@@ -6054,3 +6054,19 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/4bSZxNgedWUKNsgcOtxIAWTjybxH6viw
     vanity_url:
     - /crashplan2
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_mzla
+    - team_mzai
+    - team_mzvc
+    - team_pocket
+    - team_mozillaonline
+    authorized_users: []
+    client_id: TwZ8Ux43hO2h1gi5GwUvEJVnJ20icd9S
+    display: false
+    logo: auth0.png
+    name: Navan
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/TwZ8Ux43hO2h1gi5GwUvEJVnJ20icd9S
