@@ -6053,3 +6053,20 @@ apps:
     vanity_url:
     - /tripactions
     - /navan
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_mzla
+    - team_mzai
+    - mozilliansorg_nda
+    - team_mozillaonline
+    authorized_users: []
+    client_id: Hl48usoiBJYoahcWarMC2La0LEFLTspm
+    display: true
+    logo: vevox.png
+    name: Vevox-Participants
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Hl48usoiBJYoahcWarMC2La0LEFLTspm
+    vanity_url:
+    - /vevox
