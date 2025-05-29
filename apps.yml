@@ -307,6 +307,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -334,6 +335,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -360,6 +362,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -425,6 +428,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -445,6 +449,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -674,6 +679,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -714,6 +720,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -893,6 +900,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -3709,6 +3717,7 @@ apps:
     - mozilliansorg_slack-access
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -3858,6 +3867,7 @@ apps:
     - mozilliansorg_sec_tines-admin
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -3874,6 +3884,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzai
     - team_mzla
     - team_mzvc
@@ -6039,6 +6050,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mzvc
@@ -6057,6 +6069,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - mozilliansorg_nda
