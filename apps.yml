@@ -4388,6 +4388,17 @@ apps:
     authorized_users: []
     display: false
     op: auth0
+    client_id: 3hrj2F7ec00Y0nYMZivYzJh6FnqydBX5
+    name: GitHub Enterprise - Firefox-AI
+    url: https://sso.mozilla.com/
+    logo: auth0.png
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
     client_id: d9CYlm0r1dZHOWKQHeLR9Tz15BFT6qUh
     name: Envoy
     url: https://sso.mozilla.com/
