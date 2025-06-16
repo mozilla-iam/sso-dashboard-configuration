@@ -6094,3 +6094,13 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/Hl48usoiBJYoahcWarMC2La0LEFLTspm
     vanity_url:
     - /vevox
+- application:
+    authorized_groups:
+    - mozilliansorg_ff-enterprise-admin-console-dev
+    authorized_users: []
+    client_id: wcyCWNt7ND6YnIBOwCiAdpsJyuazMjE5
+    display: false
+    logo: auth0.png
+    name: FF-enterprise-admin-console-dev
+    op: auth0
+    url: http://localhost:8000/sso/callback
