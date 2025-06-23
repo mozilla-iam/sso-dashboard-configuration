@@ -4106,18 +4106,6 @@ apps:
     op: auth0
     url: https://yardstick.mozilla.org/login/generic_oauth
 - application:
-    authorized_groups:
-    - mozilliansorg_vevox-poc
-    authorized_users: []
-    client_id: nODO1rseR6KeImLTrjRm9oQu8L1H7fIp
-    display: true
-    logo: vevox.png
-    name: Vevox
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/nODO1rseR6KeImLTrjRm9oQu8L1H7fIp
-    vanity_url:
-    - /vevox-poc
-- application:
     AAL: LOW
     authorized_groups:
     - everyone
@@ -6076,24 +6064,6 @@ apps:
     vanity_url:
     - /tripactions
     - /navan
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozorg
-    - team_mzla
-    - team_mzai
-    - mozilliansorg_nda
-    - team_mozillaonline
-    authorized_users: []
-    client_id: Hl48usoiBJYoahcWarMC2La0LEFLTspm
-    display: true
-    logo: vevox.png
-    name: Vevox-Participants
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Hl48usoiBJYoahcWarMC2La0LEFLTspm
-    vanity_url:
-    - /vevox
 - application:
     authorized_groups:
     - mozilliansorg_ff-enterprise-admin-console-dev
