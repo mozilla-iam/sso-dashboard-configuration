@@ -748,13 +748,10 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/kyeMyPALPK84A58vlOnb7lrCzAIFJapP
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mzla
-    - everyone
+    - mozilliansorg_workday-sandbox
     authorized_users: []
     client_id: pRwf1AWvIO5t4zyMsF8R18wtt1jfLp5o
-    display: false
+    display: true
     logo: workday.png
     name: Workday - Sandbox
     op: auth0
