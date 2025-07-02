@@ -6068,7 +6068,8 @@ apps:
     logo: navan.png
     name: Navan
     op: auth0
-    url: https://app.navan.com/app/user2/auth/login-idp/init?connection=b637ea3c-dd2a-4ea7-99a0-1dd2df5ef476&serverRegion=US
+    url: 
+      https://app.navan.com/app/user2/auth/login-idp/init?connection=b637ea3c-dd2a-4ea7-99a0-1dd2df5ef476&serverRegion=US
     vanity_url:
     - /tripactions
     - /navan
