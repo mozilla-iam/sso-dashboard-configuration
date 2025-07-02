@@ -2425,7 +2425,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco_benefited
-    - team_mzla
     - team_mozillaonline
     - team_elance
     authorized_users: []
@@ -2437,6 +2436,30 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/NhzqLGjjqXIp3kGoonkTLSO7awPBhWsK
     vanity_url:
     - /udemy
+- application:
+    authorized_groups:
+    - team_mofo
+    authorized_users: []
+    client_id: 6h658FkrhSOuB5eKgFyfA5hgHyzvCWqX
+    display: true
+    logo: udemy-mofo.png
+    name: Udemy (MoFo)
+    op: auth0
+    url: https://mozillafoundation.udemy.com/organization/init-sso-login/
+    vanity_url:
+    - /udemy-mofo
+- application:
+    authorized_groups:
+    - team_mzla
+    authorized_users: []
+    client_id: aXMgLIHosl6m35hT1zJoTHmGWzAbREJj
+    display: true
+    logo: udemy.png
+    name: Udemy (MZLA)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/aXMgLIHosl6m35hT1zJoTHmGWzAbREJj
+    vanity_url:
+    - /udemy-mzla
 - application:
     authorized_groups:
     - team_moco_benefited
@@ -3754,18 +3777,6 @@ apps:
     url: https://dashboard.fundraiseup.com/user/login
     vanity_url:
     - /fundraiseup
-- application:
-    authorized_groups:
-    - team_mofo
-    authorized_users: []
-    client_id: 6h658FkrhSOuB5eKgFyfA5hgHyzvCWqX
-    display: true
-    logo: udemy-mofo.png
-    name: Udemy (MoFo)
-    op: auth0
-    url: https://mozillafoundation.udemy.com/organization/init-sso-login/
-    vanity_url:
-    - /udemy-mofo
 - application:
     authorized_groups:
     - team_moco
