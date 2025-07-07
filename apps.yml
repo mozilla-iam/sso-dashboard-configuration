@@ -6083,3 +6083,15 @@ apps:
     name: FF-enterprise-admin-console-dev
     op: auth0
     url: http://localhost:8000/sso/callback
+- application:
+    authorized_groups:
+    - mozilliansorg_bamboohr-access
+    authorized_users: []
+    client_id: 8soKFFr66PDCsEZFLAlEz7FFlq5tZ8Oo
+    display: true
+    logo: bamboohr.png
+    name: BambooHR
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/8soKFFr66PDCsEZFLAlEz7FFlq5tZ8Oo
+    vanity_url:
+    - /bamboohr
