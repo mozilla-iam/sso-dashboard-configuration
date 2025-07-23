@@ -2451,7 +2451,6 @@ apps:
 - application:
     authorized_groups:
     - team_mzla
-    - mozilliansorg_onboard-testing
     authorized_users: []
     client_id: aXMgLIHosl6m35hT1zJoTHmGWzAbREJj
     display: true
