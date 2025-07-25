@@ -160,5 +160,5 @@ To deploy a release, run:
 ```
 AWS_PROFILE=iam-admin aws codebuild start-build \
     --project-name apps_yml \
-    --environment-variables-override 'name=MANUAL_DEPLOY_TRIGGER,value=tags/<tag>'
+    --environment-variables-override 'name=MANUAL_DEPLOY_TRIGGER,value=tag/<tag>'
 ```
