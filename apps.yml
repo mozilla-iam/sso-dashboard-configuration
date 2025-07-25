@@ -203,7 +203,7 @@ apps:
     - casa-fivetran@mozilla.com
     client_id: IU80mVpKPtIZyUZtya9ZnSTs6fKLt3JO
     display: true
-    logo: biztera.png
+    logo: casa.png
     name: Casa
     op: auth0
     url: https://biztera.com/mozilla
@@ -695,7 +695,7 @@ apps:
     - zoomadmin@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
-    logo: jsm.jpg
+    logo: jsm.png
     name: Jira Service Management
     op: auth0
     url: https://mozilla-hub.atlassian.net/servicedesk/customer/portals
@@ -3638,7 +3638,7 @@ apps:
     authorized_users: []
     client_id: PSz60Psx4kv7UvQIkTKjcgYiHyI9yI7J
     display: true
-    logo: frontify.png
+    logo: brand.png
     name: brand.mozilla
     op: auth0
     url: https://brand.mozilla.com/auth
