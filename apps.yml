@@ -2708,6 +2708,7 @@ apps:
     - mozilliansorg_sec_splunk_infrasec
     - mozilliansorg_sec_splunk_netlify
     - mozilliansorg_sec_splunk_relsre
+    - mozilliansorg_sec_splunk_servicedesk
     authorized_users: []
     client_id: oU7d3KS3RqCYDFprG0nQD7eBPeO7uWyl
     display: true
