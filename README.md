@@ -144,7 +144,21 @@ make test
 
 # CI Pipeline
 
-This GitHub repo has a webhook configured which triggers the `apps_yml` AWS
-CodeBuild job in the `mozilla-iam` AWS account in `us-west-2`. This CodeBuild
-job follows the [`buildspec.yml`](buildspec.yml) which calls [`deploy.sh`](deploy.sh)
-to deploy the change.
+The CI Pipeline has been disabled for now, until we can revive it. Deploys will
+need to be manual.
+
+To deploy the `master` branch, run:
+
+```
+AWS_PROFILE=iam-admin aws codebuild start-build \
+    --project-name apps_yml \
+    --environment-variables-override 'name=MANUAL_DEPLOY_TRIGGER,value=branch/master'
+```
+
+To deploy a release, run:
+
+```
+AWS_PROFILE=iam-admin aws codebuild start-build \
+    --project-name apps_yml \
+    --environment-variables-override 'name=MANUAL_DEPLOY_TRIGGER,value=tags/<tag>'
+```
