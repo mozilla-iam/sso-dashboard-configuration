@@ -2436,6 +2436,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/NhzqLGjjqXIp3kGoonkTLSO7awPBhWsK
     vanity_url:
     - /udemy
+    - /udemy-moco
 - application:
     authorized_groups:
     - team_mofo
