@@ -4016,34 +4016,6 @@ apps:
     url: https://training.knowbe4.com/auth/saml/1a0093e45044f
 - application:
     authorized_groups:
-    - mozilliansorg_ethyca-admin
-    - mozilliansorg_ethyca-read_only
-    - mozilliansorg_ethyca-read_write
-    authorized_users: []
-    client_id: Srz40XLXdhWmWENTBpy6u7D9TegdUj2G
-    display: true
-    logo: ethyca_stage.png
-    name: Ethyca-Stage
-    op: auth0
-    url: https://stage.data-privacy-mapping.nonprod.dataservices.mozgcp.net/
-    vanity_url:
-    - /ethyca-stage
-- application:
-    authorized_groups:
-    - mozilliansorg_ethyca-admin
-    - mozilliansorg_ethyca-read_only
-    - mozilliansorg_ethyca-read_write
-    authorized_users: []
-    client_id: TgZwF1000R019aCR7ruJuBfnPGC9x9jf
-    display: true
-    logo: ethyca_prod.png
-    name: Ethyca-Prod
-    op: auth0
-    url: https://prod.data-privacy-mapping.prod.dataservices.mozgcp.net/
-    vanity_url:
-    - /ethyca-prod
-- application:
-    authorized_groups:
     - mozilliansorg_birdbox-language-portal-staging
     authorized_users: []
     client_id: mcCadQWqSGZMB4Sj0Fu3KJHkAqQZK4IF
