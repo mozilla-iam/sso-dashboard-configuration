@@ -2128,18 +2128,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - mozilliansorg_nda
-    authorized_users: []
-    client_id: JW5noOxn5yRl3HbThBAqet7yLqu5uoTm
-    display: false
-    logo: auth0.png
-    name: paste.mozilla.org
-    op: auth0
-    url: https://paste.mozilla.org/openid/callback/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
     authorized_users: []
     client_id: nJkH6xvVNwogpLjkrTePAKwjB4NpE74h
     display: false
