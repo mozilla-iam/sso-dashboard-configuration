@@ -1219,6 +1219,32 @@ apps:
 - application:
     AAL: LOW
     authorized_groups:
+    - dinopark-test
+    authorized_users: []
+    client_id: 7oxEfEV2QSSKQ5MhMuKJYHF9hkATHdls
+    display: false
+    logo: people.png
+    name: Mozilla People Directory (dev)
+    op: auth0
+    url: https://dinopark.k8s.test.sso.allizom.org/
+    vanity_url:
+    - /people-stage
+- application:
+    AAL: LOW
+    authorized_groups:
+    - dinopark-test
+    authorized_users: []
+    client_id: fKFekrRsCA38RsjqRS6UpbLW8GOOh2wi
+    display: false
+    logo: people.png
+    name: Mozilla People Directory (dev)
+    op: auth0
+    url: https://dinopark.k8s.dev.sso.allizom.org/
+    vanity_url:
+    - /people-dev
+- application:
+    AAL: LOW
+    authorized_groups:
     - everyone
     authorized_users: []
     client_id: aJc4zjynRegTcrrxjB7PqV8lb9FdAVBr
