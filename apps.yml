@@ -594,19 +594,6 @@ apps:
     - /plansource
 - application:
     authorized_groups:
-    - service_productplan
-    authorized_users: []
-    client_id: Ky8RbBLJ36PhlagJMT46ru6DWW8AK451
-    display: true
-    logo: productplan.png
-    name: ProductPlan
-    op: auth0
-    url:
-      https://desktop.pingone.com/mozilla/url?source=application&url=https%3A%2F%2Fsso.connect.pingidentity.com%2Fsso%2Fsp%2Finitsso%3Fsaasid%3D72a035e2-0939-4685-aa8a-8c731729298b%26idpid%3Dmozilla.com&title=IDP%20Connection&applicationtype=APPLICATION_DEFAULT&saasid=72a035e2-0939-4685-aa8a-8c731729298b&newDock=true
-    vanity_url:
-    - /productplan
-- application:
-    authorized_groups:
     - team_moco
     - team_mofo
     authorized_users: []
@@ -1224,7 +1211,7 @@ apps:
     client_id: 7oxEfEV2QSSKQ5MhMuKJYHF9hkATHdls
     display: false
     logo: people.png
-    name: Mozilla People Directory (dev)
+    name: Mozilla People Directory (stage)
     op: auth0
     url: https://dinopark.k8s.test.sso.allizom.org/
     vanity_url:
