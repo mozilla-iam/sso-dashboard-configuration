@@ -1211,7 +1211,7 @@ apps:
     client_id: 7oxEfEV2QSSKQ5MhMuKJYHF9hkATHdls
     display: false
     logo: people.png
-    name: Mozilla People Directory (dev)
+    name: Mozilla People Directory (stage)
     op: auth0
     url: https://dinopark.k8s.test.sso.allizom.org/
     vanity_url:
