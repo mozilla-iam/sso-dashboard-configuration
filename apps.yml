@@ -6008,3 +6008,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/8soKFFr66PDCsEZFLAlEz7FFlq5tZ8Oo
     vanity_url:
     - /bamboohr
+- application:
+    authorized_groups:
+    - mozilliansorg_onboard-testing
+    authorized_users: []
+    client_id: yUqAic2yqjiBw9WlVVwan7JcJt3WrmTK
+    display: false
+    logo: auth0.png
+    name: Lattice
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/yUqAic2yqjiBw9WlVVwan7JcJt3WrmTK
+    vanity_url:
+    - /lattice
