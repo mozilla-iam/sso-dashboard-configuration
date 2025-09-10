@@ -1550,17 +1550,6 @@ apps:
     - team_moco
     - team_mofo
     authorized_users: []
-    client_id: hIjZmDmmtkKuaOjmhd5HUzn0ResPDeqX
-    display: false
-    logo: auth0.png
-    name: wde.allizom.org
-    op: auth0
-    url: https://wde-stage.public.mdc1.mozilla.com/redirect_uri
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
     client_id: 1QcjRY2UEYySI79IqorH94Td590oqXSA
     display: false
     logo: auth0.png
@@ -2033,17 +2022,6 @@ apps:
     name: Logging 2.0 CEP Prod
     op: auth0
     url: https://logging-cep.prod.mozaws.net/dashboard_output/login
-- application:
-    authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: BDRmLMBwmCqyBsL52IuQW8wLBLoLSBWo
-    display: false
-    logo: auth0.png
-    name: wde.mozilla.org
-    op: auth0
-    url: https://wde.mozilla.org/redirect_uri
 - application:
     authorized_groups:
     - team_moco
