@@ -6020,3 +6020,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/yUqAic2yqjiBw9WlVVwan7JcJt3WrmTK
     vanity_url:
     - /lattice
+- application:
+    authorized_groups:
+    - mozilliansorg_onboard-testing
+    authorized_users: []
+    client_id: s62YED2aWeDsKq9s8cSaIQ2fmxuhrHdD
+    display: false
+    logo: lattice.png
+    name: Lattice Sandbox
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/s62YED2aWeDsKq9s8cSaIQ2fmxuhrHdD
+    vanity_url:
+    - /lattice-sandbox
