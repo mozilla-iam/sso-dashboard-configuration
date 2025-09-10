@@ -5988,7 +5988,7 @@ apps:
     - /bamboohr
 - application:
     authorized_groups:
-    - mozilliansorg_onboard-testing
+    - team_moco
     authorized_users: []
     client_id: yUqAic2yqjiBw9WlVVwan7JcJt3WrmTK
     display: false
@@ -6000,7 +6000,7 @@ apps:
     - /lattice
 - application:
     authorized_groups:
-    - mozilliansorg_onboard-testing
+    - mozilliansorg_lattice_sandbox-access
     authorized_users: []
     client_id: s62YED2aWeDsKq9s8cSaIQ2fmxuhrHdD
     display: false
