@@ -162,7 +162,7 @@ apps:
     logo: basket.png
     name: Basket
     op: auth0
-    url: https://basket-admin.us-west.moz.works/oidc/authenticate/
+    url: https://basket.mozilla.org/admin/
 - application:
     authorized_groups:
     - mozilliansorg_basket_admin
@@ -172,7 +172,7 @@ apps:
     logo: basket.png
     name: Basket Dev
     op: auth0
-    url: https://basket-dev.allizom.org/oidc/authenticate/
+    url: https://basket-dev.allizom.org/admin/
 - application:
     authorized_groups:
     - mozilliansorg_basket_admin
@@ -182,7 +182,7 @@ apps:
     logo: basket.png
     name: Basket Staging
     op: auth0
-    url: https://basket-admin-stage.us-west.moz.works/oidc/authenticate/
+    url: https://basket.allizom.org/admin/
 - application:
     authorized_groups:
     - service_beckon
