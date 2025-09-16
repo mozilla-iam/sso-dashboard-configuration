@@ -2739,6 +2739,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/vKsQfVnX140zaI4R8bgij0cyUhrv9k2t
 - application:
     authorized_groups:
+    - mozilliansorg_sec_splunk_ir
+    authorized_users: []
+    client_id: BzPI4GjztpBBJIZVv6MKdAldqOeTUl7n
+    display: true
+    logo: splunk.png
+    name: Splunk Test Instance
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/BzPI4GjztpBBJIZVv6MKdAldqOeTUl7n
+- application:
+    authorized_groups:
     - team_secops
     - team_opsec
     - team_netops
