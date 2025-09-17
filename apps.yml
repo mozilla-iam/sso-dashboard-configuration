@@ -3842,11 +3842,23 @@ apps:
     client_id: y2IUqDvVuid2x8r6I6XVlLFb55empXSW
     display: true
     logo: fleet.png
-    name: Fleet
+    name: Fleet-Prod
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/y2IUqDvVuid2x8r6I6XVlLFb55empXSW
     vanity_url:
     - /fleet
+- application:
+    authorized_groups:
+    - mozilliansorg_fleet-access
+    authorized_users: []
+    client_id: xxD0xQ3UUkvR0eBaZ4kSzEBXynRTSjgP
+    display: true
+    logo: fleet.png
+    name: Fleet-Stage
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/xxD0xQ3UUkvR0eBaZ4kSzEBXynRTSjgP
+    vanity_url:
+    - /fleet-stage
 - application:
     authorized_groups:
     - mozilliansorg_wiz_global_admins
