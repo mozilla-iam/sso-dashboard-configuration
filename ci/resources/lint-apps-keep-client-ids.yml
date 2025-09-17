@@ -9,3 +9,5 @@ RJIpTfQhXbF9pKGJwBJgOmKEbe8QWHQu:
 2KNOUCxN8AFnGGjDCGtqiDIzq8MKXi2h:
     reason: Dev and Prod share a apps.yml file.
     pull_request: https://github.com/mozilla-iam/sso-dashboard-configuration/pull/719
+fKFekrRsCA38RsjqRS6UpbLW8GOOh2wi:
+    reason: Dev and Prod share a apps.yml file.

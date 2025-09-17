@@ -1,14 +1,9 @@
-version: 0.1
+version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo Nothing to do in the install phase...
-  pre_build:
-    commands:
-      - echo Nothing to do in the pre_build phase...
   build:
     commands:
+      - pip install -r requirements.txt
       - ./deploy.sh
   post_build:
     commands:
