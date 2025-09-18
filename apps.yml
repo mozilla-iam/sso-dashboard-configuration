@@ -2427,6 +2427,7 @@ apps:
     url: https://thunderbird.udemy.com
     vanity_url:
     - /udemy-mzla
+    - mozilliansorg_onboard-testing
 - application:
     authorized_groups:
     - team_moco_benefited
