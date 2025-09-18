@@ -2418,6 +2418,7 @@ apps:
 - application:
     authorized_groups:
     - team_mzla
+    - mozilliansorg_onboard-testing
     authorized_users: []
     client_id: aXMgLIHosl6m35hT1zJoTHmGWzAbREJj
     display: true
@@ -2427,7 +2428,6 @@ apps:
     url: https://thunderbird.udemy.com
     vanity_url:
     - /udemy-mzla
-    - mozilliansorg_onboard-testing
 - application:
     authorized_groups:
     - team_moco_benefited
