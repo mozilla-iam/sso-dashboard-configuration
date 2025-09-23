@@ -5596,17 +5596,6 @@ apps:
     authorized_users: []
     display: false
     op: auth0
-    client_id: SAskzbPwuwnpmh7O2uEuZPRiPq30EyCz
-    name: dividehex test application
-    url: https://sso.mozilla.com/
-    logo: auth0.png
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    display: false
-    op: auth0
     client_id: PDwSWsc86bDJ37ITVVfZDrFIoOb8f1ut
     name: support.allizom.org
     url: https://sso.mozilla.com/
