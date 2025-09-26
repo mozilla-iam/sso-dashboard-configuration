@@ -2756,19 +2756,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: 12lnezLro7iC57ooPPPpVeGHXf8MhaRV
-    display: true
-    logo: textio.png
-    name: Textio
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/12lnezLro7iC57ooPPPpVeGHXf8MhaRV
-    vanity_url:
-    - /textio
-- application:
-    authorized_groups:
-    - team_moco
     authorized_users: []
     client_id: hYQggi94XNgMBJCuENbUA1ec7uoRLecO
     display: true
@@ -4751,17 +4738,6 @@ apps:
     op: auth0
     client_id: AcnyB9st2RTC6JfqizCSdaMlzBC7notV
     name: GitHub Enterprise - mozilla-l10n
-    url: https://sso.mozilla.com/
-    logo: auth0.png
-- application:
-    AAL: LOW
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    display: false
-    op: auth0
-    client_id: 3MXeqORnfou6NirpxSTYEo01YUUTexOt
-    name: Textio Sandbox
     url: https://sso.mozilla.com/
     logo: auth0.png
 - application:
