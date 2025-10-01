@@ -6003,7 +6003,7 @@ apps:
     - mozilliansorg_claude_code-access
     authorized_users: []
     client_id: kO6jg7RGbIsZQUIV5zMDrQ0FdxknN96C
-    display: false
+    display: true
     logo: claudecode.png
     name: Claude Code
     op: auth0
