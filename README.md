@@ -147,6 +147,29 @@ make test
 The CI Pipeline has been disabled for now, until we can revive it. Deploys will
 need to be manual.
 
+You'll need to ensure the following is in your `~/.aws/config`:
+
+```
+[profile iam-admin]
+sso_session = mozilla
+sso_account_id = 320464205386
+sso_role_name = AdministratorAccess
+sso_region = us-west-2
+region = us-west-2
+sso_start_url = https://mozilla-aws.awsapps.com/start#
+
+[sso-session mozilla]
+sso_start_url = https://mozilla-aws.awsapps.com/start#
+sso_region = us-west-2
+sso_registration_scopes = sso:account:access
+```
+
+And then, each time you'd like to deploy _first_ run:
+
+```
+aws sso login --sso-session mozilla
+```
+
 To deploy the `master` branch, run:
 
 ```
