@@ -3259,6 +3259,7 @@ apps:
     authorized_groups:
     - fuzzing_team
     - mozillians_project-guardian-admins
+    - mozilliansorg_0din-devs
     - mozilliansorg_aws_billing_access
     - mozilliansorg_cia-aws
     - mozilliansorg_consolidated-billing-aws
