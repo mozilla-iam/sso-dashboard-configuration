@@ -6010,3 +6010,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/kO6jg7RGbIsZQUIV5zMDrQ0FdxknN96C
     vanity_url:
     - /claude-code
+- application:
+    authorized_groups:
+    - mozilliansorg_tapclicks-access
+    authorized_users: []
+    client_id: mh8tc2p2bFmENVfStd6Nz4IHQlLkPP9N
+    display: false
+    logo: auth0.png
+    name: Tapclicks
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/mh8tc2p2bFmENVfStd6Nz4IHQlLkPP9N
+    vanity_url:
+    - /tapclicks
