@@ -6017,8 +6017,8 @@ apps:
     - mozilliansorg_tapclicks-access
     authorized_users: []
     client_id: mh8tc2p2bFmENVfStd6Nz4IHQlLkPP9N
-    display: false
-    logo: auth0.png
+    display: true
+    logo: tapclicks.png
     name: Tapclicks
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/mh8tc2p2bFmENVfStd6Nz4IHQlLkPP9N
