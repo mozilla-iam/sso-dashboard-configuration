@@ -6026,8 +6026,7 @@ apps:
     - /tapclicks
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
+    - mozilliansorg_eqs-access
     authorized_users: []
     client_id: 3c7lAT2sPywWjvgVP5ngCQysHtnNqQFj
     display: true
