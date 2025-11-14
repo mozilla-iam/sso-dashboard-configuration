@@ -6033,7 +6033,6 @@ apps:
     logo: eqs.png
     name: EQS Integrity Line
     op: auth0
-    url:
-      https://auth.mozilla.auth0.com/samlp/3c7lAT2sPywWjvgVP5ngCQysHtnNqQFj
+    url: https://auth.mozilla.auth0.com/samlp/3c7lAT2sPywWjvgVP5ngCQysHtnNqQFj
     vanity_url:
     - /eqs
