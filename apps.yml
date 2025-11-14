@@ -6030,7 +6030,7 @@ apps:
     - team_mofo
     authorized_users: []
     client_id: 3c7lAT2sPywWjvgVP5ngCQysHtnNqQFj
-    display: false
+    display: true
     logo: eqs.png
     name: EQS Integrity Line
     op: auth0
