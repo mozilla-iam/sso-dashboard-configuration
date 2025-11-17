@@ -4008,7 +4008,6 @@ apps:
     - team_moco
     - team_mofo
     - mozilliansorg_obs_grafana_admin-access
-    - mozilliansorg_obs_grafana_editor-access
     authorized_users: []
     client_id: rbH2lgiwsLN3A9QD9h4zv0mWtxP85UwE
     display: true
