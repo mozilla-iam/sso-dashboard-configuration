@@ -3282,7 +3282,6 @@ apps:
     - team_opsec
     - team_se
     - team_secops
-    - voice-dev
     - vpn_sumo_aws_devs
     authorized_users: []
     client_id: JR8HkyiM2i00ma2d1X2xfgdbEHzEYZbS
