@@ -904,16 +904,6 @@ apps:
     - /zoom
 - application:
     authorized_groups:
-    - atlassian_forge
-    authorized_users: []
-    client_id: ghFZnGJkgwTIqbs5yDn4vCnrLx3UWmaF
-    display: false
-    logo: auth0.png
-    name: Atlassian Forge
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/ghFZnGJkgwTIqbs5yDn4vCnrLx3UWmaF
-- application:
-    authorized_groups:
     - service_surveymonkey
     authorized_users: []
     client_id: LS57OeRbl164EPk39as1TQJ3QbiMuX5M
@@ -3259,7 +3249,6 @@ apps:
 - application:
     authorized_groups:
     - fuzzing_team
-    - mozillians_project-guardian-admins
     - mozilliansorg_0din-devs
     - mozilliansorg_aws_billing_access
     - mozilliansorg_cia-aws
@@ -3278,6 +3267,7 @@ apps:
     - mozilliansorg_partinfra-aws
     - mozilliansorg_pdfjs-testers
     - mozilliansorg_pocket_cloudtrail_readers
+    - mozilliansorg_project-guardian-admins
     - mozilliansorg_relay_developer
     - mozilliansorg_searchfox-aws
     - mozilliansorg_secops-aws-admins
@@ -3292,7 +3282,6 @@ apps:
     - team_opsec
     - team_se
     - team_secops
-    - voice-dev
     - vpn_sumo_aws_devs
     authorized_users: []
     client_id: JR8HkyiM2i00ma2d1X2xfgdbEHzEYZbS
