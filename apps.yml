@@ -3249,7 +3249,6 @@ apps:
 - application:
     authorized_groups:
     - fuzzing_team
-    - mozillians_project-guardian-admins
     - mozilliansorg_0din-devs
     - mozilliansorg_aws_billing_access
     - mozilliansorg_cia-aws
@@ -3268,6 +3267,7 @@ apps:
     - mozilliansorg_partinfra-aws
     - mozilliansorg_pdfjs-testers
     - mozilliansorg_pocket_cloudtrail_readers
+    - mozilliansorg_project-guardian-admins
     - mozilliansorg_relay_developer
     - mozilliansorg_searchfox-aws
     - mozilliansorg_secops-aws-admins
