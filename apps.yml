@@ -5966,7 +5966,7 @@ apps:
     - /bamboohr
 - application:
     authorized_groups:
-    - team_moco
+    - mozilliansorg_lattice_prod-access
     authorized_users: []
     client_id: yUqAic2yqjiBw9WlVVwan7JcJt3WrmTK
     display: false
