@@ -904,16 +904,6 @@ apps:
     - /zoom
 - application:
     authorized_groups:
-    - atlassian_forge
-    authorized_users: []
-    client_id: ghFZnGJkgwTIqbs5yDn4vCnrLx3UWmaF
-    display: false
-    logo: auth0.png
-    name: Atlassian Forge
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/ghFZnGJkgwTIqbs5yDn4vCnrLx3UWmaF
-- application:
-    authorized_groups:
     - service_surveymonkey
     authorized_users: []
     client_id: LS57OeRbl164EPk39as1TQJ3QbiMuX5M
