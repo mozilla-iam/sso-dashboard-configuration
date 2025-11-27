@@ -2880,18 +2880,6 @@ apps:
     - /logikcull
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozillaonline
-    authorized_users: []
-    client_id: yw8rP8c7Qir1SHybR6xUg7lZixz8FbVy
-    display: false
-    logo: auth0.png
-    name: protosaur.dev
-    op: auth0
-    url: https://protosaur.dev/auth/login
-- application:
-    authorized_groups:
     - team_moco_benefited
     authorized_users: []
     client_id: Y1JS4f0fB7odzJv84z6XCioKlpQoPgJ4
