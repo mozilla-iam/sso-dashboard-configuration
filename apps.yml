@@ -5979,6 +5979,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_claude_code-access
+    - mozilliansorg_claude_code-admin
     authorized_users: []
     client_id: kO6jg7RGbIsZQUIV5zMDrQ0FdxknN96C
     display: true
