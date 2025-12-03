@@ -5915,7 +5915,6 @@ apps:
     - team_moco
     - team_mofo
     - team_mozorg
-    - team_mzla
     - team_mzai
     - team_mzvc
     - team_mozillaonline
@@ -5930,6 +5929,20 @@ apps:
     vanity_url:
     - /tripactions
     - /navan
+- application:
+    authorized_groups:
+    - team_mzla
+    authorized_users: []
+    client_id: nKwEsW1Dw3XrmcO1EikrT0hYM8PyQVXu
+    display: true
+    logo: navan.png
+    name: Navan (MZLA)
+    op: auth0
+    url:
+      https://app.navan.com/app/user2/auth/login-idp/init?connection=54c5724a-70b2-4c50-b83d-78f0c72c59f6&serverRegion=US
+    vanity_url:
+    - /tripactions-mzla
+    - /navan-mzla
 - application:
     authorized_groups:
     - mozilliansorg_ff-enterprise-admin-console-dev
