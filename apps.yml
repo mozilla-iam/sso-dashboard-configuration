@@ -3641,6 +3641,16 @@ apps:
     url: https://nemo.mozilla.net/grafana/
 - application:
     authorized_groups:
+    - mozilliansorg_marlin-access
+    authorized_users: []
+    client_id: OnuE1SDzkDG2WazhUEJF6tGCZNFii9p3
+    display: false
+    logo: auth0.png
+    name: Marlin Grafana
+    op: auth0
+    url: https://marlin.mozilla.net/grafana/
+- application:
+    authorized_groups:
     - mozilliansorg_slackeg-access
     - mozilliansorg_slack-access
     - team_moco
