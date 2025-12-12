@@ -6036,3 +6036,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/3c7lAT2sPywWjvgVP5ngCQysHtnNqQFj
     vanity_url:
     - /eqs
+- application:
+    authorized_groups:
+    - mozilliansorg_cloudamqp-access
+    authorized_users: []
+    client_id: ZysJAUjY1crgv9IDCQPwPO5FrQpGFKYo
+    display: false
+    logo: auth0.png
+    name: CloudAMQP
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/ZysJAUjY1crgv9IDCQPwPO5FrQpGFKYo
+    vanity_url:
+    - /cloudamqp
