@@ -922,7 +922,7 @@ apps:
     client_id: tU9fTz20E17hlFVo2DViKtDLABzVxrir
     display: false
     logo: alchemer.png
-    name: Alchemer
+    name: Alchemer (Old)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/tU9fTz20E17hlFVo2DViKtDLABzVxrir
 - application:
@@ -933,7 +933,7 @@ apps:
     client_id: M6MBVn9OmJ4yEftx8N1upBiB2KlxtZYB
     display: true
     logo: alchemer.png
-    name: Alchemer 2025
+    name: Alchemer
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/M6MBVn9OmJ4yEftx8N1upBiB2KlxtZYB
     vanity_url:
