@@ -6070,3 +6070,17 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/ZysJAUjY1crgv9IDCQPwPO5FrQpGFKYo
     vanity_url:
     - /cloudamqp
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    - team_mozillaonline
+    - team_mzai
+    - team_mzla
+    authorized_users: []
+    client_id: 05ymLOW7dSi6g5f1TEaXailNzlYCzUMp
+    display: false
+    logo: auth0.png
+    name: blog.postful.ai
+    op: auth0
+    url: https://blog.postful.ai/
