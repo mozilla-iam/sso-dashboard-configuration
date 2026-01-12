@@ -5999,6 +5999,18 @@ apps:
     - /bamboohr
 - application:
     authorized_groups:
+    - mozilliansorg_onboard-testing
+    authorized_users: []
+    client_id: wdO8ry1sqkNnH3i98iMzV0m5BsHRS9Xr
+    display: true
+    logo: bamboohr.png
+    name: BambooHR-MZLA
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/wdO8ry1sqkNnH3i98iMzV0m5BsHRS9Xr
+    vanity_url:
+    - /bamboohr-mzla
+- application:
+    authorized_groups:
     - mozilliansorg_lattice_prod-access
     authorized_users: []
     client_id: yUqAic2yqjiBw9WlVVwan7JcJt3WrmTK
