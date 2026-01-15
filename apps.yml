@@ -6096,3 +6096,15 @@ apps:
     name: blog.postful.ai
     op: auth0
     url: https://blog.postful.ai/
+- application:
+    authorized_groups:
+    - mozilliansorg_anecdotes-access
+    authorized_users: []
+    client_id: f9wio1ApWXifOy3DVrZEXy8USYkASvbZ
+    display: false
+    logo: auth0.png
+    name: Anecdotes
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/f9wio1ApWXifOy3DVrZEXy8USYkASvbZ
+    vanity_url:
+    - /anecdotes
