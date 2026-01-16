@@ -6105,6 +6105,6 @@ apps:
     logo: auth0.png
     name: Anecdotes
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/f9wio1ApWXifOy3DVrZEXy8USYkASvbZ
+    url: https://mozilla.anecdotes.ai/
     vanity_url:
     - /anecdotes
