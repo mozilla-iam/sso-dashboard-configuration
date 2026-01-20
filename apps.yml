@@ -6113,8 +6113,8 @@ apps:
     - mozilliansorg_sailthru-access
     authorized_users: []
     client_id: A37CgoNWk8A9M9oFSopERjUJ7O88wgkv
-    display: false
-    logo: auth0.png
+    display: true
+    logo: sailthru.png
     name: Sailthru
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/A37CgoNWk8A9M9oFSopERjUJ7O88wgkv
