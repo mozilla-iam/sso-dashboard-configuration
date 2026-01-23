@@ -935,7 +935,7 @@ apps:
     logo: alchemer.png
     name: Alchemer
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/M6MBVn9OmJ4yEftx8N1upBiB2KlxtZYB
+    url: https://login.alchemer.com/?alias=mozilla
     vanity_url:
     - /alchemer
 - application:
