@@ -6120,3 +6120,13 @@ apps:
     url: https://my.sailthru.com/
     vanity_url:
     - /sailthru
+- application:
+    authorized_groups:
+    - mozilliansorg_raritan-cc
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: 6dDuotjXPKJ7LpeCS1tPz7ysSSUp1J1l
+    name: Raritan CommandCentre Production
+    logo: auth0.png
+    url: https://sso.mozilla.com/
