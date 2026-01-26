@@ -6048,6 +6048,18 @@ apps:
     - /claude-code
 - application:
     authorized_groups:
+    - mozilliansorg_claude_code-access-mofo
+    authorized_users: []
+    client_id: coPeHai947noc9267KOhhHxbw709hccP
+    display: true
+    logo: claudemofo.png
+    name: Claude-MoFo
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/coPeHai947noc9267KOhhHxbw709hccP
+    vanity_url:
+    - /claude-mofo
+- application:
+    authorized_groups:
     - mozilliansorg_tapclicks-access
     authorized_users: []
     client_id: mh8tc2p2bFmENVfStd6Nz4IHQlLkPP9N
