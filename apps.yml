@@ -5965,6 +5965,26 @@ apps:
     url: http://localhost:8000/sso/callback
 - application:
     authorized_groups:
+    - mozilliansorg_ff-enterprise-admin-console-stage
+    authorized_users: []
+    client_id: reyZHDaEJNY1YSCabCg5weIMyGQ2ENrU
+    display: false
+    logo: auth0.png
+    name: FF-enterprise-admin-console-stage
+    op: auth0
+    url: https://stage.fx-enterprise.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: F8r74FHdgj3JDFbNB4G7j0mSnfkrqxTC
+    display: false
+    logo: auth0.png
+    name: FF-enterprise-browser-stage
+    op: auth0
+    url: https://stage.fx-enterprise.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
     - mozilliansorg_bamboohr-access
     authorized_users: []
     client_id: 8soKFFr66PDCsEZFLAlEz7FFlq5tZ8Oo
