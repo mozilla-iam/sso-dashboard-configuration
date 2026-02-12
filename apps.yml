@@ -4394,6 +4394,17 @@ apps:
     authorized_users: []
     display: false
     op: auth0
+    client_id: AbtfcVLkkFuMR0A1fWUvDQrVZOhEyDMA
+    name: GitHub Enterprise - MozillaOnline
+    url: https://sso.mozilla.com/
+    logo: auth0.png
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
     client_id: qz9wplbqX9XM6HVoaFL3BbhJ9eV6hcqU
     name: soloist.ai
     url: https://sso.mozilla.com/
