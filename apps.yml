@@ -5997,10 +5997,10 @@ apps:
     - /bamboohr
 - application:
     authorized_groups:
-    - mozilliansorg_onboard-testing
+    - team_mzla
     authorized_users: []
     client_id: wdO8ry1sqkNnH3i98iMzV0m5BsHRS9Xr
-    display: true
+    display: false
     logo: bamboohr.png
     name: BambooHR-MZLA
     op: auth0
