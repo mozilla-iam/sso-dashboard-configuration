@@ -3902,26 +3902,6 @@ apps:
     - /fleetdm
 - application:
     authorized_groups:
-    - mozilliansorg_everbridge_manager-access
-    authorized_users: []
-    client_id: Gbtjm1c0NJmT7fYAGnM2COgO3ndbW18Y
-    display: true
-    logo: everbridge_manager.png
-    name: Everbridge Manager
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Gbtjm1c0NJmT7fYAGnM2COgO3ndbW18Y
-- application:
-    authorized_groups:
-    - everyone
-    authorized_users: []
-    client_id: Al7xqRSbP8w0MgjDTWWXT2ohEQMkaOMy
-    display: false
-    logo: everbridge_member.png
-    name: Everbridge Member
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Al7xqRSbP8w0MgjDTWWXT2ohEQMkaOMy
-- application:
-    authorized_groups:
     - mozilliansorg_springfield-development
     authorized_users: []
     client_id: MB8SrVwSivv1aYDHXxPNrA3oAAOwyqt9
