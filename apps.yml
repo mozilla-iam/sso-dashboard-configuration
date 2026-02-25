@@ -1960,6 +1960,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mzla
     authorized_users: []
     client_id: vgDriXO3k0LThShbbJUfgl23uAT2MKBp
     display: false
