@@ -2856,18 +2856,6 @@ apps:
     - /braze-pocket
 - application:
     authorized_groups:
-    - mozilliansorg_prefect-cloud-pocket-access
-    authorized_users: []
-    client_id: FoeZGnqq0X9fQXQQ9Ve5kdSdPN4eedlG
-    display: true
-    logo: prefect-cloud-v1-legacy.png
-    name: Prefect Cloud (Pocket) - Legacy
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/FoeZGnqq0X9fQXQQ9Ve5kdSdPN4eedlG
-    vanity_url:
-    - /prefect-pocket-v1
-- application:
-    authorized_groups:
     - mozilliansorg_logikcull-access
     authorized_users: []
     client_id: L8LX53BqyxzF5ZAABfLbRWtrTI5eyr1H
@@ -3421,19 +3409,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/t1FpfVDNd5dg8T6xuxZ9vDVKo39gJxuS
     vanity_url:
     - /small-improvements
-- application:
-    authorized_groups:
-    - mozilliansorg_prefect-cloud-pocket-access
-    authorized_users: []
-    client_id: Xf38rDCbMQ7XH26JkqHDcpRRHaaFkoyM
-    display: true
-    logo: prefect-cloud.png
-    name: Prefect Cloud (Pocket)
-    op: auth0
-    url:
-      https://api.workos.com/sso/authorize?client_id=client_01GBBFMN6NWC8CQWRJTYS9TKTH&redirect_uri=https%3A%2F%2Fapp.prefect.cloud%2Fauth%2Fcallback&response_type=code&connection=conn_01HMW07E8GPGHH8YXQA64DJ4G2
-    vanity_url:
-    - /prefect-pocket
 - application:
     authorized_groups:
     - mozilliansorg_cloudpay-access
