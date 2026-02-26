@@ -5922,7 +5922,7 @@ apps:
     - /navan-mzla
 - application:
     authorized_groups:
-    - mozilliansorg_ff-enterprise-admin-console-prod
+    - everyone
     authorized_users: []
     client_id: UYzdPF8v5YRi9kUTAniwzS67Z4QYudtC
     display: false
