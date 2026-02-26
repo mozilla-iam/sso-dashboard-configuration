@@ -5922,6 +5922,16 @@ apps:
     - /navan-mzla
 - application:
     authorized_groups:
+    - mozilliansorg_ff-enterprise-admin-console-prod
+    authorized_users: []
+    client_id: UYzdPF8v5YRi9kUTAniwzS67Z4QYudtC
+    display: false
+    logo: auth0.png
+    name: FF-enterprise-admin-console-prod
+    op: auth0
+    url: https://prod.fx-enterprise.prod.webservices.mozgcp.net
+- application:
+    authorized_groups:
     - mozilliansorg_ff-enterprise-admin-console-dev
     authorized_users: []
     client_id: wcyCWNt7ND6YnIBOwCiAdpsJyuazMjE5
@@ -5940,6 +5950,16 @@ apps:
     name: FF-enterprise-admin-console-stage
     op: auth0
     url: https://stage.fx-enterprise.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    client_id: B87P65gTdgRhGbFsXexD8L6IsUANd9cR
+    display: false
+    logo: auth0.png
+    name: FF-enterprise-browser-prod
+    op: auth0
+    url: https://prod.fx-enterprise.prod.webservices.mozgcp.net
 - application:
     authorized_groups:
     - everyone
