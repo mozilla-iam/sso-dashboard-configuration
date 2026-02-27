@@ -2690,6 +2690,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_sec_splunk_ir
+    - mozilliansorg_sec_splunkdev_test
     authorized_users: []
     client_id: BzPI4GjztpBBJIZVv6MKdAldqOeTUl7n
     display: true
