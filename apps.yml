@@ -6000,7 +6000,7 @@ apps:
     - mozilliansorg_lattice_prod-access
     authorized_users: []
     client_id: yUqAic2yqjiBw9WlVVwan7JcJt3WrmTK
-    display: false
+    display: true
     logo: lattice.png
     name: Lattice
     op: auth0
