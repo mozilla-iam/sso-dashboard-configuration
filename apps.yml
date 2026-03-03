@@ -2499,7 +2499,7 @@ apps:
     - team_mozillaonline
     authorized_users: []
     client_id: axRGaXPRd5pe60fnEllluSN76MefFX1E
-    display: false
+    display: true
     logo: cultureamp.png
     name: Culture Amp
     op: auth0
