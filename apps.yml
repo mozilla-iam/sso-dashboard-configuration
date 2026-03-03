@@ -2499,7 +2499,7 @@ apps:
     - team_mozillaonline
     authorized_users: []
     client_id: axRGaXPRd5pe60fnEllluSN76MefFX1E
-    display: true
+    display: false
     logo: cultureamp.png
     name: Culture Amp
     op: auth0
@@ -3556,7 +3556,7 @@ apps:
     logo: brand.png
     name: brand.mozilla
     op: auth0
-    url: https://brand.mozilla.com/auth
+    url: https://brand.mozilla.com/all-brands#/-/landing
     vanity_url:
     - /frontify
 - application:
