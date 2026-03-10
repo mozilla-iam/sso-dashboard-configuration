@@ -6141,3 +6141,58 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/yuooEVi2Vt2NcUskXRC9uwNTgbxDkLHv
     vanity_url:
     - /textio
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: TzMKYmrhJY9XWX8f6xVHkhZHMC4BhPuj
+    name: GitHub Enterprise - fxbox
+    url: https://sso.mozilla.com/
+    logo: auth0.png
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: JT3G28PrEk9Or1bzHSu0TBsj2ETeRuXm
+    name: GitHub Enterprise - mozilla-homeweb
+    url: https://sso.mozilla.com/
+    logo: auth0.png
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: AOM1RgIbojnqYL0fvSg2Xtv6YDIBe7Xc
+    name: GitHub Enterprise - mozilla-sensorweb
+    url: https://sso.mozilla.com/
+    logo: auth0.png
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: gIIYBLT64qngNFQOtOrfQBe29fCDw4mJ
+    name: GitHub Enterprise - project-abigail
+    url: https://sso.mozilla.com/
+    logo: auth0.png
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: RclZSiMw5J5dbYXGkPTQJ6K31WxaGd8E
+    name: GitHub Enterprise - project-lighthouse
+    url: https://sso.mozilla.com/
+    logo: auth0.png
