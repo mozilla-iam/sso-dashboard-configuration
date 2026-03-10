@@ -6205,6 +6205,6 @@ apps:
     logo: sundial.png
     name: Sundial.ai
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/dsCqMokKbd9CZSKVLHfdGMFKke6B0qbD
+    url: https://trysundial.ai/sso
     vanity_url:
     - /sundial
