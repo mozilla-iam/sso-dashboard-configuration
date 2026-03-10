@@ -6196,3 +6196,15 @@ apps:
     name: GitHub Enterprise - project-lighthouse
     url: https://sso.mozilla.com/
     logo: auth0.png
+- application:
+    authorized_groups:
+    - mozilliansorg_sundial-access
+    authorized_users: []
+    client_id: dsCqMokKbd9CZSKVLHfdGMFKke6B0qbD
+    display: true
+    logo: sundial.png
+    name: Sundial.ai
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/dsCqMokKbd9CZSKVLHfdGMFKke6B0qbD
+    vanity_url:
+    - /sundial
