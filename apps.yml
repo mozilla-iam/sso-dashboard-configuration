@@ -6238,9 +6238,9 @@ apps:
     authorized_users: []
     client_id: dsCqMokKbd9CZSKVLHfdGMFKke6B0qbD
     display: true
-    logo: sundial.png
-    name: Sundial.ai
+    logo: trysundial.png
+    name: trysundial.ai
     op: auth0
     url: https://trysundial.ai/sso
     vanity_url:
-    - /sundial
+    - /trysundial
