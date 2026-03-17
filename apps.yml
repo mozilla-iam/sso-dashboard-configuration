@@ -6024,7 +6024,7 @@ apps:
     - team_mzla
     authorized_users: []
     client_id: wdO8ry1sqkNnH3i98iMzV0m5BsHRS9Xr
-    display: false
+    display: true
     logo: bamboohr.png
     name: BambooHR-MZLA
     op: auth0
