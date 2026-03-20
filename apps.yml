@@ -6245,3 +6245,15 @@ apps:
     url: https://trysundial.ai/sso
     vanity_url:
     - /trysundial
+- application:
+    authorized_groups:
+    - mozilliansorg_equativ-access
+    authorized_users: []
+    client_id: Kl4Rd1MbXhuyqJfyL9MLkBUH1wSNkoaQ
+    display: true
+    logo: equativ.png
+    name: Equativ
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/Kl4Rd1MbXhuyqJfyL9MLkBUH1wSNkoaQ
+    vanity_url:
+    - /equativ
