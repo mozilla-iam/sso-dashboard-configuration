@@ -6255,6 +6255,6 @@ apps:
     logo: equativ.png
     name: Equativ
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/Kl4Rd1MbXhuyqJfyL9MLkBUH1wSNkoaQ
+    url: https://manage.smartadserver.com/
     vanity_url:
     - /equativ
