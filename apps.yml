@@ -6270,3 +6270,14 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/CAvGJKnVvyN115cLnZoT6tSHfGVVNUsN
     vanity_url:
     - /accelevents
+- application:
+    AAL: LOW
+    authorized_groups:
+    - everyone
+    authorized_users: []
+    display: false
+    op: auth0
+    client_id: PVxjlYImxnDIFaqZpiIYGu7ML1xI82Ew
+    name: GitHub Enterprise - fxos-components
+    url: https://sso.mozilla.com/
+    logo: auth0.png
