@@ -4963,7 +4963,7 @@ apps:
     display: false
     op: auth0
     client_id: QfJVAjXlaGzpCo5S48J9D38QvIfhlYzF
-    name: GitHub Enterprise - MozillaDataScience
+    name: GitHub Enterprise - mozilla-data
     url: https://sso.mozilla.com/
     logo: auth0.png
 - application:
