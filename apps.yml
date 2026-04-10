@@ -6023,6 +6023,36 @@ apps:
     url: https://stage.fx-enterprise.nonprod.webservices.mozgcp.net/
 - application:
     authorized_groups:
+    - mozilliansorg_fx-enterprise-harbor-admins
+    authorized_users: []
+    client_id: ti7RshtXkNxMEfDFTCW5TL6eqsqAZUMY
+    display: false
+    logo: auth0.png
+    name: FF-enterprise-harbor-dev
+    op: auth0
+    url: https://harbor.dev.fx-enterprise.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - mozilliansorg_fx-enterprise-harbor-admins
+    authorized_users: []
+    client_id: FqiPko5ZLWKSFOeO8DCSP6hF3Msch7MB
+    display: false
+    logo: auth0.png
+    name: FF-enterprise-harbor-stage
+    op: auth0
+    url: https://harbor.stage.fx-enterprise.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - mozilliansorg_fx-enterprise-harbor-admins
+    authorized_users: []
+    client_id: fBLTI4bmA1aWNpwNrQjzAKbY0hmDWm2d
+    display: false
+    logo: auth0.png
+    name: FF-enterprise-harbor-prod
+    op: auth0
+    url: https://harbor.prod.fx-enterprise.prod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
     - mozilliansorg_bamboohr-access
     authorized_users: []
     client_id: 8soKFFr66PDCsEZFLAlEz7FFlq5tZ8Oo
