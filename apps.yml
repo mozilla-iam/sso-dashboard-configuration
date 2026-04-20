@@ -5966,7 +5966,7 @@ apps:
     name: Navan (MoFo)
     op: auth0
     url:
-      https://login.navan.com/u/login/identifier?state=hKFo2SBhRTBhQXdsb0Z4NGJIYVRfVmM2QmR2ZS10YTNhNDJrdqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGhPZnJWUThfRUJDd2l1a3NDQkJqczJZUXJOazM1RjNSo2NpZNkgV2tKOG95eGM5bmtRM2NqOTF4aldINDZ0VFNaOEhuVEw
+      https://app.navan.com/app/user2/auth/login-idp/init?connection=aa04c38d-bd34-475d-b076-22d2a9bcd4e6&serverRegion=US
     vanity_url:
     - /tripactions-mofo
     - /navan-mofo
