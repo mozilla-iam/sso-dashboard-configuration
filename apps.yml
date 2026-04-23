@@ -3813,6 +3813,17 @@ apps:
     - /adp
 - application:
     authorized_groups:
+    - mozilliansorg_accelevents-access
+    authorized_users: []
+    display: true
+    logo: accelevents.png
+    name: Accelevents
+    op: auth0
+    url: https://events.mozillafoundation.org/u/wl-login/mozillafoundation
+    vanity_url:
+    - /accelevents
+- application:
+    authorized_groups:
     - team_mzla
     authorized_users: []
     client_id: 703MNDVnbgrw2yGGk2ZLliNCKalgMmiA
@@ -6298,18 +6309,6 @@ apps:
     url: https://manage.smartadserver.com/
     vanity_url:
     - /equativ
-- application:
-    authorized_groups:
-    - mozilliansorg_accelevents-access
-    authorized_users: []
-    client_id: CAvGJKnVvyN115cLnZoT6tSHfGVVNUsN
-    display: true
-    logo: accelevents.png
-    name: Accelevents
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/CAvGJKnVvyN115cLnZoT6tSHfGVVNUsN
-    vanity_url:
-    - /accelevents
 - application:
     AAL: LOW
     authorized_groups:
