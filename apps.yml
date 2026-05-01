@@ -6345,3 +6345,15 @@ apps:
     url: https://ux-studio.base44.app/
     vanity_url:
     - /base44
+- application:
+    authorized_groups:
+    - mozilliansorg_workato_dev-access
+    authorized_users: []
+    client_id: 3RzEdOC64pf0VPDbdLsbVfLXw9fWH7Yb
+    display: false
+    logo: auth0.png
+    name: Workato (Dev)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/3RzEdOC64pf0VPDbdLsbVfLXw9fWH7Yb
+    vanity_url:
+    - /workato-dev
