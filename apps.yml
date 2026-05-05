@@ -6357,3 +6357,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/3RzEdOC64pf0VPDbdLsbVfLXw9fWH7Yb
     vanity_url:
     - /workato-dev
+- application:
+    authorized_groups:
+    - mozilliansorg_togetherai-access
+    authorized_users: []
+    client_id: 0jc9JrtJKqfTCD2J4YLICz36eBn6NULK
+    display: false
+    logo: auth0.png
+    name: TogetherAI
+    op: auth0
+    url: https://api.together.ai/sso-signin?redirectUrl=%2F
+    vanity_url:
+    - /togetherai
