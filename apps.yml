@@ -559,10 +559,9 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - everyone
     authorized_users: []
     client_id: Gav1XmmrpBxts0zeDPOSfGesVrTt044k
-    display: false
+    display: true
     logo: pagerduty.png
     name: PagerDuty
     op: auth0
