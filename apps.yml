@@ -6369,3 +6369,13 @@ apps:
     url: https://api.together.ai/sso-signin?redirectUrl=%2F
     vanity_url:
     - /togetherai
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: IGrCw2oLP4ySxkqvyfdbNT7BFrJOyDGp
+    display: false
+    logo: coursera.png
+    name: Coursera Enterprise
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/IGrCw2oLP4ySxkqvyfdbNT7BFrJOyDGp
