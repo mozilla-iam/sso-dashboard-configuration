@@ -6122,6 +6122,20 @@ apps:
     - /claude-code
 - application:
     authorized_groups:
+    - mozilliansorg_claude_code-admin
+    - mozilliansorg_claude_cowork-access
+    - mozilliansorg_claude-owners
+    authorized_users: []
+    client_id: kO6jg7RGbIsZQUIV5zMDrQ0FdxknN96C
+    display: false
+    logo: auth0.png
+    name: Claude Cowork
+    op: auth0
+    url: https://claude.ai/login
+    vanity_url:
+    - /claude-cowork
+- application:
+    authorized_groups:
     - mozilliansorg_claude_code-access-mofo
     authorized_users: []
     client_id: coPeHai947noc9267KOhhHxbw709hccP
