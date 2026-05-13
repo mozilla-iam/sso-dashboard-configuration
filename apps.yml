@@ -6117,7 +6117,7 @@ apps:
     logo: claudecode.png
     name: Claude Code
     op: auth0
-    url: https://platform.claude.com/login?returnTo=%2Fdashboard
+    url: https://platform.claude.com/login?sso=true
     vanity_url:
     - /claude-code
 - application:
