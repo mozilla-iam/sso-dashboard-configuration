@@ -6402,3 +6402,13 @@ apps:
     name: Internal UX Tool
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/RGGO05yKAcoI0akTTo8tvUpwUhaDZ8n1
+- application:
+    authorized_groups:
+    - mozilliansorg_ai-scanner-access
+    authorized_users: []
+    client_id: sQyEohqxVmYnjn8qkIEkKFrKv1oCtAPl
+    display: false
+    logo: auth0.png
+    name: AI scanner
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/sQyEohqxVmYnjn8qkIEkKFrKv1oCtAPl
