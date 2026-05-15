@@ -6422,3 +6422,15 @@ apps:
     name: Statuspage - Tabstack
     op: auth0
     url: https://manage.statuspage.io/sso/saml/consume
+- application:
+    authorized_groups:
+    - mozilliansorg_mozillm-admins
+    authorized_users: []
+    client_id: NxxxUh1SAgwQHDAsFI1Cr8jyJejOjjUP
+    display: false
+    logo: auth0.png
+    name: LiteLLM
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/NxxxUh1SAgwQHDAsFI1Cr8jyJejOjjUP
+    vanity_url:
+    - /litellm
