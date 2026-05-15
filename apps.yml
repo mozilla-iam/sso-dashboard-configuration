@@ -6412,3 +6412,13 @@ apps:
     name: AI scanner
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/sQyEohqxVmYnjn8qkIEkKFrKv1oCtAPl
+- application:
+    authorized_groups:
+    - mozilliansorg_statuspage-tabstack-access
+    authorized_users: []
+    client_id: 7RtDx8tcYipTaUuGJNhGgU4nH7tRZEii
+    display: true
+    logo: statuspage.png
+    name: Statuspage - Tabstack
+    op: auth0
+    url: https://manage.statuspage.io/sso/saml/consume
