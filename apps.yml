@@ -6417,7 +6417,7 @@ apps:
     - mozilliansorg_statuspage-tabstack-access
     authorized_users: []
     client_id: 7RtDx8tcYipTaUuGJNhGgU4nH7tRZEii
-    display: true
+    display: false
     logo: statuspage.png
     name: Statuspage - Tabstack
     op: auth0
