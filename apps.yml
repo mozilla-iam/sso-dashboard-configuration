@@ -6452,11 +6452,11 @@ apps:
     client_id: NxxxUh1SAgwQHDAsFI1Cr8jyJejOjjUP
     display: false
     logo: auth0.png
-    name: LiteLLM
+    name: LiteLLM (Dev)
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/NxxxUh1SAgwQHDAsFI1Cr8jyJejOjjUP
+    url: https://mozillm-mozilla-nonprod-dev.global.ssl.fastly.net/ui/
     vanity_url:
-    - /litellm
+    - /litellm-dev
 - application:
     authorized_groups:
     - mozilliansorg_avigilon_alta-access
