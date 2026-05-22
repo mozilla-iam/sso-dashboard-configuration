@@ -6457,3 +6457,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/NxxxUh1SAgwQHDAsFI1Cr8jyJejOjjUP
     vanity_url:
     - /litellm
+- application:
+    authorized_groups:
+    - mozilliansorg_avigilon_alta-access
+    authorized_users: []
+    client_id: nH4nrFIPvph6jxi6qwpKTlkREzdbbuNw
+    display: false
+    logo: auth0.png
+    name: Avigilon Alta Access
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/nH4nrFIPvph6jxi6qwpKTlkREzdbbuNw
+    vanity_url:
+    - /avigilon
