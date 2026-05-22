@@ -6381,6 +6381,7 @@ apps:
     url: https://ux-studio.base44.app/
     vanity_url:
     - /base44
+# Remove this after IAM-1957, see IAM-1979.
 - application:
     authorized_groups:
     - mozilliansorg_workato_dev-access
@@ -6469,6 +6470,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/nH4nrFIPvph6jxi6qwpKTlkREzdbbuNw
     vanity_url:
     - /avigilon
+# This requires coordination with auth0-deploy's samlMappings.
 - application:
     authorized_groups:
     - mozilliansorg_workato_user-end_user
@@ -6481,3 +6483,19 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/qXfKerLoU8w8FN76OB9Yt7I6w2N8lD2Y
     vanity_url:
     - /workato-identity
+# This requires coordination with auth0-deploy's samlMappings.
+- application:
+    authorized_groups:
+    - mozilliansorg_workato_dev-access
+    - mozilliansorg_workato_workspace_role-dev
+    - mozilliansorg_workato_workspace_role-test
+    - mozilliansorg_workato_workspace_role-prod
+    authorized_users: []
+    client_id: JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
+    display: false
+    logo: auth0.png
+    name: Workato Identity
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
+    vanity_url:
+    - /workato-workspace
