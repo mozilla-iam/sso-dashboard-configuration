@@ -6469,3 +6469,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/nH4nrFIPvph6jxi6qwpKTlkREzdbbuNw
     vanity_url:
     - /avigilon
+- application:
+    authorized_groups:
+    - mozilliansorg_workato_user-end_user
+    authorized_users: []
+    client_id: qXfKerLoU8w8FN76OB9Yt7I6w2N8lD2Y
+    display: false
+    logo: auth0.png
+    name: Workato Identity
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/qXfKerLoU8w8FN76OB9Yt7I6w2N8lD2Y
+    vanity_url:
+    - /workato-identity
