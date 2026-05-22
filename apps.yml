@@ -6473,7 +6473,8 @@ apps:
 # This requires coordination with auth0-deploy's samlMappings.
 - application:
     authorized_groups:
-    - mozilliansorg_workato_user-end_user
+    - team_moco
+    - team_mofo
     authorized_users: []
     client_id: qXfKerLoU8w8FN76OB9Yt7I6w2N8lD2Y
     display: false
