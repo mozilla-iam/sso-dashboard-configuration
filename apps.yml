@@ -437,7 +437,8 @@ apps:
     - team_office_support
     - service_jira
     - travelling_accounts_jira
-    authorized_users: []
+    authorized_users:
+    - workato-automation@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
     logo: jira.png
@@ -463,6 +464,7 @@ apps:
     authorized_users:
     - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
+    - workato-automation@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
     display: true
     logo: confluence.png
@@ -2156,9 +2158,7 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
-    authorized_users:
-    - dlipski@mozilla.com
-    - jeide@mozilla.com
+    authorized_users: []
     client_id: TB91RkOJc4eQhOuT0SIfUHm2nD6W3ipT
     display: true
     logo: coderpad.png
@@ -3662,7 +3662,8 @@ apps:
     - team_mozillaonline
     - travelling_accounts
     - team_office_support
-    authorized_users: []
+    authorized_users:
+    - workato-automation@mozilla.com
     client_id: htnpYVQ6jsBnxstKeETNerYgVUjvE7SB
     display: true
     logo: slack.png
