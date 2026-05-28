@@ -128,6 +128,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mozorg
     - team_mzla
     - team_mzai
     - team_mozillaonline
