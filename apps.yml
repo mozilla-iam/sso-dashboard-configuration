@@ -2156,9 +2156,7 @@ apps:
     - team_moco
     - team_mofo
     - team_mzla
-    authorized_users:
-    - dlipski@mozilla.com
-    - jeide@mozilla.com
+    authorized_users: []
     client_id: TB91RkOJc4eQhOuT0SIfUHm2nD6W3ipT
     display: true
     logo: coderpad.png
