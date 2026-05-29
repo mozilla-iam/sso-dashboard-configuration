@@ -6136,6 +6136,8 @@ apps:
     authorized_groups:
     - mozilliansorg_claude_code-access
     - mozilliansorg_claude_code-admin
+    - mozilliansorg_claude_code_sec-admin
+    - mozilliansorg_claude_code_sec
     authorized_users: []
     client_id: kO6jg7RGbIsZQUIV5zMDrQ0FdxknN96C
     display: true
