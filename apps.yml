@@ -6505,3 +6505,15 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
     vanity_url:
     - /workato-workspace
+- application:
+    authorized_groups:
+    - mozilliansorg_mozillm-admins
+    authorized_users: []
+    client_id: AFdKegJUDbFabXhfyXnK6amrO8NpAuiE
+    display: false
+    logo: auth0.png
+    name: Runlayer
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/AFdKegJUDbFabXhfyXnK6amrO8NpAuiE
+    vanity_url:
+    - /runlayer
