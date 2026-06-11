@@ -1322,7 +1322,7 @@ apps:
     logo: balrog.png
     name: Balrog (Prod)
     op: auth0
-    url: https://balrog.services.mozilla.com
+    url: https://balrog.mozilla.org
 - application:
     authorized_groups:
     - team_services_ops
@@ -1333,7 +1333,7 @@ apps:
     logo: balrog.png
     name: Balrog (Stage)
     op: auth0
-    url: https://balrog-admin-static-stage.stage.mozaws.net/
+    url: https://balrog.allizom.org
 - application:
     authorized_groups:
     - team_moco
