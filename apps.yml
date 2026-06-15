@@ -6539,7 +6539,13 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/Hs5XSrnPTrKaImgkq0m2tmfcJqZjR0bO
 - application:
     authorized_groups:
-    - everyone
+    - team_moco
+    - team_mofo
+    - team_mozorg
+    - team_mzla
+    - team_mzai
+    - team_mzvc
+    - team_mozillaonline
     authorized_users: []
     client_id: QtbibrHuvuLyxxn534dGsn3BXkLI9wKC
     display: false
