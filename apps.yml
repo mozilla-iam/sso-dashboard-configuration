@@ -6507,7 +6507,10 @@ apps:
     - /workato-workspace
 - application:
     authorized_groups:
+    - team_moco
+    - team_mofo
     - mozilliansorg_mozillm-admins
+    - mozilliansorg_mozillm-developers
     authorized_users: []
     client_id: AFdKegJUDbFabXhfyXnK6amrO8NpAuiE
     display: false
