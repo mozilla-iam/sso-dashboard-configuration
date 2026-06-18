@@ -6572,3 +6572,15 @@ apps:
     name: geo-tracker (Stage)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/YpealI3y01AXeIDlsbMQ5pcpm1cvkxFy
+- application:
+    authorized_groups:
+    - mozilliansorg_fx-enterprise-peer-six-tool
+    authorized_users: []
+    client_id: h1NM3lbQKhluSQVSD6X4BRlzBeeigDGk
+    display: false
+    logo: auth0.png
+    name: Lumenous AI
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/h1NM3lbQKhluSQVSD6X4BRlzBeeigDGk
+    vanity_url:
+    - /lumenousai
