@@ -6563,7 +6563,7 @@ apps:
     client_id: QtbibrHuvuLyxxn534dGsn3BXkLI9wKC
     display: false
     logo: auth0.png
-    name: geo-tracker (Prod)
+    name: LLM Visibility (Prod)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/QtbibrHuvuLyxxn534dGsn3BXkLI9wKC
 - application:
@@ -6579,7 +6579,7 @@ apps:
     client_id: YpealI3y01AXeIDlsbMQ5pcpm1cvkxFy
     display: false
     logo: auth0.png
-    name: geo-tracker (Stage)
+    name: LLM Visibility (Stage)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/YpealI3y01AXeIDlsbMQ5pcpm1cvkxFy
 - application:
