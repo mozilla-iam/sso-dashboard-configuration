@@ -6423,10 +6423,10 @@ apps:
     - /togetherai
 - application:
     authorized_groups:
-    - team_moco
+    - team_moco_benefited
     authorized_users: []
     client_id: IGrCw2oLP4ySxkqvyfdbNT7BFrJOyDGp
-    display: false
+    display: true
     logo: coursera.png
     name: Coursera Enterprise
     op: auth0
