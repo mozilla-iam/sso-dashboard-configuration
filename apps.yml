@@ -748,7 +748,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/pRwf1AWvIO5t4zyMsF8R18wtt1jfLp5o
 - application:
     authorized_groups:
-    - mozilliansorg_workday-sandbox
+    - mozilliansorg_workday_impl1-access
     authorized_users: []
     client_id: G4nWSuEEWCoF2jMRBVcuhSdZtASUcXwN
     display: true
