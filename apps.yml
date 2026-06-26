@@ -3616,21 +3616,6 @@ apps:
     - /aws-cloudservices
 - application:
     authorized_groups:
-    - team_moco
-    - team_elance
-    - mozilliansorg_lifelabs-access
-    authorized_users: []
-    client_id: OWmWq6YwMvc8TwIrMlWzK81KaLZDkOYw
-    display: true
-    logo: lifelabs.png
-    name: LifeLabs Learning
-    op: auth0
-    url: https://app.lifelabslearning.com/training?sso=mozilla
-    vanity_url:
-    - /lifelabs
-    - /mlp
-- application:
-    authorized_groups:
     - mozilliansorg_azure-access
     authorized_users: []
     client_id: cg5g2Q48SzDjVHjqfmcXJIm8YTg40nTO
