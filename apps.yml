@@ -4006,6 +4006,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mzla
     - mozilliansorg_obs_grafana_admin-access
     authorized_users: []
     client_id: rbH2lgiwsLN3A9QD9h4zv0mWtxP85UwE
