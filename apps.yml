@@ -6492,6 +6492,7 @@ apps:
     - mozilliansorg_workato_workspace_role-dev
     - mozilliansorg_workato_workspace_role-test
     - mozilliansorg_workato_workspace_role-prod
+    - mozilliansorg_workato_workspace_group-mozilla-product-management
     authorized_users: []
     client_id: JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
     display: false
