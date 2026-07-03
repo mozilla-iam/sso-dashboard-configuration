@@ -2904,6 +2904,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_sec_endpoint_detection
+    - mozilliansorg_sec-siem-access
     authorized_users: []
     client_id: 0dlDsk4pkHQOk13M86WR6VvZFaIYBqI8
     display: true
