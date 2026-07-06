@@ -6540,13 +6540,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/Hs5XSrnPTrKaImgkq0m2tmfcJqZjR0bO
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozorg
-    - team_mzla
-    - team_mzai
-    - team_mzvc
-    - team_mozillaonline
+    - mozilliansorg_llm_visibility-admins
     authorized_users: []
     client_id: QtbibrHuvuLyxxn534dGsn3BXkLI9wKC
     display: false
@@ -6556,13 +6550,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/QtbibrHuvuLyxxn534dGsn3BXkLI9wKC
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mozorg
-    - team_mzla
-    - team_mzai
-    - team_mzvc
-    - team_mozillaonline
+    - mozilliansorg_llm_visibility-admins
     authorized_users: []
     client_id: YpealI3y01AXeIDlsbMQ5pcpm1cvkxFy
     display: false
