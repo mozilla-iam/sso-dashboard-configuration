@@ -6582,3 +6582,23 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/h1NM3lbQKhluSQVSD6X4BRlzBeeigDGk
     vanity_url:
     - /lumenousai
+- application:
+    authorized_groups:
+    - mozilliansorg_den_prod-access
+    authorized_users: []
+    client_id: HP786TjpbF5nEQlG4sqgu9kCd5TKwDN9
+    display: false
+    logo: auth0.png
+    name: Den (Prod)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/HP786TjpbF5nEQlG4sqgu9kCd5TKwDN9
+- application:
+    authorized_groups:
+    - mozilliansorg_den_dev-access
+    authorized_users: []
+    client_id: EQMv5eixZdHch6lOc4vm2Exsm67S2F9U
+    display: false
+    logo: auth0.png
+    name: Den (Dev)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/EQMv5eixZdHch6lOc4vm2Exsm67S2F9U
