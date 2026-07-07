@@ -6590,3 +6590,13 @@ apps:
     name: Den (Dev)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/EQMv5eixZdHch6lOc4vm2Exsm67S2F9U
+- application:
+    authorized_groups:
+    - mozilliansorg_deepnote-access
+    authorized_users: []
+    client_id: BmBgYl4GZW5UTqJYNiJE3VwZfcI9WJw0
+    display: false
+    logo: auth0.png
+    name: Deepnote
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/BmBgYl4GZW5UTqJYNiJE3VwZfcI9WJw0
