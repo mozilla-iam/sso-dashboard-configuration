@@ -6616,7 +6616,7 @@ apps:
     authorized_users: []
     client_id: G2v87dqcxmKOV7qvVf99YIYwFf2xgu1J
     display: false
-    name: admin.prod.fx-sharing.prod.webservices.mozgcp.net
     logo: auth0.png
+    name: admin.prod.fx-sharing.prod.webservices.mozgcp.net
     op: auth0
     url: https://admin.prod.fx-sharing.prod.webservices.mozgcp.net/admin/
