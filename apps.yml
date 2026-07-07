@@ -6600,3 +6600,23 @@ apps:
     name: Deepnote
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/BmBgYl4GZW5UTqJYNiJE3VwZfcI9WJw0
+- application:
+    authorized_groups:
+    - mozilliansorg_fx-sharing-admin
+    authorized_users: []
+    client_id: 8QrPdfGMv90EObGmmMkRUij096h2FuYj
+    display: false
+    logo: auth0.png
+    name: admin.dev.fx-sharing.nonprod.webservices.mozgcp.net
+    op: auth0
+    url: https://admin.dev.fx-sharing.nonprod.webservices.mozgcp.net/admin/
+- application:
+    authorized_groups:
+    - mozilliansorg_fx-sharing-admin
+    authorized_users: []
+    client_id: G2v87dqcxmKOV7qvVf99YIYwFf2xgu1J
+    display: false
+    name: admin.prod.fx-sharing.prod.webservices.mozgcp.net
+    logo: auth0.png
+    op: auth0
+    url: https://admin.prod.fx-sharing.prod.webservices.mozgcp.net/admin/
