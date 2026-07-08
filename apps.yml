@@ -2420,7 +2420,7 @@ apps:
     - team_moco_benefited
     - team_mofo
     - team_mozillaonline
-    - team_elance
+    - workertype_eor
     authorized_users: []
     client_id: w8hBBYB30b12DqElacIQkFM6V2deEpwz
     display: false
@@ -6411,6 +6411,8 @@ apps:
 - application:
     authorized_groups:
     - team_moco_benefited
+    - workertype_eor
+    - workertype_fixed_term
     authorized_users: []
     client_id: IGrCw2oLP4ySxkqvyfdbNT7BFrJOyDGp
     display: true
