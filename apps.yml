@@ -6511,6 +6511,7 @@ apps:
     - team_mofo
     - mozilliansorg_mozillm-admins
     - mozilliansorg_mozillm-developers
+    - mozilliansorg_runlayer-it-service-desk-access
     authorized_users: []
     client_id: AFdKegJUDbFabXhfyXnK6amrO8NpAuiE
     display: false
