@@ -6422,6 +6422,16 @@ apps:
     url: https://www.coursera.org/?authMode=login&authProvider=mozilla
 - application:
     authorized_groups:
+    - team_mzla
+    authorized_users: []
+    client_id: N6HGMgU7upUd9ugrCOuEMtDCYhJ31kzK
+    display: true
+    logo: coursera.png
+    name: Coursera (MZLA)
+    op: auth0
+    url: https://www.coursera.org/?authMode=login&authProvider=mzla-technologies-corp
+- application:
+    authorized_groups:
     - team_moco
     authorized_users: []
     client_id: RGGO05yKAcoI0akTTo8tvUpwUhaDZ8n1
