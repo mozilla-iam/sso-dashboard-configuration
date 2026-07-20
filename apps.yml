@@ -6634,3 +6634,66 @@ apps:
     name: admin.prod.fx-sharing.prod.webservices.mozgcp.net
     op: auth0
     url: https://admin.prod.fx-sharing.prod.webservices.mozgcp.net/admin/
+- application:
+    AAL: HIGH
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: klvKlpIyTObobDMu1hP62TGW7cXOdcOp
+    display: false
+    logo: auth0.png
+    name: Test RP High AAL (dev)
+    op: auth0
+    url: https://oidc-aal-high.dev.iam.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: iO7LBg2F72JWD8RHil7wZnvoSPJb75Cj
+    display: false
+    logo: auth0.png
+    name: Test RP Medium AAL (dev)
+    op: auth0
+    url: https://oidc-aal-medium.dev.iam.nonprod.webservices.mozgcp.net/
+- application:
+    AAL: HIGH
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: kwBVere8Ff6HozEzMK6uMblAgTRrcaUx
+    display: false
+    logo: auth0.png
+    name: Test RP High AAL (stage)
+    op: auth0
+    url: https://oidc-aal-high.stage.iam.nonprod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: NbXEW3Ybo6uVHIaFWRAx25GLigL27gCP
+    display: false
+    logo: auth0.png
+    name: Test RP Medium AAL (stage)
+    op: auth0
+    url: https://oidc-aal-medium.stage.iam.nonprod.webservices.mozgcp.net/
+- application:
+    AAL: HIGH
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: 763s9P6S8HbQqH5H6EpbXrhUREfEXmjv
+    display: false
+    logo: auth0.png
+    name: Test RP High AAL
+    op: auth0
+    url: https://oidc-aal-high.prod.iam.prod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - team_moco
+    authorized_users: []
+    client_id: vI7mI0OioVmARr1mRIEYuYzl0q03TQO7
+    display: false
+    logo: auth0.png
+    name: Test RP Medium AAL
+    op: auth0
+    url: https://oidc-aal-medium.prod.iam.prod.webservices.mozgcp.net/
