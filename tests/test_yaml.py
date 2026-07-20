@@ -30,7 +30,7 @@ class Application(TypedDict):
     authorized_groups: list[str]
     client_id: NotRequired[str]
     vanity_url: NotRequired[list[str]]
-    AAL: NotRequired[Literal["LOW", "MEDIUM", "MAXIMUM"]]
+    AAL: NotRequired[Literal["LOW", "MEDIUM", "HIGH", "MAXIMUM"]]
 
 class AppEntry(TypedDict):
     """An item in the `apps` list."""
