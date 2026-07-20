@@ -6508,7 +6508,6 @@ apps:
     - mozilliansorg_workato_workspace_group-financesystems-viewonly
     - mozilliansorg_workato_workspace_group-financesystems-devs
     - mozilliansorg_workato_workspace_group-financesystems-admins
-
     authorized_users: []
     client_id: JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
     display: false
