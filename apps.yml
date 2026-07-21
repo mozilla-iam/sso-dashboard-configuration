@@ -1733,7 +1733,6 @@ apps:
     authorized_groups:
     - team_mozillaonline
     - mozilliansorg_stmo_nda
-    - stmo_nda
     - team_moco
     - team_mofo
     - team_mzla
