@@ -2404,19 +2404,6 @@ apps:
     - /udemy-mofo
 - application:
     authorized_groups:
-    - team_mzla
-    - mozilliansorg_onboard-testing
-    authorized_users: []
-    client_id: aXMgLIHosl6m35hT1zJoTHmGWzAbREJj
-    display: true
-    logo: udemy.png
-    name: Udemy (MZLA)
-    op: auth0
-    url: https://thunderbird.udemy.com
-    vanity_url:
-    - /udemy-mzla
-- application:
-    authorized_groups:
     - team_moco_benefited
     - team_mofo
     - team_mozillaonline
