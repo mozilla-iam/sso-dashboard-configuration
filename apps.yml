@@ -6507,6 +6507,19 @@ apps:
     - mozilliansorg_workato_workspace_role-test
     - mozilliansorg_workato_workspace_role-prod
     - mozilliansorg_workato_workspace_group-mozilla-product-management
+    - mozilliansorg_workato_workspace_group-wptautomations-admins
+    - mozilliansorg_workato_workspace_group-servicedesk-viewonly
+    - mozilliansorg_workato_workspace_group-servicedesk-devs
+    - mozilliansorg_workato_workspace_group-servicedesk-admins
+    - mozilliansorg_workato_workspace_group-mozengineeringproduct-viewonly
+    - mozilliansorg_workato_workspace_group-mozengineeringproduct-devs
+    - mozilliansorg_workato_workspace_group-mozengineeringproduct-admins
+    - mozilliansorg_workato_workspace_group-hr-viewonly
+    - mozilliansorg_workato_workspace_group-hr-devs
+    - mozilliansorg_workato_workspace_group-hr-admins
+    - mozilliansorg_workato_workspace_group-financesystems-viewonly
+    - mozilliansorg_workato_workspace_group-financesystems-devs
+    - mozilliansorg_workato_workspace_group-financesystems-admins
     authorized_users: []
     client_id: JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
     display: false
