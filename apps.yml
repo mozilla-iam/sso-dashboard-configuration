@@ -786,7 +786,6 @@ apps:
     - team_infra
     - team_moc
     - team_opsec
-    - team_avops
     - team_relops
     - vpn_panorama
     authorized_users: []
