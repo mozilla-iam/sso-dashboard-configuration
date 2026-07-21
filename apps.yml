@@ -6495,7 +6495,7 @@ apps:
     - mozilliansorg_workato_workspace_role-test
     - mozilliansorg_workato_workspace_role-prod
     - mozilliansorg_workato_workspace_group-mozilla-product-management
-    - mozilliansorg_workato_workspace_group-wptatomations-admins
+    - mozilliansorg_workato_workspace_group-wptautomations-admins
     - mozilliansorg_workato_workspace_group-servicedesk-viewonly
     - mozilliansorg_workato_workspace_group-servicedesk-devs
     - mozilliansorg_workato_workspace_group-servicedesk-admins
