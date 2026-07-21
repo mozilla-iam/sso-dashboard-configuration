@@ -782,10 +782,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/i55sTCbmgUTkvHPW3SDueKlKbtPj5iRF
 - application:
     authorized_groups:
-    - netops
-    - team_infra
-    - team_opsec
-    - team_relops
     - vpn_panorama
     authorized_users: []
     client_id: z5zWsArYQgI63CEjMMtODh0DFtDr5oSz
