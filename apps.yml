@@ -1693,17 +1693,6 @@ apps:
     url: https://lando.devsvcstage.mozaws.net/redirect_uri
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    authorized_users: []
-    client_id: XMAlQpd3P8y34lZF2EvgdNkNxWIP3KD2
-    display: false
-    logo: auth0.png
-    name: Safari
-    op: auth0
-    url: https://safarijv.auth0.com/login/callback?connection=Mozilla
-- application:
-    authorized_groups:
     - mozilliansorg_stmo_nda
     - team_moco
     - team_mofo
