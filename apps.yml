@@ -131,7 +131,6 @@ apps:
     - team_mozorg
     - team_mzla
     - team_mzai
-    - team_mozillaonline
     - mozilliansorg_nda
     authorized_users: []
     client_id: y32eNslKsOw7cDhP6CCRGv23Zw3EYNAJ
@@ -278,7 +277,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: Qxc2EI4g0NymUBvfFKpuwPdSzJZX5TEN
     display: false
@@ -293,7 +291,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: eaiAVdOLtf2KXZvexyCCViw0154E0U6x
     display: true
@@ -311,7 +308,6 @@ apps:
     - team_mzla
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     - travelling_accounts
     - team_office_support
     - gsuite_shared_accounts
@@ -338,7 +334,6 @@ apps:
     - team_mzla
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     - travelling_accounts
     - team_office_support
     - gsuite_shared_accounts
@@ -364,7 +359,6 @@ apps:
     - team_mzla
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     - travelling_accounts
     - team_office_support
     - gsuite_shared_accounts
@@ -430,7 +424,6 @@ apps:
     - team_mzla
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     - team_office_support
     - service_jira
     - travelling_accounts_jira
@@ -452,7 +445,6 @@ apps:
     - team_mzla
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     - team_office_support
     - moc_service_accounts
     - service_jira
@@ -473,7 +465,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     - team_mzla
     authorized_users: []
     client_id: 8IhkiQO1reUO0an6e95CJ6EMBg7Lg5xQ
@@ -668,7 +659,6 @@ apps:
     - team_mzla
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     - team_office_support
     - service_jira
     - travelling_accounts_jira
@@ -895,7 +885,6 @@ apps:
     - team_mzla
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     - travelling_accounts
     - team_office_support
     - zoom_non_staff
@@ -951,7 +940,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: iz2qSHo0lSv2nRZ8V3JnOESX5UR4dcpX
     display: false
@@ -1366,7 +1354,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: 2dbkrvUJa5gnxGSnMLZ1jflbtrahhrEi
     display: false
@@ -1434,7 +1421,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: OlwWsXslbA9wk5lQOHUDIUSrtIFTauTy
     display: false
@@ -1446,7 +1432,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: 7YTXsNQhLSiNsXPtDdXdvryD5dN30DEb
     display: false
@@ -1725,7 +1710,6 @@ apps:
     url: https://safarijv.auth0.com/login/callback?connection=Mozilla
 - application:
     authorized_groups:
-    - team_mozillaonline
     - mozilliansorg_stmo_nda
     - team_moco
     - team_mofo
@@ -2138,7 +2122,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: m3UJJU40O2T6awdbhoA8V6onp3AbzU3Q
     display: false
@@ -2363,7 +2346,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: WlWmEUQ2dmQFQJfKxNx1ZNkAJRKueaR1
     display: false
@@ -2375,7 +2357,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: kfax6JBFqyXQcfEEQmEa56np04rm3uYX
     display: false
@@ -2399,7 +2380,6 @@ apps:
     authorized_groups:
     - team_moco_benefited
     - team_mofo
-    - team_mozillaonline
     - workertype_eor
     authorized_users: []
     client_id: w8hBBYB30b12DqElacIQkFM6V2deEpwz
@@ -2496,7 +2476,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     authorized_users: []
     client_id: pozwk4HuT6AELY5Mf1oZPDdIDUo6VId4
     display: false
@@ -2760,7 +2739,6 @@ apps:
     - /connect
 - application:
     authorized_groups:
-    - team_mozillaonline
     - team_moco
     - team_mofo
     authorized_users: []
@@ -2894,7 +2872,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    - team_mozillaonline
     authorized_users: []
     client_id: NCMamrflooUxJ2cNuhfMLO18kEPyodPx
     display: false
@@ -3089,7 +3066,6 @@ apps:
 - application:
     authorized_groups:
     - team_moco
-    - team_mozillaonline
     authorized_users:
     - billing@mozilla.com
     client_id: adMlV8Ud0Z77GLfsaa4fb4oQj8ggf0ws
@@ -3625,7 +3601,6 @@ apps:
     - team_mzla
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     - travelling_accounts
     - team_office_support
     authorized_users:
@@ -5930,7 +5905,6 @@ apps:
     - team_mozorg
     - team_mzai
     - team_mzvc
-    - team_mozillaonline
     authorized_users: []
     client_id: TwZ8Ux43hO2h1gi5GwUvEJVnJ20icd9S
     display: true
@@ -6179,7 +6153,6 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
-    - team_mozillaonline
     - team_mzai
     - team_mzla
     authorized_users: []
