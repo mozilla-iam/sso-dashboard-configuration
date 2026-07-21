@@ -784,7 +784,6 @@ apps:
     authorized_groups:
     - netops
     - team_infra
-    - team_moc
     - team_opsec
     - team_relops
     - vpn_panorama
