@@ -6503,11 +6503,16 @@ apps:
     - mozilliansorg_workato_workspace_group-mozengineeringproduct-devs
     - mozilliansorg_workato_workspace_group-mozengineeringproduct-admins
     - mozilliansorg_workato_workspace_group-hr-viewonly
-    - mozilliansorg_workato_workspace_group-hr-devs
+    - mozilliansorg_workato_workspace_group-hr-devsx
     - mozilliansorg_workato_workspace_group-hr-admins
     - mozilliansorg_workato_workspace_group-financesystems-viewonly
     - mozilliansorg_workato_workspace_group-financesystems-devs
     - mozilliansorg_workato_workspace_group-financesystems-admins
+    - workato_workspace_group-wptautomations-devs
+    - workato_workspace_group-wptautomations-viewonly
+    - workato_workspace_group-eam-admins
+    - workato_workspace_group-eam-devs
+    - workato_workspace_group-eam-viewonly
     authorized_users: []
     client_id: JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
     display: false
