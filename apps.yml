@@ -6497,7 +6497,7 @@ apps:
     - mozilliansorg_workato_workspace_group-mozilla-product-management
     - mozilliansorg_workato_workspace_group-wptautomations-admins
     - mozilliansorg_workato_workspace_group-wptautomations-devs
-    - workato_workspace_group-wptautomations-viewonly    
+    - mozilliansorg_workato_workspace_group-wptautomations-viewonly    
     - mozilliansorg_workato_workspace_group-servicedesk-viewonly
     - mozilliansorg_workato_workspace_group-servicedesk-devs
     - mozilliansorg_workato_workspace_group-servicedesk-admins
