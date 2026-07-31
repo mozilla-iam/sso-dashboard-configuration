@@ -29,7 +29,15 @@
 #
 # 1. If the client_id is missing, MFA is not required. (This is uncommon.)
 #
-# 2. If `AAL: LOW` is present, MFA is not required. (This is uncommon.)
+# 2. If `AAL: LOW` is present, MFA is not required. (This is uncommon, but may
+#    occur with community focused apps, e.g. SSO Dashboard, PeopleMo, AirMo, etc.)
+#
+#    If someone from LDAP signs in _and_ they have Duo enabled, then we'll
+#    upgrade their permissions to MEDIUM (since 2FA is the weakest assurance
+#    we'll provide with Duo).
+#
+#    Unfortunately, even if a user uses a higher assurance authenticator when
+#    they've been upgraded (e.g. HIGH or MAXIMUM), we'll still say MEDIUM.
 #
 # 3. Otherwise, MFA is required.
 #
