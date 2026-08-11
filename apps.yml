@@ -6027,12 +6027,24 @@ apps:
     authorized_users: []
     client_id: coPeHai947noc9267KOhhHxbw709hccP
     display: true
-    logo: claudemofo.png
+    logo: claude.png
     name: Claude-MoFo
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/coPeHai947noc9267KOhhHxbw709hccP
     vanity_url:
     - /claude-mofo
+- application:
+    authorized_groups:
+    - team_mzai
+    authorized_users: []
+    client_id: Jog79OpXPFQ3pME6pqLDz5vIfN6A6TbG
+    display: true
+    logo: claude.png
+    name: Claude (mzai)
+    op: auth0
+    url: https://idp.iam.mozilla.com/samlp/Jog79OpXPFQ3pME6pqLDz5vIfN6A6TbG
+    vanity_url:
+    - /claude-mzai
 - application:
     authorized_groups:
     - mozilliansorg_tapclicks-access
