@@ -3721,6 +3721,17 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_fleet-access
+    client_id: qrkaAYcTjlT4ztvBljLNRXk8tFTWC3w1
+    display: true
+    logo: fleet.png
+    name: Fleet Agent Downloader
+    op: auth0
+    url: https://to-be-determined
+    vanity_url:
+      - fleet-agent-downloader
+- application:
+    authorized_groups:
+    - mozilliansorg_fleet-access
     authorized_users: []
     client_id: y2IUqDvVuid2x8r6I6XVlLFb55empXSW
     display: true
