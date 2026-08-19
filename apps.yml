@@ -3721,6 +3721,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_fleet-access
+    authorized_users: []
     client_id: qrkaAYcTjlT4ztvBljLNRXk8tFTWC3w1
     display: true
     logo: fleet.png
