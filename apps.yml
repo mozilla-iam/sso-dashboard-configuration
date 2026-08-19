@@ -3729,7 +3729,7 @@ apps:
     op: auth0
     url: https://agent-downloader.fleetdm.com
     vanity_url:
-      - fleet-agent-downloader
+      - /fleet-agent-downloader
 - application:
     authorized_groups:
     - mozilliansorg_fleet-access
