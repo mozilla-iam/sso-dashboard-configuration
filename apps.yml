@@ -3726,7 +3726,7 @@ apps:
     logo: fleet.png
     name: Fleet Agent Downloader
     op: auth0
-    url: https://to-be-determined
+    url: https://agent-downloader.fleetdm.com
     vanity_url:
       - fleet-agent-downloader
 - application:
