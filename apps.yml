@@ -369,7 +369,8 @@ apps:
     - team_mofo
     - team_mzla
     - team_mozorg
-    authorized_users: []
+    authorized_users:
+    - mofo-pnc-moco-gh@mozillafoundation.org
     client_id: TGlmvMW4kvEz99CRnuGnNTfxku0QNn8e
     display: true
     logo: greenhouse.png
