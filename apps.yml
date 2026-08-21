@@ -6619,3 +6619,13 @@ apps:
     name: Test RP Medium AAL
     op: auth0
     url: https://oidc-aal-medium.prod.iam.prod.webservices.mozgcp.net/
+- application:
+    authorized_groups:
+    - mozilliansorg_plausible-access
+    authorized_users: []
+    client_id: lUViyz2ITl9bF8r5vgCQKnF1dXAO6JAd
+    display: true
+    logo: plausible.png
+    name: Plausible
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/lUViyz2ITl9bF8r5vgCQKnF1dXAO6JAd
