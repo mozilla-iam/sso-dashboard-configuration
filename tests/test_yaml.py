@@ -95,3 +95,17 @@ class YAMLTest(unittest.TestCase):
                 assert len(vanity_urls_raw) > 0
                 for vanity_url_raw in vanity_urls_raw:
                     assert re.match(r'^/[-_A-Za-z0-9]+$', vanity_url_raw)
+
+    def test_each_app_has_one_aal(self):
+        apps = {}
+        yaml_content = get_yaml_file()
+        for app_entry in yaml_content['apps']:
+            app = app_entry['application']
+            client_id = app.get("client_id")
+            if client_id is None:
+                continue
+            aal = app.get("AAL", "MEDIUM")
+            if client_id not in apps:
+                apps[client_id] = aal
+                continue
+            assert apps[client_id] == aal, f"double AAL for same client id {client_id}"
