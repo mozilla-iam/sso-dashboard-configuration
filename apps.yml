@@ -6417,6 +6417,7 @@ apps:
     - mozilliansorg_workato_workspace_group-eam-admins
     - mozilliansorg_workato_workspace_group-eam-devs
     - mozilliansorg_workato_workspace_group-eam-viewonly
+    - mozilliansorg_workato_workspace_group-cloudengineering-admins
     authorized_users: []
     client_id: JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
     display: false
