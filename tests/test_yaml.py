@@ -65,7 +65,7 @@ class YAMLTest(unittest.TestCase):
             check_type(app, Application)
 
             # This regex is fair game for modifications, it's just to require thoughtful adds.
-            assert re.match(r'^[- A-Za-z0-9.():@/]+$', app['name'])
+            assert re.match(r'^[- A-Za-z0-9.():@/,]+$', app['name'])
 
             # Client ID not required, but is validated if present.
             if 'client_id' in app:
