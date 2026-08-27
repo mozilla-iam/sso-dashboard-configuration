@@ -395,7 +395,7 @@ apps:
     client_id: TGlmvMW4kvEz99CRnuGnNTfxku0QNn8e
     display: true
     logo: greenhouse.png
-    name: Greenhouse (MoCo, MZLA, MozOrg)
+    name: Greenhouse (MoCo, MzLA, MozOrg)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/TGlmvMW4kvEz99CRnuGnNTfxku0QNn8e
     vanity_url:
