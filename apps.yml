@@ -735,7 +735,7 @@ apps:
     authorized_users: []
     client_id: pRwf1AWvIO5t4zyMsF8R18wtt1jfLp5o
     display: true
-    logo: workday.png
+    logo: workday-sandbox.png
     name: Workday - Sandbox
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/pRwf1AWvIO5t4zyMsF8R18wtt1jfLp5o
