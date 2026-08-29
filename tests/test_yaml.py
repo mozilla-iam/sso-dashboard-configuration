@@ -31,6 +31,7 @@ class Application(TypedDict):
     client_id: NotRequired[str]
     vanity_url: NotRequired[list[str]]
     AAL: NotRequired[Literal["LOW", "MEDIUM", "HIGH", "MAXIMUM"]]
+    AAI: NotRequired[Literal["2FA", "HWK"]]
 
 class AppEntry(TypedDict):
     """An item in the `apps` list."""
