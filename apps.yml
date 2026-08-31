@@ -751,6 +751,16 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/G4nWSuEEWCoF2jMRBVcuhSdZtASUcXwN
 - application:
     authorized_groups:
+    - mozilliansorg_workday_impl2-access
+    authorized_users: []
+    client_id: 0SJlP3B8w4SRUNFv3tlH2edSsQraumHT
+    display: true
+    logo: workday-impl2.png
+    name: Workday (Implementation 2)
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/0SJlP3B8w4SRUNFv3tlH2edSsQraumHT
+- application:
+    authorized_groups:
     - team_moco
     - team_mofo
     authorized_users: []
