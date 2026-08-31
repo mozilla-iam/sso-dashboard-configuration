@@ -725,7 +725,7 @@ apps:
     authorized_users: []
     client_id: kyeMyPALPK84A58vlOnb7lrCzAIFJapP
     display: false
-    logo: workday.png
+    logo: workday-preview.png
     name: Workday - Preview
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/kyeMyPALPK84A58vlOnb7lrCzAIFJapP
@@ -745,7 +745,7 @@ apps:
     authorized_users: []
     client_id: G4nWSuEEWCoF2jMRBVcuhSdZtASUcXwN
     display: true
-    logo: workday.png
+    logo: workday-impl1.png
     name: Workday (Implementation 1)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/G4nWSuEEWCoF2jMRBVcuhSdZtASUcXwN
