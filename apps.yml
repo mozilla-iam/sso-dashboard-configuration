@@ -724,7 +724,7 @@ apps:
     - everyone
     authorized_users: []
     client_id: kyeMyPALPK84A58vlOnb7lrCzAIFJapP
-    display: false
+    display: true
     logo: workday-preview.png
     name: Workday - Preview
     op: auth0
