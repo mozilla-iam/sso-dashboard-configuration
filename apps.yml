@@ -2419,7 +2419,15 @@ apps:
     - stripe_subplat_developer
     - stripe_subplat_supportsp
     - stripe_subplat_viewonly
-    authorized_users: []
+    - mozilliansorg_stripe_subplat_admin
+    - mozilliansorg_stripe_subplat_analyst
+    - mozilliansorg_stripe_subplat_developer
+    - mozilliansorg_stripe_subplat_supportsp
+    - mozilliansorg_stripe_subplat_viewonly
+    authorized_users:
+    # Changing this will also require changes in auth0-deploy. See IAM-2043 for
+    # details.
+    - araccounting@mozilla.com
     client_id: cEfnJekrSStxxxBascTjNEDAZVUPAIU2
     display: true
     logo: stripe.png
