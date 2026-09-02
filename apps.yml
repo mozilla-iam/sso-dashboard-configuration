@@ -718,10 +718,7 @@ apps:
     - /workday
 - application:
     authorized_groups:
-    - team_moco
-    - team_mofo
-    - team_mzla
-    - everyone
+    - mozilliansorg_workday_preview-access
     authorized_users: []
     client_id: kyeMyPALPK84A58vlOnb7lrCzAIFJapP
     display: true
