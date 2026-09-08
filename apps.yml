@@ -6525,7 +6525,7 @@ apps:
     - /lumenousai
 - application:
     authorized_groups:
-    - mozilliansorg_den_prod-access
+    - team_moco
     authorized_users: []
     client_id: HP786TjpbF5nEQlG4sqgu9kCd5TKwDN9
     display: false
