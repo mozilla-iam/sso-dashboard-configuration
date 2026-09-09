@@ -6538,7 +6538,7 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/HP786TjpbF5nEQlG4sqgu9kCd5TKwDN9
 - application:
     authorized_groups:
-    - mozilliansorg_den_dev-access
+    - team_moco
     authorized_users: []
     client_id: EQMv5eixZdHch6lOc4vm2Exsm67S2F9U
     display: false
