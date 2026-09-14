@@ -100,6 +100,27 @@ This is a list of available fields.
       # Optional field.
       # Type: str
       AAL: "MAXIMUM"
+
+      ## Step-up authentication
+      # Conditions under which already-authorized users must present a
+      # stronger second factor. Users only need to match one of
+      # matching_users or matching_groups. Only read by the Access Provider;
+      # the SSO Dashboard ignores this when deciding which tiles to show.
+      # See: IAM-1989
+      #
+      # required_indicator values:
+      # * WEBAUTHN: Something that supports WebAuthn (could be either a
+      #   platform authenticator or a roaming authenticator.
+      # * ROAMAUTH: Roaming authenticator
+      #
+      # Optional field.
+      step_up:
+        # Type: list[str]
+        matching_users: []
+        # Type: list[str]
+        matching_groups: []
+        # Type: Literal, see above for acceptable values.
+        required_indicator: "WEBAUTHN"
 ```
 
 These are enforced in both the tests in this repository (via `make test` and
