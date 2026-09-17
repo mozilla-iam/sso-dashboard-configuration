@@ -6625,3 +6625,15 @@ apps:
     name: Plausible
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/lUViyz2ITl9bF8r5vgCQKnF1dXAO6JAd
+- application:
+    authorized_groups:
+    - mozilliansorg_infoblox_uddi-admins
+    authorized_users: []
+    client_id: wErQGAWfHa7QaQxAX3rjThVayIsEXglL
+    display: true
+    logo: infoblox.png
+    name: Infoblox UDDI
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/wErQGAWfHa7QaQxAX3rjThVayIsEXglL
+    vanity_url:
+    - /infoblox
