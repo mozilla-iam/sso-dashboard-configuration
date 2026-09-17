@@ -6628,6 +6628,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_infoblox_uddi-admins
+    - vpn_infoblox
     authorized_users: []
     client_id: wErQGAWfHa7QaQxAX3rjThVayIsEXglL
     display: true
