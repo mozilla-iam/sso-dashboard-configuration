@@ -6615,6 +6615,6 @@ apps:
     logo: infoblox.png
     name: Infoblox UDDI
     op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/wErQGAWfHa7QaQxAX3rjThVayIsEXglL
+    url: https://csp.infoblox.com
     vanity_url:
     - /infoblox
