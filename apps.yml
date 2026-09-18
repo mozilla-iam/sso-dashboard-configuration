@@ -402,9 +402,12 @@ apps:
     vanity_url:
     - /greenhouse
 - application:
-    authorized_groups:
-    - team_mofo
-    authorized_users: []
+    authorized_groups: []
+    authorized_users:
+    - tekia@mozillafoundation.org
+    - damilola@mozillafoundation.org
+    - mandy@mozillafoundation.org
+    - stefanie@mozillafoundation.org
     client_id: mOyPMzVOlmOJT6XcvD4GB2vwUQDUf3MX
     display: true
     logo: greenhouse.png
