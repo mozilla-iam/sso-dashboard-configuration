@@ -6407,6 +6407,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mzla
     - mozilliansorg_mozillm-admins
     - mozilliansorg_mozillm-developers
     - mozilliansorg_runlayer-it-service-desk-access
