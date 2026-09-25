@@ -6523,7 +6523,6 @@ apps:
     op: auth0
     url: https://admin.prod.fx-sharing.prod.webservices.mozgcp.net/admin/
 - application:
-    AAL: HIGH
     authorized_groups:
     - team_moco
     authorized_users: []
@@ -6533,6 +6532,11 @@ apps:
     name: Test RP High AAL (dev)
     op: auth0
     url: https://oidc-aal-high.dev.iam.nonprod.webservices.mozgcp.net/
+    step_up:
+      matching_users: []
+      matching_groups:
+        - mozilliansorg_dinopark-dev
+      required_indicator: WEBAUTHN
 - application:
     authorized_groups:
     - team_moco
@@ -6544,7 +6548,6 @@ apps:
     op: auth0
     url: https://oidc-aal-medium.dev.iam.nonprod.webservices.mozgcp.net/
 - application:
-    AAL: HIGH
     authorized_groups:
     - team_moco
     authorized_users: []
@@ -6554,6 +6557,11 @@ apps:
     name: Test RP High AAL (stage)
     op: auth0
     url: https://oidc-aal-high.stage.iam.nonprod.webservices.mozgcp.net/
+    step_up:
+      matching_users: []
+      matching_groups:
+        - mozilliansorg_dinopark-dev
+      required_indicator: WEBAUTHN
 - application:
     authorized_groups:
     - team_moco
@@ -6565,7 +6573,6 @@ apps:
     op: auth0
     url: https://oidc-aal-medium.stage.iam.nonprod.webservices.mozgcp.net/
 - application:
-    AAL: HIGH
     authorized_groups:
     - team_moco
     authorized_users: []
@@ -6575,6 +6582,11 @@ apps:
     name: Test RP High AAL
     op: auth0
     url: https://oidc-aal-high.prod.iam.prod.webservices.mozgcp.net/
+    step_up:
+      matching_users: []
+      matching_groups:
+        - mozilliansorg_dinopark-dev
+      required_indicator: WEBAUTHN
 - application:
     authorized_groups:
     - team_moco
