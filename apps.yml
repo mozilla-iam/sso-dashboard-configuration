@@ -307,7 +307,7 @@ apps:
     name: Gmail
     op: auth0
     url:
-      https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://mail.google.com/
+      https://idp.iam.mozilla.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://mail.google.com/
     vanity_url:
     - /gmail
 - application:
@@ -331,7 +331,7 @@ apps:
     name: Google Calendar
     op: auth0
     url:
-      https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://calendar.google.com/
+      https://idp.iam.mozilla.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://calendar.google.com/
     vanity_url:
     - /gcalendar
     - /gcal
@@ -356,7 +356,7 @@ apps:
     name: Google Drive
     op: auth0
     url:
-      https://auth.mozilla.auth0.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://drive.google.com/
+      https://idp.iam.mozilla.com/samlp/smKTjsVVxUJDEkjIftOsP0bop2NWjysa?RelayState=https://drive.google.com/
     vanity_url:
     - /gdrive
 - application:
