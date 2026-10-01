@@ -3068,16 +3068,6 @@ apps:
     - /supabase
 - application:
     authorized_groups:
-    - team_moco
-    authorized_users: []
-    client_id: lREe0wwQvrFGwjIaSfrYLBuwAUUF8BOt
-    display: true
-    logo: dualo.png
-    name: Dualo
-    op: auth0
-    url: https://app.dualo.io/organizations/mozilla
-- application:
-    authorized_groups:
     - mozilliansorg_sec_malware_sandbox
     authorized_users: []
     client_id: PskxC2pfs6mAWBYXOumcBuxdb8SUIvjd
