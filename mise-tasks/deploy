@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -eu
+#USAGE arg "<environment>" help="The environment to deploy to" {
+#USAGE   choices "dev" "prod"
+#USAGE }
+#USAGE arg "[tag]" help="The tag to deploy"
+
+case "${usage_environment:-dev}" in
+    dev)
+        REF="branch/master"
+        ;;
+    prod)
+        REF="tag/${usage_tag:?}"
+        ;;
+    *)
+        echo "Only dev and prod are supported." >&2
+        exit 1
+        ;;
+esac
+
+AWS_PROFILE=iam-admin aws codebuild start-build \
+    --project-name apps_yml \
+    --environment-variables-override "name=MANUAL_DEPLOY_TRIGGER,value=${REF:?}"
