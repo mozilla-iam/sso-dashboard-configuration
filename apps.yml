@@ -299,7 +299,6 @@ apps:
     # team_gmail_only: All three GApps entries use the same client_id, so they all must have the same access list for any of them to work, even if access is further restricted within GApps to only one of them.
     - team_gmail_only
     authorized_users:
-    - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     client_id: smKTjsVVxUJDEkjIftOsP0bop2NWjysa
     display: true
@@ -450,7 +449,6 @@ apps:
     - service_jira
     - travelling_accounts_jira
     authorized_users:
-    - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     - workato-automation@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
@@ -665,7 +663,6 @@ apps:
     - travelling_accounts_jira
     - moc_service_accounts
     authorized_users:
-    - moc+servicenow@mozilla.com
     - moc-sso-monitoring@mozilla.com
     - zoomadmin@mozilla.com
     client_id: TKqD0MP8sDeJAc9QC4f5yp2r9qbx5fcZ
