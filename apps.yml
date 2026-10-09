@@ -2679,18 +2679,6 @@ apps:
     url: https://demo.kinto-storage.org/v1/admin/
 - application:
     authorized_groups:
-    - team_pocket
-    authorized_users: []
-    client_id: kIaT2UagYzIAUmR0nAlvjZu6x388jR5t
-    display: true
-    logo: sentry.png
-    name: Sentry.io (Pocket)
-    op: auth0
-    url: https://auth.mozilla.auth0.com/samlp/kIaT2UagYzIAUmR0nAlvjZu6x388jR5t
-    vanity_url:
-    - /sentry-pocket
-- application:
-    authorized_groups:
     - mozilliansorg_braze-access
     authorized_users: []
     client_id: NEb0WzLMyVPdZZHby2nPjfV2EPUiGkik
@@ -3038,19 +3026,6 @@ apps:
     url: https://auth.mozilla.auth0.com/samlp/VezzSFjr5YxbFicOqhLmnL8UfUGALQtl
     vanity_url:
     - /notion
-- application:
-    authorized_groups:
-    - team_moco
-    - mozilliansorg_pocket-dbt-developer-access
-    authorized_users: []
-    client_id: UKiIS6wee3c6zbhxQzUWtZDEurrMM8dd
-    display: true
-    logo: dbtcloud.png
-    name: dbt Cloud (Pocket)
-    op: auth0
-    url: https://cloud.getdbt.com/enterprise-login/mozilla/
-    vanity_url:
-    - /dbtpocket
 - application:
     authorized_groups:
     - mozilliansorg_mdn-supabase-access
