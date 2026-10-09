@@ -3040,19 +3040,6 @@ apps:
     - /notion
 - application:
     authorized_groups:
-    - team_moco
-    - mozilliansorg_pocket-dbt-developer-access
-    authorized_users: []
-    client_id: UKiIS6wee3c6zbhxQzUWtZDEurrMM8dd
-    display: true
-    logo: dbtcloud.png
-    name: dbt Cloud (Pocket)
-    op: auth0
-    url: https://cloud.getdbt.com/enterprise-login/mozilla/
-    vanity_url:
-    - /dbtpocket
-- application:
-    authorized_groups:
     - mozilliansorg_mdn-supabase-access
     authorized_users: []
     client_id: vcqV8RiQwMrATd7crKEGq9pgeARTcUxn
