@@ -6591,3 +6591,13 @@ apps:
     url: https://csp.infoblox.com
     vanity_url:
     - /infoblox
+- application:
+    authorized_groups:
+    - mozilliansorg_ff-enterprise-admin-console-dev
+    authorized_users: []
+    client_id: iaxKr2Cnrv1dLXiNrAi3F0KEIZ02EhYN
+    display: false
+    logo: auth0.png
+    name: OVHCloud
+    op: auth0
+    url: https://auth.mozilla.auth0.com/samlp/iaxKr2Cnrv1dLXiNrAi3F0KEIZ02EhYN
