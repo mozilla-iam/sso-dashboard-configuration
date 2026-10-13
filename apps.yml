@@ -5967,6 +5967,11 @@ apps:
     url: https://platform.claude.com/login?sso=true
     vanity_url:
     - /claude-code
+    step_up:
+      matching_users: []
+      matching_groups:
+        - mozilliansorg_claude_mythos-access
+      required_indicator: WEBAUTHN
 - application:
     authorized_groups:
     - mozilliansorg_claude_code-admin
@@ -5981,6 +5986,11 @@ apps:
     url: https://claude.ai/login
     vanity_url:
     - /claude-cowork
+    step_up:
+      matching_users: []
+      matching_groups:
+        - mozilliansorg_claude_mythos-access
+      required_indicator: WEBAUTHN
 - application:
     authorized_groups:
     - mozilliansorg_claude_code-access-mofo
