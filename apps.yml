@@ -3248,6 +3248,7 @@ apps:
 - application:
     authorized_groups:
     - mozilliansorg_small-improvements-access
+    - team_mzla
     authorized_users: []
     client_id: t1FpfVDNd5dg8T6xuxZ9vDVKo39gJxuS
     display: true
