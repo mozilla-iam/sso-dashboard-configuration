@@ -369,7 +369,7 @@ apps:
     client_id: TGlmvMW4kvEz99CRnuGnNTfxku0QNn8e
     display: true
     logo: greenhouse.png
-    name: Greenhouse (MoCo, MZLA, MozOrg)
+    name: Greenhouse (MoCo, TB, MozOrg)
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/TGlmvMW4kvEz99CRnuGnNTfxku0QNn8e
     vanity_url:
@@ -5818,7 +5818,7 @@ apps:
     client_id: nKwEsW1Dw3XrmcO1EikrT0hYM8PyQVXu
     display: true
     logo: navan.png
-    name: Navan (MZLA)
+    name: Navan (TB)
     op: auth0
     url:
       https://app.navan.com/app/user2/auth/login-idp/init?connection=54c5724a-70b2-4c50-b83d-78f0c72c59f6&serverRegion=US
@@ -5924,7 +5924,7 @@ apps:
     client_id: wdO8ry1sqkNnH3i98iMzV0m5BsHRS9Xr
     display: true
     logo: bamboohr.png
-    name: BambooHR-MZLA
+    name: BambooHR-TB
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/wdO8ry1sqkNnH3i98iMzV0m5BsHRS9Xr
     vanity_url:
@@ -6269,7 +6269,7 @@ apps:
     client_id: N6HGMgU7upUd9ugrCOuEMtDCYhJ31kzK
     display: true
     logo: coursera.png
-    name: Coursera (MZLA)
+    name: Coursera (TB)
     op: auth0
     url: https://www.coursera.org/?authMode=login&authProvider=mzla-technologies-corp
 - application:
