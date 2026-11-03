@@ -6614,3 +6614,15 @@ apps:
     name: Wispr Flow
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/lzNkVoabsAJnSnn3WK8SWqM4Gn0cTMDM
+- application:
+    authorized_groups:
+    - team_mzai
+    authorized_users: []
+    client_id: gqRjZz2rsrmvL4kyR6oNe2gF8UWtWQyJ
+    display: true
+    logo: chatgpt.png
+    name: ChatGPT (mzai)
+    op: auth0
+    url: https://idp.iam.mozilla.com/samlp/gqRjZz2rsrmvL4kyR6oNe2gF8UWtWQyJ
+    vanity_url:
+    - /chatgpt-mzai
