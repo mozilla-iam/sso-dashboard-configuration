@@ -1674,6 +1674,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mzla
     authorized_users: []
     client_id: 3a6sbM3CfbTQ8YkZ4wW7YpOdNN5NX4Hb
     display: false
@@ -1685,6 +1686,7 @@ apps:
     authorized_groups:
     - team_moco
     - team_mofo
+    - team_mzla
     authorized_users: []
     client_id: 47BCiKGMwpCH5K7IzmJ1DjrHSo82krNs
     display: false
