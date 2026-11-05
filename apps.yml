@@ -6623,6 +6623,6 @@ apps:
     logo: chatgpt.png
     name: ChatGPT (mzai)
     op: auth0
-    url: https://idp.iam.mozilla.com/samlp/gqRjZz2rsrmvL4kyR6oNe2gF8UWtWQyJ
+    url: https://chatgpt.com/auth/login?sso=true&connection=org-Ma52BUqm0vUaMlrG5QoiyEsn
     vanity_url:
     - /chatgpt-mzai
