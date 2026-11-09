@@ -6367,10 +6367,11 @@ apps:
     - mozilliansorg_workato_workspace_group-eam-devs
     - mozilliansorg_workato_workspace_group-eam-viewonly
     - mozilliansorg_workato_workspace_group-cloudengineering-admins
-    authorized_users: []
+    authorized_users:
+    - wpt-automations@mozilla.com
     client_id: JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
-    display: false
-    logo: auth0.png
+    display: true
+    logo: workato.png
     name: Workato Workspace
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
