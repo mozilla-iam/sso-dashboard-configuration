@@ -6387,8 +6387,8 @@ apps:
     authorized_users:
     - wpt-automations@mozilla.com
     client_id: AFdKegJUDbFabXhfyXnK6amrO8NpAuiE
-    display: false
-    logo: auth0.png
+    display: true
+    logo: runlayer.png
     name: Runlayer
     op: auth0
     url: https://auth.mozilla.auth0.com/samlp/AFdKegJUDbFabXhfyXnK6amrO8NpAuiE
