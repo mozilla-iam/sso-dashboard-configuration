@@ -6629,3 +6629,15 @@ apps:
     url: https://chatgpt.com/auth/login?sso=true&connection=org-Ma52BUqm0vUaMlrG5QoiyEsn
     vanity_url:
     - /chatgpt-mzai
+- application:
+    authorized_groups:
+    - mozilliansorg_coderabbit-preview
+    authorized_users: []
+    client_id: 3yeAgo3cbaNHhT9YKIvdGDD92MjNOm3i
+    display: false
+    logo: auth0.png
+    name: CodeRabbit
+    op: auth0
+    url: https://idp.iam.mozilla.com/samlp/3yeAgo3cbaNHhT9YKIvdGDD92MjNOm3i?connection=Mozilla-LDAP
+    vanity_url:
+    - /coderabbit
