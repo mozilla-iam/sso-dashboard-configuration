@@ -5990,6 +5990,7 @@ apps:
     url: https://claude.ai/login
     vanity_url:
     - /claude-cowork
+    - /claude-enterprise
     step_up:
       matching_users: []
       matching_groups:
