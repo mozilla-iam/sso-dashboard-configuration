@@ -6369,6 +6369,20 @@ apps:
     - mozilliansorg_workato_workspace_group-eam-devs
     - mozilliansorg_workato_workspace_group-eam-viewonly
     - mozilliansorg_workato_workspace_group-cloudengineering-admins
+    - mozilliansorg_workato_workspace_group-infraoperations-viewonly
+    - mozilliansorg_workato_workspace_group-infraoperations-devs
+    - mozilliansorg_workato_workspace_group-infraoperations-admins
+    - mozilliansorg_workato_workspace_group-cloudengineering-viewonly
+    - mozilliansorg_workato_workspace_group-cloudengineering-devs
+    - mozilliansorg_workato_workspace_group-salestechnology-viewonly
+    - mozilliansorg_workato_workspace_group-salestechnology-devs
+    - mozilliansorg_workato_workspace_group-salestechnology-admins
+    - mozilliansorg_workato_workspace_group-legaltechnology-viewonly
+    - mozilliansorg_workato_workspace_group-legaltechnology-devs
+    - mozilliansorg_workato_workspace_group-legaltechnology-admins
+    - mozilliansorg_workato_workspace_group-identityaccessmanagement-viewonly
+    - mozilliansorg_workato_workspace_group-identityaccessmanagement-devs
+    - mozilliansorg_workato_workspace_group-identityaccessmanagement-admins
     authorized_users:
     - wpt-automations@mozilla.com
     client_id: JmJAOmGbtZsojMpFQC5fcmqghWHbuKrf
