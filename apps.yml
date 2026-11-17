@@ -5981,6 +5981,7 @@ apps:
     - mozilliansorg_claude_code-admin
     - mozilliansorg_claude_cowork-access
     - mozilliansorg_claude-owners
+    - mozilliansorg_claude_code-access
     authorized_users: []
     client_id: kO6jg7RGbIsZQUIV5zMDrQ0FdxknN96C
     display: true
