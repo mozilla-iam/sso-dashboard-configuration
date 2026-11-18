@@ -3405,7 +3405,7 @@ apps:
     logo: brand.png
     name: brand.mozilla
     op: auth0
-    url: https://brand.mozilla.com/all-brands#/-/landing
+    url: https://brand.mozilla.com/api/thirdparty/oidc/auth?referer=%2Fdocument%2F275%23%2F-%2Flanding
     vanity_url:
     - /frontify
 - application:
