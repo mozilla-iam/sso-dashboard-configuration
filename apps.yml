@@ -6657,3 +6657,15 @@ apps:
     url: https://idp.iam.mozilla.com/samlp/3yeAgo3cbaNHhT9YKIvdGDD92MjNOm3i?connection=Mozilla-LDAP
     vanity_url:
     - /coderabbit
+- application:
+    authorized_groups:
+    - team_moco
+    - team_mofo
+    authorized_users: []
+    display: true
+    logo: otari.png
+    name: Otari
+    op: auth0
+    url: https://otari.ai/dashboard
+    vanity_url:
+    - /otari
