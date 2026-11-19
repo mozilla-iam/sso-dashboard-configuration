@@ -6404,6 +6404,7 @@ apps:
     - mozilliansorg_mozillm-developers
     - mozilliansorg_runlayer-it-service-desk-access
     authorized_users:
+    - concourse-runlayer-agent@mozilla.com
     - wpt-automations@mozilla.com
     client_id: AFdKegJUDbFabXhfyXnK6amrO8NpAuiE
     display: true
