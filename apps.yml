@@ -6658,3 +6658,15 @@ apps:
     url: https://idp.iam.mozilla.com/samlp/3yeAgo3cbaNHhT9YKIvdGDD92MjNOm3i?connection=Mozilla-LDAP
     vanity_url:
     - /coderabbit
+- application:
+    authorized_groups:
+    - mozilliansorg_otari-access
+    authorized_users: []
+    client_id: wGIdfJRHnxg05NqX5UrRe5DuZ2Gbfr01
+    display: false
+    logo: auth0.png
+    name: Otari
+    op: auth0
+    url: https://idp.iam.mozilla.com/samlp/wGIdfJRHnxg05NqX5UrRe5DuZ2Gbfr01?connection=Mozilla-LDAP
+    vanity_url:
+    - /otari
