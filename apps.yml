@@ -6670,3 +6670,15 @@ apps:
     url: https://idp.iam.mozilla.com/samlp/wGIdfJRHnxg05NqX5UrRe5DuZ2Gbfr01?connection=Mozilla-LDAP
     vanity_url:
     - /otari
+- application:
+    authorized_groups:
+    - mozilliansorg_qualtrics-access
+    authorized_users: []
+    client_id: M3jp0paSVrVotX1lAeC1ec2rKH374fSQ
+    display: true
+    logo: qualtrics.png
+    name: Qualtrics
+    op: auth0
+    url: https://idp.iam.mozilla.com/samlp/M3jp0paSVrVotX1lAeC1ec2rKH374fSQ
+    vanity_url:
+    - /qualtrics
